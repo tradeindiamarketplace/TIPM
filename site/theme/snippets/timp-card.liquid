@@ -1,0 +1,21 @@
+{% comment %} Marketplace product card. Usage: {% render 'timp-card', product: p %}. Shows MRP and % off only when a compare-at price is set. {% endcomment %}
+<a class="tmc" href="{{ product.url }}">
+  <div class="tmc-img">
+    {%- if product.featured_image -%}
+      <img src="{{ product.featured_image | image_url: width: 400 }}" alt="{{ product.featured_image.alt | default: product.title | escape }}" loading="lazy" width="400" height="400">
+    {%- else -%}
+      {{ 'product-1' | placeholder_svg_tag: 'tmc-ph' }}
+    {%- endif -%}
+    {%- if product.compare_at_price > product.price and product.available -%}
+      {%- assign off = product.compare_at_price | minus: product.price | times: 100 | divided_by: product.compare_at_price | floor -%}
+      <span class="tmc-badge">{{ off }}% off</span>
+    {%- endif -%}
+  </div>
+  <div class="tmc-body">
+    <span class="tmc-title">{{ product.title }}</span>
+    <span class="tmc-price"><b>{{ product.price | money_without_trailing_zeros }}</b>
+      {%- if product.compare_at_price > product.price -%} <s>M.R.P. {{ product.compare_at_price | money_without_trailing_zeros }}</s>{%- endif -%}
+    </span>
+    {%- unless product.available -%}<span class="tmc-out">Currently unavailable</span>{%- endunless -%}
+  </div>
+</a>

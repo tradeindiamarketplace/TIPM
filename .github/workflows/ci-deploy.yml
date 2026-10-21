@@ -1,0 +1,64 @@
+# Push to main  ->  run tests  ->  push the TIMP theme files to Shopify.
+#
+# One-time setup (repository Settings > Secrets and variables > Actions):
+#   secret   SHOPIFY_CLI_THEME_TOKEN  password from the free "Theme Access" app (Shopify admin > Apps)
+#   variable SHOPIFY_THEME_ID         numeric theme id to deploy to (default below = "Horizon - TIMP v3")
+#
+# Only files under site/theme/ are pushed (--nodelete), so the rest of the Horizon theme is untouched.
+# Files in site/theme/ are owned by git: edits made to them in the Shopify theme editor will be
+# overwritten by the next push.
+name: CI and theme deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: shopify-theme-deploy
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Unit and end-to-end tests
+        run: python -m unittest discover -s tests -t . -v
+      - name: Theme JSON is valid
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          for p in pathlib.Path("site/theme").rglob("*.json"):
+              json.loads(p.read_text())
+              print("ok", p)
+          PY
+
+  deploy-theme:
+    needs: test
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    environment: production
+    env:
+      SHOPIFY_FLAG_STORE: zx4uui-5c.myshopify.com
+      SHOPIFY_CLI_THEME_TOKEN: ${{ secrets.SHOPIFY_CLI_THEME_TOKEN }}
+      THEME_ID: ${{ vars.SHOPIFY_THEME_ID || '168012972197' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install Shopify CLI
+        run: npm install -g @shopify/cli@4.9.4
+      - name: Push theme files
+        run: |
+          shopify theme push \
+            --path site/theme \
+            --theme "$THEME_ID" \
+            --password "$SHOPIFY_CLI_THEME_TOKEN" \
+            --nodelete \
+            --allow-live

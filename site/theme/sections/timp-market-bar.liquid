@@ -1,0 +1,49 @@
+{% comment %} Marketplace-style bar under the Horizon header: big search, account/orders/cart, category strip. {% endcomment %}
+<style>
+.tmb{background:#16264A;color:#fff;font-family:"Instrument Sans",Helvetica,Arial,sans-serif}
+.tmb .w{max-width:1280px;margin:0 auto;padding:10px 16px;display:flex;gap:14px;align-items:center}
+.tmb-loc{font-size:12px;line-height:1.25;white-space:nowrap}
+.tmb-loc span{opacity:.75;display:block}
+.tmb-search{flex:1 1 auto;display:flex;border-radius:8px;overflow:hidden;background:#fff;min-width:0;box-shadow:0 0 0 2px transparent}
+.tmb-search:focus-within{box-shadow:0 0 0 3px #B8892B}
+.tmb-search input{flex:1;border:0;padding:11px 14px;font-size:15px;min-width:0;color:#16264A;background:#fff;outline:0}
+.tmb-search button{border:0;background:#B8892B;color:#16264A;padding:0 18px;font-weight:700;font-size:14px;cursor:pointer}
+.tmb-links{display:flex;gap:18px;font-size:13px}
+.tmb-links a{color:#fff;text-decoration:none;line-height:1.2;white-space:nowrap}
+.tmb-links span{display:block;opacity:.75;font-size:11px}
+.tmb-cats{background:#22355F}
+.tmb-cats .w{padding:4px 16px;gap:2px;overflow-x:auto;scrollbar-width:none}
+.tmb-cats .w::-webkit-scrollbar{display:none}
+.tmb-cats a{color:#fff;text-decoration:none;font-size:13px;padding:7px 10px;border-radius:6px;white-space:nowrap}
+.tmb-cats a:hover,.tmb-cats a:focus-visible{background:rgba(255,255,255,.12)}
+.tmb-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media (max-width:749px){.tmb .w{flex-wrap:wrap;gap:8px}.tmb-loc,.tmb-links{display:none}.tmb-search{flex-basis:100%}}
+</style>
+<div class="tmb">
+  <div class="w">
+    <div class="tmb-loc"><span>Delivering to</span><b>All of India</b></div>
+    <form class="tmb-search" action="{{ routes.search_url }}" method="get" role="search">
+      <input type="hidden" name="type" value="product">
+      <label class="tmb-sr" for="tmb-q">Search products</label>
+      <input id="tmb-q" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search kitchen, storage, cleaning…" autocomplete="off">
+      <button type="submit">Search</button>
+    </form>
+    <div class="tmb-links">
+      <a href="{{ routes.account_url }}"><span>Hello{% if customer %}, {{ customer.first_name | escape }}{% else %}, sign in{% endif %}</span><b>Account</b></a>
+      <a href="{{ routes.account_url }}"><span>Returns</span><b>&amp; Orders</b></a>
+      <a href="{{ routes.cart_url }}"><span>{{ cart.item_count }} item{% if cart.item_count != 1 %}s{% endif %}</span><b>Cart</b></a>
+    </div>
+  </div>
+  <nav class="tmb-cats" aria-label="Shop by category"><div class="w">
+    <a href="{{ routes.all_products_collection_url }}"><b>All products</b></a>
+    {%- assign handles = 'kitchen-organisation,home-storage,cleaning-utility,home-appliances,festive-offers' | split: ',' -%}
+    {%- for h in handles -%}{%- assign c = collections[h] -%}{%- if c -%}<a href="{{ c.url }}">{{ c.title }}</a>{%- endif -%}{%- endfor -%}
+    <a href="/pages/how-we-work">How we work</a>
+    <a href="/pages/shipping-policy">Shipping</a>
+    <a href="/pages/refund-policy">Returns</a>
+    <a href="/pages/contact">Help</a>
+  </div></nav>
+</div>
+{% schema %}
+{ "name": "TIMP Market bar", "settings": [], "presets": [{ "name": "TIMP Market bar" }] }
+{% endschema %}

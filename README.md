@@ -14,7 +14,8 @@ AI-assisted, inventory-free e-commerce operations for **TradeIndiaMarketplace.co
 | Meesho | **Manual** CSV export + owner confirmation |
 | PostgreSQL schema, HTTP API | **Written, not yet run** (`db/schema.sql`, `api/openapi.yaml`) |
 | Dashboard UI, supplier gateway, carrier tracking | **Planned** (docs/10) |
-| Live store | **Unchanged.** Audit was read-only |
+| Live store | **Updated 2026-10-21**: policy pages, contact details, menus, product compliance fields. New marketplace-style design is in theme "Horizon - TIMP v3 (ready to publish)", waiting for the owner to click Publish. See [`site/README.md`](site/README.md) |
+| Git → Shopify deploy | `.github/workflows/ci-deploy.yml` (tests, then `shopify theme push`). Needs the repo connected and a Theme Access token |
 
 ## Deliverables
 
@@ -44,6 +45,8 @@ timp/platform.py          catalogue, suppliers, compliance, approvals, lifecycle
 timp/operations.py        orders, supplier POs, carrier events, SLAs, cancel, returns, refunds, settlements, support, campaigns, tasks
 timp/channels/            Shopify (partial), simulated, manual-export, unavailable adapters
 timp/audit.py             hash-chained audit log
+site/                     storefront: theme sections/snippets/templates, policy and page content, backups (see site/README.md)
+.github/workflows/        CI tests + Shopify theme deploy on push to main
 research/candidates.py    first research pass: products, supplier prices, fee estimates, with sources
 scripts/profit_report.py  regenerates reports/product-profit-report.md
 tests/test_e2e.py         the 22 mandatory scenarios + safeguards

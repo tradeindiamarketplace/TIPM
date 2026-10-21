@@ -1,0 +1,4 @@
+{
+  "sections": {"market": {"type": "timp-market-home", "settings": {}}},
+  "order": ["market"]
+}

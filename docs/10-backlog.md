@@ -56,6 +56,12 @@ Architecture, permissions, schema, API, risk register, deployment plan: docs/02�
 ## Phase 10: Scale
 Add products and channels only after the pilot exit criteria are met for 8 consecutive weeks.
 
+## Storefront (done 2026-10-21)
+| S-1 | Policy pages, contact details, menus, product compliance metafields | ✅ live |
+| S-2 | Marketplace-style homepage, search bar, category strip, product cards | ✅ in theme v3; 🔑 owner publishes |
+| S-3 | Git → Shopify deploy workflow | ✅ written; 🔑 repo access + Theme Access token |
+| S-4 | Official Shopify policy slots | 🔑 paste in Settings > Policies (scope not available to the connector) |
+
 ## Your next actions (owner)
 1. Tell me your GST status and which marketplace seller accounts exist.
 2. Decide the thresholds in `config/settings.toml` (₹60 / 12% / ₹80 are placeholders).

@@ -1,0 +1,86 @@
+{% comment %} TradeIndiaMarketplace home — home & kitchen, supplier-direct. v3 2026-10-21: claims aligned with live policies (India only, clear returns, website only). {% endcomment %}
+<style>
+.tim{--ink:#16264A;--brass:#B8892B;--chalk:#F6F7F9;--slate:#5B6678;--line:#DCE0E7;--soft:#EEF1F6;font-family:"Instrument Sans",Helvetica,Arial,sans-serif;color:var(--ink)}
+.tim h1,.tim h2,.tim h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.1;margin:0 0 .5em}
+.tim .w{max-width:1120px;margin:0 auto;padding:0 20px}
+.tim-hero{background:var(--ink);color:#F6F7F9;padding:64px 0 40px;overflow:hidden}
+.tim-hero h1{font-size:clamp(2.2rem,7vw,4.4rem);font-weight:800;max-width:14ch;color:#F6F7F9}
+.tim-hero p{max-width:60ch;font-size:1.1rem;opacity:.85}
+.tim-btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
+.tim-btn{display:inline-block;padding:12px 18px;border-radius:10px;font-weight:600;text-decoration:none}
+.tim-btn.b{background:var(--brass);color:var(--ink)}
+.tim-btn.g{border:1px solid rgba(246,247,249,.4);color:#F6F7F9}
+.tim-route svg{width:100%;height:auto;display:block;margin-top:24px}
+.tim-route path{stroke:var(--brass);stroke-width:1.6;fill:none;stroke-dasharray:5 6}
+@media (prefers-reduced-motion:no-preference){.tim-route path{animation:timflow 2.4s linear infinite}@keyframes timflow{to{stroke-dashoffset:-44}}}
+.tim-route circle{fill:var(--brass)}.tim-route text{font:600 12px sans-serif;fill:#F6F7F9}
+.tim-prom{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));border-bottom:1px solid var(--line);background:#fff}
+.tim-prom div{padding:18px 20px;border-right:1px solid var(--line)}
+.tim-prom strong{display:block;font-family:"Bricolage Grotesque",sans-serif}.tim-prom span{color:var(--slate);font-size:.9rem}
+.tim-prom a{color:var(--ink)}
+.tim-blk{padding:48px 0}
+.tim-cats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.tim-cat{display:block;background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;text-decoration:none;color:var(--ink)}
+.tim-cat b{display:block;font-family:"Bricolage Grotesque",sans-serif;margin-bottom:4px}.tim-cat small{color:var(--slate)}
+.tim-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.tim-card{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;color:var(--ink)}
+.tim-card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}.tim-card div{padding:12px 14px}
+.tim-empty{background:var(--soft);border-left:4px solid var(--brass);padding:16px;border-radius:0 10px 10px 0}
+.tim-steps{counter-reset:s;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;padding:0;margin:0}
+.tim-steps li{list-style:none;counter-increment:s;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px}
+.tim-steps li::before{content:counter(s);display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--ink);color:#fff;font-weight:700;margin-bottom:8px}
+</style>
+<div class="tim">
+  <div class="tim-hero"><div class="w">
+    <h1>Useful things for the home, from Indian makers to your door.</h1>
+    <p>Kitchen, storage and everyday home goods from Indian manufacturers we have checked, shipped straight from the source. Delivered across India, with prices that include GST.</p>
+    <div class="tim-btns"><a class="tim-btn b" href="/collections/all">Shop the range</a><a class="tim-btn g" href="/pages/how-we-work">How we source</a></div>
+    <div class="tim-route" aria-hidden="true"><svg viewBox="0 0 900 200">
+      <path d="M600 140 C 520 60, 360 40, 170 70"/><path d="M600 140 C 560 100, 520 100, 470 110"/><path d="M600 140 C 680 90, 760 80, 820 60"/><path d="M600 140 C 430 150, 260 160, 90 140"/>
+      <circle cx="600" cy="140" r="7"/><text x="612" y="164">Maker dispatch</text>
+      <circle cx="170" cy="70" r="4"/><text x="130" y="58">Delhi</text><circle cx="470" cy="110" r="4"/><text x="430" y="98">Bengaluru</text>
+      <circle cx="820" cy="60" r="4"/><text x="790" y="48">Kolkata</text><circle cx="90" cy="140" r="4"/><text x="40" y="128">Mumbai</text>
+    </svg></div>
+  </div></div>
+  <div class="tim-prom">
+    <div><strong>Checked makers only</strong><span>Every supplier is checked before their product goes live.</span></div>
+    <div><strong>Ships from the source</strong><span>No middle warehouse, fewer handling steps.</span></div>
+    <div><strong>Honest delivery dates</strong><span>We only share dates the supplier has confirmed.</span></div>
+    <div><strong>Clear returns</strong><span>Damage claims within 48 hours, 7-day returns. <a href="/pages/refund-policy">Read the policy</a></span></div>
+  </div>
+  <div class="w tim-blk">
+    <h2>Shop by room</h2>
+    <div class="tim-cats">
+      <a class="tim-cat" href="/collections/kitchen-organisation"><b>Kitchen & dining</b><small>Cookware, serveware, organisers</small></a>
+      <a class="tim-cat" href="/collections/home-storage"><b>Home storage</b><small>Jars, baskets, organisers</small></a>
+      <a class="tim-cat" href="/collections/cleaning-utility"><b>Cleaning & utility</b><small>Everyday essentials</small></a>
+      <a class="tim-cat" href="/collections/home-appliances"><b>Home appliances</b><small>Small appliances</small></a>
+      <a class="tim-cat" href="/collections/festive-offers"><b>Festive offers</b><small>Seasonal gifting</small></a>
+    </div>
+  </div>
+  <div class="w tim-blk" style="padding-top:0">
+    <h2>New arrivals</h2>
+    {%- if collections.all.products_count > 0 -%}
+      <div class="tim-grid">
+      {%- for p in collections.all.products limit: 8 -%}
+        <a class="tim-card" href="{{ p.url }}">{%- if p.featured_image -%}<img src="{{ p.featured_image | image_url: width: 600 }}" alt="{{ p.featured_image.alt | escape }}" loading="lazy">{%- endif -%}<div><b>{{ p.title }}</b><br>{{ p.price | money }}</div></a>
+      {%- endfor -%}
+      </div>
+    {%- else -%}
+      <div class="tim-empty">Our first home & kitchen products are being added once their suppliers pass our checks. <a href="/pages/contact">Contact us</a> for bulk or early orders.</div>
+    {%- endif -%}
+  </div>
+  <div class="w tim-blk" id="tim-how" style="padding-top:0">
+    <h2>How a product reaches you</h2>
+    <ol class="tim-steps">
+      <li><b>We find a maker</b><p>Manufacturers and authorised suppliers across India, checked for registration, quality and dispatch capacity.</p></li>
+      <li><b>We test the economics</b><p>Every cost is counted so prices stay fair and sustainable.</p></li>
+      <li><b>You order</b><p>Here on our website. Pay securely; prices include GST.</p></li>
+      <li><b>The maker ships</b><p>Packed and dispatched from the source with tracking you can follow.</p></li>
+    </ol>
+    <p style="margin-top:16px"><a href="/pages/how-we-work">More about how we work</a> · <a href="/pages/shipping-policy">Shipping</a> · <a href="/pages/refund-policy">Returns</a></p>
+  </div>
+</div>
+{% schema %}
+{ "name": "TIMP Home", "settings": [], "presets": [{ "name": "TIMP Home" }] }
+{% endschema %}

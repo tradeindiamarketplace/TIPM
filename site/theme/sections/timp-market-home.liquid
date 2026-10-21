@@ -1,0 +1,102 @@
+{% comment %} Marketplace-style home: offer banners, category cards, trust strip, product rows per collection. Rows hide themselves when a collection is empty. {% endcomment %}
+<style>
+.tmh{--ink:#16264A;--brass:#B8892B;--bg:#EEF1F6;--line:#DCE0E7;--slate:#5B6678;--ok:#0F7A3D;background:var(--bg);color:var(--ink);font-family:"Instrument Sans",Helvetica,Arial,sans-serif;padding-bottom:32px}
+.tmh *{box-sizing:border-box}
+.tmh .w{max-width:1280px;margin:0 auto;padding:0 16px}
+.tmh h2{font-size:clamp(1.1rem,2.4vw,1.4rem);margin:0;font-weight:700}
+.tmh-banners{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.tmh-banners::-webkit-scrollbar{display:none}
+.tmh-banner{flex:0 0 100%;scroll-snap-align:start;min-height:220px;padding:36px 24px 72px;color:#fff;display:flex;flex-direction:column;justify-content:center;text-decoration:none}
+.tmh-banner .w{width:100%}
+.tmh-banner small{font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:12px;color:#F2D9A2}
+.tmh-banner strong{display:block;font-size:clamp(1.6rem,4.5vw,2.8rem);line-height:1.1;margin:6px 0 10px;max-width:18ch}
+.tmh-banner span{display:inline-block;background:var(--brass);color:var(--ink);font-weight:700;padding:9px 16px;border-radius:8px;font-size:14px}
+.b1{background:linear-gradient(110deg,#16264A 0%,#2B4A86 100%)}
+.b2{background:linear-gradient(110deg,#1E3B33 0%,#2F6B57 100%)}
+.b3{background:linear-gradient(110deg,#4A1E2B 0%,#8A3A3A 100%)}
+.tmh-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:-56px;position:relative}
+.tmh-card{background:#fff;border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:10px;text-decoration:none;color:var(--ink)}
+.tmh-card h3{font-size:1rem;margin:0}
+.tmh-quad{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.tmh-quad img,.tmh-quad .ph{width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:var(--bg)}
+.tmh-quad .ph{display:grid;place-items:center;color:var(--slate);font-size:12px;text-align:center;padding:6px}
+.tmh-card em{font-style:normal;font-size:13px;color:#2B4A86;font-weight:600}
+.tmh-trust{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border-radius:10px;margin-top:14px}
+.tmh-trust div{padding:14px 16px;font-size:13px;border-right:1px solid var(--line)}
+.tmh-trust div:last-child{border-right:0}
+.tmh-trust b{display:block;font-size:14px}
+.tmh-row{background:#fff;border-radius:10px;margin-top:14px;padding:16px}
+.tmh-row header{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:12px}
+.tmh-row header a{font-size:13px;color:#2B4A86;font-weight:600;text-decoration:none;white-space:nowrap}
+.tmh-strip{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(160px,200px);gap:12px;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x proximity}
+.tmc{display:flex;flex-direction:column;text-decoration:none;color:var(--ink);scroll-snap-align:start}
+.tmc-img{position:relative;background:var(--bg);border-radius:8px;overflow:hidden;aspect-ratio:1}
+.tmc-img img,.tmc-img svg{width:100%;height:100%;object-fit:contain;display:block}
+.tmc-badge{position:absolute;top:8px;left:8px;background:#B3261E;color:#fff;font-size:12px;font-weight:700;padding:3px 7px;border-radius:4px}
+.tmc-body{padding:8px 2px;display:flex;flex-direction:column;gap:4px;font-size:14px}
+.tmc-title{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.3}
+.tmc-price b{font-size:16px}
+.tmc-price s{color:var(--slate);font-size:12px;margin-left:4px}
+.tmc-out{color:#B3261E;font-size:12px}
+.tmh-empty{background:#fff;border-radius:10px;margin-top:14px;padding:24px;border-left:5px solid var(--brass)}
+.tmh-empty p{margin:6px 0 0;color:var(--slate)}
+@media (max-width:989px){.tmh-cards{grid-template-columns:repeat(2,1fr)}.tmh-trust{grid-template-columns:repeat(2,1fr)}.tmh-trust div:nth-child(2){border-right:0}}
+@media (max-width:549px){.tmh-cards{margin-top:-40px;gap:10px}.tmh-card{padding:10px}.tmh-banner{min-height:180px;padding:28px 16px 56px}}
+</style>
+
+{%- assign handles = 'kitchen-organisation,home-storage,cleaning-utility,home-appliances,festive-offers' | split: ',' -%}
+<div class="tmh">
+  <div class="tmh-banners" aria-label="Offers">
+    <a class="tmh-banner b1" href="{{ collections['kitchen-organisation'].url | default: routes.all_products_collection_url }}"><div class="w"><small>Kitchen & dining</small><strong>Everyday kitchen essentials from Indian makers</strong><span>Shop kitchen</span></div></a>
+    <a class="tmh-banner b2" href="{{ collections['home-storage'].url | default: routes.all_products_collection_url }}"><div class="w"><small>Home storage</small><strong>Storage that keeps every shelf tidy</strong><span>Shop storage</span></div></a>
+    <a class="tmh-banner b3" href="{{ collections['festive-offers'].url | default: routes.all_products_collection_url }}"><div class="w"><small>Festive season</small><strong>Gifts for the home, delivered across India</strong><span>See festive picks</span></div></a>
+  </div>
+
+  <div class="w">
+    <div class="tmh-cards">
+      {%- for h in handles limit: 4 -%}{%- assign c = collections[h] -%}{%- if c -%}
+      <a class="tmh-card" href="{{ c.url }}">
+        <h3>{{ c.title }}</h3>
+        <div class="tmh-quad">
+          {%- for p in c.products limit: 4 -%}
+            {%- if p.featured_image -%}<img src="{{ p.featured_image | image_url: width: 200 }}" alt="{{ p.title | escape }}" loading="lazy" width="200" height="200">{%- else -%}<div class="ph">{{ p.title | truncate: 28 }}</div>{%- endif -%}
+          {%- else -%}
+            <div class="ph">New products soon</div><div class="ph">Checked suppliers</div><div class="ph">GST invoice</div><div class="ph">Tracked delivery</div>
+          {%- endfor -%}
+        </div>
+        <em>{% if c.products_count > 0 %}See all {{ c.products_count }} products{% else %}Coming soon{% endif %}</em>
+      </a>
+      {%- endif -%}{%- endfor -%}
+    </div>
+
+    <div class="tmh-trust">
+      <div><b>Secure payments</b>Pay safely at checkout</div>
+      <div><b>Tracked delivery</b>Across India, with tracking</div>
+      <div><b>7-day returns</b><a href="/pages/refund-policy">Damage claims in 48 hours</a></div>
+      <div><b>GST invoice</b>With every order</div>
+    </div>
+
+    {%- if collections.all.products_count > 0 -%}
+      <section class="tmh-row">
+        <header><h2>Top picks for your home</h2><a href="{{ routes.all_products_collection_url }}">See all</a></header>
+        <div class="tmh-strip">{%- for p in collections.all.products limit: 12 -%}{% render 'timp-card', product: p %}{%- endfor -%}</div>
+      </section>
+      {%- for h in handles -%}{%- assign c = collections[h] -%}
+        {%- if c and c.products_count > 0 -%}
+        <section class="tmh-row">
+          <header><h2>{{ c.title }}</h2><a href="{{ c.url }}">See all</a></header>
+          <div class="tmh-strip">{%- for p in c.products limit: 12 -%}{% render 'timp-card', product: p %}{%- endfor -%}</div>
+        </section>
+        {%- endif -%}
+      {%- endfor -%}
+    {%- else -%}
+      <div class="tmh-empty">
+        <h2>Our first products are on their way</h2>
+        <p>We list a product only after its supplier passes our checks for registration, quality and dispatch. For bulk or early orders, <a href="/pages/contact">contact us</a>.</p>
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+{% schema %}
+{ "name": "TIMP Market home", "settings": [], "presets": [{ "name": "TIMP Market home" }] }
+{% endschema %}
