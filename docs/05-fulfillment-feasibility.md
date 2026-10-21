@@ -34,9 +34,22 @@
 2. **3PL with per-order billing**: a fulfilment provider holds your stock. Same inventory risk as option 1.
 3. **Reject** the product for that channel.
 
+## Your situation: GST registered in Odisha (confirmed 2026-10-21)
+
+GST registration is state-wise. An Additional Place of Business can only be added to your Odisha GSTIN if it is **in Odisha**. That splits suppliers into two groups:
+
+| Supplier location | Your website | Amazon.in / Flipkart / Meesho (pickup from supplier) |
+|---|---|---|
+| **In Odisha** (e.g. Bhubaneswar, Cuttack, Balasore) | Works. Supplier dispatches with your invoice; intra-state purchase (CGST+SGST) | **Works**: add the supplier's premises as an APOB on your Odisha GSTIN (rent/consent letter + NOC from the supplier) and use it as the pickup address |
+| **Outside Odisha** (most IndiaMART sellers: Rajkot, Surat, Moradabad) | Likely workable as **"bill to – ship to"**: supplier bills you, ships to your customer; one e-way bill with bill-to = you, ship-to = customer (needed above ₹50,000 consignment value). Place of supply follows IGST Act s.10(1)(b). **CA to confirm.** | **Not with your Odisha GSTIN alone.** The pickup address must be on a GST registration in that state. Options: (a) take a separate GST registration in that state (needs a real place of business there), (b) have goods sent to an Odisha address first (that's holding inventory), or (c) skip that supplier for marketplaces |
+
+A 2025–26 report says the GST Council relaxed registration for sellers using e-commerce platforms' warehouses in other states. I couldn't find the official notification, so it isn't relied on here. Ask your CA.
+
+**Consequence for sourcing:** for marketplace sales, Agent C should look for **Odisha suppliers first**. Leads found so far are in `research/candidates.py` (`odisha_leads`) and all are unverified. Out-of-state suppliers remain usable for the website, subject to the CA's view on bill-to-ship-to.
+
 ## Recommended path
 
-1. Get GST registration in place (if not already) and talk to a CA about adding supplier locations as APOBs.
-2. Pilot on TradeIndiaMarketplace.com with 1–3 products from **one** supplier in your state, which keeps intra-state GST and logistics simple.
-3. Add Amazon.in second (largest demand), with the same supplier address registered as an APOB.
+1. **Ask your CA three questions:** (i) adding a supplier's Odisha premises as an APOB, and the documents needed; (ii) bill-to-ship-to from an out-of-state supplier for website orders; (iii) HSN and GST rate for each shortlisted product.
+2. Pilot on TradeIndiaMarketplace.com with 1–3 products from **one Odisha supplier**, which keeps GST intra-state and logistics simple.
+3. Add Amazon.in second (largest demand), with that supplier's premises registered as an APOB and set as the pickup address.
 4. Flipkart third. Meesho last, and only for products with low return rates.

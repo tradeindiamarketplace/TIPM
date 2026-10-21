@@ -108,6 +108,8 @@ for c in CANDIDATES:
     L.append(f"- **Supplier cost (est.)**: {inr(c['supplier_cost'])} excl. GST, range {c['supplier_cost_range']}. {c['supplier_cost_note']}")
     L.append(f"- **Retail observed**: {c['retail_observed']}")
     L.append(f"- **Proposed price**: {inr(c['price'])} incl. GST")
+    if c.get("odisha_leads"):
+        L.append(f"- **Odisha supplier leads (unverified)**: {c['odisha_leads']}")
     L.append(f"- **Risks**: " + "; ".join(c["risks"]))
     L.append("- **Sources**: " + ", ".join(f"[{i+1}]({u})" for i, u in enumerate(c["sources"])))
     base = [(ch, rep) for cc, ch, rep in rows if cc is c]

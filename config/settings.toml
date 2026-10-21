@@ -6,6 +6,12 @@
 # a guess. Copy it from the channel's current seller fee card and set
 # fees_verified = true together with fee_source and fee_as_of.
 
+[seller]
+gst_registered = true
+gst_state = "Odisha"               # owner confirmed 2026-10-21. GSTIN itself is kept out of the repo.
+# A pickup/dispatch address can be added as an Additional Place of Business only inside Odisha.
+# Supplier addresses in other states need a separate GST registration in that state.
+
 [thresholds]                       # owner-only (Perm.SET_THRESHOLDS)
 min_contribution_inr = "60"
 min_margin_pct = "12"

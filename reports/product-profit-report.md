@@ -39,8 +39,9 @@ Owner thresholds (config/settings.toml): minimum contribution **Rs 60/order**, m
 - **Supplier cost (est.)**: Rs 112 excl. GST, range ('80', '155'). Rs 16-31/piece on IndiaMART (S K International Rs 16-27 with MOQ 500; Radiant Global Rs 22.50 for 350 GSM) x 5
 - **Retail observed**: Kuber Industries 5-pack Rs 499 (GlobalBees); Swachh Touch 5-pack Rs 695 (BigBasket)
 - **Proposed price**: Rs 399 incl. GST
+- **Odisha supplier leads (unverified)**: IndiaMART Khordha/Bhubaneswar directory: 350 GSM 40x60 cm cloth Rs 38/piece; 500 GSM polishing cloth Rs 20/piece (sizes differ; get a 40x40 quote)
 - **Risks**: Commodity category, many sellers; GSM claims must match the supplier test report
-- **Sources**: [1](https://www.indiamart.com/skenterprisegujarat/microfiber-cleaning-cloth.html), [2](https://m.indiamart.com/impcat/microfiber-cloths.html), [3](https://shop.globalbees.com/products/kuber-industries-multi-utility-microfiber-duster-1000000131187), [4](https://www.bigbasket.com/pd/40258178/swachh-touch-microfiber-cloth-40x40-cms-for-cleaning-super-absorbent-non-scratch-5-pcs/)
+- **Sources**: [1](https://www.indiamart.com/skenterprisegujarat/microfiber-cleaning-cloth.html), [2](https://m.indiamart.com/impcat/microfiber-cloths.html), [3](https://shop.globalbees.com/products/kuber-industries-multi-utility-microfiber-duster-1000000131187), [4](https://dir.indiamart.com/khurda/microfiber-cloths.html), [5](https://www.bigbasket.com/pd/40258178/swachh-touch-microfiber-cloth-40x40-cms-for-cleaning-super-absorbent-non-scratch-5-pcs/)
 
 | Line (base scenario) | TradeIndiaMarketplace.com (Shopify Basic) | Amazon.in (Easy Ship) | Flipkart | Meesho |
 |---|---|---|---|---|
@@ -120,8 +121,9 @@ Owner thresholds (config/settings.toml): minimum contribution **Rs 60/order**, m
 - **Supplier cost (est.)**: Rs 144 excl. GST, range ('83', '200'). Rajkot sellers: Eniver Mart Rs 24/piece for 6-pc 1000 ml set; Dynamic Plastic Rs 83 for a 900 ml PET set
 - **Retail observed**: Kuber Industries 6 x 500 ml PET set Rs 449; 12 x 800 ml Rs 999 (GlobalBees)
 - **Proposed price**: Rs 449 incl. GST
+- **Odisha supplier leads (unverified)**: Joshna Polymers, Bhubaneswar (airtight containers Rs 35-72, larger sizes); Subhalaxmi Plastics, Cuttack (manufacturer, HSN 3924 kitchenware); Jagdamba Polymers, Balasore; Apoorba Industries, Bhubaneswar (Rs 257 square container)
 - **Risks**: Bulky: volumetric weight drives shipping; Breakage / cracked lids in transit; Food-contact material evidence needed
-- **Sources**: [1](https://m.indiamart.com/eniver-mart/fish-container.html), [2](https://m.indiamart.com/dynamicplastic/plastic-storage-containers.html), [3](https://shop.globalbees.com/products/kuber-industries-opal-plastic-airtight-pet-jar-2000000086457)
+- **Sources**: [1](https://m.indiamart.com/eniver-mart/fish-container.html), [2](https://m.indiamart.com/dynamicplastic/plastic-storage-containers.html), [3](https://m.indiamart.com/joshnapolymers/plastic-drum.html), [4](https://m.indiamart.com/company/104177997), [5](https://m.indiamart.com/apoorbaindustries/plastic-container.html), [6](https://shop.globalbees.com/products/kuber-industries-opal-plastic-airtight-pet-jar-2000000086457)
 
 | Line (base scenario) | TradeIndiaMarketplace.com (Shopify Basic) | Amazon.in (Easy Ship) | Flipkart | Meesho |
 |---|---|---|---|---|

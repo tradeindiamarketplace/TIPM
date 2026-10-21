@@ -8,7 +8,8 @@ Each agent reports what it found, how sure it is, and what it needs from you. Nu
 
 * **Store state:** live, 0 products, 0 orders, 6 empty collections. Old T-shirt/3D design exists only in the unpublished theme.
 * **Pipeline:** 6 product candidates discovered. 0 suppliers verified. 0 approvals pending (nothing is ready for you to approve yet).
-* **Exceptions:** (1) The website has no refund, shipping or terms policy. (2) The live home page makes claims ("verified makers only", "easy returns") that aren't true yet. (3) Your GST status and marketplace accounts are unknown, and that blocks every marketplace step.
+* **Exceptions:** (1) The website has no refund, shipping or terms policy. (2) The live home page makes claims ("verified makers only", "easy returns") that aren't true yet. (3) Marketplace seller-account status is still unknown.
+* **Update 2026-10-21:** you confirmed GST registration in **Odisha**. Sourcing now prioritises Odisha suppliers for marketplace sales (see Agent J).
 * **Needs from you:** answers to the 4 questions at the end of this briefing.
 
 ### Agent B, Product discovery: what's worth chasing
@@ -35,6 +36,8 @@ The most a supplier can charge per unit (excl. GST) and still pass your threshol
 | Copper bottle (₹749) | ₹400 | ₹334 | **₹366** | ₹341 | ₹331 |
 | Silicone set (₹299) | ₹70 | ₹19 | ₹47 | ₹34 | ₹13 |
 | Chopper (₹199) | ₹35 | ₹0 | ₹0 | ₹0 | ₹0 |
+
+**Odisha leads (unverified, from IndiaMART):** microfiber cloths in the Khordha/Bhubaneswar directory (350 GSM 40×60 cm at ₹38/pc, a bigger size than our 40×40); plastic containers from Joshna Polymers (Bhubaneswar), Subhalaxmi Plastics (Cuttack, manufacturer, kitchenware HSN 3924), Jagdamba Polymers (Balasore). No Odisha copper-bottle maker found yet.
 
 IndiaMART prices are bulk prices with minimum order quantities. Single-piece drop-ship prices will usually be **higher**. No supplier is verified. A directory profile isn't proof. **Next step (needs your OK):** contact 3 microfiber and 3 PET-jar makers for written drop-ship quotes. No money is spent.
 
@@ -75,7 +78,12 @@ Price floors (minimum viable price, base scenario): microfiber ₹380 (Amazon) /
 
 ### Agent J, Fulfilment
 
-Supplier-direct is feasible on all four channels, **but each supplier's dispatch address has to be on your GST registration (APOB)** and match the marketplace pickup address. Start with one supplier in Odisha or a nearby state. Details: docs/05.
+With an **Odisha GSTIN**, an extra pickup address can only be added inside Odisha. So:
+
+* **Odisha supplier:** works on all four channels (their premises added as an APOB on your GSTIN and used as the marketplace pickup address).
+* **Out-of-state supplier** (most IndiaMART sellers, in Gujarat or UP): probably fine for **your website** using "bill to – ship to" (CA to confirm). **Not usable for marketplace pickup** unless you register GST in that state too.
+
+Start the pilot with one Odisha supplier. Details: docs/05.
 
 ### Agent K, QA
 
@@ -93,7 +101,8 @@ Before any listing: GST + HSN per SKU (confirm rates with a CA after the 2025 ch
 
 ## Decisions for you
 
-1. **GST:** do you have a GSTIN? Which state?
+1. ~~GST~~ Answered: registered in Odisha.
+   **New:** please ask your CA the 3 questions in docs/05 (supplier premises as an extra place of business, bill-to-ship-to, HSN/rates).
 2. **Accounts:** do Amazon.in / Flipkart / Meesho seller accounts exist?
 3. **Thresholds:** keep ₹60 minimum profit/order, 12% margin, ₹80 max ad cost?
-4. **Quotes:** may Agent C request written drop-ship quotes for **microfiber cloth packs** and **PET storage jars** (and the copper bottle at a target of ≤ ₹360)? No money is committed.
+4. **Quotes:** may Agent C request written drop-ship quotes, **Odisha suppliers first**, for **microfiber cloth packs** (target ≤ ₹128 for 5) and **storage jars** (target ≤ ₹117 for 6), plus the copper bottle at ≤ ₹360? No money is committed.
