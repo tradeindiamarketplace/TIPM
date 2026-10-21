@@ -39,6 +39,8 @@ def test_config() -> dict:
     cfg["channels"]["amazon_in"].update(fees_verified=True, commission_pct="0", fixed_fee_inr="10",
                                         fee_source="TEST FIXTURE")
     cfg["operations"]["auto_refund_limit_inr"] = "0"
+    # Fixed test thresholds so the suite doesn't depend on the owner's live settings.
+    cfg["thresholds"].update(min_contribution_inr="60", min_margin_pct="12", max_acquisition_cost_inr="80")
     return cfg
 
 
