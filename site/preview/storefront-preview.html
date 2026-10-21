@@ -107,7 +107,12 @@ main{padding-block:16px 48px}
 .card .open{all:unset;cursor:pointer;display:flex;flex-direction:column;gap:6px}
 .card .open:focus-visible{outline:3px solid var(--brass);outline-offset:2px;border-radius:6px}
 .art{aspect-ratio:1;max-width:100%;border-radius:8px;display:grid;place-items:center;overflow:hidden}
+.art{position:relative}
 .art svg{width:72%;height:72%}
+.art.photo{background:#fff}
+.art.photo img{width:100%;height:100%;object-fit:contain}
+.illus{position:absolute;left:6px;bottom:6px;font-size:10px;font-weight:600;letter-spacing:.02em;color:var(--muted);background:var(--surface);border-radius:4px;padding:1px 5px;opacity:.9}
+.quad .illus,.thumbs .illus{display:none}
 .card .t{font-size:14px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.6em}
 .price{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
 .price b{font-size:18px}
@@ -287,6 +292,9 @@ const P = [
   {id:"fridge6", cat:"kitchen", name:"Cotton fridge vegetable storage bags, set of 6", price:199, mrp:599, kind:"bag", hue:"#38A169", cost:117, web:[-89,-51.0], amz:[-61,-35.0],
    hl:["Breathable cotton","Washable, reusable","Drawstring closure"], specs:{"Pieces":"6","Material":"Cotton","Country of origin":"India"}}
 ];
+// Real photos go in p.photos (HTTPS URLs from the supplier, with written permission, or your own sample shots).
+// Until then the store shows a labelled illustration, never a borrowed or AI picture.
+P.forEach(p => { p.photos = p.photos || []; });
 const byId = Object.fromEntries(P.map(p => [p.id, p]));
 const MIN_MARGIN = 30;
 
@@ -304,7 +312,8 @@ function art(p, size){
     bottle:`<rect x="40" y="16" width="20" height="10" rx="3" fill="${c}" opacity=".7"/><path d="M38 28h24l4 10v38a6 6 0 0 1-6 6H40a6 6 0 0 1-6-6V38z" fill="${c}"/><path d="M38 46h24M38 56h24" stroke="${l}" stroke-width="2"/>`,
     bag:`<path d="M26 34h48l-5 44H31z" fill="${c}"/><path d="M34 34q16-20 32 0" fill="none" stroke="${c}" stroke-width="4"/><path d="M34 50h32" stroke="${l}" stroke-width="2"/>`
   };
-  return `<div class="art" style="background:color-mix(in srgb, ${c} 14%, var(--surface-2))"><svg viewBox="0 0 100 100" role="img" aria-label="${esc(p.name)}">${shapes[p.kind]}</svg></div>`;
+  if (p.photos && p.photos.length) return `<div class="art photo"><img src="${esc(p.photos[size || 0] || p.photos[0])}" alt="${esc(p.name)}" loading="lazy"></div>`;
+  return `<div class="art" style="background:color-mix(in srgb, ${c} 14%, var(--surface-2))"><svg viewBox="0 0 100 100" role="img" aria-label="Illustration of ${esc(p.name)}">${shapes[p.kind]}</svg><span class="illus">Illustration · real photo coming</span></div>`;
 }
 
 /* ---------- state ---------- */
@@ -642,11 +651,13 @@ V.seller = () => {
     <tbody>${orders.map(x => `<tr><td>${esc(x.o.id)}${x.o.sample ? "<br><span class='newtag'>sample</span>" : ""}</td><td>${x.lines.map(l => `${esc(l.p.name.split(",")[0])} × ${l.qty}`).join("<br>")}</td><td>PO-${esc(x.o.id.slice(4))} · Supplier partner</td><td>${stagePill(x.o.stage).replace(STAGES[Math.min(x.o.stage,5)][0], stageTo(x.o.stage))}</td><td class="num">${inr(x.sale)}</td><td class="num">${inr(x.supplier)}</td><td class="num">${inr(x.profit)}</td></tr>`).join("")}</tbody></table></div>
     <p class="newtag">Place an order in the Shop view and it appears here as a new supplier lead.</p></section>
   <section class="panel row-sec"><div class="sec-h"><h2>Product profit check (minimum ${MIN_MARGIN}%)</h2></div><div class="tablewrap"><table class="data num">
-    <thead><tr><th>Product</th><th style="text-align:right">Price</th><th style="text-align:right">Supplier cost</th><th style="text-align:right">Profit on website</th><th style="text-align:right">Profit on Amazon.in</th><th>Verdict</th></tr></thead>
+    <thead><tr><th>Product</th><th style="text-align:right">Price</th><th style="text-align:right">Supplier cost</th><th style="text-align:right">Profit on website</th><th style="text-align:right">Profit on Amazon.in</th><th>Verdict</th><th>Photos</th></tr></thead>
     <tbody>${[...P].sort((a, b) => b.amz[1] - a.amz[1]).map(p => {
       const ok = p.amz[1] >= MIN_MARGIN || p.web[1] >= MIN_MARGIN, near = !ok && Math.max(p.amz[1], p.web[1]) >= 20;
       return `<tr><td>${esc(p.name)}</td><td class="num">${inr(p.price)}</td><td class="num">${inr(p.cost)}</td><td class="num">${inr(p.web[0])} · ${p.web[1].toFixed(1)}%</td><td class="num">${inr(p.amz[0])} · ${p.amz[1].toFixed(1)}%</td>
-      <td>${ok ? `<span class="pill ok">Meets ${MIN_MARGIN}%</span>` : near ? `<span class="pill warn">Close</span>` : `<span class="pill bad">Below target</span>`}</td></tr>`; }).join("")}</tbody></table></div>
+      <td>${ok ? `<span class="pill ok">Meets ${MIN_MARGIN}%</span>` : near ? `<span class="pill warn">Close</span>` : `<span class="pill bad">Below target</span>`}</td>
+      <td>${p.photos.length ? `<span class="pill ok">${p.photos.length} photos</span>` : `<span class="pill warn">Request from supplier</span>`}</td></tr>`; }).join("")}</tbody></table></div>
+    <p class="newtag">A product can't go live without at least 5 real photos of the exact item (see the photo checklist). Illustrations are for this preview only.</p>
     <p class="newtag">Profit = expected contribution per order after GST, supplier cost, shipping, packaging, fees, ads and returns. Supplier costs are IndiaMART listing prices. ${MARKET.fees}</p></section>`;
 };
 

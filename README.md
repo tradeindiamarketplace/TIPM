@@ -33,6 +33,7 @@ AI-assisted, inventory-free e-commerce operations for **TradeIndiaMarketplace.co
 | 10 | [Phased backlog](docs/10-backlog.md) |
 | 11 | [Risk register](docs/11-risk-register.md) |
 | 12 | [Deployment and rollback](docs/12-deployment-rollback.md) |
+| 13 | [Product photos: sourcing and checklist](docs/13-product-photos.md) |
 
 ## Layout
 
