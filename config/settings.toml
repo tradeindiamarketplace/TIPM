@@ -14,7 +14,7 @@ gst_state = "Odisha"               # owner confirmed 2026-10-21. GSTIN itself is
 
 [thresholds]                       # owner-only (Perm.SET_THRESHOLDS)
 min_contribution_inr = "60"
-min_margin_pct = "12"
+min_margin_pct = "30"               # owner set 2026-10-21: minimum 30% profit on net revenue
 max_acquisition_cost_inr = "80"
 gate_scenario = "base"             # scenario that must pass for the gate to open
 

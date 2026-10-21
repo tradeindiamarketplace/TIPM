@@ -2,7 +2,7 @@
   "research_date": "2026-10-21",
   "thresholds": {
     "min_contribution_inr": "60",
-    "min_margin_pct": "12",
+    "min_margin_pct": "30",
     "max_acquisition_cost_inr": "80",
     "gate_scenario": "base"
   },
@@ -16,11 +16,12 @@
       "fragile": false,
       "reasons": [
         "contribution 44.12 < minimum 60",
+        "margin 14.18% < minimum 30%",
         "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "339.34",
-      "min_viable": "420.46",
+      "min_viable": "496.28",
       "scenarios": {
         "conservative": {
           "expected": "-15.55",
@@ -197,14 +198,15 @@
       "product": "Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5",
       "channel": "amazon_in",
       "price": "399",
-      "status": "PASS",
-      "fragile": true,
+      "status": "FAIL",
+      "fragile": false,
       "reasons": [
+        "margin 24.14% < minimum 30%",
         "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "302.69",
-      "min_viable": "379.65",
+      "min_viable": "432.42",
       "scenarios": {
         "conservative": {
           "expected": "29.41",
@@ -385,11 +387,12 @@
       "fragile": false,
       "reasons": [
         "contribution 55.11 < minimum 60",
+        "margin 17.72% < minimum 30%",
         "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "325.97",
-      "min_viable": "405.48",
+      "min_viable": "472.38",
       "scenarios": {
         "conservative": {
           "expected": "9.43",
@@ -570,11 +573,12 @@
       "fragile": false,
       "reasons": [
         "contribution 40.10 < minimum 60",
+        "margin 13.95% < minimum 30%",
         "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "343.32",
-      "min_viable": "426.62",
+      "min_viable": "490.47",
       "scenarios": {
         "conservative": {
           "expected": "-24.64",
@@ -755,12 +759,12 @@
       "fragile": false,
       "reasons": [
         "contribution -40.99 < minimum 60",
-        "margin -7.02% < minimum 12%",
+        "margin -7.02% < minimum 30%",
         "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "804.42",
-      "min_viable": "920.91",
+      "min_viable": "1176.44",
       "scenarios": {
         "conservative": {
           "expected": "-109.78",
@@ -941,12 +945,12 @@
       "fragile": false,
       "reasons": [
         "contribution -11.03 < minimum 60",
-        "margin -1.89% < minimum 12%",
+        "margin -1.89% < minimum 30%",
         "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "763.15",
-      "min_viable": "867.22",
+      "min_viable": "1090.22",
       "scenarios": {
         "conservative": {
           "expected": "-64.82",
@@ -1127,12 +1131,12 @@
       "fragile": false,
       "reasons": [
         "contribution -34.76 < minimum 60",
-        "margin -5.95% < minimum 12%",
+        "margin -5.95% < minimum 30%",
         "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "795.05",
-      "min_viable": "907.58",
+      "min_viable": "1152.16",
       "scenarios": {
         "conservative": {
           "expected": "-89.55",
@@ -1313,12 +1317,12 @@
       "fragile": false,
       "reasons": [
         "contribution -44.97 < minimum 60",
-        "margin -8.33% < minimum 12%",
+        "margin -8.33% < minimum 30%",
         "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "811.42",
-      "min_viable": "922.07",
+      "min_viable": "1159.18",
       "scenarios": {
         "conservative": {
           "expected": "-124.30",
@@ -1499,12 +1503,12 @@
       "fragile": false,
       "reasons": [
         "contribution -37.04 < minimum 60",
-        "margin -15.89% < minimum 12%",
+        "margin -15.89% < minimum 30%",
         "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "349.07",
-      "min_viable": "430.20",
+      "min_viable": "510.52",
       "scenarios": {
         "conservative": {
           "expected": "-93.18",
@@ -1685,12 +1689,12 @@
       "fragile": false,
       "reasons": [
         "contribution -10.08 < minimum 60",
-        "margin -4.32% < minimum 12%",
+        "margin -4.32% < minimum 30%",
         "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "311.92",
-      "min_viable": "388.89",
+      "min_viable": "445.61",
       "scenarios": {
         "conservative": {
           "expected": "-52.22",
@@ -1871,12 +1875,12 @@
       "fragile": false,
       "reasons": [
         "contribution -22.56 < minimum 60",
-        "margin -9.68% < minimum 12%",
+        "margin -9.68% < minimum 30%",
         "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "328.88",
-      "min_viable": "408.40",
+      "min_viable": "476.61",
       "scenarios": {
         "conservative": {
           "expected": "-64.69",
@@ -2057,12 +2061,12 @@
       "fragile": false,
       "reasons": [
         "contribution -38.87 < minimum 60",
-        "margin -18.05% < minimum 12%",
+        "margin -18.05% < minimum 30%",
         "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "352.95",
-      "min_viable": "436.25",
+      "min_viable": "504.23",
       "scenarios": {
         "conservative": {
           "expected": "-96.97",
@@ -2243,12 +2247,12 @@
       "fragile": false,
       "reasons": [
         "contribution -9.13 < minimum 60",
-        "margin -2.61% < minimum 12%",
+        "margin -2.61% < minimum 30%",
         "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "461.34",
-      "min_viable": "542.46",
+      "min_viable": "674.70",
       "scenarios": {
         "conservative": {
           "expected": "-81.87",
@@ -2429,12 +2433,12 @@
       "fragile": false,
       "reasons": [
         "contribution 33.83 < minimum 60",
-        "margin 9.66% < minimum 12%",
+        "margin 9.66% < minimum 30%",
         "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "405.61",
-      "min_viable": "482.57",
+      "min_viable": "579.45",
       "scenarios": {
         "conservative": {
           "expected": "-22.91",
@@ -2615,12 +2619,12 @@
       "fragile": false,
       "reasons": [
         "contribution 7.60 < minimum 60",
-        "margin 2.17% < minimum 12%",
+        "margin 2.17% < minimum 30%",
         "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "438.92",
-      "min_viable": "518.43",
+      "min_viable": "636.07",
       "scenarios": {
         "conservative": {
           "expected": "-50.14",
@@ -2801,12 +2805,12 @@
       "fragile": false,
       "reasons": [
         "contribution -28.02 < minimum 60",
-        "margin -8.66% < minimum 12%",
+        "margin -8.66% < minimum 30%",
         "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "487.89",
-      "min_viable": "571.19",
+      "min_viable": "696.99",
       "scenarios": {
         "conservative": {
           "expected": "-109.76",
@@ -2987,12 +2991,12 @@
       "fragile": false,
       "reasons": [
         "contribution -38.05 < minimum 60",
-        "margin -24.52% < minimum 12%",
+        "margin -24.52% < minimum 30%",
         "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "250.43",
-      "min_viable": "331.56",
+      "min_viable": "366.26",
       "scenarios": {
         "conservative": {
           "expected": "-92.31",
@@ -3173,12 +3177,12 @@
       "fragile": false,
       "reasons": [
         "contribution -10.09 < minimum 60",
-        "margin -6.50% < minimum 12%",
+        "margin -6.50% < minimum 30%",
         "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "211.93",
-      "min_viable": "288.89",
+      "min_viable": "302.77",
       "scenarios": {
         "conservative": {
           "expected": "-50.35",
@@ -3359,12 +3363,12 @@
       "fragile": false,
       "reasons": [
         "contribution -25.06 < minimum 60",
-        "margin -16.15% < minimum 12%",
+        "margin -16.15% < minimum 30%",
         "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "232.20",
-      "min_viable": "311.72",
+      "min_viable": "336.51",
       "scenarios": {
         "conservative": {
           "expected": "-65.33",
@@ -3545,12 +3549,12 @@
       "fragile": false,
       "reasons": [
         "contribution -40.60 < minimum 60",
-        "margin -28.32% < minimum 12%",
+        "margin -28.32% < minimum 30%",
         "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
       ],
       "missing": [],
       "break_even": "255.36",
-      "min_viable": "338.66",
+      "min_viable": "364.81",
       "scenarios": {
         "conservative": {
           "expected": "-95.20",
@@ -3789,6 +3793,7417 @@
       "break_even": "None",
       "min_viable": "None",
       "scenarios": {}
+    },
+    {
+      "id": "PC-007",
+      "product": "Korean-style hair claw clips, set of 6",
+      "channel": "shopify",
+      "price": "249",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "contribution -22.18 < minimum 60",
+        "margin -11.43% < minimum 30%",
+        "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "278.99",
+      "min_viable": "408.02",
+      "scenarios": {
+        "conservative": {
+          "expected": "-77.71",
+          "margin_pct": "-41.85",
+          "net_revenue": "211.02",
+          "cash_out": "254.88",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "249.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-37.98"
+            ],
+            [
+              "Net revenue",
+              "211.02"
+            ],
+            [
+              "Supplier cost",
+              "-66.00"
+            ],
+            [
+              "Forward shipping",
+              "-72.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-9.96"
+            ],
+            [
+              "Advertising per order",
+              "-90.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "-41.94"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-35.76"
+            ],
+            [
+              "= Expected contribution per order",
+              "-77.71"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "-22.18",
+          "margin_pct": "-11.43",
+          "net_revenue": "211.02",
+          "cash_out": "212.88",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "249.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-37.98"
+            ],
+            [
+              "Net revenue",
+              "211.02"
+            ],
+            [
+              "Supplier cost",
+              "-66.00"
+            ],
+            [
+              "Forward shipping",
+              "-60.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-9.96"
+            ],
+            [
+              "Advertising per order",
+              "-60.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "0.06"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-22.24"
+            ],
+            [
+              "= Expected contribution per order",
+              "-22.18"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "2.49",
+          "margin_pct": "1.25",
+          "net_revenue": "211.02",
+          "cash_out": "194.88",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "249.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-37.98"
+            ],
+            [
+              "Net revenue",
+              "211.02"
+            ],
+            [
+              "Supplier cost",
+              "-66.00"
+            ],
+            [
+              "Forward shipping",
+              "-60.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-9.96"
+            ],
+            [
+              "Advertising per order",
+              "-42.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "18.06"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-15.57"
+            ],
+            [
+              "= Expected contribution per order",
+              "2.49"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-007",
+      "product": "Korean-style hair claw clips, set of 6",
+      "channel": "amazon_in",
+      "price": "249",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "contribution 7.78 < minimum 60",
+        "margin 4.01% < minimum 30%",
+        "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "239.02",
+      "min_viable": "341.47",
+      "scenarios": {
+        "conservative": {
+          "expected": "-33.75",
+          "margin_pct": "-18.17",
+          "net_revenue": "211.02",
+          "cash_out": "215.88",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "249.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-37.98"
+            ],
+            [
+              "Net revenue",
+              "211.02"
+            ],
+            [
+              "Supplier cost",
+              "-66.00"
+            ],
+            [
+              "Forward shipping",
+              "-78.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-5.00"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "2.02"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-35.76"
+            ],
+            [
+              "= Expected contribution per order",
+              "-33.75"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "7.78",
+          "margin_pct": "4.01",
+          "net_revenue": "211.02",
+          "cash_out": "187.88",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "249.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-37.98"
+            ],
+            [
+              "Net revenue",
+              "211.02"
+            ],
+            [
+              "Supplier cost",
+              "-66.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-5.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "30.02"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-22.24"
+            ],
+            [
+              "= Expected contribution per order",
+              "7.78"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "23.45",
+          "margin_pct": "11.77",
+          "net_revenue": "211.02",
+          "cash_out": "178.88",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "249.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-37.98"
+            ],
+            [
+              "Net revenue",
+              "211.02"
+            ],
+            [
+              "Supplier cost",
+              "-66.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-5.00"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "39.02"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-15.57"
+            ],
+            [
+              "= Expected contribution per order",
+              "23.45"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-007",
+      "product": "Korean-style hair claw clips, set of 6",
+      "channel": "flipkart",
+      "price": "249",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "contribution -8.45 < minimum 60",
+        "margin -4.35% < minimum 30%",
+        "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "260.19",
+      "min_viable": "377.06",
+      "scenarios": {
+        "conservative": {
+          "expected": "-49.97",
+          "margin_pct": "-26.91",
+          "net_revenue": "211.02",
+          "cash_out": "215.88",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "249.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-37.98"
+            ],
+            [
+              "Net revenue",
+              "211.02"
+            ],
+            [
+              "Supplier cost",
+              "-66.00"
+            ],
+            [
+              "Forward shipping",
+              "-78.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-21.23"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "-14.21"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-35.76"
+            ],
+            [
+              "= Expected contribution per order",
+              "-49.97"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "-8.45",
+          "margin_pct": "-4.35",
+          "net_revenue": "211.02",
+          "cash_out": "187.88",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "249.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-37.98"
+            ],
+            [
+              "Net revenue",
+              "211.02"
+            ],
+            [
+              "Supplier cost",
+              "-66.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-21.23"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "13.79"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-22.24"
+            ],
+            [
+              "= Expected contribution per order",
+              "-8.45"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "7.22",
+          "margin_pct": "3.63",
+          "net_revenue": "211.02",
+          "cash_out": "178.88",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "249.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-37.98"
+            ],
+            [
+              "Net revenue",
+              "211.02"
+            ],
+            [
+              "Supplier cost",
+              "-66.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-21.23"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "22.79"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-15.57"
+            ],
+            [
+              "= Expected contribution per order",
+              "7.22"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-007",
+      "product": "Korean-style hair claw clips, set of 6",
+      "channel": "meesho",
+      "price": "249",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "contribution -24.94 < minimum 60",
+        "margin -13.90% < minimum 30%",
+        "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "283.61",
+      "min_viable": "405.17",
+      "scenarios": {
+        "conservative": {
+          "expected": "-81.89",
+          "margin_pct": "-50.07",
+          "net_revenue": "211.02",
+          "cash_out": "212.88",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "249.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-37.98"
+            ],
+            [
+              "Net revenue",
+              "211.02"
+            ],
+            [
+              "Supplier cost",
+              "-66.00"
+            ],
+            [
+              "Forward shipping",
+              "-90.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "0.02"
+            ],
+            [
+              "Return exposure at 22.50% returns",
+              "-81.90"
+            ],
+            [
+              "= Expected contribution per order",
+              "-81.89"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "-24.94",
+          "margin_pct": "-13.90",
+          "net_revenue": "211.02",
+          "cash_out": "187.88",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "249.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-37.98"
+            ],
+            [
+              "Net revenue",
+              "211.02"
+            ],
+            [
+              "Supplier cost",
+              "-66.00"
+            ],
+            [
+              "Forward shipping",
+              "-75.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-20.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "25.02"
+            ],
+            [
+              "Return exposure at 15.00% returns",
+              "-49.95"
+            ],
+            [
+              "= Expected contribution per order",
+              "-24.94"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "-3.95",
+          "margin_pct": "-2.09",
+          "net_revenue": "211.02",
+          "cash_out": "181.88",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "249.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-37.98"
+            ],
+            [
+              "Net revenue",
+              "211.02"
+            ],
+            [
+              "Supplier cost",
+              "-66.00"
+            ],
+            [
+              "Forward shipping",
+              "-75.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-14.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "31.02"
+            ],
+            [
+              "Return exposure at 10.50% returns",
+              "-34.97"
+            ],
+            [
+              "= Expected contribution per order",
+              "-3.95"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-008",
+      "product": "Non-woven saree / clothes cover organisers, set of 12",
+      "channel": "shopify",
+      "price": "549",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "contribution 58.64 < minimum 60",
+        "margin 13.00% < minimum 30%",
+        "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "473.95",
+      "min_viable": "692.26",
+      "scenarios": {
+        "conservative": {
+          "expected": "-9.04",
+          "margin_pct": "-2.10",
+          "net_revenue": "490.18",
+          "cash_out": "442.92",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "549.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-58.82"
+            ],
+            [
+              "Net revenue",
+              "490.18"
+            ],
+            [
+              "Supplier cost",
+              "-216.00"
+            ],
+            [
+              "Forward shipping",
+              "-96.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-21.96"
+            ],
+            [
+              "Advertising per order",
+              "-90.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "51.22"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-60.26"
+            ],
+            [
+              "= Expected contribution per order",
+              "-9.04"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "58.64",
+          "margin_pct": "13.00",
+          "net_revenue": "490.18",
+          "cash_out": "396.92",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "549.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-58.82"
+            ],
+            [
+              "Net revenue",
+              "490.18"
+            ],
+            [
+              "Supplier cost",
+              "-216.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-21.96"
+            ],
+            [
+              "Advertising per order",
+              "-60.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "97.22"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-38.57"
+            ],
+            [
+              "= Expected contribution per order",
+              "58.64"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "88.22",
+          "margin_pct": "19.06",
+          "net_revenue": "490.18",
+          "cash_out": "378.92",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "549.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-58.82"
+            ],
+            [
+              "Net revenue",
+              "490.18"
+            ],
+            [
+              "Supplier cost",
+              "-216.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-21.96"
+            ],
+            [
+              "Advertising per order",
+              "-42.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "115.22"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-27.00"
+            ],
+            [
+              "= Expected contribution per order",
+              "88.22"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-008",
+      "product": "Non-woven saree / clothes cover organisers, set of 12",
+      "channel": "amazon_in",
+      "price": "549",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 17.87% < minimum 30%",
+        "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "450.87",
+      "min_viable": "644.10",
+      "scenarios": {
+        "conservative": {
+          "expected": "27.92",
+          "margin_pct": "6.47",
+          "net_revenue": "490.18",
+          "cash_out": "397.92",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "549.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-58.82"
+            ],
+            [
+              "Net revenue",
+              "490.18"
+            ],
+            [
+              "Supplier cost",
+              "-216.00"
+            ],
+            [
+              "Forward shipping",
+              "-96.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "88.18"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-60.26"
+            ],
+            [
+              "= Expected contribution per order",
+              "27.92"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "80.60",
+          "margin_pct": "17.87",
+          "net_revenue": "490.18",
+          "cash_out": "366.92",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "549.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-58.82"
+            ],
+            [
+              "Net revenue",
+              "490.18"
+            ],
+            [
+              "Supplier cost",
+              "-216.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "119.18"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-38.57"
+            ],
+            [
+              "= Expected contribution per order",
+              "80.60"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "101.18",
+          "margin_pct": "21.87",
+          "net_revenue": "490.18",
+          "cash_out": "357.92",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "549.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-58.82"
+            ],
+            [
+              "Net revenue",
+              "490.18"
+            ],
+            [
+              "Supplier cost",
+              "-216.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "128.18"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-27.00"
+            ],
+            [
+              "= Expected contribution per order",
+              "101.18"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-008",
+      "product": "Non-woven saree / clothes cover organisers, set of 12",
+      "channel": "flipkart",
+      "price": "549",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 13.72% < minimum 30%",
+        "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "471.30",
+      "min_viable": "682.47",
+      "scenarios": {
+        "conservative": {
+          "expected": "8.19",
+          "margin_pct": "1.90",
+          "net_revenue": "490.18",
+          "cash_out": "403.92",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "549.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-58.82"
+            ],
+            [
+              "Net revenue",
+              "490.18"
+            ],
+            [
+              "Supplier cost",
+              "-216.00"
+            ],
+            [
+              "Forward shipping",
+              "-102.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-43.73"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "68.45"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-60.26"
+            ],
+            [
+              "= Expected contribution per order",
+              "8.19"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "61.88",
+          "margin_pct": "13.72",
+          "net_revenue": "490.18",
+          "cash_out": "371.92",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "549.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-58.82"
+            ],
+            [
+              "Net revenue",
+              "490.18"
+            ],
+            [
+              "Supplier cost",
+              "-216.00"
+            ],
+            [
+              "Forward shipping",
+              "-85.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-43.73"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "100.45"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-38.57"
+            ],
+            [
+              "= Expected contribution per order",
+              "61.88"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "82.45",
+          "margin_pct": "17.82",
+          "net_revenue": "490.18",
+          "cash_out": "362.92",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "549.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-58.82"
+            ],
+            [
+              "Net revenue",
+              "490.18"
+            ],
+            [
+              "Supplier cost",
+              "-216.00"
+            ],
+            [
+              "Forward shipping",
+              "-85.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-43.73"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "109.45"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-27.00"
+            ],
+            [
+              "= Expected contribution per order",
+              "82.45"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-008",
+      "product": "Non-woven saree / clothes cover organisers, set of 12",
+      "channel": "meesho",
+      "price": "549",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "contribution 48.60 < minimum 60",
+        "margin 11.66% < minimum 30%",
+        "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "484.95",
+      "min_viable": "692.80",
+      "scenarios": {
+        "conservative": {
+          "expected": "-28.66",
+          "margin_pct": "-7.54",
+          "net_revenue": "490.18",
+          "cash_out": "406.92",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "549.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-58.82"
+            ],
+            [
+              "Net revenue",
+              "490.18"
+            ],
+            [
+              "Supplier cost",
+              "-216.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "99.18"
+            ],
+            [
+              "Return exposure at 22.50% returns",
+              "-127.84"
+            ],
+            [
+              "= Expected contribution per order",
+              "-28.66"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "48.60",
+          "margin_pct": "11.66",
+          "net_revenue": "490.18",
+          "cash_out": "376.92",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "549.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-58.82"
+            ],
+            [
+              "Net revenue",
+              "490.18"
+            ],
+            [
+              "Supplier cost",
+              "-216.00"
+            ],
+            [
+              "Forward shipping",
+              "-100.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-20.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "129.18"
+            ],
+            [
+              "Return exposure at 15.00% returns",
+              "-80.58"
+            ],
+            [
+              "= Expected contribution per order",
+              "48.60"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "78.77",
+          "margin_pct": "17.96",
+          "net_revenue": "490.18",
+          "cash_out": "370.92",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "549.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-58.82"
+            ],
+            [
+              "Net revenue",
+              "490.18"
+            ],
+            [
+              "Supplier cost",
+              "-216.00"
+            ],
+            [
+              "Forward shipping",
+              "-100.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-14.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "135.18"
+            ],
+            [
+              "Return exposure at 10.50% returns",
+              "-56.40"
+            ],
+            [
+              "= Expected contribution per order",
+              "78.77"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-009",
+      "product": "Cotton fridge vegetable storage bags, set of 6",
+      "channel": "shopify",
+      "price": "199",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "contribution -88.92 < minimum 60",
+        "margin -51.00% < minimum 30%",
+        "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "305.33",
+      "min_viable": "445.33",
+      "scenarios": {
+        "conservative": {
+          "expected": "-142.56",
+          "margin_pct": "-85.48",
+          "net_revenue": "189.52",
+          "cash_out": "299.85",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "199.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-9.48"
+            ],
+            [
+              "Net revenue",
+              "189.52"
+            ],
+            [
+              "Supplier cost",
+              "-117.00"
+            ],
+            [
+              "Forward shipping",
+              "-72.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-7.96"
+            ],
+            [
+              "Advertising per order",
+              "-90.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "-112.44"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-30.12"
+            ],
+            [
+              "= Expected contribution per order",
+              "-142.56"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "-88.92",
+          "margin_pct": "-51.00",
+          "net_revenue": "189.52",
+          "cash_out": "257.85",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "199.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-9.48"
+            ],
+            [
+              "Net revenue",
+              "189.52"
+            ],
+            [
+              "Supplier cost",
+              "-117.00"
+            ],
+            [
+              "Forward shipping",
+              "-60.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-7.96"
+            ],
+            [
+              "Advertising per order",
+              "-60.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "-70.44"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-18.48"
+            ],
+            [
+              "= Expected contribution per order",
+              "-88.92"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "-65.37",
+          "margin_pct": "-36.54",
+          "net_revenue": "189.52",
+          "cash_out": "239.85",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "199.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-9.48"
+            ],
+            [
+              "Net revenue",
+              "189.52"
+            ],
+            [
+              "Supplier cost",
+              "-117.00"
+            ],
+            [
+              "Forward shipping",
+              "-60.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-7.96"
+            ],
+            [
+              "Advertising per order",
+              "-42.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "-52.44"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-12.94"
+            ],
+            [
+              "= Expected contribution per order",
+              "-65.37"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-009",
+      "product": "Cotton fridge vegetable storage bags, set of 6",
+      "channel": "amazon_in",
+      "price": "199",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "contribution -60.96 < minimum 60",
+        "margin -34.96% < minimum 30%",
+        "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "268.57",
+      "min_viable": "383.67",
+      "scenarios": {
+        "conservative": {
+          "expected": "-100.60",
+          "margin_pct": "-60.32",
+          "net_revenue": "189.52",
+          "cash_out": "260.85",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "199.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-9.48"
+            ],
+            [
+              "Net revenue",
+              "189.52"
+            ],
+            [
+              "Supplier cost",
+              "-117.00"
+            ],
+            [
+              "Forward shipping",
+              "-78.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-5.00"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "-70.48"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-30.12"
+            ],
+            [
+              "= Expected contribution per order",
+              "-100.60"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "-60.96",
+          "margin_pct": "-34.96",
+          "net_revenue": "189.52",
+          "cash_out": "232.85",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "199.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-9.48"
+            ],
+            [
+              "Net revenue",
+              "189.52"
+            ],
+            [
+              "Supplier cost",
+              "-117.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-5.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "-42.48"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-18.48"
+            ],
+            [
+              "= Expected contribution per order",
+              "-60.96"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "-46.41",
+          "margin_pct": "-25.94",
+          "net_revenue": "189.52",
+          "cash_out": "223.85",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "199.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-9.48"
+            ],
+            [
+              "Net revenue",
+              "189.52"
+            ],
+            [
+              "Supplier cost",
+              "-117.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-5.00"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "-33.48"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-12.94"
+            ],
+            [
+              "= Expected contribution per order",
+              "-46.41"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-009",
+      "product": "Cotton fridge vegetable storage bags, set of 6",
+      "channel": "flipkart",
+      "price": "199",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "contribution -75.93 < minimum 60",
+        "margin -43.55% < minimum 30%",
+        "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "288.20",
+      "min_viable": "416.97",
+      "scenarios": {
+        "conservative": {
+          "expected": "-115.57",
+          "margin_pct": "-69.30",
+          "net_revenue": "189.52",
+          "cash_out": "260.85",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "199.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-9.48"
+            ],
+            [
+              "Net revenue",
+              "189.52"
+            ],
+            [
+              "Supplier cost",
+              "-117.00"
+            ],
+            [
+              "Forward shipping",
+              "-78.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-19.98"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "-85.45"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-30.12"
+            ],
+            [
+              "= Expected contribution per order",
+              "-115.57"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "-75.93",
+          "margin_pct": "-43.55",
+          "net_revenue": "189.52",
+          "cash_out": "232.85",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "199.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-9.48"
+            ],
+            [
+              "Net revenue",
+              "189.52"
+            ],
+            [
+              "Supplier cost",
+              "-117.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-19.98"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "-57.45"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-18.48"
+            ],
+            [
+              "= Expected contribution per order",
+              "-75.93"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "-61.39",
+          "margin_pct": "-34.31",
+          "net_revenue": "189.52",
+          "cash_out": "223.85",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "199.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-9.48"
+            ],
+            [
+              "Net revenue",
+              "189.52"
+            ],
+            [
+              "Supplier cost",
+              "-117.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-19.98"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "-48.45"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-12.94"
+            ],
+            [
+              "= Expected contribution per order",
+              "-61.39"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-009",
+      "product": "Cotton fridge vegetable storage bags, set of 6",
+      "channel": "meesho",
+      "price": "199",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "contribution -90.38 < minimum 60",
+        "margin -56.10% < minimum 30%",
+        "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "310.64",
+      "min_viable": "443.78",
+      "scenarios": {
+        "conservative": {
+          "expected": "-143.81",
+          "margin_pct": "-97.91",
+          "net_revenue": "189.52",
+          "cash_out": "257.85",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "199.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-9.48"
+            ],
+            [
+              "Net revenue",
+              "189.52"
+            ],
+            [
+              "Supplier cost",
+              "-117.00"
+            ],
+            [
+              "Forward shipping",
+              "-90.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "-72.48"
+            ],
+            [
+              "Return exposure at 22.50% returns",
+              "-71.33"
+            ],
+            [
+              "= Expected contribution per order",
+              "-143.81"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "-90.38",
+          "margin_pct": "-56.10",
+          "net_revenue": "189.52",
+          "cash_out": "232.85",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "199.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-9.48"
+            ],
+            [
+              "Net revenue",
+              "189.52"
+            ],
+            [
+              "Supplier cost",
+              "-117.00"
+            ],
+            [
+              "Forward shipping",
+              "-75.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-20.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "-47.48"
+            ],
+            [
+              "Return exposure at 15.00% returns",
+              "-42.90"
+            ],
+            [
+              "= Expected contribution per order",
+              "-90.38"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "-71.51",
+          "margin_pct": "-42.16",
+          "net_revenue": "189.52",
+          "cash_out": "226.85",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "199.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-9.48"
+            ],
+            [
+              "Net revenue",
+              "189.52"
+            ],
+            [
+              "Supplier cost",
+              "-117.00"
+            ],
+            [
+              "Forward shipping",
+              "-75.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-14.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "-41.48"
+            ],
+            [
+              "Return exposure at 10.50% returns",
+              "-30.03"
+            ],
+            [
+              "= Expected contribution per order",
+              "-71.51"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-010",
+      "product": "Makeup brush set, 13 pieces",
+      "channel": "shopify",
+      "price": "299",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "contribution 3.28 < minimum 60",
+        "margin 1.41% < minimum 30%",
+        "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "294.56",
+      "min_viable": "430.79",
+      "scenarios": {
+        "conservative": {
+          "expected": "-53.70",
+          "margin_pct": "-24.08",
+          "net_revenue": "253.39",
+          "cash_out": "269.04",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "299.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-45.61"
+            ],
+            [
+              "Net revenue",
+              "253.39"
+            ],
+            [
+              "Supplier cost",
+              "-78.00"
+            ],
+            [
+              "Forward shipping",
+              "-72.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-11.96"
+            ],
+            [
+              "Advertising per order",
+              "-90.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "-13.57"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-40.13"
+            ],
+            [
+              "= Expected contribution per order",
+              "-53.70"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "3.28",
+          "margin_pct": "1.41",
+          "net_revenue": "253.39",
+          "cash_out": "227.04",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "299.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-45.61"
+            ],
+            [
+              "Net revenue",
+              "253.39"
+            ],
+            [
+              "Supplier cost",
+              "-78.00"
+            ],
+            [
+              "Forward shipping",
+              "-60.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-11.96"
+            ],
+            [
+              "Advertising per order",
+              "-60.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "28.43"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-25.15"
+            ],
+            [
+              "= Expected contribution per order",
+              "3.28"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "28.82",
+          "margin_pct": "12.05",
+          "net_revenue": "253.39",
+          "cash_out": "209.04",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "299.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-45.61"
+            ],
+            [
+              "Net revenue",
+              "253.39"
+            ],
+            [
+              "Supplier cost",
+              "-78.00"
+            ],
+            [
+              "Forward shipping",
+              "-60.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-11.96"
+            ],
+            [
+              "Advertising per order",
+              "-42.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "46.43"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-17.61"
+            ],
+            [
+              "= Expected contribution per order",
+              "28.82"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-010",
+      "product": "Makeup brush set, 13 pieces",
+      "channel": "amazon_in",
+      "price": "299",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "contribution 30.24 < minimum 60",
+        "margin 12.97% < minimum 30%",
+        "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "260.21",
+      "min_viable": "371.74",
+      "scenarios": {
+        "conservative": {
+          "expected": "-12.74",
+          "margin_pct": "-5.71",
+          "net_revenue": "253.39",
+          "cash_out": "230.04",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "299.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-45.61"
+            ],
+            [
+              "Net revenue",
+              "253.39"
+            ],
+            [
+              "Supplier cost",
+              "-78.00"
+            ],
+            [
+              "Forward shipping",
+              "-78.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "27.39"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-40.13"
+            ],
+            [
+              "= Expected contribution per order",
+              "-12.74"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "30.24",
+          "margin_pct": "12.97",
+          "net_revenue": "253.39",
+          "cash_out": "202.04",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "299.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-45.61"
+            ],
+            [
+              "Net revenue",
+              "253.39"
+            ],
+            [
+              "Supplier cost",
+              "-78.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "55.39"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-25.15"
+            ],
+            [
+              "= Expected contribution per order",
+              "30.24"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "46.78",
+          "margin_pct": "19.56",
+          "net_revenue": "253.39",
+          "cash_out": "193.04",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "299.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-45.61"
+            ],
+            [
+              "Net revenue",
+              "253.39"
+            ],
+            [
+              "Supplier cost",
+              "-78.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "64.39"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-17.61"
+            ],
+            [
+              "= Expected contribution per order",
+              "46.78"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-010",
+      "product": "Makeup brush set, 13 pieces",
+      "channel": "flipkart",
+      "price": "299",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "contribution 17.76 < minimum 60",
+        "margin 7.62% < minimum 30%",
+        "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "275.45",
+      "min_viable": "399.18",
+      "scenarios": {
+        "conservative": {
+          "expected": "-25.21",
+          "margin_pct": "-11.31",
+          "net_revenue": "253.39",
+          "cash_out": "230.04",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "299.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-45.61"
+            ],
+            [
+              "Net revenue",
+              "253.39"
+            ],
+            [
+              "Supplier cost",
+              "-78.00"
+            ],
+            [
+              "Forward shipping",
+              "-78.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-22.48"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "14.91"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-40.13"
+            ],
+            [
+              "= Expected contribution per order",
+              "-25.21"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "17.76",
+          "margin_pct": "7.62",
+          "net_revenue": "253.39",
+          "cash_out": "202.04",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "299.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-45.61"
+            ],
+            [
+              "Net revenue",
+              "253.39"
+            ],
+            [
+              "Supplier cost",
+              "-78.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-22.48"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "42.91"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-25.15"
+            ],
+            [
+              "= Expected contribution per order",
+              "17.76"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "34.31",
+          "margin_pct": "14.34",
+          "net_revenue": "253.39",
+          "cash_out": "193.04",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "299.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-45.61"
+            ],
+            [
+              "Net revenue",
+              "253.39"
+            ],
+            [
+              "Supplier cost",
+              "-78.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-22.48"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "51.91"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-17.61"
+            ],
+            [
+              "= Expected contribution per order",
+              "34.31"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-010",
+      "product": "Makeup brush set, 13 pieces",
+      "channel": "meesho",
+      "price": "299",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "contribution -0.02 < minimum 60",
+        "margin -0.01% < minimum 30%",
+        "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "299.02",
+      "min_viable": "427.18",
+      "scenarios": {
+        "conservative": {
+          "expected": "-59.70",
+          "margin_pct": "-30.40",
+          "net_revenue": "253.39",
+          "cash_out": "227.04",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "299.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-45.61"
+            ],
+            [
+              "Net revenue",
+              "253.39"
+            ],
+            [
+              "Supplier cost",
+              "-78.00"
+            ],
+            [
+              "Forward shipping",
+              "-90.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "30.39"
+            ],
+            [
+              "Return exposure at 22.50% returns",
+              "-90.09"
+            ],
+            [
+              "= Expected contribution per order",
+              "-59.70"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "-0.02",
+          "margin_pct": "-0.01",
+          "net_revenue": "253.39",
+          "cash_out": "202.04",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "299.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-45.61"
+            ],
+            [
+              "Net revenue",
+              "253.39"
+            ],
+            [
+              "Supplier cost",
+              "-78.00"
+            ],
+            [
+              "Forward shipping",
+              "-75.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-20.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "55.39"
+            ],
+            [
+              "Return exposure at 15.00% returns",
+              "-55.41"
+            ],
+            [
+              "= Expected contribution per order",
+              "-0.02"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "22.60",
+          "margin_pct": "9.97",
+          "net_revenue": "253.39",
+          "cash_out": "196.04",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "299.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-45.61"
+            ],
+            [
+              "Net revenue",
+              "253.39"
+            ],
+            [
+              "Supplier cost",
+              "-78.00"
+            ],
+            [
+              "Forward shipping",
+              "-75.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-14.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "61.39"
+            ],
+            [
+              "Return exposure at 10.50% returns",
+              "-38.79"
+            ],
+            [
+              "= Expected contribution per order",
+              "22.60"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-011",
+      "product": "Kids stainless steel insulated lunch box (3 containers)",
+      "channel": "shopify",
+      "price": "599",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 14.20% < minimum 30%",
+        "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "509.57",
+      "min_viable": "744.30",
+      "scenarios": {
+        "conservative": {
+          "expected": "0.98",
+          "margin_pct": "0.21",
+          "net_revenue": "534.82",
+          "cash_out": "475.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-245.00"
+            ],
+            [
+              "Forward shipping",
+              "-96.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-23.96"
+            ],
+            [
+              "Advertising per order",
+              "-90.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "64.86"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-63.88"
+            ],
+            [
+              "= Expected contribution per order",
+              "0.98"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "69.88",
+          "margin_pct": "14.20",
+          "net_revenue": "534.82",
+          "cash_out": "429.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-245.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-23.96"
+            ],
+            [
+              "Advertising per order",
+              "-60.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "110.86"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-40.99"
+            ],
+            [
+              "= Expected contribution per order",
+              "69.88"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "100.17",
+          "margin_pct": "19.84",
+          "net_revenue": "534.82",
+          "cash_out": "411.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-245.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-23.96"
+            ],
+            [
+              "Advertising per order",
+              "-42.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "128.86"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-28.69"
+            ],
+            [
+              "= Expected contribution per order",
+              "100.17"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-011",
+      "product": "Kids stainless steel insulated lunch box (3 containers)",
+      "channel": "amazon_in",
+      "price": "599",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 19.07% < minimum 30%",
+        "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "484.76",
+      "min_viable": "692.52",
+      "scenarios": {
+        "conservative": {
+          "expected": "39.94",
+          "margin_pct": "8.49",
+          "net_revenue": "534.82",
+          "cash_out": "430.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-245.00"
+            ],
+            [
+              "Forward shipping",
+              "-96.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "103.82"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-63.88"
+            ],
+            [
+              "= Expected contribution per order",
+              "39.94"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "93.84",
+          "margin_pct": "19.07",
+          "net_revenue": "534.82",
+          "cash_out": "399.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-245.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "134.82"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-40.99"
+            ],
+            [
+              "= Expected contribution per order",
+              "93.84"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "115.13",
+          "margin_pct": "22.80",
+          "net_revenue": "534.82",
+          "cash_out": "390.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-245.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "143.82"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-28.69"
+            ],
+            [
+              "= Expected contribution per order",
+              "115.13"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-011",
+      "product": "Kids stainless steel insulated lunch box (3 containers)",
+      "channel": "flipkart",
+      "price": "599",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 15.01% < minimum 30%",
+        "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "506.25",
+      "min_viable": "733.09",
+      "scenarios": {
+        "conservative": {
+          "expected": "18.97",
+          "margin_pct": "4.03",
+          "net_revenue": "534.82",
+          "cash_out": "436.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-245.00"
+            ],
+            [
+              "Forward shipping",
+              "-102.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-44.98"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "82.85"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-63.88"
+            ],
+            [
+              "= Expected contribution per order",
+              "18.97"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "73.86",
+          "margin_pct": "15.01",
+          "net_revenue": "534.82",
+          "cash_out": "404.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-245.00"
+            ],
+            [
+              "Forward shipping",
+              "-85.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-44.98"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "114.85"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-40.99"
+            ],
+            [
+              "= Expected contribution per order",
+              "73.86"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "95.16",
+          "margin_pct": "18.85",
+          "net_revenue": "534.82",
+          "cash_out": "395.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-245.00"
+            ],
+            [
+              "Forward shipping",
+              "-85.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-44.98"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "123.85"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-28.69"
+            ],
+            [
+              "= Expected contribution per order",
+              "95.16"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-011",
+      "product": "Kids stainless steel insulated lunch box (3 containers)",
+      "channel": "meesho",
+      "price": "599",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "contribution 59.72 < minimum 60",
+        "margin 13.14% < minimum 30%",
+        "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "520.30",
+      "min_viable": "743.29",
+      "scenarios": {
+        "conservative": {
+          "expected": "-19.80",
+          "margin_pct": "-4.78",
+          "net_revenue": "534.82",
+          "cash_out": "439.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-245.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "114.82"
+            ],
+            [
+              "Return exposure at 22.50% returns",
+              "-134.62"
+            ],
+            [
+              "= Expected contribution per order",
+              "-19.80"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "59.72",
+          "margin_pct": "13.14",
+          "net_revenue": "534.82",
+          "cash_out": "409.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-245.00"
+            ],
+            [
+              "Forward shipping",
+              "-100.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-20.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "144.82"
+            ],
+            [
+              "Return exposure at 15.00% returns",
+              "-85.10"
+            ],
+            [
+              "= Expected contribution per order",
+              "59.72"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "91.25",
+          "margin_pct": "19.06",
+          "net_revenue": "534.82",
+          "cash_out": "403.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-245.00"
+            ],
+            [
+              "Forward shipping",
+              "-100.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-14.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "150.82"
+            ],
+            [
+              "Return exposure at 10.50% returns",
+              "-59.57"
+            ],
+            [
+              "= Expected contribution per order",
+              "91.25"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-012",
+      "product": "Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 (at Rs 449)",
+      "channel": "shopify",
+      "price": "449",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 23.17% < minimum 30%",
+        "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "339.34",
+      "min_viable": "496.28",
+      "scenarios": {
+        "conservative": {
+          "expected": "19.74",
+          "margin_pct": "5.89",
+          "net_revenue": "380.51",
+          "cash_out": "309.75",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-112.50"
+            ],
+            [
+              "Forward shipping",
+              "-72.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-17.96"
+            ],
+            [
+              "Advertising per order",
+              "-90.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "73.05"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-53.31"
+            ],
+            [
+              "= Expected contribution per order",
+              "19.74"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "81.11",
+          "margin_pct": "23.17",
+          "net_revenue": "380.51",
+          "cash_out": "267.75",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-112.50"
+            ],
+            [
+              "Forward shipping",
+              "-60.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-17.96"
+            ],
+            [
+              "Advertising per order",
+              "-60.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "115.05"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-33.94"
+            ],
+            [
+              "= Expected contribution per order",
+              "81.11"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "109.29",
+          "margin_pct": "30.43",
+          "net_revenue": "380.51",
+          "cash_out": "249.75",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-112.50"
+            ],
+            [
+              "Forward shipping",
+              "-60.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-17.96"
+            ],
+            [
+              "Advertising per order",
+              "-42.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "133.05"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-23.76"
+            ],
+            [
+              "= Expected contribution per order",
+              "109.29"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-012",
+      "product": "Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 (at Rs 449)",
+      "channel": "amazon_in",
+      "price": "449",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "302.69",
+      "min_viable": "432.42",
+      "scenarios": {
+        "conservative": {
+          "expected": "66.70",
+          "margin_pct": "19.92",
+          "net_revenue": "380.51",
+          "cash_out": "270.75",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-112.50"
+            ],
+            [
+              "Forward shipping",
+              "-78.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "120.01"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-53.31"
+            ],
+            [
+              "= Expected contribution per order",
+              "66.70"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "114.07",
+          "margin_pct": "32.58",
+          "net_revenue": "380.51",
+          "cash_out": "242.75",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-112.50"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "148.01"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-33.94"
+            ],
+            [
+              "= Expected contribution per order",
+              "114.07"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "133.25",
+          "margin_pct": "37.10",
+          "net_revenue": "380.51",
+          "cash_out": "233.75",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-112.50"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "157.01"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-23.76"
+            ],
+            [
+              "= Expected contribution per order",
+              "133.25"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-012",
+      "product": "Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 (at Rs 449)",
+      "channel": "flipkart",
+      "price": "449",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 26.52% < minimum 30%",
+        "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "325.97",
+      "min_viable": "472.38",
+      "scenarios": {
+        "conservative": {
+          "expected": "45.47",
+          "margin_pct": "13.58",
+          "net_revenue": "380.51",
+          "cash_out": "270.75",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-112.50"
+            ],
+            [
+              "Forward shipping",
+              "-78.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-31.23"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "98.78"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-53.31"
+            ],
+            [
+              "= Expected contribution per order",
+              "45.47"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "92.84",
+          "margin_pct": "26.52",
+          "net_revenue": "380.51",
+          "cash_out": "242.75",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-112.50"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-31.23"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "126.78"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-33.94"
+            ],
+            [
+              "= Expected contribution per order",
+              "92.84"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "112.03",
+          "margin_pct": "31.19",
+          "net_revenue": "380.51",
+          "cash_out": "233.75",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-112.50"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-31.23"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "135.78"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-23.76"
+            ],
+            [
+              "= Expected contribution per order",
+              "112.03"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-012",
+      "product": "Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 (at Rs 449)",
+      "channel": "meesho",
+      "price": "449",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 23.53% < minimum 30%",
+        "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "343.32",
+      "min_viable": "490.47",
+      "scenarios": {
+        "conservative": {
+          "expected": "8.20",
+          "margin_pct": "2.78",
+          "net_revenue": "380.51",
+          "cash_out": "267.75",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-112.50"
+            ],
+            [
+              "Forward shipping",
+              "-90.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "123.01"
+            ],
+            [
+              "Return exposure at 22.50% returns",
+              "-114.81"
+            ],
+            [
+              "= Expected contribution per order",
+              "8.20"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "76.12",
+          "margin_pct": "23.53",
+          "net_revenue": "380.51",
+          "cash_out": "242.75",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-112.50"
+            ],
+            [
+              "Forward shipping",
+              "-75.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-20.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "148.01"
+            ],
+            [
+              "Return exposure at 15.00% returns",
+              "-71.89"
+            ],
+            [
+              "= Expected contribution per order",
+              "76.12"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "103.69",
+          "margin_pct": "30.45",
+          "net_revenue": "380.51",
+          "cash_out": "236.75",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-112.50"
+            ],
+            [
+              "Forward shipping",
+              "-75.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-14.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "154.01"
+            ],
+            [
+              "Return exposure at 10.50% returns",
+              "-50.32"
+            ],
+            [
+              "= Expected contribution per order",
+              "103.69"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-013",
+      "product": "Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 10",
+      "channel": "shopify",
+      "price": "699",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 29.00% < minimum 30%",
+        "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "485.35",
+      "min_viable": "709.82",
+      "scenarios": {
+        "conservative": {
+          "expected": "90.43",
+          "margin_pct": "17.35",
+          "net_revenue": "592.37",
+          "cash_out": "442.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-106.63"
+            ],
+            [
+              "Net revenue",
+              "592.37"
+            ],
+            [
+              "Supplier cost",
+              "-225.00"
+            ],
+            [
+              "Forward shipping",
+              "-72.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-27.96"
+            ],
+            [
+              "Advertising per order",
+              "-90.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "162.41"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-71.98"
+            ],
+            [
+              "= Expected contribution per order",
+              "90.43"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "158.02",
+          "margin_pct": "29.00",
+          "net_revenue": "592.37",
+          "cash_out": "400.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-106.63"
+            ],
+            [
+              "Net revenue",
+              "592.37"
+            ],
+            [
+              "Supplier cost",
+              "-225.00"
+            ],
+            [
+              "Forward shipping",
+              "-60.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-27.96"
+            ],
+            [
+              "Advertising per order",
+              "-60.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "204.41"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-46.39"
+            ],
+            [
+              "= Expected contribution per order",
+              "158.02"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "189.94",
+          "margin_pct": "33.97",
+          "net_revenue": "592.37",
+          "cash_out": "382.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-106.63"
+            ],
+            [
+              "Net revenue",
+              "592.37"
+            ],
+            [
+              "Supplier cost",
+              "-225.00"
+            ],
+            [
+              "Forward shipping",
+              "-60.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-27.96"
+            ],
+            [
+              "Advertising per order",
+              "-42.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "222.41"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-32.47"
+            ],
+            [
+              "= Expected contribution per order",
+              "189.94"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-013",
+      "product": "Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 10",
+      "channel": "amazon_in",
+      "price": "699",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "466.86",
+      "min_viable": "666.96",
+      "scenarios": {
+        "conservative": {
+          "expected": "127.39",
+          "margin_pct": "24.44",
+          "net_revenue": "592.37",
+          "cash_out": "403.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-106.63"
+            ],
+            [
+              "Net revenue",
+              "592.37"
+            ],
+            [
+              "Supplier cost",
+              "-225.00"
+            ],
+            [
+              "Forward shipping",
+              "-78.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "199.37"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-71.98"
+            ],
+            [
+              "= Expected contribution per order",
+              "127.39"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "180.98",
+          "margin_pct": "33.21",
+          "net_revenue": "592.37",
+          "cash_out": "375.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-106.63"
+            ],
+            [
+              "Net revenue",
+              "592.37"
+            ],
+            [
+              "Supplier cost",
+              "-225.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "227.37"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-46.39"
+            ],
+            [
+              "= Expected contribution per order",
+              "180.98"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "203.90",
+          "margin_pct": "36.46",
+          "net_revenue": "592.37",
+          "cash_out": "366.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-106.63"
+            ],
+            [
+              "Net revenue",
+              "592.37"
+            ],
+            [
+              "Supplier cost",
+              "-225.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "236.37"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-32.47"
+            ],
+            [
+              "= Expected contribution per order",
+              "203.90"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-013",
+      "product": "Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 10",
+      "channel": "flipkart",
+      "price": "699",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "482.33",
+      "min_viable": "698.97",
+      "scenarios": {
+        "conservative": {
+          "expected": "109.91",
+          "margin_pct": "21.08",
+          "net_revenue": "592.37",
+          "cash_out": "403.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-106.63"
+            ],
+            [
+              "Net revenue",
+              "592.37"
+            ],
+            [
+              "Supplier cost",
+              "-225.00"
+            ],
+            [
+              "Forward shipping",
+              "-78.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-47.48"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "181.90"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-71.98"
+            ],
+            [
+              "= Expected contribution per order",
+              "109.91"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "163.51",
+          "margin_pct": "30.00",
+          "net_revenue": "592.37",
+          "cash_out": "375.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-106.63"
+            ],
+            [
+              "Net revenue",
+              "592.37"
+            ],
+            [
+              "Supplier cost",
+              "-225.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-47.48"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "209.90"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-46.39"
+            ],
+            [
+              "= Expected contribution per order",
+              "163.51"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "186.43",
+          "margin_pct": "33.34",
+          "net_revenue": "592.37",
+          "cash_out": "366.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-106.63"
+            ],
+            [
+              "Net revenue",
+              "592.37"
+            ],
+            [
+              "Supplier cost",
+              "-225.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-47.48"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "218.90"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-32.47"
+            ],
+            [
+              "= Expected contribution per order",
+              "186.43"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-013",
+      "product": "Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 10",
+      "channel": "meesho",
+      "price": "699",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "487.78",
+      "min_viable": "696.84",
+      "scenarios": {
+        "conservative": {
+          "expected": "72.55",
+          "margin_pct": "15.80",
+          "net_revenue": "592.37",
+          "cash_out": "400.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-106.63"
+            ],
+            [
+              "Net revenue",
+              "592.37"
+            ],
+            [
+              "Supplier cost",
+              "-225.00"
+            ],
+            [
+              "Forward shipping",
+              "-90.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "222.37"
+            ],
+            [
+              "Return exposure at 22.50% returns",
+              "-149.82"
+            ],
+            [
+              "= Expected contribution per order",
+              "72.55"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "152.14",
+          "margin_pct": "30.22",
+          "net_revenue": "592.37",
+          "cash_out": "375.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-106.63"
+            ],
+            [
+              "Net revenue",
+              "592.37"
+            ],
+            [
+              "Supplier cost",
+              "-225.00"
+            ],
+            [
+              "Forward shipping",
+              "-75.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-20.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "247.37"
+            ],
+            [
+              "Return exposure at 15.00% returns",
+              "-95.23"
+            ],
+            [
+              "= Expected contribution per order",
+              "152.14"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "186.71",
+          "margin_pct": "35.22",
+          "net_revenue": "592.37",
+          "cash_out": "369.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-106.63"
+            ],
+            [
+              "Net revenue",
+              "592.37"
+            ],
+            [
+              "Supplier cost",
+              "-225.00"
+            ],
+            [
+              "Forward shipping",
+              "-75.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-14.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "253.37"
+            ],
+            [
+              "Return exposure at 10.50% returns",
+              "-66.66"
+            ],
+            [
+              "= Expected contribution per order",
+              "186.71"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-014",
+      "product": "Makeup brush set 13 pcs with storage pouch",
+      "channel": "shopify",
+      "price": "449",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 23.85% < minimum 30%",
+        "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "336.09",
+      "min_viable": "491.53",
+      "scenarios": {
+        "conservative": {
+          "expected": "22.09",
+          "margin_pct": "6.60",
+          "net_revenue": "380.51",
+          "cash_out": "306.80",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-110.00"
+            ],
+            [
+              "Forward shipping",
+              "-72.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-17.96"
+            ],
+            [
+              "Advertising per order",
+              "-90.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "75.55"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-53.46"
+            ],
+            [
+              "= Expected contribution per order",
+              "22.09"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "83.51",
+          "margin_pct": "23.85",
+          "net_revenue": "380.51",
+          "cash_out": "264.80",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-110.00"
+            ],
+            [
+              "Forward shipping",
+              "-60.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-17.96"
+            ],
+            [
+              "Advertising per order",
+              "-60.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "117.55"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-34.04"
+            ],
+            [
+              "= Expected contribution per order",
+              "83.51"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "111.72",
+          "margin_pct": "31.10",
+          "net_revenue": "380.51",
+          "cash_out": "246.80",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-110.00"
+            ],
+            [
+              "Forward shipping",
+              "-60.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-17.96"
+            ],
+            [
+              "Advertising per order",
+              "-42.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "135.55"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-23.83"
+            ],
+            [
+              "= Expected contribution per order",
+              "111.72"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-014",
+      "product": "Makeup brush set 13 pcs with storage pouch",
+      "channel": "amazon_in",
+      "price": "449",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "299.61",
+      "min_viable": "428.02",
+      "scenarios": {
+        "conservative": {
+          "expected": "69.05",
+          "margin_pct": "20.62",
+          "net_revenue": "380.51",
+          "cash_out": "267.80",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-110.00"
+            ],
+            [
+              "Forward shipping",
+              "-78.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "122.51"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-53.46"
+            ],
+            [
+              "= Expected contribution per order",
+              "69.05"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "116.47",
+          "margin_pct": "33.27",
+          "net_revenue": "380.51",
+          "cash_out": "239.80",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-110.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "150.51"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-34.04"
+            ],
+            [
+              "= Expected contribution per order",
+              "116.47"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "135.68",
+          "margin_pct": "37.77",
+          "net_revenue": "380.51",
+          "cash_out": "230.80",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-110.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "159.51"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-23.83"
+            ],
+            [
+              "= Expected contribution per order",
+              "135.68"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-014",
+      "product": "Makeup brush set 13 pcs with storage pouch",
+      "channel": "flipkart",
+      "price": "449",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 27.21% < minimum 30%",
+        "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "322.79",
+      "min_viable": "467.78",
+      "scenarios": {
+        "conservative": {
+          "expected": "47.82",
+          "margin_pct": "14.28",
+          "net_revenue": "380.51",
+          "cash_out": "267.80",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-110.00"
+            ],
+            [
+              "Forward shipping",
+              "-78.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-31.23"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "101.28"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-53.46"
+            ],
+            [
+              "= Expected contribution per order",
+              "47.82"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "95.24",
+          "margin_pct": "27.21",
+          "net_revenue": "380.51",
+          "cash_out": "239.80",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-110.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-31.23"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "129.28"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-34.04"
+            ],
+            [
+              "= Expected contribution per order",
+              "95.24"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "114.46",
+          "margin_pct": "31.86",
+          "net_revenue": "380.51",
+          "cash_out": "230.80",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-110.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-31.23"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "138.28"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-23.83"
+            ],
+            [
+              "= Expected contribution per order",
+              "114.46"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-014",
+      "product": "Makeup brush set 13 pcs with storage pouch",
+      "channel": "meesho",
+      "price": "449",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 24.25% < minimum 30%",
+        "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "340.11",
+      "min_viable": "485.88",
+      "scenarios": {
+        "conservative": {
+          "expected": "10.42",
+          "margin_pct": "3.53",
+          "net_revenue": "380.51",
+          "cash_out": "264.80",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-110.00"
+            ],
+            [
+              "Forward shipping",
+              "-90.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "125.51"
+            ],
+            [
+              "Return exposure at 22.50% returns",
+              "-115.09"
+            ],
+            [
+              "= Expected contribution per order",
+              "10.42"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "78.43",
+          "margin_pct": "24.25",
+          "net_revenue": "380.51",
+          "cash_out": "239.80",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-110.00"
+            ],
+            [
+              "Forward shipping",
+              "-75.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-20.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "150.51"
+            ],
+            [
+              "Return exposure at 15.00% returns",
+              "-72.08"
+            ],
+            [
+              "= Expected contribution per order",
+              "78.43"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "106.06",
+          "margin_pct": "31.14",
+          "net_revenue": "380.51",
+          "cash_out": "233.80",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-110.00"
+            ],
+            [
+              "Forward shipping",
+              "-75.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-14.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "156.51"
+            ],
+            [
+              "Return exposure at 10.50% returns",
+              "-50.45"
+            ],
+            [
+              "= Expected contribution per order",
+              "106.06"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-015",
+      "product": "Hair claw clips, pack of 12",
+      "channel": "shopify",
+      "price": "449",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 17.82% < minimum 30%",
+        "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "364.65",
+      "min_viable": "533.29",
+      "scenarios": {
+        "conservative": {
+          "expected": "1.41",
+          "margin_pct": "0.42",
+          "net_revenue": "380.51",
+          "cash_out": "332.76",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-132.00"
+            ],
+            [
+              "Forward shipping",
+              "-72.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-17.96"
+            ],
+            [
+              "Advertising per order",
+              "-90.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "53.55"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-52.14"
+            ],
+            [
+              "= Expected contribution per order",
+              "1.41"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "62.39",
+          "margin_pct": "17.82",
+          "net_revenue": "380.51",
+          "cash_out": "290.76",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-132.00"
+            ],
+            [
+              "Forward shipping",
+              "-60.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-17.96"
+            ],
+            [
+              "Advertising per order",
+              "-60.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "95.55"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-33.16"
+            ],
+            [
+              "= Expected contribution per order",
+              "62.39"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "90.34",
+          "margin_pct": "25.15",
+          "net_revenue": "380.51",
+          "cash_out": "272.76",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-132.00"
+            ],
+            [
+              "Forward shipping",
+              "-60.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-17.96"
+            ],
+            [
+              "Advertising per order",
+              "-42.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "113.55"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-23.21"
+            ],
+            [
+              "= Expected contribution per order",
+              "90.34"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-015",
+      "product": "Hair claw clips, pack of 12",
+      "channel": "amazon_in",
+      "price": "449",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 27.24% < minimum 30%",
+        "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "326.70",
+      "min_viable": "466.72",
+      "scenarios": {
+        "conservative": {
+          "expected": "48.37",
+          "margin_pct": "14.44",
+          "net_revenue": "380.51",
+          "cash_out": "293.76",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-132.00"
+            ],
+            [
+              "Forward shipping",
+              "-78.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "100.51"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-52.14"
+            ],
+            [
+              "= Expected contribution per order",
+              "48.37"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "95.35",
+          "margin_pct": "27.24",
+          "net_revenue": "380.51",
+          "cash_out": "265.76",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-132.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "128.51"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-33.16"
+            ],
+            [
+              "= Expected contribution per order",
+              "95.35"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "114.30",
+          "margin_pct": "31.82",
+          "net_revenue": "380.51",
+          "cash_out": "256.76",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-132.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "137.51"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-23.21"
+            ],
+            [
+              "= Expected contribution per order",
+              "114.30"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-015",
+      "product": "Hair claw clips, pack of 12",
+      "channel": "flipkart",
+      "price": "449",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 21.17% < minimum 30%",
+        "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "350.77",
+      "min_viable": "508.33",
+      "scenarios": {
+        "conservative": {
+          "expected": "27.14",
+          "margin_pct": "8.11",
+          "net_revenue": "380.51",
+          "cash_out": "293.76",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-132.00"
+            ],
+            [
+              "Forward shipping",
+              "-78.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-31.23"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "79.28"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-52.14"
+            ],
+            [
+              "= Expected contribution per order",
+              "27.14"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "74.12",
+          "margin_pct": "21.17",
+          "net_revenue": "380.51",
+          "cash_out": "265.76",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-132.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-31.23"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "107.28"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-33.16"
+            ],
+            [
+              "= Expected contribution per order",
+              "74.12"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "93.07",
+          "margin_pct": "25.91",
+          "net_revenue": "380.51",
+          "cash_out": "256.76",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-132.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-31.23"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "116.28"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-23.21"
+            ],
+            [
+              "= Expected contribution per order",
+              "93.07"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-015",
+      "product": "Hair claw clips, pack of 12",
+      "channel": "meesho",
+      "price": "449",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "contribution 58.08 < minimum 60",
+        "margin 17.96% < minimum 30%",
+        "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "368.36",
+      "min_viable": "526.24",
+      "scenarios": {
+        "conservative": {
+          "expected": "-9.11",
+          "margin_pct": "-3.09",
+          "net_revenue": "380.51",
+          "cash_out": "290.76",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-132.00"
+            ],
+            [
+              "Forward shipping",
+              "-90.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "103.51"
+            ],
+            [
+              "Return exposure at 22.50% returns",
+              "-112.61"
+            ],
+            [
+              "= Expected contribution per order",
+              "-9.11"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "58.08",
+          "margin_pct": "17.96",
+          "net_revenue": "380.51",
+          "cash_out": "265.76",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-132.00"
+            ],
+            [
+              "Forward shipping",
+              "-75.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-20.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "128.51"
+            ],
+            [
+              "Return exposure at 15.00% returns",
+              "-70.43"
+            ],
+            [
+              "= Expected contribution per order",
+              "58.08"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "85.21",
+          "margin_pct": "25.02",
+          "net_revenue": "380.51",
+          "cash_out": "259.76",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "449.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-68.49"
+            ],
+            [
+              "Net revenue",
+              "380.51"
+            ],
+            [
+              "Supplier cost",
+              "-132.00"
+            ],
+            [
+              "Forward shipping",
+              "-75.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-14.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "134.51"
+            ],
+            [
+              "Return exposure at 10.50% returns",
+              "-49.30"
+            ],
+            [
+              "= Expected contribution per order",
+              "85.21"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-016",
+      "product": "Wardrobe + fridge organiser combo (12 saree covers + 6 fridge bags)",
+      "channel": "shopify",
+      "price": "899",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 24.35% < minimum 30%",
+        "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "668.87",
+      "min_viable": "976.97",
+      "scenarios": {
+        "conservative": {
+          "expected": "93.98",
+          "margin_pct": "13.30",
+          "net_revenue": "802.68",
+          "cash_out": "621.96",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-96.32"
+            ],
+            [
+              "Net revenue",
+              "802.68"
+            ],
+            [
+              "Supplier cost",
+              "-333.00"
+            ],
+            [
+              "Forward shipping",
+              "-144.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-35.96"
+            ],
+            [
+              "Advertising per order",
+              "-90.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "184.72"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-90.74"
+            ],
+            [
+              "= Expected contribution per order",
+              "93.98"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "179.82",
+          "margin_pct": "24.35",
+          "net_revenue": "802.68",
+          "cash_out": "567.96",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-96.32"
+            ],
+            [
+              "Net revenue",
+              "802.68"
+            ],
+            [
+              "Supplier cost",
+              "-333.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-35.96"
+            ],
+            [
+              "Advertising per order",
+              "-60.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "238.72"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-58.89"
+            ],
+            [
+              "= Expected contribution per order",
+              "179.82"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "215.49",
+          "margin_pct": "28.44",
+          "net_revenue": "802.68",
+          "cash_out": "549.96",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-96.32"
+            ],
+            [
+              "Net revenue",
+              "802.68"
+            ],
+            [
+              "Supplier cost",
+              "-333.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-35.96"
+            ],
+            [
+              "Advertising per order",
+              "-42.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "256.72"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-41.23"
+            ],
+            [
+              "= Expected contribution per order",
+              "215.49"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-016",
+      "product": "Wardrobe + fridge organiser combo (12 saree covers + 6 fridge bags)",
+      "channel": "amazon_in",
+      "price": "899",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 29.90% < minimum 30%",
+        "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "630.21",
+      "min_viable": "900.31",
+      "scenarios": {
+        "conservative": {
+          "expected": "150.94",
+          "margin_pct": "21.37",
+          "net_revenue": "802.68",
+          "cash_out": "570.96",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-96.32"
+            ],
+            [
+              "Net revenue",
+              "802.68"
+            ],
+            [
+              "Supplier cost",
+              "-333.00"
+            ],
+            [
+              "Forward shipping",
+              "-138.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "241.68"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-90.74"
+            ],
+            [
+              "= Expected contribution per order",
+              "150.94"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "220.78",
+          "margin_pct": "29.90",
+          "net_revenue": "802.68",
+          "cash_out": "532.96",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-96.32"
+            ],
+            [
+              "Net revenue",
+              "802.68"
+            ],
+            [
+              "Supplier cost",
+              "-333.00"
+            ],
+            [
+              "Forward shipping",
+              "-115.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "279.68"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-58.89"
+            ],
+            [
+              "= Expected contribution per order",
+              "220.78"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "247.45",
+          "margin_pct": "32.66",
+          "net_revenue": "802.68",
+          "cash_out": "523.96",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-96.32"
+            ],
+            [
+              "Net revenue",
+              "802.68"
+            ],
+            [
+              "Supplier cost",
+              "-333.00"
+            ],
+            [
+              "Forward shipping",
+              "-115.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "288.68"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-41.23"
+            ],
+            [
+              "= Expected contribution per order",
+              "247.45"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-016",
+      "product": "Wardrobe + fridge organiser combo (12 saree covers + 6 fridge bags)",
+      "channel": "flipkart",
+      "price": "899",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 26.18% < minimum 30%",
+        "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "656.27",
+      "min_viable": "950.33",
+      "scenarios": {
+        "conservative": {
+          "expected": "122.46",
+          "margin_pct": "17.34",
+          "net_revenue": "802.68",
+          "cash_out": "576.96",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-96.32"
+            ],
+            [
+              "Net revenue",
+              "802.68"
+            ],
+            [
+              "Supplier cost",
+              "-333.00"
+            ],
+            [
+              "Forward shipping",
+              "-144.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-52.48"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "213.20"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-90.74"
+            ],
+            [
+              "= Expected contribution per order",
+              "122.46"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "193.31",
+          "margin_pct": "26.18",
+          "net_revenue": "802.68",
+          "cash_out": "537.96",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-96.32"
+            ],
+            [
+              "Net revenue",
+              "802.68"
+            ],
+            [
+              "Supplier cost",
+              "-333.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-52.48"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "252.20"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-58.89"
+            ],
+            [
+              "= Expected contribution per order",
+              "193.31"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "219.98",
+          "margin_pct": "29.03",
+          "net_revenue": "802.68",
+          "cash_out": "528.96",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-96.32"
+            ],
+            [
+              "Net revenue",
+              "802.68"
+            ],
+            [
+              "Supplier cost",
+              "-333.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-52.48"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "261.20"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-41.23"
+            ],
+            [
+              "= Expected contribution per order",
+              "219.98"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-016",
+      "product": "Wardrobe + fridge organiser combo (12 saree covers + 6 fridge bags)",
+      "channel": "meesho",
+      "price": "899",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 22.86% < minimum 30%",
+        "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "693.44",
+      "min_viable": "990.64",
+      "scenarios": {
+        "conservative": {
+          "expected": "49.69",
+          "margin_pct": "7.99",
+          "net_revenue": "802.68",
+          "cash_out": "597.96",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-96.32"
+            ],
+            [
+              "Net revenue",
+              "802.68"
+            ],
+            [
+              "Supplier cost",
+              "-333.00"
+            ],
+            [
+              "Forward shipping",
+              "-180.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "234.68"
+            ],
+            [
+              "Return exposure at 22.50% returns",
+              "-184.99"
+            ],
+            [
+              "= Expected contribution per order",
+              "49.69"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "156.00",
+          "margin_pct": "22.86",
+          "net_revenue": "802.68",
+          "cash_out": "557.96",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-96.32"
+            ],
+            [
+              "Net revenue",
+              "802.68"
+            ],
+            [
+              "Supplier cost",
+              "-333.00"
+            ],
+            [
+              "Forward shipping",
+              "-150.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-20.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "274.68"
+            ],
+            [
+              "Return exposure at 15.00% returns",
+              "-118.68"
+            ],
+            [
+              "= Expected contribution per order",
+              "156.00"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "197.60",
+          "margin_pct": "27.51",
+          "net_revenue": "802.68",
+          "cash_out": "551.96",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-96.32"
+            ],
+            [
+              "Net revenue",
+              "802.68"
+            ],
+            [
+              "Supplier cost",
+              "-333.00"
+            ],
+            [
+              "Forward shipping",
+              "-150.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-14.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "280.68"
+            ],
+            [
+              "Return exposure at 10.50% returns",
+              "-83.07"
+            ],
+            [
+              "= Expected contribution per order",
+              "197.60"
+            ]
+          ]
+        }
+      }
     }
   ]
 }
