@@ -1,0 +1,47 @@
+{
+  "id": "RA-20261021-2",
+  "name": "Kids stainless steel insulated sipper bottle 500 ml with cover",
+  "category": "kids_non_toy",
+  "weight": "le_1kg",
+  "supplier_cost": 385,
+  "supplier_cost_note": "IndiaMART: The Simplifiers, Mohali, kids bunny-design insulated sipper with cover 500 ml Rs 385/piece; plain 500 ml insulated bottle Rs 370; Dev Arena, Ahmedabad, 520 ml kids sipper Rs 450/piece (pack of 12). Search snippets; GST treatment not shown.",
+  "price": 699,
+  "retail_observed": "GlobalBees: Heart Home unicorn 500 ml kids bottle Rs 683; Kuber Industries Shera design Rs 949; Owl/Dino designs Rs 1,499",
+  "gst_pct": 18,
+  "electrical": false,
+  "documents": [],
+  "demand_signals": [
+    {
+      "source": "GlobalBees listings",
+      "url": "https://shop.globalbees.com/products/kuber-water-bottle-for-kids-shera-design-stainless-1000000062972",
+      "seen_on": "2026-10-21",
+      "summary": "Multiple kids steel sipper designs and multi-packs listed by Kuber Industries / Heart Home at Rs 683-1,499; no sales volumes found"
+    }
+  ],
+  "risks": [
+    "Food-contact material and 'insulated' claims need a test report",
+    "Thin margin: supplier cost is over half the selling price",
+    "Leaking lids drive returns",
+    "GST rate (HSN 7323) to confirm; 18% used as conservative estimate",
+    "Not a duplicate of PC-011 (lunch box), but same kids school-use buyer"
+  ],
+  "sources": [
+    "https://m.indiamart.com/the-simplifiers/water-bottle.html",
+    "https://m.indiamart.com/devarena/water-bottle.html",
+    "https://shop.globalbees.com/products/kuber-water-bottle-for-kids-shera-design-stainless-1000000062972",
+    "https://shop.globalbees.com/products/kuber-water-bottle-for-kids-unicorn-design-1000000062970"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-10-21",
+    "notes": "Margin is 2.3% at best with supplier cost over half the price, and Rs 699 unbranded is above branded insulated 500 ml kids bottles (Cello Rs 599, Jouet Rs 499 per Amazon.in snippets; Borosil Rs 799); food-contact/insulation claims would also need a test report.",
+    "competitor_prices": [
+      {
+        "price": 799,
+        "url": "https://www.amazon.in/Borosil-Stainless-Bottle-Insulated-Children/dp/B0B1RKTR93"
+      }
+    ]
+  }
+}

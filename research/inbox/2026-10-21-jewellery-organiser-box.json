@@ -1,0 +1,65 @@
+{
+  "id": "RA-20261021-1",
+  "name": "PU leather jewellery organiser box (rings, earrings, necklaces)",
+  "category": "women_accessories",
+  "weight": "le_500g",
+  "supplier_cost": 160,
+  "supplier_cost_note": "IndiaMART: Onesense Enterprise, Surat, multi-layer PU leather jewellery organiser box Rs 160/piece (search snippet; MOQ and GST treatment not shown). Other listings: Rs 51 mini PU travel organiser, Rs 530 Ratnamani Creations 25x20x12.5 cm box.",
+  "price": 549,
+  "retail_observed": "Nestasia portable jewellery cases with mirror Rs 745-1,150; Kuber Industries brocade jewellery organiser Rs 349-799 (GlobalBees). Rs 549 sits below the hard-case comparables.",
+  "gst_pct": 18,
+  "electrical": false,
+  "documents": [],
+  "demand_signals": [
+    {
+      "source": "Nestasia.in / GlobalBees listings",
+      "url": "https://nestasia.in/products/quadrata-pattern-portable-jewellery-box-with-mirror",
+      "seen_on": "2026-10-21",
+      "summary": "Several active Indian retail listings of travel jewellery boxes at Rs 745-1,950; no sales volume figures found"
+    },
+    {
+      "source": "Hostinger India dropshipping guide",
+      "url": "https://www.hostinger.com/in/tutorials/trending-products-for-dropshipping/",
+      "seen_on": "2026-10-21",
+      "summary": "Lists practical home organisers among items that sell consistently in India (category-level, vendor content)"
+    }
+  ],
+  "risks": [
+    "No sales-volume or trend data found; demand evidence is listing presence only",
+    "PU finish/zip quality complaints",
+    "Supplier MOQ and photos-with-permission not yet confirmed",
+    "Nestasia comparables are designer products; unbranded box may need to sit lower"
+  ],
+  "sources": [
+    "https://m.indiamart.com/onesense-enterprise/watch-box.html",
+    "https://m.indiamart.com/ratnamani-creations",
+    "https://nestasia.in/products/quadrata-pattern-portable-jewellery-box-with-mirror",
+    "https://nestasia.in/products/slateline-travel-friendly-sectioned-trinket-case",
+    "https://shop.globalbees.com/products/kuber-industries-brocade-jewellery-boxorganizer-1000000040120"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "needs_info",
+    "by": "product-reviewer",
+    "at": "2026-10-21",
+    "notes": "At Rs 549 the best channel is 29.5% margin, just under the 30% floor; a ~Rs 599 price is plausible only if the Rs 160 Onesense box is a genuine double-layer box comparable to Rs 899 listings (single-layer PU cases sell at Rs 279-281). Need supplier dimensions/layers, MOQ, photos-with-permission and a sample of zip/PU quality.",
+    "competitor_prices": [
+      {
+        "price": 279,
+        "url": "https://www.amazon.in/SAJANI-Jewellery-Organiser-Portable-Necklaces/dp/B0BN36JLPJ"
+      },
+      {
+        "price": 281,
+        "url": "https://www.amazon.in/SNMMIFER-Portable-Jewellery-Organiser-Necklaces/dp/B0FGJPGSMN"
+      },
+      {
+        "price": 899,
+        "url": "https://www.amazon.in/AMEEDARSHAN-Jewelry-Storage-Box-Multi-Colour/dp/B08RRSB1GR"
+      },
+      {
+        "price": 1399,
+        "url": "https://amazon.in/KRETIX-Organizer-Earrings-Necklaces-Bracelets/dp/B09QPYLZZ4"
+      }
+    ]
+  }
+}

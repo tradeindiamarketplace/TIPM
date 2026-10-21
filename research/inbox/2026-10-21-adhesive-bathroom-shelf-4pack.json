@@ -1,0 +1,59 @@
+{
+  "id": "RA-20261021-4",
+  "name": "Self-adhesive no-drill metal bathroom shelf, pack of 4",
+  "category": "home_storage",
+  "weight": "le_2kg",
+  "supplier_cost": 276,
+  "supplier_cost_note": "IndiaMART bathroom-shelves category: metal wall-mounted self-adhesive shelf 27x11x6.5 cm Rs 69/piece x 4 (snippet; seller/MOQ not shown). Plastic self-adhesive shelf Rs 65-125/piece.",
+  "price": 649,
+  "retail_observed": "Pack of 2 on Amazon.in: Amazon Basics aluminium Rs 217 (deal, 15 Oct 2026), Oslen Rs 299, MorivaHomes Rs 298, VR Prime Rs 499, Hallstatt Rs 672; Pepperfry pack of 2 Rs 400; Primax pack of 4 Rs 1,940 (GlobalBees). Rs 649 for 4 is mid-market.",
+  "gst_pct": 18,
+  "electrical": false,
+  "documents": [],
+  "demand_signals": [
+    {
+      "source": "HouseGyan 2026 buying guide",
+      "url": "https://www.housegyan.com/blog/best-bathroom-wall-shelves-and-storage-cabinets-india",
+      "seen_on": "2026-10-21",
+      "summary": "2026 Indian guide lists several no-drill pack-of-2 metal shelves on Amazon at Rs 298-672"
+    },
+    {
+      "source": "DealsMagnet Amazon deal",
+      "url": "https://www.dealsmagnet.com/deal/amazon-basics-self-adhesive-aluminium-bathroom-wal-1dbTIhVV",
+      "seen_on": "2026-10-21",
+      "summary": "Amazon Basics pack-of-2 deal updated 15 Oct 2026 at Rs 217, showing active, price-competitive demand"
+    }
+  ],
+  "risks": [
+    "Adhesive failure on tiles is a common complaint and return reason",
+    "Strong low-price competition (Rs 217 for 2 on deal)",
+    "Rust claims on GI/metal need evidence",
+    "Weight of 4 metal shelves not confirmed; le_2kg assumed",
+    "Sharp edges / bent shelves in transit"
+  ],
+  "sources": [
+    "https://m.indiamart.com/impcat/bathroom-shelves.html",
+    "https://m.indiamart.com/impcat/bathroom-wall-shelf.html",
+    "https://www.housegyan.com/blog/best-bathroom-wall-shelves-and-storage-cabinets-india",
+    "https://www.dealsmagnet.com/deal/amazon-basics-self-adhesive-aluminium-bathroom-wal-1dbTIhVV",
+    "https://www.pepperfry.com/product/pack-of-2-self-adhesive-no-drill-black-steel-2322889.html",
+    "https://shop.globalbees.com/products/primax-bathroom-organizerself-adhesive-bathroom-2000000148136"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-10-21",
+    "notes": "Margin is 8.5% at best (Rs 43/order), far below the 30% target, and a higher price is not supportable with pack-of-2 deals at Rs 217; adhesive failure on tiles and transit bending add return risk.",
+    "competitor_prices": [
+      {
+        "price": 217,
+        "url": "https://www.dealsmagnet.com/deal/amazon-basics-self-adhesive-aluminium-bathroom-wal-1dbTIhVV"
+      },
+      {
+        "price": 780,
+        "url": "https://www.flipkart.com/hi/touchwoodl-self-adhesive-bathroom-shelf-rack-no-drill-wall-mount-organizer-steel/p/itm9d88f324fd9ef"
+      }
+    ]
+  }
+}

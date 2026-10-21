@@ -21,61 +21,81 @@ Owner thresholds (config/settings.toml): minimum contribution **Rs 60/order**, m
 | 11 | Wardrobe + fridge organiser combo (12 saree covers + 6 fridge bags) | Meesho | Rs 899 | Rs 50 / **Rs 156** / Rs 198 | 22.86% | Rs 15,600 | Rs 991 | FAIL |
 | 12 | Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 10 | Meesho | Rs 699 | Rs 73 / **Rs 152** / Rs 187 | 30.22% | Rs 15,214 | Rs 697 | PASS (fragile) |
 | 13 | Desk combo: aluminium laptop stand + phone stand | Meesho | Rs 899 | Rs 47 / **Rs 152** / Rs 192 | 23.45% | Rs 15,183 | Rs 983 | FAIL |
-| 14 | Aluminium adjustable laptop stand, foldable | Flipkart | Rs 599 | Rs 84 / **Rs 140** / Rs 162 | 29.99% | Rs 14,004 | Rs 599 | FAIL |
-| 15 | Aluminium adjustable laptop stand, foldable | TradeIndiaMarketplace.com (Shopify Basic) | Rs 599 | Rs 66 / **Rs 136** / Rs 167 | 29.13% | Rs 13,606 | Rs 607 | FAIL |
-| 16 | Aluminium adjustable laptop stand, foldable | Meesho | Rs 599 | Rs 43 / **Rs 124** / Rs 157 | 28.85% | Rs 12,448 | Rs 609 | FAIL |
-| 17 | Makeup brush set 13 pcs with storage pouch | Amazon.in (Easy Ship) | Rs 449 | Rs 69 / **Rs 116** / Rs 136 | 33.27% | Rs 11,647 | Rs 428 | PASS (fragile) |
-| 18 | Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 (at Rs 449) | Amazon.in (Easy Ship) | Rs 449 | Rs 67 / **Rs 114** / Rs 133 | 32.58% | Rs 11,407 | Rs 432 | PASS (fragile) |
-| 19 | Hair claw clips, pack of 12 | Amazon.in (Easy Ship) | Rs 449 | Rs 48 / **Rs 95** / Rs 114 | 27.24% | Rs 9,535 | Rs 467 | FAIL |
-| 20 | Makeup brush set 13 pcs with storage pouch | Flipkart | Rs 449 | Rs 48 / **Rs 95** / Rs 114 | 27.21% | Rs 9,524 | Rs 468 | FAIL |
-| 21 | Kids stainless steel insulated lunch box (3 containers) | Amazon.in (Easy Ship) | Rs 599 | Rs 40 / **Rs 94** / Rs 115 | 19.07% | Rs 9,384 | Rs 693 | FAIL |
-| 22 | Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 (at Rs 449) | Flipkart | Rs 449 | Rs 45 / **Rs 93** / Rs 112 | 26.52% | Rs 9,284 | Rs 472 | FAIL |
-| 23 | Makeup brush set 13 pcs with storage pouch | TradeIndiaMarketplace.com (Shopify Basic) | Rs 449 | Rs 22 / **Rs 84** / Rs 112 | 23.85% | Rs 8,351 | Rs 492 | FAIL |
-| 24 | Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 (at Rs 449) | TradeIndiaMarketplace.com (Shopify Basic) | Rs 449 | Rs 20 / **Rs 81** / Rs 109 | 23.17% | Rs 8,111 | Rs 496 | FAIL |
-| 25 | Non-woven saree / clothes cover organisers, set of 12 | Amazon.in (Easy Ship) | Rs 549 | Rs 28 / **Rs 81** / Rs 101 | 17.87% | Rs 8,060 | Rs 644 | FAIL |
-| 26 | Makeup brush set 13 pcs with storage pouch | Meesho | Rs 449 | Rs 10 / **Rs 78** / Rs 106 | 24.25% | Rs 7,843 | Rs 486 | FAIL |
-| 27 | Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 (at Rs 449) | Meesho | Rs 449 | Rs 8 / **Rs 76** / Rs 104 | 23.53% | Rs 7,612 | Rs 490 | FAIL |
-| 28 | Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 | Amazon.in (Easy Ship) | Rs 399 | Rs 29 / **Rs 75** / Rs 93 | 24.14% | Rs 7,508 | Rs 432 | FAIL |
-| 29 | Hair claw clips, pack of 12 | Flipkart | Rs 449 | Rs 27 / **Rs 74** / Rs 93 | 21.17% | Rs 7,412 | Rs 508 | FAIL |
-| 30 | Kids stainless steel insulated lunch box (3 containers) | Flipkart | Rs 599 | Rs 19 / **Rs 74** / Rs 95 | 15.01% | Rs 7,386 | Rs 733 | FAIL |
-| 31 | Kids stainless steel insulated lunch box (3 containers) | TradeIndiaMarketplace.com (Shopify Basic) | Rs 599 | Rs 1 / **Rs 70** / Rs 100 | 14.20% | Rs 6,988 | Rs 744 | FAIL |
-| 32 | Hair claw clips, pack of 12 | TradeIndiaMarketplace.com (Shopify Basic) | Rs 449 | Rs 1 / **Rs 62** / Rs 90 | 17.82% | Rs 6,239 | Rs 533 | FAIL |
-| 33 | Non-woven saree / clothes cover organisers, set of 12 | Flipkart | Rs 549 | Rs 8 / **Rs 62** / Rs 82 | 13.72% | Rs 6,188 | Rs 682 | FAIL |
-| 34 | Kids stainless steel insulated lunch box (3 containers) | Meesho | Rs 599 | -Rs 20 / **Rs 60** / Rs 91 | 13.14% | Rs 5,972 | Rs 743 | FAIL |
-| 35 | Non-woven saree / clothes cover organisers, set of 12 | TradeIndiaMarketplace.com (Shopify Basic) | Rs 549 | -Rs 9 / **Rs 59** / Rs 88 | 13.00% | Rs 5,864 | Rs 692 | FAIL |
-| 36 | Hair claw clips, pack of 12 | Meesho | Rs 449 | -Rs 9 / **Rs 58** / Rs 85 | 17.96% | Rs 5,808 | Rs 526 | FAIL |
-| 37 | Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 | Flipkart | Rs 399 | Rs 9 / **Rs 55** / Rs 73 | 17.72% | Rs 5,511 | Rs 472 | FAIL |
-| 38 | Non-woven saree / clothes cover organisers, set of 12 | Meesho | Rs 549 | -Rs 29 / **Rs 49** / Rs 79 | 11.66% | Rs 4,860 | Rs 693 | FAIL |
-| 39 | Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 | TradeIndiaMarketplace.com (Shopify Basic) | Rs 399 | -Rs 16 / **Rs 44** / Rs 71 | 14.18% | Rs 4,412 | Rs 496 | FAIL |
-| 40 | Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 | Meesho | Rs 399 | -Rs 25 / **Rs 40** / Rs 66 | 13.95% | Rs 4,010 | Rs 490 | FAIL |
-| 41 | Airtight PET kitchen storage jars, set of 6 (~1 L) | Amazon.in (Easy Ship) | Rs 449 | -Rs 23 / **Rs 34** / Rs 53 | 9.66% | Rs 3,383 | Rs 579 | FAIL |
-| 42 | Makeup brush set, 13 pieces | Amazon.in (Easy Ship) | Rs 299 | -Rs 13 / **Rs 30** / Rs 47 | 12.97% | Rs 3,024 | Rs 372 | FAIL |
-| 43 | Makeup brush set, 13 pieces | Flipkart | Rs 299 | -Rs 25 / **Rs 18** / Rs 34 | 7.62% | Rs 1,776 | Rs 399 | FAIL |
-| 44 | Korean-style hair claw clips, set of 6 | Amazon.in (Easy Ship) | Rs 249 | -Rs 34 / **Rs 8** / Rs 23 | 4.01% | Rs 778 | Rs 341 | FAIL |
-| 45 | Airtight PET kitchen storage jars, set of 6 (~1 L) | Flipkart | Rs 449 | -Rs 50 / **Rs 8** / Rs 26 | 2.17% | Rs 760 | Rs 636 | FAIL |
-| 46 | Makeup brush set, 13 pieces | TradeIndiaMarketplace.com (Shopify Basic) | Rs 299 | -Rs 54 / **Rs 3** / Rs 29 | 1.41% | Rs 328 | Rs 431 | FAIL |
-| 47 | Makeup brush set, 13 pieces | Meesho | Rs 299 | -Rs 60 / **-Rs 0** / Rs 23 | -0.01% | -Rs 2 | Rs 427 | FAIL |
-| 48 | Korean-style hair claw clips, set of 6 | Flipkart | Rs 249 | -Rs 50 / **-Rs 8** / Rs 7 | -4.35% | -Rs 845 | Rs 377 | FAIL |
-| 49 | Airtight PET kitchen storage jars, set of 6 (~1 L) | TradeIndiaMarketplace.com (Shopify Basic) | Rs 449 | -Rs 82 / **-Rs 9** / Rs 19 | -2.61% | -Rs 913 | Rs 675 | FAIL |
-| 50 | Silicone spatula / cooking tool set, 6 pieces | Amazon.in (Easy Ship) | Rs 299 | -Rs 52 / **-Rs 10** / Rs 6 | -4.32% | -Rs 1,008 | Rs 446 | FAIL |
-| 51 | Manual pull-string vegetable chopper, 500 ml | Amazon.in (Easy Ship) | Rs 199 | -Rs 50 / **-Rs 10** / Rs 5 | -6.50% | -Rs 1,009 | Rs 303 | FAIL |
-| 52 | Pure copper water bottle 1 L | Amazon.in (Easy Ship) | Rs 749 | -Rs 65 / **-Rs 11** / Rs 10 | -1.89% | -Rs 1,103 | Rs 1,090 | FAIL |
-| 53 | Korean-style hair claw clips, set of 6 | TradeIndiaMarketplace.com (Shopify Basic) | Rs 249 | -Rs 78 / **-Rs 22** / Rs 2 | -11.43% | -Rs 2,218 | Rs 408 | FAIL |
-| 54 | Silicone spatula / cooking tool set, 6 pieces | Flipkart | Rs 299 | -Rs 65 / **-Rs 23** / -Rs 7 | -9.68% | -Rs 2,256 | Rs 477 | FAIL |
-| 55 | Korean-style hair claw clips, set of 6 | Meesho | Rs 249 | -Rs 82 / **-Rs 25** / -Rs 4 | -13.90% | -Rs 2,494 | Rs 405 | FAIL |
-| 56 | Manual pull-string vegetable chopper, 500 ml | Flipkart | Rs 199 | -Rs 65 / **-Rs 25** / -Rs 10 | -16.15% | -Rs 2,506 | Rs 337 | FAIL |
-| 57 | Airtight PET kitchen storage jars, set of 6 (~1 L) | Meesho | Rs 449 | -Rs 110 / **-Rs 28** / -Rs 1 | -8.66% | -Rs 2,802 | Rs 697 | FAIL |
-| 58 | Pure copper water bottle 1 L | Flipkart | Rs 749 | -Rs 90 / **-Rs 35** / -Rs 14 | -5.95% | -Rs 3,476 | Rs 1,152 | FAIL |
-| 59 | Silicone spatula / cooking tool set, 6 pieces | TradeIndiaMarketplace.com (Shopify Basic) | Rs 299 | -Rs 93 / **-Rs 37** / -Rs 12 | -15.89% | -Rs 3,704 | Rs 511 | FAIL |
-| 60 | Manual pull-string vegetable chopper, 500 ml | TradeIndiaMarketplace.com (Shopify Basic) | Rs 199 | -Rs 92 / **-Rs 38** / -Rs 14 | -24.52% | -Rs 3,805 | Rs 366 | FAIL |
-| 61 | Silicone spatula / cooking tool set, 6 pieces | Meesho | Rs 299 | -Rs 97 / **-Rs 39** / -Rs 17 | -18.05% | -Rs 3,887 | Rs 504 | FAIL |
-| 62 | Manual pull-string vegetable chopper, 500 ml | Meesho | Rs 199 | -Rs 95 / **-Rs 41** / -Rs 21 | -28.32% | -Rs 4,060 | Rs 365 | FAIL |
-| 63 | Pure copper water bottle 1 L | TradeIndiaMarketplace.com (Shopify Basic) | Rs 749 | -Rs 110 / **-Rs 41** / -Rs 11 | -7.02% | -Rs 4,099 | Rs 1,176 | FAIL |
-| 64 | Pure copper water bottle 1 L | Meesho | Rs 749 | -Rs 124 / **-Rs 45** / -Rs 14 | -8.33% | -Rs 4,497 | Rs 1,159 | FAIL |
-| 65 | Cotton fridge vegetable storage bags, set of 6 | Amazon.in (Easy Ship) | Rs 199 | -Rs 101 / **-Rs 61** / -Rs 46 | -34.96% | -Rs 6,096 | Rs 384 | FAIL |
-| 66 | Cotton fridge vegetable storage bags, set of 6 | Flipkart | Rs 199 | -Rs 116 / **-Rs 76** / -Rs 61 | -43.55% | -Rs 7,593 | Rs 417 | FAIL |
-| 67 | Cotton fridge vegetable storage bags, set of 6 | TradeIndiaMarketplace.com (Shopify Basic) | Rs 199 | -Rs 143 / **-Rs 89** / -Rs 65 | -51.00% | -Rs 8,892 | Rs 445 | FAIL |
-| 68 | Cotton fridge vegetable storage bags, set of 6 | Meesho | Rs 199 | -Rs 144 / **-Rs 90** / -Rs 72 | -56.10% | -Rs 9,038 | Rs 444 | FAIL |
+| 14 | Satin heatless hair curler (curling rod) set | Amazon.in (Easy Ship) | Rs 449 | Rs 97 / **Rs 145** / Rs 165 | 41.50% | Rs 14,527 | Rs 375 | PASS (fragile) |
+| 15 | Aluminium adjustable laptop stand, foldable | Flipkart | Rs 599 | Rs 84 / **Rs 140** / Rs 162 | 29.99% | Rs 14,004 | Rs 599 | FAIL |
+| 16 | Aluminium adjustable laptop stand, foldable | TradeIndiaMarketplace.com (Shopify Basic) | Rs 599 | Rs 66 / **Rs 136** / Rs 167 | 29.13% | Rs 13,606 | Rs 607 | FAIL |
+| 17 | PU leather jewellery organiser box (rings, earrings, necklaces) | Amazon.in (Easy Ship) | Rs 549 | Rs 77 / **Rs 126** / Rs 147 | 29.54% | Rs 12,643 | Rs 553 | FAIL |
+| 18 | Aluminium adjustable laptop stand, foldable | Meesho | Rs 599 | Rs 43 / **Rs 124** / Rs 157 | 28.85% | Rs 12,448 | Rs 609 | FAIL |
+| 19 | Satin heatless hair curler (curling rod) set | Flipkart | Rs 449 | Rs 76 / **Rs 124** / Rs 144 | 35.43% | Rs 12,404 | Rs 412 | PASS (fragile) |
+| 20 | Makeup brush set 13 pcs with storage pouch | Amazon.in (Easy Ship) | Rs 449 | Rs 69 / **Rs 116** / Rs 136 | 33.27% | Rs 11,647 | Rs 428 | PASS (fragile) |
+| 21 | Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 (at Rs 449) | Amazon.in (Easy Ship) | Rs 449 | Rs 67 / **Rs 114** / Rs 133 | 32.58% | Rs 11,407 | Rs 432 | PASS (fragile) |
+| 22 | PU leather jewellery organiser box (rings, earrings, necklaces) | Flipkart | Rs 549 | Rs 63 / **Rs 113** / Rs 133 | 26.33% | Rs 11,271 | Rs 579 | FAIL |
+| 23 | Satin heatless hair curler (curling rod) set | TradeIndiaMarketplace.com (Shopify Basic) | Rs 449 | Rs 50 / **Rs 112** / Rs 141 | 32.08% | Rs 11,231 | Rs 435 | PASS (fragile) |
+| 24 | PU leather jewellery organiser box (rings, earrings, necklaces) | TradeIndiaMarketplace.com (Shopify Basic) | Rs 549 | Rs 46 / **Rs 109** / Rs 139 | 25.58% | Rs 10,947 | Rs 586 | FAIL |
+| 25 | Satin heatless hair curler (curling rod) set | Meesho | Rs 449 | Rs 37 / **Rs 106** / Rs 134 | 32.83% | Rs 10,618 | Rs 431 | PASS (fragile) |
+| 26 | PU leather jewellery organiser box (rings, earrings, necklaces) | Meesho | Rs 549 | Rs 32 / **Rs 104** / Rs 135 | 26.35% | Rs 10,422 | Rs 578 | FAIL |
+| 27 | Hair claw clips, pack of 12 | Amazon.in (Easy Ship) | Rs 449 | Rs 48 / **Rs 95** / Rs 114 | 27.24% | Rs 9,535 | Rs 467 | FAIL |
+| 28 | Makeup brush set 13 pcs with storage pouch | Flipkart | Rs 449 | Rs 48 / **Rs 95** / Rs 114 | 27.21% | Rs 9,524 | Rs 468 | FAIL |
+| 29 | Kids stainless steel insulated lunch box (3 containers) | Amazon.in (Easy Ship) | Rs 599 | Rs 40 / **Rs 94** / Rs 115 | 19.07% | Rs 9,384 | Rs 693 | FAIL |
+| 30 | Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 (at Rs 449) | Flipkart | Rs 449 | Rs 45 / **Rs 93** / Rs 112 | 26.52% | Rs 9,284 | Rs 472 | FAIL |
+| 31 | Makeup brush set 13 pcs with storage pouch | TradeIndiaMarketplace.com (Shopify Basic) | Rs 449 | Rs 22 / **Rs 84** / Rs 112 | 23.85% | Rs 8,351 | Rs 492 | FAIL |
+| 32 | Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 (at Rs 449) | TradeIndiaMarketplace.com (Shopify Basic) | Rs 449 | Rs 20 / **Rs 81** / Rs 109 | 23.17% | Rs 8,111 | Rs 496 | FAIL |
+| 33 | Non-woven saree / clothes cover organisers, set of 12 | Amazon.in (Easy Ship) | Rs 549 | Rs 28 / **Rs 81** / Rs 101 | 17.87% | Rs 8,060 | Rs 644 | FAIL |
+| 34 | Makeup brush set 13 pcs with storage pouch | Meesho | Rs 449 | Rs 10 / **Rs 78** / Rs 106 | 24.25% | Rs 7,843 | Rs 486 | FAIL |
+| 35 | Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 (at Rs 449) | Meesho | Rs 449 | Rs 8 / **Rs 76** / Rs 104 | 23.53% | Rs 7,612 | Rs 490 | FAIL |
+| 36 | Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 | Amazon.in (Easy Ship) | Rs 399 | Rs 29 / **Rs 75** / Rs 93 | 24.14% | Rs 7,508 | Rs 432 | FAIL |
+| 37 | Hair claw clips, pack of 12 | Flipkart | Rs 449 | Rs 27 / **Rs 74** / Rs 93 | 21.17% | Rs 7,412 | Rs 508 | FAIL |
+| 38 | Kids stainless steel insulated lunch box (3 containers) | Flipkart | Rs 599 | Rs 19 / **Rs 74** / Rs 95 | 15.01% | Rs 7,386 | Rs 733 | FAIL |
+| 39 | Kids stainless steel insulated lunch box (3 containers) | TradeIndiaMarketplace.com (Shopify Basic) | Rs 599 | Rs 1 / **Rs 70** / Rs 100 | 14.20% | Rs 6,988 | Rs 744 | FAIL |
+| 40 | Hair claw clips, pack of 12 | TradeIndiaMarketplace.com (Shopify Basic) | Rs 449 | Rs 1 / **Rs 62** / Rs 90 | 17.82% | Rs 6,239 | Rs 533 | FAIL |
+| 41 | Non-woven saree / clothes cover organisers, set of 12 | Flipkart | Rs 549 | Rs 8 / **Rs 62** / Rs 82 | 13.72% | Rs 6,188 | Rs 682 | FAIL |
+| 42 | Kids stainless steel insulated lunch box (3 containers) | Meesho | Rs 599 | -Rs 20 / **Rs 60** / Rs 91 | 13.14% | Rs 5,972 | Rs 743 | FAIL |
+| 43 | Non-woven saree / clothes cover organisers, set of 12 | TradeIndiaMarketplace.com (Shopify Basic) | Rs 549 | -Rs 9 / **Rs 59** / Rs 88 | 13.00% | Rs 5,864 | Rs 692 | FAIL |
+| 44 | Hair claw clips, pack of 12 | Meesho | Rs 449 | -Rs 9 / **Rs 58** / Rs 85 | 17.96% | Rs 5,808 | Rs 526 | FAIL |
+| 45 | Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 | Flipkart | Rs 399 | Rs 9 / **Rs 55** / Rs 73 | 17.72% | Rs 5,511 | Rs 472 | FAIL |
+| 46 | Non-woven saree / clothes cover organisers, set of 12 | Meesho | Rs 549 | -Rs 29 / **Rs 49** / Rs 79 | 11.66% | Rs 4,860 | Rs 693 | FAIL |
+| 47 | Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 | TradeIndiaMarketplace.com (Shopify Basic) | Rs 399 | -Rs 16 / **Rs 44** / Rs 71 | 14.18% | Rs 4,412 | Rs 496 | FAIL |
+| 48 | Self-adhesive no-drill metal bathroom shelf, pack of 4 | Amazon.in (Easy Ship) | Rs 649 | -Rs 18 / **Rs 43** / Rs 64 | 8.51% | Rs 4,304 | Rs 848 | FAIL |
+| 49 | Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 | Meesho | Rs 399 | -Rs 25 / **Rs 40** / Rs 66 | 13.95% | Rs 4,010 | Rs 490 | FAIL |
+| 50 | Airtight PET kitchen storage jars, set of 6 (~1 L) | Amazon.in (Easy Ship) | Rs 449 | -Rs 23 / **Rs 34** / Rs 53 | 9.66% | Rs 3,383 | Rs 579 | FAIL |
+| 51 | Makeup brush set, 13 pieces | Amazon.in (Easy Ship) | Rs 299 | -Rs 13 / **Rs 30** / Rs 47 | 12.97% | Rs 3,024 | Rs 372 | FAIL |
+| 52 | Self-adhesive no-drill metal bathroom shelf, pack of 4 | Flipkart | Rs 649 | -Rs 40 / **Rs 22** / Rs 43 | 4.31% | Rs 2,182 | Rs 899 | FAIL |
+| 53 | Makeup brush set, 13 pieces | Flipkart | Rs 299 | -Rs 25 / **Rs 18** / Rs 34 | 7.62% | Rs 1,776 | Rs 399 | FAIL |
+| 54 | Kids stainless steel insulated sipper bottle 500 ml with cover | Amazon.in (Easy Ship) | Rs 699 | -Rs 41 / **Rs 12** / Rs 33 | 2.27% | Rs 1,238 | Rs 976 | FAIL |
+| 55 | Self-adhesive no-drill metal bathroom shelf, pack of 4 | TradeIndiaMarketplace.com (Shopify Basic) | Rs 649 | -Rs 65 / **Rs 12** / Rs 42 | 2.39% | Rs 1,208 | Rs 925 | FAIL |
+| 56 | Korean-style hair claw clips, set of 6 | Amazon.in (Easy Ship) | Rs 249 | -Rs 34 / **Rs 8** / Rs 23 | 4.01% | Rs 778 | Rs 341 | FAIL |
+| 57 | Airtight PET kitchen storage jars, set of 6 (~1 L) | Flipkart | Rs 449 | -Rs 50 / **Rs 8** / Rs 26 | 2.17% | Rs 760 | Rs 636 | FAIL |
+| 58 | Makeup brush set, 13 pieces | TradeIndiaMarketplace.com (Shopify Basic) | Rs 299 | -Rs 54 / **Rs 3** / Rs 29 | 1.41% | Rs 328 | Rs 431 | FAIL |
+| 59 | Makeup brush set, 13 pieces | Meesho | Rs 299 | -Rs 60 / **-Rs 0** / Rs 23 | -0.01% | -Rs 2 | Rs 427 | FAIL |
+| 60 | Self-adhesive no-drill metal bathroom shelf, pack of 4 | Meesho | Rs 649 | -Rs 96 / **-Rs 6** / Rs 25 | -1.29% | -Rs 605 | Rs 939 | FAIL |
+| 61 | Korean-style hair claw clips, set of 6 | Flipkart | Rs 249 | -Rs 50 / **-Rs 8** / Rs 7 | -4.35% | -Rs 845 | Rs 377 | FAIL |
+| 62 | Airtight PET kitchen storage jars, set of 6 (~1 L) | TradeIndiaMarketplace.com (Shopify Basic) | Rs 449 | -Rs 82 / **-Rs 9** / Rs 19 | -2.61% | -Rs 913 | Rs 675 | FAIL |
+| 63 | Silicone spatula / cooking tool set, 6 pieces | Amazon.in (Easy Ship) | Rs 299 | -Rs 52 / **-Rs 10** / Rs 6 | -4.32% | -Rs 1,008 | Rs 446 | FAIL |
+| 64 | Manual pull-string vegetable chopper, 500 ml | Amazon.in (Easy Ship) | Rs 199 | -Rs 50 / **-Rs 10** / Rs 5 | -6.50% | -Rs 1,009 | Rs 303 | FAIL |
+| 65 | Kids stainless steel insulated sipper bottle 500 ml with cover | Flipkart | Rs 699 | -Rs 64 / **-Rs 10** / Rs 11 | -1.85% | -Rs 1,009 | Rs 1,032 | FAIL |
+| 66 | Pure copper water bottle 1 L | Amazon.in (Easy Ship) | Rs 749 | -Rs 65 / **-Rs 11** / Rs 10 | -1.89% | -Rs 1,103 | Rs 1,090 | FAIL |
+| 67 | Lint roller combo: 1 roller (60 sheets) + 4 refills of 60 sheets (300 sheets) | Amazon.in (Easy Ship) | Rs 549 | -Rs 64 / **-Rs 13** / Rs 6 | -3.12% | -Rs 1,337 | Rs 809 | FAIL |
+| 68 | Kids stainless steel insulated sipper bottle 500 ml with cover | TradeIndiaMarketplace.com (Shopify Basic) | Rs 699 | -Rs 84 / **-Rs 16** / Rs 14 | -2.86% | -Rs 1,558 | Rs 1,053 | FAIL |
+| 69 | Kids stainless steel insulated sipper bottle 500 ml with cover | Meesho | Rs 699 | -Rs 99 / **-Rs 21** / Rs 10 | -4.14% | -Rs 2,086 | Rs 1,040 | FAIL |
+| 70 | Korean-style hair claw clips, set of 6 | TradeIndiaMarketplace.com (Shopify Basic) | Rs 249 | -Rs 78 / **-Rs 22** / Rs 2 | -11.43% | -Rs 2,218 | Rs 408 | FAIL |
+| 71 | Silicone spatula / cooking tool set, 6 pieces | Flipkart | Rs 299 | -Rs 65 / **-Rs 23** / -Rs 7 | -9.68% | -Rs 2,256 | Rs 477 | FAIL |
+| 72 | Korean-style hair claw clips, set of 6 | Meesho | Rs 249 | -Rs 82 / **-Rs 25** / -Rs 4 | -13.90% | -Rs 2,494 | Rs 405 | FAIL |
+| 73 | Manual pull-string vegetable chopper, 500 ml | Flipkart | Rs 199 | -Rs 65 / **-Rs 25** / -Rs 10 | -16.15% | -Rs 2,506 | Rs 337 | FAIL |
+| 74 | Airtight PET kitchen storage jars, set of 6 (~1 L) | Meesho | Rs 449 | -Rs 110 / **-Rs 28** / -Rs 1 | -8.66% | -Rs 2,802 | Rs 697 | FAIL |
+| 75 | Lint roller combo: 1 roller (60 sheets) + 4 refills of 60 sheets (300 sheets) | Flipkart | Rs 549 | -Rs 83 / **-Rs 32** / -Rs 13 | -7.50% | -Rs 3,209 | Rs 857 | FAIL |
+| 76 | Pure copper water bottle 1 L | Flipkart | Rs 749 | -Rs 90 / **-Rs 35** / -Rs 14 | -5.95% | -Rs 3,476 | Rs 1,152 | FAIL |
+| 77 | Lint roller combo: 1 roller (60 sheets) + 4 refills of 60 sheets (300 sheets) | TradeIndiaMarketplace.com (Shopify Basic) | Rs 549 | -Rs 101 / **-Rs 35** / -Rs 7 | -8.25% | -Rs 3,533 | Rs 873 | FAIL |
+| 78 | Silicone spatula / cooking tool set, 6 pieces | TradeIndiaMarketplace.com (Shopify Basic) | Rs 299 | -Rs 93 / **-Rs 37** / -Rs 12 | -15.89% | -Rs 3,704 | Rs 511 | FAIL |
+| 79 | Manual pull-string vegetable chopper, 500 ml | TradeIndiaMarketplace.com (Shopify Basic) | Rs 199 | -Rs 92 / **-Rs 38** / -Rs 14 | -24.52% | -Rs 3,805 | Rs 366 | FAIL |
+| 80 | Silicone spatula / cooking tool set, 6 pieces | Meesho | Rs 299 | -Rs 97 / **-Rs 39** / -Rs 17 | -18.05% | -Rs 3,887 | Rs 504 | FAIL |
+| 81 | Manual pull-string vegetable chopper, 500 ml | Meesho | Rs 199 | -Rs 95 / **-Rs 41** / -Rs 21 | -28.32% | -Rs 4,060 | Rs 365 | FAIL |
+| 82 | Pure copper water bottle 1 L | TradeIndiaMarketplace.com (Shopify Basic) | Rs 749 | -Rs 110 / **-Rs 41** / -Rs 11 | -7.02% | -Rs 4,099 | Rs 1,176 | FAIL |
+| 83 | Lint roller combo: 1 roller (60 sheets) + 4 refills of 60 sheets (300 sheets) | Meesho | Rs 549 | -Rs 114 / **-Rs 41** / -Rs 14 | -10.38% | -Rs 4,103 | Rs 866 | FAIL |
+| 84 | Pure copper water bottle 1 L | Meesho | Rs 749 | -Rs 124 / **-Rs 45** / -Rs 14 | -8.33% | -Rs 4,497 | Rs 1,159 | FAIL |
+| 85 | Cotton fridge vegetable storage bags, set of 6 | Amazon.in (Easy Ship) | Rs 199 | -Rs 101 / **-Rs 61** / -Rs 46 | -34.96% | -Rs 6,096 | Rs 384 | FAIL |
+| 86 | Cotton fridge vegetable storage bags, set of 6 | Flipkart | Rs 199 | -Rs 116 / **-Rs 76** / -Rs 61 | -43.55% | -Rs 7,593 | Rs 417 | FAIL |
+| 87 | Cotton fridge vegetable storage bags, set of 6 | TradeIndiaMarketplace.com (Shopify Basic) | Rs 199 | -Rs 143 / **-Rs 89** / -Rs 65 | -51.00% | -Rs 8,892 | Rs 445 | FAIL |
+| 88 | Cotton fridge vegetable storage bags, set of 6 | Meesho | Rs 199 | -Rs 144 / **-Rs 90** / -Rs 72 | -56.10% | -Rs 9,038 | Rs 444 | FAIL |
 | - | Stainless steel masala dabba, 7 containers | all channels | Rs 549 | cannot calculate | - | - | - | INCOMPLETE: No stainless 7-container wholesale price found; IndiaMART showed only a plastic version (Rs 40) and a jumbo steel box (Rs 2,106) |
 
 'Profit per 100 orders' is arithmetic, not a sales forecast: no reliable sales-volume data was available. 'Fragile' means it passes in the base case but fails if returns, ads and shipping come in worse.
@@ -552,6 +572,141 @@ No estimate: missing inputs: supplier_cost_excl_gst
 | Break-even price | Rs 664 | Rs 623 | Rs 651 | Rs 688 |
 | Cash out before payout | Rs 549 | Rs 514 | Rs 519 | Rs 539 |
 | TCS+TDS withheld (creditable) | Rs 0 | Rs 5 | Rs 5 | Rs 5 |
+
+### RA-20261021-4 Self-adhesive no-drill metal bathroom shelf, pack of 4
+
+- **Supplier cost (est.)**: Rs 276 excl. GST, range None. IndiaMART bathroom-shelves category: metal wall-mounted self-adhesive shelf 27x11x6.5 cm Rs 69/piece x 4 (snippet; seller/MOQ not shown). Plastic self-adhesive shelf Rs 65-125/piece.
+- **Retail observed**: Pack of 2 on Amazon.in: Amazon Basics aluminium Rs 217 (deal, 15 Oct 2026), Oslen Rs 299, MorivaHomes Rs 298, VR Prime Rs 499, Hallstatt Rs 672; Pepperfry pack of 2 Rs 400; Primax pack of 4 Rs 1,940 (GlobalBees). Rs 649 for 4 is mid-market.
+- **Proposed price**: Rs 649 incl. GST
+- **Risks**: Adhesive failure on tiles is a common complaint and return reason; Strong low-price competition (Rs 217 for 2 on deal); Rust claims on GI/metal need evidence; Weight of 4 metal shelves not confirmed; le_2kg assumed; Sharp edges / bent shelves in transit
+- **Sources**: [1](https://m.indiamart.com/impcat/bathroom-shelves.html), [2](https://m.indiamart.com/impcat/bathroom-wall-shelf.html), [3](https://www.housegyan.com/blog/best-bathroom-wall-shelves-and-storage-cabinets-india), [4](https://www.dealsmagnet.com/deal/amazon-basics-self-adhesive-aluminium-bathroom-wal-1dbTIhVV), [5](https://www.pepperfry.com/product/pack-of-2-self-adhesive-no-drill-black-steel-2322889.html), [6](https://shop.globalbees.com/products/primax-bathroom-organizerself-adhesive-bathroom-2000000148136)
+
+| Line (base scenario) | TradeIndiaMarketplace.com (Shopify Basic) | Amazon.in (Easy Ship) | Flipkart | Meesho |
+|---|---|---|---|---|
+| Gross sale incl. GST (after discount) | Rs 649 | Rs 649 | Rs 649 | Rs 649 |
+| Output GST (pass-through) | -Rs 99 | -Rs 99 | -Rs 99 | -Rs 99 |
+| Net revenue | Rs 550 | Rs 550 | Rs 550 | Rs 550 |
+| Supplier cost | -Rs 276 | -Rs 276 | -Rs 276 | -Rs 276 |
+| Forward shipping | -Rs 120 | -Rs 115 | -Rs 120 | -Rs 150 |
+| Packaging | -Rs 15 | -Rs 15 | -Rs 15 | -Rs 15 |
+| Channel fees excl. GST (ITC) | -Rs 26 | -Rs 30 | -Rs 46 | -Rs 10 |
+| Advertising per order | -Rs 60 | -Rs 30 | -Rs 30 | -Rs 20 |
+| Other variable | Rs 0 | Rs 0 | Rs 0 | Rs 0 |
+| = Contribution if kept | Rs 53 | Rs 84 | Rs 63 | Rs 79 |
+| Return exposure at 8.00% returns | -Rs 41 | -Rs 41 | -Rs 41 | -Rs 85 |
+| = Expected contribution per order | Rs 12 | Rs 43 | Rs 22 | -Rs 6 |
+| Margin on net revenue | 2.39% | 8.51% | 4.31% | -1.29% |
+| Break-even price | Rs 633 | Rs 594 | Rs 620 | Rs 657 |
+| Cash out before payout | Rs 521 | Rs 486 | Rs 491 | Rs 511 |
+| TCS+TDS withheld (creditable) | Rs 0 | Rs 3 | Rs 3 | Rs 3 |
+
+### RA-20261021-3 Satin heatless hair curler (curling rod) set
+
+- **Supplier cost (est.)**: Rs 80 excl. GST, range None. IndiaMART hair-roller category: 'Heatless Hair Roller' medium Rs 80/piece (search snippet; seller, MOQ and set contents not shown). Kitsch-branded set Rs 681 on the same page is branded, not usable.
+- **Retail observed**: Amazon.in via pricebefore.com tracker: 4-piece heatless curler set Rs 1,100-1,198 (MRP Rs 2,499). Meesho listings exist but price not visible. Unbranded positioning at Rs 449 is UNVALIDATED against comparable unbranded listings.
+- **Proposed price**: Rs 449 incl. GST
+- **Risks**: Supplier set contents unknown; Rs 80 may be a single rod without clips/scrunchies; Retail comparable for unbranded sets not validated; Avoid any Kitsch or other brand names/images; GST/HSN to confirm
+- **Sources**: [1](https://m.indiamart.com/impcat/hair-roller.html), [2](https://www.pricebefore.com/heat-damage-heatless-hair-curler-easy-p1011307.html), [3](https://www.pricebefore.com/heat-damage-heatless-hair-curler-easy-p1013402.html), [4](https://www.meesho.com/heatless-hair-curler-flexible-curling-rod-with-hook-satin-rollers-for-all-hair-types-no-heat-curls-to-sleep-for-curl-rods-heatless-curls-for-blowout-hair-black/p/9ddnkv)
+
+| Line (base scenario) | TradeIndiaMarketplace.com (Shopify Basic) | Amazon.in (Easy Ship) | Flipkart | Meesho |
+|---|---|---|---|---|
+| Gross sale incl. GST (after discount) | Rs 449 | Rs 449 | Rs 449 | Rs 449 |
+| Output GST (pass-through) | -Rs 68 | -Rs 68 | -Rs 68 | -Rs 68 |
+| Net revenue | Rs 381 | Rs 381 | Rs 381 | Rs 381 |
+| Supplier cost | -Rs 80 | -Rs 80 | -Rs 80 | -Rs 80 |
+| Forward shipping | -Rs 60 | -Rs 65 | -Rs 65 | -Rs 75 |
+| Packaging | -Rs 15 | -Rs 15 | -Rs 15 | -Rs 15 |
+| Channel fees excl. GST (ITC) | -Rs 18 | -Rs 10 | -Rs 31 | -Rs 10 |
+| Advertising per order | -Rs 60 | -Rs 30 | -Rs 30 | -Rs 20 |
+| Other variable | Rs 0 | Rs 0 | Rs 0 | Rs 0 |
+| = Contribution if kept | Rs 148 | Rs 181 | Rs 159 | Rs 181 |
+| Return exposure at 8.00% returns | -Rs 35 | -Rs 35 | -Rs 35 | -Rs 74 |
+| = Expected contribution per order | Rs 112 | Rs 145 | Rs 124 | Rs 106 |
+| Margin on net revenue | 32.08% | 41.50% | 35.43% | 32.83% |
+| Break-even price | Rs 297 | Rs 263 | Rs 285 | Rs 302 |
+| Cash out before payout | Rs 229 | Rs 204 | Rs 204 | Rs 204 |
+| TCS+TDS withheld (creditable) | Rs 0 | Rs 2 | Rs 2 | Rs 2 |
+
+### RA-20261021-1 PU leather jewellery organiser box (rings, earrings, necklaces)
+
+- **Supplier cost (est.)**: Rs 160 excl. GST, range None. IndiaMART: Onesense Enterprise, Surat, multi-layer PU leather jewellery organiser box Rs 160/piece (search snippet; MOQ and GST treatment not shown). Other listings: Rs 51 mini PU travel organiser, Rs 530 Ratnamani Creations 25x20x12.5 cm box.
+- **Retail observed**: Nestasia portable jewellery cases with mirror Rs 745-1,150; Kuber Industries brocade jewellery organiser Rs 349-799 (GlobalBees). Rs 549 sits below the hard-case comparables.
+- **Proposed price**: Rs 549 incl. GST
+- **Risks**: No sales-volume or trend data found; demand evidence is listing presence only; PU finish/zip quality complaints; Supplier MOQ and photos-with-permission not yet confirmed; Nestasia comparables are designer products; unbranded box may need to sit lower
+- **Sources**: [1](https://m.indiamart.com/onesense-enterprise/watch-box.html), [2](https://m.indiamart.com/ratnamani-creations), [3](https://nestasia.in/products/quadrata-pattern-portable-jewellery-box-with-mirror), [4](https://nestasia.in/products/slateline-travel-friendly-sectioned-trinket-case), [5](https://shop.globalbees.com/products/kuber-industries-brocade-jewellery-boxorganizer-1000000040120)
+
+| Line (base scenario) | TradeIndiaMarketplace.com (Shopify Basic) | Amazon.in (Easy Ship) | Flipkart | Meesho |
+|---|---|---|---|---|
+| Gross sale incl. GST (after discount) | Rs 549 | Rs 549 | Rs 549 | Rs 549 |
+| Output GST (pass-through) | -Rs 84 | -Rs 84 | -Rs 84 | -Rs 84 |
+| Net revenue | Rs 465 | Rs 465 | Rs 465 | Rs 465 |
+| Supplier cost | -Rs 160 | -Rs 160 | -Rs 160 | -Rs 160 |
+| Forward shipping | -Rs 60 | -Rs 65 | -Rs 65 | -Rs 75 |
+| Packaging | -Rs 15 | -Rs 15 | -Rs 15 | -Rs 15 |
+| Channel fees excl. GST (ITC) | -Rs 22 | -Rs 30 | -Rs 44 | -Rs 10 |
+| Advertising per order | -Rs 60 | -Rs 30 | -Rs 30 | -Rs 20 |
+| Other variable | Rs 0 | Rs 0 | Rs 0 | Rs 0 |
+| = Contribution if kept | Rs 148 | Rs 165 | Rs 152 | Rs 185 |
+| Return exposure at 8.00% returns | -Rs 39 | -Rs 39 | -Rs 39 | -Rs 81 |
+| = Expected contribution per order | Rs 109 | Rs 126 | Rs 113 | Rs 104 |
+| Margin on net revenue | 25.58% | 29.54% | 26.33% | 26.35% |
+| Break-even price | Rs 401 | Rs 387 | Rs 400 | Rs 404 |
+| Cash out before payout | Rs 324 | Rs 299 | Rs 299 | Rs 299 |
+| TCS+TDS withheld (creditable) | Rs 0 | Rs 3 | Rs 3 | Rs 3 |
+
+### RA-20261021-2 Kids stainless steel insulated sipper bottle 500 ml with cover
+
+- **Supplier cost (est.)**: Rs 385 excl. GST, range None. IndiaMART: The Simplifiers, Mohali, kids bunny-design insulated sipper with cover 500 ml Rs 385/piece; plain 500 ml insulated bottle Rs 370; Dev Arena, Ahmedabad, 520 ml kids sipper Rs 450/piece (pack of 12). Search snippets; GST treatment not shown.
+- **Retail observed**: GlobalBees: Heart Home unicorn 500 ml kids bottle Rs 683; Kuber Industries Shera design Rs 949; Owl/Dino designs Rs 1,499
+- **Proposed price**: Rs 699 incl. GST
+- **Risks**: Food-contact material and 'insulated' claims need a test report; Thin margin: supplier cost is over half the selling price; Leaking lids drive returns; GST rate (HSN 7323) to confirm; 18% used as conservative estimate; Not a duplicate of PC-011 (lunch box), but same kids school-use buyer
+- **Sources**: [1](https://m.indiamart.com/the-simplifiers/water-bottle.html), [2](https://m.indiamart.com/devarena/water-bottle.html), [3](https://shop.globalbees.com/products/kuber-water-bottle-for-kids-shera-design-stainless-1000000062972), [4](https://shop.globalbees.com/products/kuber-water-bottle-for-kids-unicorn-design-1000000062970)
+
+| Line (base scenario) | TradeIndiaMarketplace.com (Shopify Basic) | Amazon.in (Easy Ship) | Flipkart | Meesho |
+|---|---|---|---|---|
+| Gross sale incl. GST (after discount) | Rs 699 | Rs 699 | Rs 699 | Rs 699 |
+| Output GST (pass-through) | -Rs 107 | -Rs 107 | -Rs 107 | -Rs 107 |
+| Net revenue | Rs 592 | Rs 592 | Rs 592 | Rs 592 |
+| Supplier cost | -Rs 385 | -Rs 385 | -Rs 385 | -Rs 385 |
+| Forward shipping | -Rs 80 | -Rs 80 | -Rs 85 | -Rs 100 |
+| Packaging | -Rs 15 | -Rs 15 | -Rs 15 | -Rs 15 |
+| Channel fees excl. GST (ITC) | -Rs 28 | -Rs 30 | -Rs 47 | -Rs 10 |
+| Advertising per order | -Rs 60 | -Rs 30 | -Rs 30 | -Rs 20 |
+| Other variable | Rs 0 | Rs 0 | Rs 0 | Rs 0 |
+| = Contribution if kept | Rs 24 | Rs 52 | Rs 30 | Rs 62 |
+| Return exposure at 8.00% returns | -Rs 40 | -Rs 40 | -Rs 40 | -Rs 83 |
+| = Expected contribution per order | -Rs 16 | Rs 12 | -Rs 10 | -Rs 21 |
+| Margin on net revenue | -2.86% | 2.27% | -1.85% | -4.14% |
+| Break-even price | Rs 720 | Rs 683 | Rs 712 | Rs 728 |
+| Cash out before payout | Rs 609 | Rs 579 | Rs 584 | Rs 589 |
+| TCS+TDS withheld (creditable) | Rs 0 | Rs 4 | Rs 4 | Rs 4 |
+
+### RA-20261021-5 Lint roller combo: 1 roller (60 sheets) + 4 refills of 60 sheets (300 sheets)
+
+- **Supplier cost (est.)**: Rs 290 excl. GST, range None. IndiaMART lint-roller category: Acorn Chemigreen, New Delhi, lint roller 60 sheets Rs 130/piece (pack of 12) + Belim refills 60 sheets Rs 40/piece x 4 = Rs 290. Two suppliers unless one stocks both.
+- **Retail observed**: Amazon.in deal snapshots (likely expired): Fabware 1 handle + 1 refill (60 sheets) Rs 275; Foodie Puppies 2 refills Rs 120. 300 sheets for Rs 549 is UNVALIDATED against a current multi-refill listing.
+- **Proposed price**: Rs 549 incl. GST
+- **Risks**: Two suppliers = two parcels unless one supplier stocks roller and refills; Retail benchmark from old deal pages; Refill core size must match the handle; Low differentiation
+- **Sources**: [1](https://m.indiamart.com/impcat/lint-roller.html), [2](https://www.hostinger.com/in/tutorials/?p=27202), [3](https://www.indiafreestuff.in/fabware-lint-remover-for-clothes-sticky-lint-roller-for-clothes-furniture-wool-fur-coat-car-seats-carpet-fabric-dust-cleaner-pet-hair-remover-with-1-handle--1-refill-total-60-sheets-rs-281-amazon), [4](https://www.indiafreestuff.in/foodie-puppies-pet-hair-remover-lint-roller-refills-2lint-roller-refill-extra-sticky-lint-roller-refills-only-60-sheets-per-roller-remove-dog-and-cat-hair-from-clothes-furniture)
+
+| Line (base scenario) | TradeIndiaMarketplace.com (Shopify Basic) | Amazon.in (Easy Ship) | Flipkart | Meesho |
+|---|---|---|---|---|
+| Gross sale incl. GST (after discount) | Rs 549 | Rs 549 | Rs 549 | Rs 549 |
+| Output GST (pass-through) | -Rs 84 | -Rs 84 | -Rs 84 | -Rs 84 |
+| Net revenue | Rs 465 | Rs 465 | Rs 465 | Rs 465 |
+| Supplier cost | -Rs 290 | -Rs 290 | -Rs 290 | -Rs 290 |
+| Forward shipping | -Rs 80 | -Rs 80 | -Rs 85 | -Rs 100 |
+| Packaging | -Rs 15 | -Rs 15 | -Rs 15 | -Rs 15 |
+| Channel fees excl. GST (ITC) | -Rs 22 | -Rs 30 | -Rs 44 | -Rs 10 |
+| Advertising per order | -Rs 60 | -Rs 30 | -Rs 30 | -Rs 20 |
+| Other variable | Rs 0 | Rs 0 | Rs 0 | Rs 0 |
+| = Contribution if kept | -Rs 2 | Rs 20 | Rs 2 | Rs 30 |
+| Return exposure at 8.00% returns | -Rs 34 | -Rs 34 | -Rs 34 | -Rs 71 |
+| = Expected contribution per order | -Rs 35 | -Rs 13 | -Rs 32 | -Rs 41 |
+| Margin on net revenue | -8.25% | -3.12% | -7.50% | -10.38% |
+| Break-even price | Rs 597 | Rs 566 | Rs 592 | Rs 606 |
+| Cash out before payout | Rs 497 | Rs 467 | Rs 472 | Rs 477 |
+| TCS+TDS withheld (creditable) | Rs 0 | Rs 3 | Rs 3 | Rs 3 |
 
 ## Assumptions used
 

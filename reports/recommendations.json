@@ -347,6 +347,87 @@
       "ca": null
     },
     {
+      "id": "RA-20261021-1",
+      "name": "PU leather jewellery organiser box (rings, earrings, necklaces)",
+      "category": "women_accessories",
+      "price": 549.0,
+      "supplier_cost": 160.0,
+      "stage": "BELOW_TARGET",
+      "reason": "no channel reaches 30% margin",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": 126.43,
+        "margin": 29.54,
+        "conservative": 76.62
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 109.47,
+          "margin": 25.58,
+          "conservative": 45.66
+        },
+        "amazon_in": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 126.43,
+          "margin": 29.54,
+          "conservative": 76.62
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 112.71,
+          "margin": 26.33,
+          "conservative": 62.9
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 104.22,
+          "margin": 26.35,
+          "conservative": 31.72
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": true,
+      "sources": [
+        "https://m.indiamart.com/onesense-enterprise/watch-box.html",
+        "https://m.indiamart.com/ratnamani-creations",
+        "https://nestasia.in/products/quadrata-pattern-portable-jewellery-box-with-mirror",
+        "https://nestasia.in/products/slateline-travel-friendly-sectioned-trinket-case",
+        "https://shop.globalbees.com/products/kuber-industries-brocade-jewellery-boxorganizer-1000000040120"
+      ],
+      "review": {
+        "verdict": "needs_info",
+        "by": "product-reviewer",
+        "at": "2026-10-21",
+        "notes": "At Rs 549 the best channel is 29.5% margin, just under the 30% floor; a ~Rs 599 price is plausible only if the Rs 160 Onesense box is a genuine double-layer box comparable to Rs 899 listings (single-layer PU cases sell at Rs 279-281). Need supplier dimensions/layers, MOQ, photos-with-permission and a sample of zip/PU quality.",
+        "competitor_prices": [
+          {
+            "price": 279,
+            "url": "https://www.amazon.in/SAJANI-Jewellery-Organiser-Portable-Necklaces/dp/B0BN36JLPJ"
+          },
+          {
+            "price": 281,
+            "url": "https://www.amazon.in/SNMMIFER-Portable-Jewellery-Organiser-Necklaces/dp/B0FGJPGSMN"
+          },
+          {
+            "price": 899,
+            "url": "https://www.amazon.in/AMEEDARSHAN-Jewelry-Storage-Box-Multi-Colour/dp/B08RRSB1GR"
+          },
+          {
+            "price": 1399,
+            "url": "https://amazon.in/KRETIX-Organizer-Earrings-Necklaces-Bracelets/dp/B09QPYLZZ4"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
       "id": "PC-015",
       "name": "Hair claw clips, pack of 12",
       "category": "women_accessories",
@@ -513,6 +594,80 @@
       "ca": null
     },
     {
+      "id": "RA-20261021-4",
+      "name": "Self-adhesive no-drill metal bathroom shelf, pack of 4",
+      "category": "home_storage",
+      "price": 649.0,
+      "supplier_cost": 276.0,
+      "stage": "BELOW_TARGET",
+      "reason": "no channel reaches 30% margin",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": 43.04,
+        "margin": 8.51,
+        "conservative": -17.84
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 12.08,
+          "margin": 2.39,
+          "conservative": -64.8
+        },
+        "amazon_in": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 43.04,
+          "margin": 8.51,
+          "conservative": -17.84
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 21.82,
+          "margin": 4.31,
+          "conservative": -40.07
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -6.05,
+          "margin": -1.29,
+          "conservative": -95.55
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": true,
+      "sources": [
+        "https://m.indiamart.com/impcat/bathroom-shelves.html",
+        "https://m.indiamart.com/impcat/bathroom-wall-shelf.html",
+        "https://www.housegyan.com/blog/best-bathroom-wall-shelves-and-storage-cabinets-india",
+        "https://www.dealsmagnet.com/deal/amazon-basics-self-adhesive-aluminium-bathroom-wal-1dbTIhVV",
+        "https://www.pepperfry.com/product/pack-of-2-self-adhesive-no-drill-black-steel-2322889.html",
+        "https://shop.globalbees.com/products/primax-bathroom-organizerself-adhesive-bathroom-2000000148136"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-10-21",
+        "notes": "Margin is 8.5% at best (Rs 43/order), far below the 30% target, and a higher price is not supportable with pack-of-2 deals at Rs 217; adhesive failure on tiles and transit bending add return risk.",
+        "competitor_prices": [
+          {
+            "price": 217,
+            "url": "https://www.dealsmagnet.com/deal/amazon-basics-self-adhesive-aluminium-bathroom-wal-1dbTIhVV"
+          },
+          {
+            "price": 780,
+            "url": "https://www.flipkart.com/hi/touchwoodl-self-adhesive-bathroom-shelf-rack-no-drill-wall-mount-organizer-steel/p/itm9d88f324fd9ef"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
       "id": "PC-004",
       "name": "Airtight PET kitchen storage jars, set of 6 (~1 L)",
       "category": "home_storage",
@@ -572,6 +727,74 @@
       "ca": null
     },
     {
+      "id": "RA-20261021-2",
+      "name": "Kids stainless steel insulated sipper bottle 500 ml with cover",
+      "category": "kids_non_toy",
+      "price": 699.0,
+      "supplier_cost": 385.0,
+      "stage": "BELOW_TARGET",
+      "reason": "no channel reaches 30% margin",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": 12.38,
+        "margin": 2.27,
+        "conservative": -41.01
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -15.58,
+          "margin": -2.86,
+          "conservative": -83.97
+        },
+        "amazon_in": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 12.38,
+          "margin": 2.27,
+          "conservative": -41.01
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -10.09,
+          "margin": -1.85,
+          "conservative": -64.49
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -20.86,
+          "margin": -4.14,
+          "conservative": -99.45
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": true,
+      "sources": [
+        "https://m.indiamart.com/the-simplifiers/water-bottle.html",
+        "https://m.indiamart.com/devarena/water-bottle.html",
+        "https://shop.globalbees.com/products/kuber-water-bottle-for-kids-shera-design-stainless-1000000062972",
+        "https://shop.globalbees.com/products/kuber-water-bottle-for-kids-unicorn-design-1000000062970"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-10-21",
+        "notes": "Margin is 2.3% at best with supplier cost over half the price, and Rs 699 unbranded is above branded insulated 500 ml kids bottles (Cello Rs 599, Jouet Rs 499 per Amazon.in snippets; Borosil Rs 799); food-contact/insulation claims would also need a test report.",
+        "competitor_prices": [
+          {
+            "price": 799,
+            "url": "https://www.amazon.in/Borosil-Stainless-Bottle-Insulated-Children/dp/B0B1RKTR93"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
       "id": "PC-002",
       "name": "Pure copper water bottle 1 L",
       "category": "kitchen_organisation",
@@ -626,6 +849,167 @@
         "https://www.dealsmagnet.com/deal/amary-pure-copper-water-bottle-1l-pack-of-1-1bsZsbVw"
       ],
       "review": null,
+      "ca": null
+    },
+    {
+      "id": "RA-20261021-5",
+      "name": "Lint roller combo: 1 roller (60 sheets) + 4 refills of 60 sheets (300 sheets)",
+      "category": "cleaning_utility",
+      "price": 549.0,
+      "supplier_cost": 290.0,
+      "stage": "BELOW_TARGET",
+      "reason": "no channel reaches 30% margin",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": -13.37,
+        "margin": -3.12,
+        "conservative": -63.58
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -35.33,
+          "margin": -8.25,
+          "conservative": -100.54
+        },
+        "amazon_in": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -13.37,
+          "margin": -3.12,
+          "conservative": -63.58
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -32.09,
+          "margin": -7.5,
+          "conservative": -83.3
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -41.03,
+          "margin": -10.38,
+          "conservative": -113.65
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/lint-roller.html",
+        "https://www.hostinger.com/in/tutorials/?p=27202",
+        "https://www.indiafreestuff.in/fabware-lint-remover-for-clothes-sticky-lint-roller-for-clothes-furniture-wool-fur-coat-car-seats-carpet-fabric-dust-cleaner-pet-hair-remover-with-1-handle--1-refill-total-60-sheets-rs-281-amazon",
+        "https://www.indiafreestuff.in/foodie-puppies-pet-hair-remover-lint-roller-refills-2lint-roller-refill-extra-sticky-lint-roller-refills-only-60-sheets-per-roller-remove-dog-and-cat-hair-from-clothes-furniture"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-10-21",
+        "notes": "Rs 549 is unrealistic: the same 1 handle + 4 refills (300 sheets) combo sells on Amazon.in at about Rs 249-299 (Foodie Puppies, 1,679 ratings), and the plan is already loss-making at Rs 549 (-Rs 13/order best case).",
+        "competitor_prices": [
+          {
+            "price": 284,
+            "url": "https://www.amazon.in/Foodie-Puppies-Lint-Roller-Furniture/dp/B0B6SQX234"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
+      "id": "RA-20261021-3",
+      "name": "Satin heatless hair curler (curling rod) set",
+      "category": "beauty_tools",
+      "price": 449.0,
+      "supplier_cost": 80.0,
+      "stage": "REJECTED",
+      "reason": "reviewer or CA rejected: Rs 449 is unrealistic: current unbranded/small-brand satin curler sets (rod + scrunchies/clip) sell on Flipkart at Rs 204-320, and the only Rs 1,100+ data is a branded set; a competitive price (~Rs 299) is below the Rs 449 policy floor. Rs 80 IndiaMART snippet is per piece with set contents unconfirmed (IndiaMART page not fetchable today), so the cost of a full set is also unverified.",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 145.27,
+        "margin": 41.5,
+        "conservative": 97.25
+      },
+      "channels": {
+        "shopify": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 112.31,
+          "margin": 32.08,
+          "conservative": 50.29
+        },
+        "amazon_in": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 145.27,
+          "margin": 41.5,
+          "conservative": 97.25
+        },
+        "flipkart": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 124.04,
+          "margin": 35.43,
+          "conservative": 76.02
+        },
+        "meesho": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 106.18,
+          "margin": 32.83,
+          "conservative": 37.04
+        }
+      },
+      "passing_channels": [
+        "amazon_in",
+        "flipkart",
+        "meesho",
+        "shopify"
+      ],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/hair-roller.html",
+        "https://www.pricebefore.com/heat-damage-heatless-hair-curler-easy-p1011307.html",
+        "https://www.pricebefore.com/heat-damage-heatless-hair-curler-easy-p1013402.html",
+        "https://www.meesho.com/heatless-hair-curler-flexible-curling-rod-with-hook-satin-rollers-for-all-hair-types-no-heat-curls-to-sleep-for-curl-rods-heatless-curls-for-blowout-hair-black/p/9ddnkv"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-10-21",
+        "notes": "Rs 449 is unrealistic: current unbranded/small-brand satin curler sets (rod + scrunchies/clip) sell on Flipkart at Rs 204-320, and the only Rs 1,100+ data is a branded set; a competitive price (~Rs 299) is below the Rs 449 policy floor. Rs 80 IndiaMART snippet is per piece with set contents unconfirmed (IndiaMART page not fetchable today), so the cost of a full set is also unverified.",
+        "competitor_prices": [
+          {
+            "price": 204,
+            "url": "https://www.flipkart.com/maa-shopping-silk-curling-ribbon-heatless-hair-set-with2-scrunchies-satin-curler-ribbon-set-curls-pack-1-black/p/itm06c4851b6a9f6"
+          },
+          {
+            "price": 239,
+            "url": "https://www.flipkart.com/dizaa-satin-heatless-hair-curler-set-curling-rod-headband-scrunchies-clip/p/itmbd520ea439cbf"
+          },
+          {
+            "price": 270,
+            "url": "https://www.flipkart.com/shopogenix-heatless-hair-curler-5-piece-set-satin-curling-rod-headband/p/itmfa3ba995c8fda"
+          },
+          {
+            "price": 298,
+            "url": "https://www.flipkart.com/luxonix-satin-heatless-hair-curler-set-overnight-damage-free-curls-all-types/p/itmfe042b030e7d4"
+          },
+          {
+            "price": 315,
+            "url": "https://www.flipkart.com/shopimoz-silk-satin-heatless-hair-curler-set-soft-no-heat-curl-rod-headband-diy-sleeping/p/itm828d38e30aa29"
+          },
+          {
+            "price": 320,
+            "url": "https://www.flipkart.com/ortiza-heatless-hair-curler-overnight-curls-blowout-rods-all-types-curler/p/itm9766f51e82e8a"
+          }
+        ]
+      },
       "ca": null
     },
     {

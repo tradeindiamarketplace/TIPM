@@ -1,0 +1,46 @@
+{
+  "id": "RA-20261021-5",
+  "name": "Lint roller combo: 1 roller (60 sheets) + 4 refills of 60 sheets (300 sheets)",
+  "category": "cleaning_utility",
+  "weight": "le_1kg",
+  "supplier_cost": 290,
+  "supplier_cost_note": "IndiaMART lint-roller category: Acorn Chemigreen, New Delhi, lint roller 60 sheets Rs 130/piece (pack of 12) + Belim refills 60 sheets Rs 40/piece x 4 = Rs 290. Two suppliers unless one stocks both.",
+  "price": 549,
+  "retail_observed": "Amazon.in deal snapshots (likely expired): Fabware 1 handle + 1 refill (60 sheets) Rs 275; Foodie Puppies 2 refills Rs 120. 300 sheets for Rs 549 is UNVALIDATED against a current multi-refill listing.",
+  "gst_pct": 18,
+  "electrical": false,
+  "documents": [],
+  "demand_signals": [
+    {
+      "source": "Hostinger India trending products guide",
+      "url": "https://www.hostinger.com/in/tutorials/?p=27202",
+      "seen_on": "2026-10-21",
+      "summary": "Lists lint rollers in the home category of its 2026 trending-products list (vendor content tied to Google Trends/keyword research)"
+    }
+  ],
+  "risks": [
+    "Two suppliers = two parcels unless one supplier stocks roller and refills",
+    "Retail benchmark from old deal pages",
+    "Refill core size must match the handle",
+    "Low differentiation"
+  ],
+  "sources": [
+    "https://m.indiamart.com/impcat/lint-roller.html",
+    "https://www.hostinger.com/in/tutorials/?p=27202",
+    "https://www.indiafreestuff.in/fabware-lint-remover-for-clothes-sticky-lint-roller-for-clothes-furniture-wool-fur-coat-car-seats-carpet-fabric-dust-cleaner-pet-hair-remover-with-1-handle--1-refill-total-60-sheets-rs-281-amazon",
+    "https://www.indiafreestuff.in/foodie-puppies-pet-hair-remover-lint-roller-refills-2lint-roller-refill-extra-sticky-lint-roller-refills-only-60-sheets-per-roller-remove-dog-and-cat-hair-from-clothes-furniture"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-10-21",
+    "notes": "Rs 549 is unrealistic: the same 1 handle + 4 refills (300 sheets) combo sells on Amazon.in at about Rs 249-299 (Foodie Puppies, 1,679 ratings), and the plan is already loss-making at Rs 549 (-Rs 13/order best case).",
+    "competitor_prices": [
+      {
+        "price": 284,
+        "url": "https://www.amazon.in/Foodie-Puppies-Lint-Roller-Furniture/dp/B0B6SQX234"
+      }
+    ]
+  }
+}

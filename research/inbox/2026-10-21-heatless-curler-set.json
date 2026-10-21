@@ -1,0 +1,72 @@
+{
+  "id": "RA-20261021-3",
+  "name": "Satin heatless hair curler (curling rod) set",
+  "category": "beauty_tools",
+  "weight": "le_500g",
+  "supplier_cost": 80,
+  "supplier_cost_note": "IndiaMART hair-roller category: 'Heatless Hair Roller' medium Rs 80/piece (search snippet; seller, MOQ and set contents not shown). Kitsch-branded set Rs 681 on the same page is branded, not usable.",
+  "price": 449,
+  "retail_observed": "Amazon.in via pricebefore.com tracker: 4-piece heatless curler set Rs 1,100-1,198 (MRP Rs 2,499). Meesho listings exist but price not visible. Unbranded positioning at Rs 449 is UNVALIDATED against comparable unbranded listings.",
+  "gst_pct": 18,
+  "electrical": false,
+  "documents": [],
+  "demand_signals": [
+    {
+      "source": "pricebefore.com Amazon.in price tracker",
+      "url": "https://www.pricebefore.com/heat-damage-heatless-hair-curler-easy-p1011307.html",
+      "seen_on": "2026-10-21",
+      "summary": "Heatless curler sets tracked on Amazon.in at Rs 1,100-1,387 in multiple colour variants"
+    },
+    {
+      "source": "Meesho listing",
+      "url": "https://www.meesho.com/heatless-hair-curler-flexible-curling-rod-with-hook-satin-rollers-for-all-hair-types-no-heat-curls-to-sleep-for-curl-rods-heatless-curls-for-blowout-hair-black/p/9ddnkv",
+      "seen_on": "2026-10-21",
+      "summary": "Several Meesho listings for satin heatless curlers (ratings shown, price not visible in snippet)"
+    }
+  ],
+  "risks": [
+    "Supplier set contents unknown; Rs 80 may be a single rod without clips/scrunchies",
+    "Retail comparable for unbranded sets not validated",
+    "Avoid any Kitsch or other brand names/images",
+    "GST/HSN to confirm"
+  ],
+  "sources": [
+    "https://m.indiamart.com/impcat/hair-roller.html",
+    "https://www.pricebefore.com/heat-damage-heatless-hair-curler-easy-p1011307.html",
+    "https://www.pricebefore.com/heat-damage-heatless-hair-curler-easy-p1013402.html",
+    "https://www.meesho.com/heatless-hair-curler-flexible-curling-rod-with-hook-satin-rollers-for-all-hair-types-no-heat-curls-to-sleep-for-curl-rods-heatless-curls-for-blowout-hair-black/p/9ddnkv"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-10-21",
+    "notes": "Rs 449 is unrealistic: current unbranded/small-brand satin curler sets (rod + scrunchies/clip) sell on Flipkart at Rs 204-320, and the only Rs 1,100+ data is a branded set; a competitive price (~Rs 299) is below the Rs 449 policy floor. Rs 80 IndiaMART snippet is per piece with set contents unconfirmed (IndiaMART page not fetchable today), so the cost of a full set is also unverified.",
+    "competitor_prices": [
+      {
+        "price": 204,
+        "url": "https://www.flipkart.com/maa-shopping-silk-curling-ribbon-heatless-hair-set-with2-scrunchies-satin-curler-ribbon-set-curls-pack-1-black/p/itm06c4851b6a9f6"
+      },
+      {
+        "price": 239,
+        "url": "https://www.flipkart.com/dizaa-satin-heatless-hair-curler-set-curling-rod-headband-scrunchies-clip/p/itmbd520ea439cbf"
+      },
+      {
+        "price": 270,
+        "url": "https://www.flipkart.com/shopogenix-heatless-hair-curler-5-piece-set-satin-curling-rod-headband/p/itmfa3ba995c8fda"
+      },
+      {
+        "price": 298,
+        "url": "https://www.flipkart.com/luxonix-satin-heatless-hair-curler-set-overnight-damage-free-curls-all-types/p/itmfe042b030e7d4"
+      },
+      {
+        "price": 315,
+        "url": "https://www.flipkart.com/shopimoz-silk-satin-heatless-hair-curler-set-soft-no-heat-curl-rod-headband-diy-sleeping/p/itm828d38e30aa29"
+      },
+      {
+        "price": 320,
+        "url": "https://www.flipkart.com/ortiza-heatless-hair-curler-overnight-curls-blowout-rods-all-types-curler/p/itm9766f51e82e8a"
+      }
+    ]
+  }
+}
