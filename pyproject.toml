@@ -1,0 +1,15 @@
+[project]
+name = "tradeindia-platform"
+version = "0.2.0"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 130
+target-version = "py311"
+extend-exclude = ["site"]
+
+[tool.ruff.lint]
+# Quality gate: syntax errors, undefined names, unused imports/variables, bare excepts.
+select = ["E9", "F63", "F7", "F82", "F401", "F841", "E722"]
+ignore = ["F403", "F405"]
+per-file-ignores = { "timp/platform.py" = ["F401"], "tests/*" = ["F401"] }

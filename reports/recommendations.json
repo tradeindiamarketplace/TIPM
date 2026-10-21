@@ -1,0 +1,988 @@
+{
+  "research_date": "2026-10-21",
+  "policy": {
+    "min_margin_pct": 30,
+    "min_contribution_inr": 60,
+    "min_price_inr": 449,
+    "max_weight_slab": "le_2kg",
+    "rank_by": "expected_contribution"
+  },
+  "items": [
+    {
+      "id": "PC-018",
+      "name": "Desk combo: aluminium laptop stand + phone stand",
+      "category": "electronics_accessories_non_electrical",
+      "price": 899.0,
+      "supplier_cost": 300.0,
+      "stage": "AWAITING_REVIEW",
+      "reason": "profit target met; waiting for the review agent",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 214.92,
+        "margin": 30.66,
+        "conservative": 146.04
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 173.96,
+          "margin": 24.82,
+          "conservative": 89.08
+        },
+        "amazon_in": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 214.92,
+          "margin": 30.66,
+          "conservative": 146.04
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 187.44,
+          "margin": 26.74,
+          "conservative": 117.57
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 151.83,
+          "margin": 23.45,
+          "conservative": 47.34
+        }
+      },
+      "passing_channels": [
+        "amazon_in"
+      ],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/laptop-stands.html",
+        "https://m.indiamart.com/ismart-technology/mobile-stands.html"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "PC-013",
+      "name": "Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 10",
+      "category": "cleaning_utility",
+      "price": 699.0,
+      "supplier_cost": 225.0,
+      "stage": "AWAITING_REVIEW",
+      "reason": "profit target met; waiting for the review agent",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 180.98,
+        "margin": 33.21,
+        "conservative": 127.39
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 158.02,
+          "margin": 29.0,
+          "conservative": 90.43
+        },
+        "amazon_in": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 180.98,
+          "margin": 33.21,
+          "conservative": 127.39
+        },
+        "flipkart": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 163.51,
+          "margin": 30.0,
+          "conservative": 109.91
+        },
+        "meesho": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 152.14,
+          "margin": 30.22,
+          "conservative": 72.55
+        }
+      },
+      "passing_channels": [
+        "amazon_in",
+        "flipkart",
+        "meesho"
+      ],
+      "retail_validated": true,
+      "sources": [
+        "https://m.indiamart.com/impcat/microfiber-cloths.html"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "PC-017",
+      "name": "Aluminium adjustable laptop stand, foldable",
+      "category": "electronics_accessories_non_electrical",
+      "price": 599.0,
+      "supplier_cost": 150.0,
+      "stage": "AWAITING_REVIEW",
+      "reason": "profit target met; waiting for the review agent",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 160.02,
+        "margin": 34.26,
+        "conservative": 105.31
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 136.06,
+          "margin": 29.13,
+          "conservative": 66.35
+        },
+        "amazon_in": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 160.02,
+          "margin": 34.26,
+          "conservative": 105.31
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 140.04,
+          "margin": 29.99,
+          "conservative": 84.34
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 124.48,
+          "margin": 28.85,
+          "conservative": 43.44
+        }
+      },
+      "passing_channels": [
+        "amazon_in"
+      ],
+      "retail_validated": true,
+      "sources": [
+        "https://m.indiamart.com/impcat/laptop-stands.html",
+        "https://m.indiamart.com/apareal-computer/laptop-stand.html"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "PC-014",
+      "name": "Makeup brush set 13 pcs with storage pouch",
+      "category": "beauty",
+      "price": 449.0,
+      "supplier_cost": 110.0,
+      "stage": "AWAITING_REVIEW",
+      "reason": "profit target met; waiting for the review agent",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 116.47,
+        "margin": 33.27,
+        "conservative": 69.05
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 83.51,
+          "margin": 23.85,
+          "conservative": 22.09
+        },
+        "amazon_in": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 116.47,
+          "margin": 33.27,
+          "conservative": 69.05
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 95.24,
+          "margin": 27.21,
+          "conservative": 47.82
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 78.43,
+          "margin": 24.25,
+          "conservative": 10.42
+        }
+      },
+      "passing_channels": [
+        "amazon_in"
+      ],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/cosmetic-brush-set.html"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "PC-012",
+      "name": "Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 (at Rs 449)",
+      "category": "cleaning_utility",
+      "price": 449.0,
+      "supplier_cost": 112.5,
+      "stage": "AWAITING_REVIEW",
+      "reason": "profit target met; waiting for the review agent",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 114.07,
+        "margin": 32.58,
+        "conservative": 66.7
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 81.11,
+          "margin": 23.17,
+          "conservative": 19.74
+        },
+        "amazon_in": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 114.07,
+          "margin": 32.58,
+          "conservative": 66.7
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 92.84,
+          "margin": 26.52,
+          "conservative": 45.47
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 76.12,
+          "margin": 23.53,
+          "conservative": 8.2
+        }
+      },
+      "passing_channels": [
+        "amazon_in"
+      ],
+      "retail_validated": true,
+      "sources": [
+        "https://dir.indiamart.com/khurda/microfiber-cloths.html"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "PC-016",
+      "name": "Wardrobe + fridge organiser combo (12 saree covers + 6 fridge bags)",
+      "category": "home_storage",
+      "price": 899.0,
+      "supplier_cost": 333.0,
+      "stage": "BELOW_TARGET",
+      "reason": "no channel reaches 30% margin",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": 220.78,
+        "margin": 29.9,
+        "conservative": 150.94
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 179.82,
+          "margin": 24.35,
+          "conservative": 93.98
+        },
+        "amazon_in": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 220.78,
+          "margin": 29.9,
+          "conservative": 150.94
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 193.31,
+          "margin": 26.18,
+          "conservative": 122.46
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 156.0,
+          "margin": 22.86,
+          "conservative": 49.69
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": true,
+      "sources": [
+        "https://m.indiamart.com/impcat/saree-cover.html"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "PC-015",
+      "name": "Hair claw clips, pack of 12",
+      "category": "women_accessories",
+      "price": 449.0,
+      "supplier_cost": 132.0,
+      "stage": "BELOW_TARGET",
+      "reason": "no channel reaches 30% margin",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": 95.35,
+        "margin": 27.24,
+        "conservative": 48.37
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 62.39,
+          "margin": 17.82,
+          "conservative": 1.41
+        },
+        "amazon_in": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 95.35,
+          "margin": 27.24,
+          "conservative": 48.37
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 74.12,
+          "margin": 21.17,
+          "conservative": 27.14
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 58.08,
+          "margin": 17.96,
+          "conservative": -9.11
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/hair-clips.html"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "PC-011",
+      "name": "Kids stainless steel insulated lunch box (3 containers)",
+      "category": "kids",
+      "price": 599.0,
+      "supplier_cost": 245.0,
+      "stage": "BELOW_TARGET",
+      "reason": "no channel reaches 30% margin",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": 93.84,
+        "margin": 19.07,
+        "conservative": 39.94
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 69.88,
+          "margin": 14.2,
+          "conservative": 0.98
+        },
+        "amazon_in": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 93.84,
+          "margin": 19.07,
+          "conservative": 39.94
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 73.86,
+          "margin": 15.01,
+          "conservative": 18.97
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 59.72,
+          "margin": 13.14,
+          "conservative": -19.8
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/insulated-lunch-box.html",
+        "https://m.indiamart.com/impcat/bento-boxes.html"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "PC-008",
+      "name": "Non-woven saree / clothes cover organisers, set of 12",
+      "category": "home_storage",
+      "price": 549.0,
+      "supplier_cost": 216.0,
+      "stage": "BELOW_TARGET",
+      "reason": "no channel reaches 30% margin",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": 80.6,
+        "margin": 17.87,
+        "conservative": 27.92
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 58.64,
+          "margin": 13.0,
+          "conservative": -9.04
+        },
+        "amazon_in": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 80.6,
+          "margin": 17.87,
+          "conservative": 27.92
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 61.88,
+          "margin": 13.72,
+          "conservative": 8.19
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 48.6,
+          "margin": 11.66,
+          "conservative": -28.66
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": true,
+      "sources": [
+        "https://m.indiamart.com/impcat/saree-cover.html",
+        "https://m.indiamart.com/samrathalindustries-jaipur/saree-cover-organizer.html",
+        "https://m.indiamart.com/aaravindustries-jaipur",
+        "https://shop.globalbees.com/products/kuber-industries-12-piece-non-woven-single-saree-2000000081136"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "PC-004",
+      "name": "Airtight PET kitchen storage jars, set of 6 (~1 L)",
+      "category": "home_storage",
+      "price": 449.0,
+      "supplier_cost": 144.0,
+      "stage": "BELOW_TARGET",
+      "reason": "no channel reaches 30% margin",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": 33.83,
+        "margin": 9.66,
+        "conservative": -22.91
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -9.13,
+          "margin": -2.61,
+          "conservative": -81.87
+        },
+        "amazon_in": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 33.83,
+          "margin": 9.66,
+          "conservative": -22.91
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 7.6,
+          "margin": 2.17,
+          "conservative": -50.14
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -28.02,
+          "margin": -8.66,
+          "conservative": -109.76
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": true,
+      "sources": [
+        "https://m.indiamart.com/eniver-mart/fish-container.html",
+        "https://m.indiamart.com/dynamicplastic/plastic-storage-containers.html",
+        "https://m.indiamart.com/joshnapolymers/plastic-drum.html",
+        "https://m.indiamart.com/company/104177997",
+        "https://m.indiamart.com/apoorbaindustries/plastic-container.html",
+        "https://shop.globalbees.com/products/kuber-industries-opal-plastic-airtight-pet-jar-2000000086457"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "PC-002",
+      "name": "Pure copper water bottle 1 L",
+      "category": "kitchen_organisation",
+      "price": 749.0,
+      "supplier_cost": 450.0,
+      "stage": "BELOW_TARGET",
+      "reason": "no channel reaches 30% margin",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": -11.03,
+        "margin": -1.89,
+        "conservative": -64.82
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -40.99,
+          "margin": -7.02,
+          "conservative": -109.78
+        },
+        "amazon_in": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -11.03,
+          "margin": -1.89,
+          "conservative": -64.82
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -34.76,
+          "margin": -5.95,
+          "conservative": -89.55
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -44.97,
+          "margin": -8.33,
+          "conservative": -124.3
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": true,
+      "sources": [
+        "https://m.indiamart.com/impcat/copper-sipper-bottle.html",
+        "https://dir.indiamart.com/moradabad/copper-water-bottle.html",
+        "https://www.dealsmagnet.com/deal/sisq-pure-copper-water-bottle-1-litre-1d0VSk3N",
+        "https://www.dealsmagnet.com/deal/amary-pure-copper-water-bottle-1l-pack-of-1-1bsZsbVw"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "PC-001",
+      "name": "Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5",
+      "category": "cleaning_utility",
+      "price": 399.0,
+      "supplier_cost": 112.5,
+      "stage": "REJECTED",
+      "reason": "price below Rs 449",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": 75.08,
+        "margin": 24.14,
+        "conservative": 29.41
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 44.12,
+          "margin": 14.18,
+          "conservative": -15.55
+        },
+        "amazon_in": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 75.08,
+          "margin": 24.14,
+          "conservative": 29.41
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 55.11,
+          "margin": 17.72,
+          "conservative": 9.43
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 40.1,
+          "margin": 13.95,
+          "conservative": -24.64
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": true,
+      "sources": [
+        "https://www.indiamart.com/skenterprisegujarat/microfiber-cleaning-cloth.html",
+        "https://m.indiamart.com/impcat/microfiber-cloths.html",
+        "https://shop.globalbees.com/products/kuber-industries-multi-utility-microfiber-duster-1000000131187",
+        "https://dir.indiamart.com/khurda/microfiber-cloths.html",
+        "https://www.bigbasket.com/pd/40258178/swachh-touch-microfiber-cloth-40x40-cms-for-cleaning-super-absorbent-non-scratch-5-pcs/"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "PC-010",
+      "name": "Makeup brush set, 13 pieces",
+      "category": "beauty",
+      "price": 299.0,
+      "supplier_cost": 78.0,
+      "stage": "REJECTED",
+      "reason": "price below Rs 449",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": 30.24,
+        "margin": 12.97,
+        "conservative": -12.74
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 3.28,
+          "margin": 1.41,
+          "conservative": -53.7
+        },
+        "amazon_in": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 30.24,
+          "margin": 12.97,
+          "conservative": -12.74
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 17.76,
+          "margin": 7.62,
+          "conservative": -25.21
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -0.02,
+          "margin": -0.01,
+          "conservative": -59.7
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/cosmetic-brush-set.html",
+        "https://m.indiamart.com/impcat/professional-makeup-brushes.html"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "PC-007",
+      "name": "Korean-style hair claw clips, set of 6",
+      "category": "women_accessories",
+      "price": 249.0,
+      "supplier_cost": 66.0,
+      "stage": "REJECTED",
+      "reason": "price below Rs 449",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": 7.78,
+        "margin": 4.01,
+        "conservative": -33.75
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -22.18,
+          "margin": -11.43,
+          "conservative": -77.71
+        },
+        "amazon_in": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 7.78,
+          "margin": 4.01,
+          "conservative": -33.75
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -8.45,
+          "margin": -4.35,
+          "conservative": -49.97
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -24.94,
+          "margin": -13.9,
+          "conservative": -81.89
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/hair-clips.html",
+        "https://dir.indiamart.com/impcat/hair-clutcher.html",
+        "https://m.indiamart.com/ladycaredelhi"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "PC-003",
+      "name": "Silicone spatula / cooking tool set, 6 pieces",
+      "category": "kitchen_organisation",
+      "price": 299.0,
+      "supplier_cost": 120.0,
+      "stage": "REJECTED",
+      "reason": "price below Rs 449",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": -10.08,
+        "margin": -4.32,
+        "conservative": -52.22
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -37.04,
+          "margin": -15.89,
+          "conservative": -93.18
+        },
+        "amazon_in": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -10.08,
+          "margin": -4.32,
+          "conservative": -52.22
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -22.56,
+          "margin": -9.68,
+          "conservative": -64.69
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -38.87,
+          "margin": -18.05,
+          "conservative": -96.97
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": true,
+      "sources": [
+        "https://m.indiamart.com/impcat/silicone-spatula.html",
+        "https://m.indiamart.com/impcat/kitchen-tools.html",
+        "https://www.flipkart.com/easymart-silicone-kitchen-spatula-set-tool/p/itmb0c550becd950"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "PC-005",
+      "name": "Manual pull-string vegetable chopper, 500 ml",
+      "category": "kitchen_organisation",
+      "price": 199.0,
+      "supplier_cost": 44.0,
+      "stage": "REJECTED",
+      "reason": "price below Rs 449",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": -10.09,
+        "margin": -6.5,
+        "conservative": -50.35
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -38.05,
+          "margin": -24.52,
+          "conservative": -92.31
+        },
+        "amazon_in": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -10.09,
+          "margin": -6.5,
+          "conservative": -50.35
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -25.06,
+          "margin": -16.15,
+          "conservative": -65.33
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -40.6,
+          "margin": -28.32,
+          "conservative": -95.2
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/kitchen-chopper.html",
+        "https://lntsufin.com/product/apex-6-blades-1000-ml-manual-vegetable-chopper/16560-1795",
+        "https://www.flipkart.com/amr-store-manual-vegetable-chopper-pull-string-multipurpose-kitchen-food-fruit/p/itm5f95564e00d60"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "PC-009",
+      "name": "Cotton fridge vegetable storage bags, set of 6",
+      "category": "kitchen_organisation",
+      "price": 199.0,
+      "supplier_cost": 117.0,
+      "stage": "REJECTED",
+      "reason": "price below Rs 449",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": -60.96,
+        "margin": -34.96,
+        "conservative": -100.6
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -88.92,
+          "margin": -51.0,
+          "conservative": -142.56
+        },
+        "amazon_in": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -60.96,
+          "margin": -34.96,
+          "conservative": -100.6
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -75.93,
+          "margin": -43.55,
+          "conservative": -115.57
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": -90.38,
+          "margin": -56.1,
+          "conservative": -143.81
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": true,
+      "sources": [
+        "https://m.indiamart.com/impcat/vegetable-mesh-bag.html",
+        "https://www.dealsmagnet.com/deal/beddify-set-of-6-reusable-fridge-storage-bags-whit-1d9ut2hW"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "PC-006",
+      "name": "Stainless steel masala dabba, 7 containers",
+      "category": "kitchen_organisation",
+      "price": 549.0,
+      "supplier_cost": null,
+      "stage": "REJECTED",
+      "reason": "no supplier cost yet",
+      "best_channel": null,
+      "best": null,
+      "channels": {},
+      "passing_channels": [],
+      "retail_validated": true,
+      "sources": [
+        "https://m.indiamart.com/impcat/spice-boxes.html",
+        "https://www.flipkart.com/hi/asdesignimpex-spice-set-iron/p/itmc5eb14ae130c9"
+      ],
+      "review": null,
+      "ca": null
+    }
+  ]
+}

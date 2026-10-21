@@ -265,7 +265,42 @@ CANDIDATES = [
          supplier_cost=D("333"), supplier_cost_range=("204", "380"), supplier_cost_note="PC-008 + PC-009 supplier estimates; two suppliers unless one stocks both",
          price=D("899"), retail_observed="Separately Rs 628 + Rs 182-199 at retail", gst_pct=D("12"),
          risks=["Two suppliers = two parcels unless one supplier stocks both"], sources=["https://m.indiamart.com/impcat/saree-cover.html"]),
+    # ---- 2026-10-21 third pass: non-electrical gadget accessories (no BIS, low defect risk)
+    dict(id="PC-017", name="Aluminium adjustable laptop stand, foldable", category="electronics_accessories_non_electrical", weight="le_1kg",
+         supplier_cost=D("150"), supplier_cost_range=("130", "170"), supplier_cost_note="IndiaMART Delhi/Surat: Rs 130-170 per piece",
+         price=D("599"), retail_observed="Amazon.in deals seen at Rs 199 and Rs 385; Rs 599 needs a differentiated product (sturdier, height-adjustable)",
+         gst_pct=D("18"), risks=["Observed deals are cheaper than Rs 599", "Sharp edges / finish quality"],
+         sources=["https://m.indiamart.com/impcat/laptop-stands.html", "https://m.indiamart.com/apareal-computer/laptop-stand.html"]),
+    dict(id="PC-018", name="Desk combo: aluminium laptop stand + phone stand", category="electronics_accessories_non_electrical", weight="le_2kg",
+         supplier_cost=D("300"), supplier_cost_range=("240", "350"), supplier_cost_note="Laptop stand Rs 130-170 + phone stand Rs 110-179 (IndiaMART)",
+         price=D("899"), retail_observed="UNVALIDATED", gst_pct=D("18"),
+         risks=["Two suppliers = two parcels unless one stocks both", "Retail price not yet validated"],
+         sources=["https://m.indiamart.com/impcat/laptop-stands.html", "https://m.indiamart.com/ismart-technology/mobile-stands.html"]),
 ]
+
+def _load_inbox():
+    """Candidates written by the research agent (research/inbox/*.json, one object or a list per file)."""
+    import json
+    from pathlib import Path
+    out = []
+    for f in sorted((Path(__file__).parent / "inbox").glob("*.json")):
+        data = json.loads(f.read_text())
+        for c in data if isinstance(data, list) else [data]:
+            for k in ("supplier_cost", "price", "gst_pct"):
+                if c.get(k) is not None:
+                    c[k] = D(str(c[k]))
+            c.setdefault("supplier_cost_range", None)
+            c.setdefault("risks", [])
+            c.setdefault("sources", [])
+            c.setdefault("supplier_cost_note", "")
+            c.setdefault("retail_observed", "")
+            c["inbox_file"] = f.name
+            out.append(c)
+    return out
+
+
+_known = {c["id"] for c in CANDIDATES}
+CANDIDATES += [c for c in _load_inbox() if c["id"] not in _known]
 
 FEE_SOURCES = {
     "amazon_in": [

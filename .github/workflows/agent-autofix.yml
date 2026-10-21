@@ -1,0 +1,43 @@
+# When the quality gate fails on a pull request branch, the QA agent fixes it and pushes to that branch.
+# It never touches main directly, and never weakens tests, gates or config/product_policy.toml.
+name: Agent auto-fix
+
+on:
+  workflow_run:
+    workflows: ["Quality gate"]
+    types: [completed]
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: read
+  id-token: write
+
+jobs:
+  fix:
+    if: >
+      github.event.workflow_run.conclusion == 'failure' &&
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      !startsWith(github.event.workflow_run.head_commit.message, '[autofix]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_branch }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            The "Quality gate" workflow failed on branch ${{ github.event.workflow_run.head_branch }}
+            (run ${{ github.event.workflow_run.html_url }}).
+            Use the `qa-fixer` subagent: reproduce with `pip install ruff==0.6.9 && ruff check . && python -m unittest discover -s tests -t .`,
+            fix the cause with the smallest correct change, add a regression test, and commit with a message starting
+            "[autofix]". Then push to the same branch. Never edit config/product_policy.toml, never lower thresholds,
+            never delete or skip tests. If the fix needs an owner decision, comment on the pull request instead.
+          claude_args: --allowedTools "Bash(pip install*),Bash(ruff*),Bash(python*),Bash(git*),Read,Edit,Write,Glob,Grep,Task"

@@ -36,7 +36,7 @@
   </div>
   <nav class="tmb-cats" aria-label="Shop by category"><div class="w">
     <a href="{{ routes.all_products_collection_url }}"><b>All products</b></a>
-    {%- assign handles = 'kitchen-organisation,home-storage,cleaning-utility,home-appliances,festive-offers' | split: ',' -%}
+    {%- assign handles = 'kitchen-organisation,home-storage,cleaning-utility,womens-accessories,beauty,kids,electronics-accessories,festive-offers' | split: ',' -%}
     {%- for h in handles -%}{%- assign c = collections[h] -%}{%- if c -%}<a href="{{ c.url }}">{{ c.title }}</a>{%- endif -%}{%- endfor -%}
     <a href="/pages/how-we-work">How we work</a>
     <a href="/pages/shipping-policy">Shipping</a>

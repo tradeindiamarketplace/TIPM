@@ -1,0 +1,44 @@
+# Quality gate: must pass before anything merges to main or deploys to Shopify.
+name: Quality gate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Lint (ruff)
+        run: pip install ruff==0.6.9 && ruff check .
+      - name: Unit + end-to-end tests
+        run: python -m unittest discover -s tests -t . -v
+      - name: Config, policy and theme JSON are valid
+        run: |
+          python - <<'PY'
+          import json, pathlib, tomllib
+          for p in ["config/settings.toml", "config/product_policy.toml"]:
+              tomllib.loads(pathlib.Path(p).read_text()); print("ok", p)
+          for p in pathlib.Path("site/theme").rglob("*.json"):
+              json.loads(p.read_text()); print("ok", p)
+          for p in pathlib.Path("research/inbox").glob("*.json"):
+              json.loads(p.read_text()); print("ok", p)
+          PY
+      - name: Recommendation pipeline runs
+        run: python scripts/recommend.py
+      - name: Product policy unchanged by agents
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch --depth=1 origin "${{ github.base_ref }}"
+          if ! git diff --quiet "origin/${{ github.base_ref }}" -- config/product_policy.toml; then
+            author="$(git log -1 --format=%an)"
+            case "$author" in
+              *[Bb]ot*|*[Cc]laude*) echo "::error::config/product_policy.toml is owner-only; an agent changed it"; exit 1;;
+            esac
+          fi

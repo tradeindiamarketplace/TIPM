@@ -1,0 +1,39 @@
+# Product policy: what the research, review and CA agents may recommend.
+# Owner goal: maximum profit with no products that cause trouble (legal, safety, returns, disputes).
+# A candidate that breaks any hard rule is rejected outright, however profitable it looks.
+# Owner-only file. Agents read it and never change it.
+
+[economics]
+min_margin_pct = 30            # expected contribution / net revenue (after GST), base scenario
+min_contribution_inr = 60
+min_price_inr = 449            # below this, fixed shipping + returns rarely leave 30%
+max_weight_slab = "le_2kg"     # le_500g | le_1kg | le_2kg
+rank_by = "expected_contribution"   # more profit per order ranks higher
+
+[hard_rules]
+# Categories never recommended (high returns, safety, licensing or IP risk).
+blocked_categories = [
+  "apparel", "footwear",                 # 25-40% returns (size/fit)
+  "food", "supplements", "medicines", "cosmetics_applied_to_skin", "ayurvedic",   # FSSAI / CDSCO / AYUSH licences
+  "batteries", "power_banks", "chargers", "wireless_audio", "smartwatches",   # BIS CRS registration + defect returns
+  "electrical_appliances",               # BIS Quality Control Order (IS 302); only via the exception below
+  "toys_for_under_3",                    # BIS toy QCO + choking hazard
+  "branded_goods_without_authorisation", "replicas",
+  "weapons", "knives_over_15cm", "adult", "tobacco", "liquids_flammable",
+  "glass_fragile",                       # breakage in courier
+]
+require_evidence_for_claims = true     # "pure copper", "food grade", GSM... need a test report
+require_supplier_photos_with_permission = true
+
+[exception.electrical]
+# Electrical or electronic items are allowed ONLY if the supplier is the BIS licence holder
+# (CRS R-number or ISI licence) for that exact model, gives a written warranty and handles
+# warranty claims, AND the item passes every economics rule above.
+allowed = true
+required_documents = ["BIS_CRS_OR_ISI_LICENCE", "ELECTRICAL_SAFETY_DOCS", "WARRANTY_TERMS"]
+expected_return_rate_pct = 15
+
+[preferred]
+# Categories that tend to be low-risk, light and repeat-purchase.
+categories = ["cleaning_utility", "home_storage", "kitchen_organisation", "women_accessories",
+              "beauty_tools", "kids_non_toy", "electronics_accessories_non_electrical", "office_desk"]

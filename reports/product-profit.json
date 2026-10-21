@@ -11204,6 +11204,1484 @@
           ]
         }
       }
+    },
+    {
+      "id": "PC-017",
+      "product": "Aluminium adjustable laptop stand, foldable",
+      "channel": "shopify",
+      "price": "599",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 29.13% < minimum 30%",
+        "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "415.05",
+      "min_viable": "607.00",
+      "scenarios": {
+        "conservative": {
+          "expected": "66.35",
+          "margin_pct": "14.85",
+          "net_revenue": "507.63",
+          "cash_out": "378.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-91.37"
+            ],
+            [
+              "Net revenue",
+              "507.63"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-96.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-23.96"
+            ],
+            [
+              "Advertising per order",
+              "-90.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "132.67"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-66.32"
+            ],
+            [
+              "= Expected contribution per order",
+              "66.35"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "136.06",
+          "margin_pct": "29.13",
+          "net_revenue": "507.63",
+          "cash_out": "332.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-91.37"
+            ],
+            [
+              "Net revenue",
+              "507.63"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-23.96"
+            ],
+            [
+              "Advertising per order",
+              "-60.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "178.67"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-42.61"
+            ],
+            [
+              "= Expected contribution per order",
+              "136.06"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "166.84",
+          "margin_pct": "34.82",
+          "net_revenue": "507.63",
+          "cash_out": "314.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-91.37"
+            ],
+            [
+              "Net revenue",
+              "507.63"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-23.96"
+            ],
+            [
+              "Advertising per order",
+              "-42.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "196.67"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-29.83"
+            ],
+            [
+              "= Expected contribution per order",
+              "166.84"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-017",
+      "product": "Aluminium adjustable laptop stand, foldable",
+      "channel": "amazon_in",
+      "price": "599",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "393.75",
+      "min_viable": "562.52",
+      "scenarios": {
+        "conservative": {
+          "expected": "105.31",
+          "margin_pct": "23.57",
+          "net_revenue": "507.63",
+          "cash_out": "333.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-91.37"
+            ],
+            [
+              "Net revenue",
+              "507.63"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-96.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "171.63"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-66.32"
+            ],
+            [
+              "= Expected contribution per order",
+              "105.31"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "160.02",
+          "margin_pct": "34.26",
+          "net_revenue": "507.63",
+          "cash_out": "302.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-91.37"
+            ],
+            [
+              "Net revenue",
+              "507.63"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "202.63"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-42.61"
+            ],
+            [
+              "= Expected contribution per order",
+              "160.02"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "181.80",
+          "margin_pct": "37.94",
+          "net_revenue": "507.63",
+          "cash_out": "293.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-91.37"
+            ],
+            [
+              "Net revenue",
+              "507.63"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "211.63"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-29.83"
+            ],
+            [
+              "= Expected contribution per order",
+              "181.80"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-017",
+      "product": "Aluminium adjustable laptop stand, foldable",
+      "channel": "flipkart",
+      "price": "599",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 29.99% < minimum 30%",
+        "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "413.42",
+      "min_viable": "599.12",
+      "scenarios": {
+        "conservative": {
+          "expected": "84.34",
+          "margin_pct": "18.88",
+          "net_revenue": "507.63",
+          "cash_out": "339.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-91.37"
+            ],
+            [
+              "Net revenue",
+              "507.63"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-102.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-44.98"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "150.65"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-66.32"
+            ],
+            [
+              "= Expected contribution per order",
+              "84.34"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "140.04",
+          "margin_pct": "29.99",
+          "net_revenue": "507.63",
+          "cash_out": "307.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-91.37"
+            ],
+            [
+              "Net revenue",
+              "507.63"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-85.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-44.98"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "182.65"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-42.61"
+            ],
+            [
+              "= Expected contribution per order",
+              "140.04"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "161.83",
+          "margin_pct": "33.77",
+          "net_revenue": "507.63",
+          "cash_out": "298.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-91.37"
+            ],
+            [
+              "Net revenue",
+              "507.63"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-85.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-44.98"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "191.65"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-29.83"
+            ],
+            [
+              "= Expected contribution per order",
+              "161.83"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-017",
+      "product": "Aluminium adjustable laptop stand, foldable",
+      "channel": "meesho",
+      "price": "599",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 28.85% < minimum 30%",
+        "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "426.18",
+      "min_viable": "608.84",
+      "scenarios": {
+        "conservative": {
+          "expected": "43.44",
+          "margin_pct": "11.04",
+          "net_revenue": "507.63",
+          "cash_out": "342.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-91.37"
+            ],
+            [
+              "Net revenue",
+              "507.63"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "182.63"
+            ],
+            [
+              "Return exposure at 22.50% returns",
+              "-139.19"
+            ],
+            [
+              "= Expected contribution per order",
+              "43.44"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "124.48",
+          "margin_pct": "28.85",
+          "net_revenue": "507.63",
+          "cash_out": "312.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-91.37"
+            ],
+            [
+              "Net revenue",
+              "507.63"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-100.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-20.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "212.63"
+            ],
+            [
+              "Return exposure at 15.00% returns",
+              "-88.14"
+            ],
+            [
+              "= Expected contribution per order",
+              "124.48"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "156.93",
+          "margin_pct": "34.54",
+          "net_revenue": "507.63",
+          "cash_out": "306.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-91.37"
+            ],
+            [
+              "Net revenue",
+              "507.63"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-100.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-14.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "218.63"
+            ],
+            [
+              "Return exposure at 10.50% returns",
+              "-61.70"
+            ],
+            [
+              "= Expected contribution per order",
+              "156.93"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-018",
+      "product": "Desk combo: aluminium laptop stand + phone stand",
+      "channel": "shopify",
+      "price": "899",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 24.82% < minimum 30%",
+        "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "663.81",
+      "min_viable": "970.81",
+      "scenarios": {
+        "conservative": {
+          "expected": "89.08",
+          "margin_pct": "13.29",
+          "net_revenue": "761.86",
+          "cash_out": "603.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-137.14"
+            ],
+            [
+              "Net revenue",
+              "761.86"
+            ],
+            [
+              "Supplier cost",
+              "-300.00"
+            ],
+            [
+              "Forward shipping",
+              "-144.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-35.96"
+            ],
+            [
+              "Advertising per order",
+              "-90.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "176.90"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-87.82"
+            ],
+            [
+              "= Expected contribution per order",
+              "89.08"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "173.96",
+          "margin_pct": "24.82",
+          "net_revenue": "761.86",
+          "cash_out": "549.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-137.14"
+            ],
+            [
+              "Net revenue",
+              "761.86"
+            ],
+            [
+              "Supplier cost",
+              "-300.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-35.96"
+            ],
+            [
+              "Advertising per order",
+              "-60.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "230.90"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-56.95"
+            ],
+            [
+              "= Expected contribution per order",
+              "173.96"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "209.04",
+          "margin_pct": "29.07",
+          "net_revenue": "761.86",
+          "cash_out": "531.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-137.14"
+            ],
+            [
+              "Net revenue",
+              "761.86"
+            ],
+            [
+              "Supplier cost",
+              "-300.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-35.96"
+            ],
+            [
+              "Advertising per order",
+              "-42.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "248.90"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-39.86"
+            ],
+            [
+              "= Expected contribution per order",
+              "209.04"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-018",
+      "product": "Desk combo: aluminium laptop stand + phone stand",
+      "channel": "amazon_in",
+      "price": "899",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "623.34",
+      "min_viable": "890.50",
+      "scenarios": {
+        "conservative": {
+          "expected": "146.04",
+          "margin_pct": "21.78",
+          "net_revenue": "761.86",
+          "cash_out": "552.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-137.14"
+            ],
+            [
+              "Net revenue",
+              "761.86"
+            ],
+            [
+              "Supplier cost",
+              "-300.00"
+            ],
+            [
+              "Forward shipping",
+              "-138.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "233.86"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-87.82"
+            ],
+            [
+              "= Expected contribution per order",
+              "146.04"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "214.92",
+          "margin_pct": "30.66",
+          "net_revenue": "761.86",
+          "cash_out": "514.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-137.14"
+            ],
+            [
+              "Net revenue",
+              "761.86"
+            ],
+            [
+              "Supplier cost",
+              "-300.00"
+            ],
+            [
+              "Forward shipping",
+              "-115.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "271.86"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-56.95"
+            ],
+            [
+              "= Expected contribution per order",
+              "214.92"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "241.00",
+          "margin_pct": "33.51",
+          "net_revenue": "761.86",
+          "cash_out": "505.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-137.14"
+            ],
+            [
+              "Net revenue",
+              "761.86"
+            ],
+            [
+              "Supplier cost",
+              "-300.00"
+            ],
+            [
+              "Forward shipping",
+              "-115.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "280.86"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-39.86"
+            ],
+            [
+              "= Expected contribution per order",
+              "241.00"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-018",
+      "product": "Desk combo: aluminium laptop stand + phone stand",
+      "channel": "flipkart",
+      "price": "899",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 26.74% < minimum 30%",
+        "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "650.62",
+      "min_viable": "942.85",
+      "scenarios": {
+        "conservative": {
+          "expected": "117.57",
+          "margin_pct": "17.54",
+          "net_revenue": "761.86",
+          "cash_out": "558.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-137.14"
+            ],
+            [
+              "Net revenue",
+              "761.86"
+            ],
+            [
+              "Supplier cost",
+              "-300.00"
+            ],
+            [
+              "Forward shipping",
+              "-144.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-52.48"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "205.39"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-87.82"
+            ],
+            [
+              "= Expected contribution per order",
+              "117.57"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "187.44",
+          "margin_pct": "26.74",
+          "net_revenue": "761.86",
+          "cash_out": "519.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-137.14"
+            ],
+            [
+              "Net revenue",
+              "761.86"
+            ],
+            [
+              "Supplier cost",
+              "-300.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-52.48"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "244.39"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-56.95"
+            ],
+            [
+              "= Expected contribution per order",
+              "187.44"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "213.53",
+          "margin_pct": "29.69",
+          "net_revenue": "761.86",
+          "cash_out": "510.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-137.14"
+            ],
+            [
+              "Net revenue",
+              "761.86"
+            ],
+            [
+              "Supplier cost",
+              "-300.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-52.48"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "253.39"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-39.86"
+            ],
+            [
+              "= Expected contribution per order",
+              "213.53"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "PC-018",
+      "product": "Desk combo: aluminium laptop stand + phone stand",
+      "channel": "meesho",
+      "price": "899",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 23.45% < minimum 30%",
+        "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "688.21",
+      "min_viable": "983.17",
+      "scenarios": {
+        "conservative": {
+          "expected": "47.34",
+          "margin_pct": "8.02",
+          "net_revenue": "761.86",
+          "cash_out": "579.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-137.14"
+            ],
+            [
+              "Net revenue",
+              "761.86"
+            ],
+            [
+              "Supplier cost",
+              "-300.00"
+            ],
+            [
+              "Forward shipping",
+              "-180.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "226.86"
+            ],
+            [
+              "Return exposure at 22.50% returns",
+              "-179.52"
+            ],
+            [
+              "= Expected contribution per order",
+              "47.34"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "151.83",
+          "margin_pct": "23.45",
+          "net_revenue": "761.86",
+          "cash_out": "539.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-137.14"
+            ],
+            [
+              "Net revenue",
+              "761.86"
+            ],
+            [
+              "Supplier cost",
+              "-300.00"
+            ],
+            [
+              "Forward shipping",
+              "-150.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-20.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "266.86"
+            ],
+            [
+              "Return exposure at 15.00% returns",
+              "-115.03"
+            ],
+            [
+              "= Expected contribution per order",
+              "151.83"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "192.34",
+          "margin_pct": "28.21",
+          "net_revenue": "761.86",
+          "cash_out": "533.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-137.14"
+            ],
+            [
+              "Net revenue",
+              "761.86"
+            ],
+            [
+              "Supplier cost",
+              "-300.00"
+            ],
+            [
+              "Forward shipping",
+              "-150.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-14.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "272.86"
+            ],
+            [
+              "Return exposure at 10.50% returns",
+              "-80.52"
+            ],
+            [
+              "= Expected contribution per order",
+              "192.34"
+            ]
+          ]
+        }
+      }
     }
   ]
 }

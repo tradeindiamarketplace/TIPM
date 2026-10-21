@@ -1,0 +1,5 @@
+# Owner approval required (enable "Require review from Code Owners" in branch protection for main).
+/config/product_policy.toml   @tradeindiamarketplace
+/config/settings.toml         @tradeindiamarketplace
+/.github/                     @tradeindiamarketplace
+/timp/permissions.py          @tradeindiamarketplace

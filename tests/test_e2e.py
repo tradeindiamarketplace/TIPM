@@ -129,7 +129,7 @@ class Harness(unittest.TestCase):
                                       channel=channel)
         self.p.decide(OWNER, pub.id, True)
         self.p.publish(A, lst.id)
-        self.p.record_inventory(SYS, s_id := q.supplier_id, q.sku, 100, "supplier_api")
+        self.p.record_inventory(SYS, q.supplier_id, q.sku, 100, "supplier_api")
         return prod, lst, q
 
     @staticmethod
@@ -404,7 +404,7 @@ class Scenarios(Harness):
 
     def test_22_audit_captures_material_actions(self):
         prod, lst, q = self.to_live()
-        o = self.order()
+        self.order()
         actions = {e.action for e in self.p.audit.events()}
         for must in ("product_discovered", "supplier_verification", "quotation_recorded", "economics_estimated",
                      "approval_requested", "approval_decided", "supplier_agreement_recorded", "compliance_check",
