@@ -1,0 +1,108 @@
+# TradeIndiaMarketplace operations configuration.
+#
+# Every money value is INR. Every percentage is a plain number (12 means 12%).
+# A key that is left out means "unknown": the margin calculator then reports the
+# SKU as INCOMPLETE and the publication gate stays closed. Never fill a fee with
+# a guess. Copy it from the channel's current seller fee card and set
+# fees_verified = true together with fee_source and fee_as_of.
+
+[thresholds]                       # owner-only (Perm.SET_THRESHOLDS)
+min_contribution_inr = "60"
+min_margin_pct = "12"
+max_acquisition_cost_inr = "80"
+gate_scenario = "base"             # scenario that must pass for the gate to open
+
+[scenarios.conservative]
+return_rate_mult = "1.5"
+ad_cost_mult = "1.5"
+shipping_mult = "1.2"
+
+[scenarios.base]
+return_rate_mult = "1"
+ad_cost_mult = "1"
+shipping_mult = "1"
+
+[scenarios.optimistic]
+return_rate_mult = "0.7"
+ad_cost_mult = "0.7"
+shipping_mult = "1"
+
+[operations]
+inventory_snapshot_max_age_hours = 24
+supplier_response_timeout_hours = 12
+delivery_delay_alert_days = 7
+# Standing authorisation for order-backed supplier POs (see docs/06).
+# A PO above either cap needs a PURCHASE_COMMITMENT approval from the owner.
+per_po_cap_inr = "5000"
+daily_po_cap_inr = "25000"
+# Refunds on the own website up to this amount, inside the published policy,
+# need no extra approval. 0 = every refund needs the owner.
+auto_refund_limit_inr = "0"
+auto_pause_on_margin_breach = true
+settlement_tolerance_inr = "1"
+return_window_days = 7
+
+# ---------------------------------------------------------------------------
+# Channel fee schedules. All UNVERIFIED until the owner enters current values.
+# ---------------------------------------------------------------------------
+
+[channels.shopify]
+fees_verified = false
+fee_source = "Shopify Basic plan + payment gateway contract (Razorpay/PayU/Cashfree) - TO ENTER"
+commission_pct = "0"
+fixed_fee_inr = "0"
+# payment_fee_pct      = ?  gateway MDR from your gateway contract
+# platform_fee_pct     = ?  Shopify third-party-gateway transaction fee on your plan
+fee_gst_pct = "18"
+fees_refunded_on_return_pct = "0"
+tcs_pct = "0"
+tds_pct = "0"
+required_attributes = ["title", "description", "vendor", "product_type", "hsn_code", "country_of_origin", "images"]
+
+[channels.amazon_in]
+fees_verified = false
+fee_source = "Amazon.in seller fee card (category referral, closing, weight-handling) - TO ENTER"
+# commission_pct = ?   referral fee for the category
+# fixed_fee_inr  = ?   closing fee for the price band
+payment_fee_pct = "0"
+platform_fee_pct = "0"
+fee_gst_pct = "18"
+fees_refunded_on_return_pct = "0"
+tcs_pct = "0.5"                     # GST TCS u/s 52 - confirm current rate with your CA
+tds_pct = "0.1"                     # Income-tax TDS u/s 194-O - confirm current rate with your CA
+required_attributes = ["title", "bullet_points", "description", "brand", "manufacturer", "hsn_code", "country_of_origin", "images", "item_weight_g", "mrp"]
+
+[channels.flipkart]
+fees_verified = false
+fee_source = "Flipkart seller rate card (commission, fixed, collection, shipping) - TO ENTER"
+# commission_pct = ?
+# fixed_fee_inr  = ?
+# payment_fee_pct = ?  collection fee
+platform_fee_pct = "0"
+fee_gst_pct = "18"
+fees_refunded_on_return_pct = "0"
+tcs_pct = "0.5"
+tds_pct = "0.1"
+required_attributes = ["title", "description", "brand", "hsn_code", "country_of_origin", "images", "item_weight_g", "mrp", "manufacturer"]
+
+[channels.meesho]
+fees_verified = false
+fee_source = "Meesho supplier panel commission and shipping terms - TO ENTER"
+# commission_pct = ?
+fixed_fee_inr = "0"
+payment_fee_pct = "0"
+platform_fee_pct = "0"
+fee_gst_pct = "18"
+fees_refunded_on_return_pct = "0"
+tcs_pct = "0.5"
+tds_pct = "0.1"
+required_attributes = ["title", "description", "hsn_code", "country_of_origin", "images", "item_weight_g", "mrp", "manufacturer"]
+
+# Compliance checks required before COMPLIANCE_APPROVED, by category.
+# "all" applies to every product. Rules are a starting checklist, not legal
+# advice: confirm each with a CA / lawyer and record the policy version used.
+[compliance]
+all = ["GST_HSN_RATE", "LEGAL_METROLOGY_LABEL", "COUNTRY_OF_ORIGIN", "PRODUCT_CLAIMS_REVIEW", "MARKETPLACE_CATEGORY_ALLOWED"]
+branded = ["BRAND_AUTHORISATION", "TRADEMARK_CHECK"]
+home_appliances = ["BIS_QCO_CRS", "ELECTRICAL_SAFETY_DOCS", "WARRANTY_TERMS"]
+kitchen_organisation = ["FOOD_CONTACT_MATERIAL"]

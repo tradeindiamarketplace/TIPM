@@ -1,0 +1,238 @@
+openapi: 3.1.0
+info:
+  title: TradeIndiaMarketplace Operations API
+  version: 0.1.0
+  description: |
+    Status: PLANNED contract. The domain logic behind every operation exists in timp/platform.py and
+    timp/operations.py and is tested; the HTTP layer (FastAPI) is backlog item F-03.
+    Every mutating call needs an `Idempotency-Key` header. Every caller authenticates as an Actor
+    (owner or a named agent service account) and is authorised by timp/permissions.py.
+    Gate failures return 409 with the list of reasons; permission failures return 403.
+servers:
+  - url: https://ops.tradeindiamarketplace.com/api/v1
+security:
+  - bearer: []
+components:
+  securitySchemes:
+    bearer: {type: http, scheme: bearer}
+  parameters:
+    Idem: {name: Idempotency-Key, in: header, required: true, schema: {type: string, maxLength: 128}}
+  schemas:
+    Money: {type: string, pattern: '^-?\d+(\.\d{1,2})?$', description: INR, decimal string}
+    GateBlocked:
+      type: object
+      required: [action, reasons]
+      properties: {action: {type: string}, reasons: {type: array, items: {type: string}}}
+    Evidence:
+      type: object
+      required: [kind, reference, captured_at]
+      properties:
+        kind: {type: string, examples: [url, document, quotation_pdf, carrier_api]}
+        reference: {type: string}
+        captured_at: {type: string, format: date-time}
+        summary: {type: string}
+    Candidate:
+      type: object
+      required: [name, category, intended_customer, specifications, demand_evidence, competition_evidence,
+                 indicative_price_low, indicative_price_high, supplier_leads, risks, confidence, recommended_action]
+      properties:
+        name: {type: string}
+        category: {type: string}
+        intended_customer: {type: string}
+        specifications: {type: object}
+        variants: {type: array, items: {type: string}}
+        demand_evidence: {type: array, items: {$ref: '#/components/schemas/Evidence'}}
+        competition_evidence: {type: array, items: {$ref: '#/components/schemas/Evidence'}}
+        indicative_price_low: {$ref: '#/components/schemas/Money'}
+        indicative_price_high: {$ref: '#/components/schemas/Money'}
+        supplier_leads: {type: array, items: {type: string}}
+        risks: {type: array, items: {type: string}}
+        confidence: {enum: [low, medium, high]}
+        recommended_action: {type: string}
+        branded: {type: boolean}
+        brand: {type: string}
+    CostInputs:
+      type: object
+      properties:
+        selling_price_incl_gst: {$ref: '#/components/schemas/Money'}
+        output_gst_pct: {type: string}
+        supplier_cost_excl_gst: {$ref: '#/components/schemas/Money'}
+        supplier_gst_pct: {type: string}
+        forward_shipping: {$ref: '#/components/schemas/Money'}
+        reverse_shipping: {$ref: '#/components/schemas/Money'}
+        return_rate_pct: {type: string}
+        ad_cost_per_order: {$ref: '#/components/schemas/Money'}
+        packaging: {$ref: '#/components/schemas/Money'}
+        discount_incl_gst: {$ref: '#/components/schemas/Money'}
+        other_variable: {$ref: '#/components/schemas/Money'}
+        supplier_credit_on_return_pct: {type: string}
+        input_tax_recoverable: {type: boolean}
+        basis: {type: object, additionalProperties: {enum: [quoted, actual, estimated]}}
+    OrderLine:
+      type: object
+      required: [sku, qty, unit_price_incl_gst]
+      properties: {sku: {type: string}, qty: {type: integer, minimum: 1}, unit_price_incl_gst: {$ref: '#/components/schemas/Money'}}
+  responses:
+    Blocked: {description: Gate blocked, content: {application/json: {schema: {$ref: '#/components/schemas/GateBlocked'}}}}
+    Forbidden: {description: Actor lacks permission}
+
+paths:
+  /candidates:
+    post:
+      summary: Agent B proposes a product (deduplicated; incomplete recommendations rejected)
+      parameters: [{$ref: '#/components/parameters/Idem'}]
+      requestBody: {required: true, content: {application/json: {schema: {$ref: '#/components/schemas/Candidate'}}}}
+      responses: {'201': {description: Product created in DISCOVERED}, '409': {$ref: '#/components/responses/Blocked'}, '403': {$ref: '#/components/responses/Forbidden'}}
+  /products/{id}/transitions:
+    post:
+      summary: Move a product through the lifecycle; preconditions are enforced server-side
+      parameters: [{name: id, in: path, required: true, schema: {type: string}}, {$ref: '#/components/parameters/Idem'}]
+      requestBody:
+        content: {application/json: {schema: {type: object, required: [to], properties: {to: {type: string}, reason: {type: string}}}}}
+      responses: {'200': {description: Transitioned}, '409': {$ref: '#/components/responses/Blocked'}}
+  /products/{id}/material-changes:
+    post:
+      summary: Record a cost/price/supplier/spec change. Bumps version, supersedes approvals, pauses if live
+      parameters: [{name: id, in: path, required: true, schema: {type: string}}, {$ref: '#/components/parameters/Idem'}]
+      responses: {'200': {description: New version}}
+  /products/{id}/estimates:
+    post:
+      summary: Agent D/I runs the margin engine for one channel
+      parameters: [{name: id, in: path, required: true, schema: {type: string}}, {$ref: '#/components/parameters/Idem'}]
+      requestBody:
+        content: {application/json: {schema: {type: object, required: [channel, inputs], properties: {channel: {type: string}, inputs: {$ref: '#/components/schemas/CostInputs'}}}}}
+      responses: {'201': {description: EconomicsReport with conservative/base/optimistic scenarios}}
+  /products/{id}/compliance-checks:
+    post:
+      summary: Agent M records a check with evidence and the policy version used
+      parameters: [{name: id, in: path, required: true, schema: {type: string}}, {$ref: '#/components/parameters/Idem'}]
+      responses: {'201': {description: Recorded}, '409': {$ref: '#/components/responses/Blocked'}}
+  /products/{id}/fulfillment-arrangements:
+    post:
+      summary: Record the per-channel fulfilment feasibility checklist (section 9)
+      parameters: [{name: id, in: path, required: true, schema: {type: string}}, {$ref: '#/components/parameters/Idem'}]
+      responses: {'201': {description: Recorded; verified only when every check is true and evidence exists}}
+  /suppliers:
+    post:
+      summary: Agent C adds a supplier
+      parameters: [{$ref: '#/components/parameters/Idem'}]
+      responses: {'201': {description: Created UNVERIFIED}}
+  /suppliers/{id}/verifications:
+    post:
+      summary: Record a verification; PASS without evidence keeps it IN_PROGRESS
+      parameters: [{name: id, in: path, required: true, schema: {type: string}}, {$ref: '#/components/parameters/Idem'}]
+      responses: {'201': {description: Verification}}
+  /suppliers/{id}/quotations:
+    post:
+      summary: Record a quotation; previous active quote for the SKU is superseded (versioned)
+      parameters: [{name: id, in: path, required: true, schema: {type: string}}, {$ref: '#/components/parameters/Idem'}]
+      responses: {'201': {description: Quotation}}
+  /suppliers/{id}/inventory:
+    post:
+      summary: Supplier stock snapshot (feed, API or call)
+      parameters: [{name: id, in: path, required: true, schema: {type: string}}, {$ref: '#/components/parameters/Idem'}]
+      responses: {'201': {description: Snapshot}}
+  /approvals:
+    get:
+      summary: Owner approval queue
+      parameters: [{name: status, in: query, schema: {type: string, default: PENDING}}]
+      responses: {'200': {description: Approval requests}}
+    post:
+      summary: Agent requests an approval (scope, subject, version, channel, amount limit)
+      parameters: [{$ref: '#/components/parameters/Idem'}]
+      responses: {'201': {description: Pending approval}}
+  /approvals/{id}/decision:
+    post:
+      summary: OWNER ONLY. Grant or deny. Requires step-up authentication (TOTP/WebAuthn)
+      parameters: [{name: id, in: path, required: true, schema: {type: string}}, {$ref: '#/components/parameters/Idem'}]
+      requestBody:
+        content: {application/json: {schema: {type: object, required: [grant], properties: {grant: {type: boolean}, note: {type: string}}}}}
+      responses: {'200': {description: Decided}, '403': {$ref: '#/components/responses/Forbidden'}}
+  /listings:
+    post:
+      summary: Create channel-specific listing content
+      parameters: [{$ref: '#/components/parameters/Idem'}]
+      responses: {'201': {description: DRAFT listing}}
+  /listings/{id}/validate:
+    post:
+      summary: Validate required channel attributes
+      parameters: [{name: id, in: path, required: true, schema: {type: string}}]
+      responses: {'200': {description: Listing with validation_errors}}
+  /listings/{id}/publish:
+    post:
+      summary: Publish through the channel adapter. Checks stop switch, status, approval, fulfilment, economics, integration
+      parameters: [{name: id, in: path, required: true, schema: {type: string}}, {$ref: '#/components/parameters/Idem'}]
+      responses: {'200': {description: PUBLISHED or AWAITING_MANUAL_UPLOAD}, '409': {$ref: '#/components/responses/Blocked'}}
+  /listings/{id}/manual-upload-confirmation:
+    post:
+      summary: OWNER ONLY. Confirm a manual marketplace upload with its external id
+      parameters: [{name: id, in: path, required: true, schema: {type: string}}]
+      responses: {'200': {description: PUBLISHED}}
+  /webhooks/{channel}/orders:
+    post:
+      summary: Channel order webhook. Signature verified; deduplicated by delivery id and (channel, order id)
+      parameters:
+        - {name: channel, in: path, required: true, schema: {enum: [shopify, amazon_in, flipkart, meesho]}}
+        - {$ref: '#/components/parameters/Idem'}
+      responses: {'202': {description: Accepted (also for duplicates)}, '401': {description: Bad signature}}
+  /purchase-orders/{id}/supplier-response:
+    post:
+      summary: Supplier accepts (with confirmed dispatch time) or rejects
+      parameters: [{name: id, in: path, required: true, schema: {type: string}}, {$ref: '#/components/parameters/Idem'}]
+      responses: {'200': {description: Updated}, '409': {$ref: '#/components/responses/Blocked'}}
+  /purchase-orders/{id}/carrier-events:
+    post:
+      summary: Carrier event with tracking number and carrier-sourced evidence
+      parameters: [{name: id, in: path, required: true, schema: {type: string}}, {$ref: '#/components/parameters/Idem'}]
+      responses: {'200': {description: Shipment}, '409': {$ref: '#/components/responses/Blocked'}}
+  /orders/{id}:
+    get:
+      summary: Verified order view for support (PII masked)
+      parameters: [{name: id, in: path, required: true, schema: {type: string}}]
+      responses: {'200': {description: Order view}}
+  /orders/{id}/cancel:
+    post:
+      summary: Cancel before dispatch (supplier PO and channel updated)
+      parameters: [{name: id, in: path, required: true, schema: {type: string}}, {$ref: '#/components/parameters/Idem'}]
+      responses: {'200': {description: Cancelled}, '409': {$ref: '#/components/responses/Blocked'}}
+  /orders/{id}/returns:
+    post:
+      summary: Open a return after confirmed delivery
+      parameters: [{name: id, in: path, required: true, schema: {type: string}}, {$ref: '#/components/parameters/Idem'}]
+      responses: {'201': {description: Return}}
+  /returns/{id}/receipt:
+    post:
+      summary: Record the returned item's receipt and condition
+      parameters: [{name: id, in: path, required: true, schema: {type: string}}, {$ref: '#/components/parameters/Idem'}]
+      responses: {'200': {description: Return RECEIVED}}
+  /returns/{id}/refund:
+    post:
+      summary: Record or issue a refund; own-site refunds above the auto limit need EXCEPTIONAL_REFUND approval
+      parameters: [{name: id, in: path, required: true, schema: {type: string}}, {$ref: '#/components/parameters/Idem'}]
+      responses: {'201': {description: Refund}, '409': {$ref: '#/components/responses/Blocked'}}
+  /settlements/{channel}:
+    post:
+      summary: Upload a settlement report and reconcile against expected fees
+      parameters: [{name: channel, in: path, required: true, schema: {type: string}}, {$ref: '#/components/parameters/Idem'}]
+      responses: {'201': {description: MATCHED or VARIANCE with lines}}
+  /campaigns:
+    post:
+      summary: Agent H proposes a campaign; creates an AD_BUDGET approval
+      parameters: [{$ref: '#/components/parameters/Idem'}]
+      responses: {'201': {description: PROPOSED}}
+  /emergency-stop/{switch}:
+    put:
+      summary: Engage (owner, orchestrator, compliance) or release (owner only) PUBLISHING / SUPPLIER_ORDERS / CAMPAIGNS
+      parameters: [{name: switch, in: path, required: true, schema: {enum: [PUBLISHING, SUPPLIER_ORDERS, CAMPAIGNS]}}]
+      requestBody:
+        content: {application/json: {schema: {type: object, required: [engaged, reason], properties: {engaged: {type: boolean}, reason: {type: string}}}}}
+      responses: {'200': {description: State}}
+  /dashboard/summary:
+    get:
+      summary: Daily business summary and exception report (Agent A)
+      responses: {'200': {description: Summary}}
+  /audit-events:
+    get:
+      summary: Read the hash-chained audit log (owner, compliance)
+      parameters: [{name: subject, in: query, schema: {type: string}}, {name: action, in: query, schema: {type: string}}]
+      responses: {'200': {description: Events}}
