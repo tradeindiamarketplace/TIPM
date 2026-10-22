@@ -1,0 +1,74 @@
+{
+  "id": "RA-20261022C-1",
+  "name": "Handmade Pipili applique (chandua) cotton wall hanging, approx. 2.5-3 ft square (Pipli, Odisha)",
+  "category": "home_decor",
+  "weight": "le_1kg",
+  "supplier_cost": 250,
+  "supplier_cost_note": "Dev Hari Traders (OPC) Pvt Ltd, Bhubaneswar, Odisha: cotton Pipli chandua wall hanging (red) Rs 250/piece on IndiaMART (search snippet seen 2026-10-22; size and MOQ not shown; same seller lists a cotton Pipli applique wall hanging at Rs 900). Other Odisha listings, size-matched but higher: 1clickpick Cuttack 3x3 ft Rs 529, Pipli seller 72x72 cm velvet Jagannath Rs 550, Puri seller 3.5x3.5 ft Rs 650, Parida Tradecon Bhubaneswar Rs 999. IndiaMART pages could not be opened from this session (proxy blocks indiamart.com); figures are from search-result snippets. Rs 250 must be confirmed for a ~3 ft piece before any listing; at Rs 529 the margin is thin.",
+  "price": 699,
+  "retail_observed": "Amazon.in snapshots via search 2026-10-22: NEALEXKLUSIVE 29x29 in Rs 484; black-base peacock 36x36 in Rs 675; Handcrafted Colorful Pipili chandua Rs 1,099. Amazon/Flipkart chandua range roughly Rs 250-1,350 depending on size (search summary). ~317 Amazon results for 'pipli applique work wall hanging'.",
+  "gst_pct": 5,
+  "electrical": false,
+  "documents": [],
+  "demand_signals": [
+    {
+      "source": "Amazon.in search 'pipli applique work wall hanging'",
+      "url": "https://www.amazon.in/pipli-applique-work-wall-hanging/s?k=pipli+applique+work+wall+hanging",
+      "seen_on": "2026-10-22",
+      "summary": "About 317 results listed (search snapshot); established niche with multiple sellers, no sales-volume data"
+    },
+    {
+      "source": "Housiey: 10 Home Decor Trends Taking Over Indian Homes in 2026",
+      "url": "https://housiey.com/blogs/10-home-decor-trends-taking-over-indian-homes-in-2026",
+      "seen_on": "2026-10-22",
+      "summary": "Handmade/artisan decor listed among 2026 Indian decor trends (editorial, no volume data; cited in earlier run)"
+    }
+  ],
+  "risks": [
+    "Supplier price Rs 250 has no size/MOQ; Odisha listings for 3x3 ft are Rs 529-650, which would cut margin sharply",
+    "Size is the main comparison point: 29x29 in sells at Rs 484 on Amazon, so listing must state exact size",
+    "Handmade variation in colour/motif; supplier photos with permission needed",
+    "Velvet-base variants may crease in poly mailer; fold carefully",
+    "Mirror pieces (if any) are small stitched-on mirrors, not a glass item, but confirm none are loose",
+    "GST: HSN 6304/6307 (made-up textile) assumed 5%, CA to confirm"
+  ],
+  "sources": [
+    "https://m.indiamart.com/dev-hari-traders/wall-hanging.html",
+    "https://www.indiamart.com/proddetail/pipili-handmade-applique-black-chandua-17856845155.html",
+    "https://www.indiamart.com/proddetail/wall-hanging-jagannath-full-hand-stitching-pipili-applique-chandua-22092396191.html",
+    "https://www.indiamart.com/proddetail/chandua-20945112762.html",
+    "https://www.indiamart.com/proddetail/aw10-pipili-applique-chandua-21301276997.html",
+    "https://www.amazon.in/Neal-exclusive-Applique-Village-Handicraft/dp/B086J3HKP4",
+    "https://amazon.in/Applique-Handcrafted-Hanging-Chandua-Jagannath/dp/B0C394K883",
+    "https://www.amazon.in/Handcrafted-Colorful-Applique-Chandua-Hanging/dp/B08HL788JX"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-10-22",
+    "notes": "Rs 699 is not competitive for any size we can source at a margin: the Rs 250 Dev Hari listing has no size (search snippet), every size-matched Odisha 3x3 ft quote is Rs 529-650 (loss-making at Rs 699: -9.5% Amazon at Rs 529), and break-even for 30% at Rs 699 is ~Rs 270. If Rs 250 buys a ~29-30 in piece, the market price is Rs 484 (NEALEXKLUSIVE 29x29 in), where margin is ~12% Amazon at Rs 499; even the best case (36 in at Rs 250) only gives 31.9% Amazon / 28.2% Flipkart when matched to the Rs 675 36x36 in competitor. Resubmit only with a written quote of Rs 250 or less for a stated >=36 in cotton chandua.",
+    "competitor_prices": [
+      {
+        "price": 484,
+        "url": "https://www.amazon.in/Neal-exclusive-Applique-Village-Handicraft/dp/B086J3HKP4",
+        "note": "29x29 in (research snippet; amazon.in not fetchable from this session)"
+      },
+      {
+        "price": 675,
+        "url": "https://amazon.in/Applique-Handcrafted-Hanging-Chandua-Jagannath/dp/B0C394K883",
+        "note": "36x36 in black-base (research snippet)"
+      },
+      {
+        "price": 1099,
+        "url": "https://www.amazon.in/Handcrafted-Colorful-Applique-Chandua-Hanging/dp/B08HL788JX",
+        "note": "size not stated in snippet"
+      },
+      {
+        "price": 529,
+        "url": "https://www.indiamart.com/proddetail/chandua-20945112762.html",
+        "note": "supplier/B2B 3x3 ft Cuttack (snippet; as cited by researcher)"
+      }
+    ]
+  }
+}

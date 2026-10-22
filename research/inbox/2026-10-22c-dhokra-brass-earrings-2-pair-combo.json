@@ -1,0 +1,69 @@
+{
+  "id": "RA-20261022C-2",
+  "name": "Handmade Dhokra (dokra) tribal brass dangle earrings, combo of 2 pairs (Odisha)",
+  "category": "women_accessories",
+  "weight": "le_500g",
+  "supplier_cost": 374,
+  "supplier_cost_note": "Indevillez Private Limited, Bhubaneswar, Odisha (GSTIN shown 21AAFCI7147C1ZZ, Odisha state code 21): handmade Dhokra tribal earring, golden brass, Rs 187/pair on IndiaMART (search snippet seen 2026-10-22); its GlobalLinker listings show 2.04-4.53 per piece (appears to be USD; USD 2.15 ~ Rs 187), MOQ 1. 2 pairs x Rs 187 = Rs 374. Same seller/other Bhubaneswar listing: Dhokra jhumka Rs 375/pair. IndiaMART page could not be opened directly (proxy blocks indiamart.com).",
+  "price": 899,
+  "retail_observed": "Amazon.in snapshots via search 2026-10-22, single pairs: Arteastic brass dangle Rs 390-425; Look and Adorn dokra spiral Rs 399-699; Miharu dhokra dangle ~Rs 750; Miharu square-bead Rs 1,200. iTokri Odisha dokra threadwork earrings Rs 590-826 per pair. Plain (non-dhokra) brass jhumkas Rs 223-499 on Flipkart/Amazon - not like-for-like.",
+  "gst_pct": 3,
+  "electrical": false,
+  "documents": [],
+  "demand_signals": [
+    {
+      "source": "Amazon.in search 'dokra jewellery'",
+      "url": "https://www.amazon.in/dokra-jewellery/s?k=dokra+jewellery",
+      "seen_on": "2026-10-22",
+      "summary": "Multiple brands (Miharu, Look and Adorn, Arteastic) selling dhokra earrings Rs 390-1,200 per pair; no volume data"
+    },
+    {
+      "source": "iTokri Dhokra earrings collection",
+      "url": "https://itokri.com/collections/dokra-craft-earrings",
+      "seen_on": "2026-10-22",
+      "summary": "Dedicated dhokra earrings collection; Odisha dokra pairs Rs 590-826 (craft retailer, no volume data)"
+    }
+  ],
+  "risks": [
+    "Margin-sensitive: recommend.py 2026-10-22 shows BELOW_TARGET at Rs 799 (28.95% best), 33.1% at Rs 849 (fragile), 36.9% at Rs 899; Rs 899 = Rs 450/pair, inside the Rs 390-750 single-pair dhokra range on Amazon",
+    "Jewellery: earrings are often non-returnable for hygiene but 'not as pictured' disputes are common; need clear photos with supplier permission",
+    "Brass can tarnish or cause skin reaction; do not claim nickel-free/hypoallergenic without evidence",
+    "Do not claim 'pure brass' without supplier written confirmation (policy require_evidence_for_claims)",
+    "Cheap plain brass jhumkas sell at Rs 223-499; listing must show handmade dhokra lost-wax work to justify price",
+    "Marketplace jewellery category commission may differ from the generic fee model in candidates.py",
+    "GST assumed 3% (HSN 7117 imitation jewellery), CA to confirm"
+  ],
+  "sources": [
+    "https://dir.indiamart.com/bhubaneswar/ethnic-jewellery.html",
+    "https://dir.indiamart.com/bhubaneswar/fashion-earrings.html",
+    "https://www.globallinker.com/products/handmade-dhokra-tribal-earring-8360900",
+    "https://www.globallinker.com/products/handmade-dhokra-tribal-round-brass-earrings-8360884",
+    "https://www.amazon.in/dokra-jewellery/s?k=dokra+jewellery",
+    "https://www.amazon.in/Miharu-Handmade-Dhokra-Earrings-Jewellery/dp/B082HGMQH4",
+    "https://itokri.com/collections/dokra-craft-earrings"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "needs_info",
+    "by": "product-reviewer",
+    "at": "2026-10-22",
+    "notes": "Rs 899 for 2 pairs (Rs 450/pair) sits inside the single-pair dhokra range (Arteastic Rs 390-425, iTokri Rs 590-826, Miharu ~Rs 750) and Amazon.in charges 0% referral under Rs 1,000 including jewellery, but the Rs 187/pair cost comes only from an IndiaMART snippet and a USD-converted GlobalLinker price, and the margin breaks at ~Rs 210/pair (Rs 420 for 2 -> 31.4% Amazon, 27.5% Shopify; at Rs 799 price it fails everywhere). For skin-contact jewellery we also need the supplier's written metal/alloy statement (lead and nickel content, hook material) before listing; no 'pure brass', 'nickel-free' or 'hypoallergenic' claims, and no dhokra-specific complaint pattern was found publicly but tarnish/skin-reaction risk remains; confirm Amazon/Flipkart returnability for earrings and the exact 2 designs with photo permission. Amazon.in 0% referral source: https://sell.amazon.in/seller-blog/reduce-your-amazon-selling-costs--complete-guide-to-seller-fee-change-2026",
+    "competitor_prices": [
+      {
+        "price": 390,
+        "url": "https://www.amazon.in/dokra-jewellery/s?k=dokra+jewellery",
+        "note": "per pair, Arteastic brass dangle Rs 390-425 (research search snapshot)"
+      },
+      {
+        "price": 750,
+        "url": "https://www.amazon.in/Miharu-Handmade-Dhokra-Earrings-Jewellery/dp/B082HGMQH4",
+        "note": "per pair, Miharu dhokra dangle (research snippet)"
+      },
+      {
+        "price": 590,
+        "url": "https://itokri.com/collections/dokra-craft-earrings",
+        "note": "per pair, Odisha dokra threadwork Rs 590-826"
+      }
+    ]
+  }
+}

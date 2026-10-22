@@ -1,0 +1,75 @@
+{
+  "id": "RA-20261022C-3",
+  "name": "Handmade sheesham wood serving tray with brass jali inlay and handles, approx. 15x10 in",
+  "category": "kitchen_organisation",
+  "weight": "le_2kg",
+  "supplier_cost": 180,
+  "supplier_cost_note": "Noble Wood Crafts, Saharanpur (UP): 'Wood Brass Jali Serving Tray - Sheesham Wood, 15x10 Inch, Brown' Rs 180 on TradeIndia (search snippet seen 2026-10-22; MOQ not shown). Y K Handicrafts, Saharanpur: sheesham tray Rs 180/piece (IndiaMART). Ace Wood Crafts, Saharanpur: 10x10 in sheesham tray with wooden handle Rs 249; 18x12 in cut-out handle Rs 699 (MOQ 50). No Odisha supplier found. Pages could not be opened directly (proxy blocks indiamart/tradeindia).",
+  "price": 799,
+  "retail_observed": "Amazon.in snapshots via search 2026-10-22: Creation India Craft sheesham 14x10x1.5 in Rs 1,175 (MRP 1,350); T one woods sheesham 14x9 in Rs 899; Woodsfy plain sheesham tray Rs 999; S.I Creation (Flipkart) 3-pack large trays Rs 829; a generic multi-size sheesham listing shows Rs 284 for the 10 in round (14x10 option price not shown).",
+  "gst_pct": 12,
+  "electrical": false,
+  "documents": [],
+  "demand_signals": [
+    {
+      "source": "Amazon.in / Flipkart search 'sheesham wood serving tray with handles'",
+      "url": "https://www.amazon.in/Creation-India-Craft-Handicrafted-Rastorant/dp/B07HY5F8WJ",
+      "seen_on": "2026-10-22",
+      "summary": "Many sheesham tray listings Rs 829-1,599; Creation India Craft 14x10 shows 4.1 stars from 27 ratings (low volume signal)"
+    },
+    {
+      "source": "Housiey: 10 Home Decor Trends Taking Over Indian Homes in 2026",
+      "url": "https://housiey.com/blogs/10-home-decor-trends-taking-over-indian-homes-in-2026",
+      "seen_on": "2026-10-22",
+      "summary": "Brass decor and natural materials listed as 2026 trends (editorial, no volume data)"
+    }
+  ],
+  "risks": [
+    "Supplier Rs 180 price is a snippet with no MOQ; confirm size, brass jali and finish",
+    "Weight with packing may exceed 1 kg; le_2kg slab assumed",
+    "Some marketplace 'sheesham' listings are mango/engineered wood; demand supplier written confirmation before claiming sheesham",
+    "Do not claim 'food safe' finish without evidence; describe as serving/decor tray",
+    "Wood cracking/warping and corner dents in transit; needs corner protection",
+    "UP supplier: website only via bill-to-ship-to unless an Odisha supplier is found",
+    "GST: HSN 4419 wooden tableware assumed 12% (may be 5% after 22-09-2025 rate change); CA to confirm"
+  ],
+  "sources": [
+    "https://www.tradeindia.com/products/wood-brass-jali-serving-tray-6976423.html",
+    "https://www.indiamart.com/yk-handicrafts/wooden-tray.html",
+    "https://www.indiamart.com/acewoodcrafts/wooden-tray.html",
+    "https://www.amazon.in/Creation-India-Craft-Handicrafted-Rastorant/dp/B07HY5F8WJ",
+    "https://www.amazon.in/one-Wooden-Handmade-Serving-sheesham/dp/B07W6NS82Q",
+    "https://www.amazon.in/Woodsfy-Sheesham-Handcrafted-Breakfast-Multipurpose/dp/B0FH56VRXW",
+    "https://www.flipkart.com/s-i-creation-sheesham-wood-handmade-handcrafted-wooden-large-size-serving-trays-kitchen-tableware-tray/p/itm8e07ebcc0c43e",
+    "https://www.amazon.in/Multipurpose-Handmade-Serving-Decorative-Sheesham/dp/B0CY2MG5FK"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "needs_info",
+    "by": "product-reviewer",
+    "at": "2026-10-22",
+    "notes": "Rs 799 is competitive (15x10 in brass-inlay wood tray Rs 899 on Vibecity, sheesham 14x10/14x9 Rs 899-1,175 on Amazon.in), but the Rs 180 cost for a 15x10 sheesham tray with brass jali is an unopened TradeIndia snippet and looks too low next to Ace Wood's Rs 249 for a plain 10x10 tray; because the UP supplier makes it website-only (Shopify), 30% holds only up to ~Rs 230 cost (Rs 250 -> 27.6%). Need a written quote for the exact 15x10 in tray stating genuine sheesham (not mango/acacia), solid brass jali vs brass-coloured sheet, finish, packed weight/dimensions and MOQ, plus photos with permission.",
+    "competitor_prices": [
+      {
+        "price": 899,
+        "url": "https://www.vibecity.com/handmade-wooden-serving-tray-for-dinner-table-and-restaurants-to-serve-tea-fruits-food-dinner-lunch-breakfast-or-for/36417954",
+        "note": "15x10 in wood + brass inlay, described as Indian rosewood (search snippet)"
+      },
+      {
+        "price": 1175,
+        "url": "https://www.amazon.in/Creation-India-Craft-Handicrafted-Rastorant/dp/B07HY5F8WJ",
+        "note": "sheesham 14x10x1.5 in, MRP 1,350 (research snippet)"
+      },
+      {
+        "price": 899,
+        "url": "https://www.amazon.in/one-Wooden-Handmade-Serving-sheesham/dp/B07W6NS82Q",
+        "note": "sheesham 14x9 in (research snippet)"
+      },
+      {
+        "price": 999,
+        "url": "https://www.amazon.in/Woodsfy-Sheesham-Handcrafted-Breakfast-Multipurpose/dp/B0FH56VRXW",
+        "note": "plain sheesham tray (research snippet)"
+      }
+    ]
+  }
+}

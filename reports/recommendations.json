@@ -275,6 +275,186 @@
       "ca": null
     },
     {
+      "id": "RA-20261022C-2",
+      "name": "Handmade Dhokra (dokra) tribal brass dangle earrings, combo of 2 pairs (Odisha)",
+      "category": "women_accessories",
+      "price": 899.0,
+      "supplier_cost": 374.0,
+      "stage": "NEEDS_INFO",
+      "reason": "Rs 899 for 2 pairs (Rs 450/pair) sits inside the single-pair dhokra range (Arteastic Rs 390-425, iTokri Rs 590-826, Miharu ~Rs 750) and Amazon.in charges 0% referral under Rs 1,000 including jewellery, but the Rs 187/pair cost comes only from an IndiaMART snippet and a USD-converted GlobalLinker price, and the margin breaks at ~Rs 210/pair (Rs 420 for 2 -> 31.4% Amazon, 27.5% Shopify; at Rs 799 price it fails everywhere). For skin-contact jewellery we also need the supplier's written metal/alloy statement (lead and nickel content, hook material) before listing; no 'pure brass', 'nickel-free' or 'hypoallergenic' claims, and no dhokra-specific complaint pattern was found publicly but tarnish/skin-reaction risk remains; confirm Amazon/Flipkart returnability for earrings and the exact 2 designs with photo permission. Amazon.in 0% referral source: https://sell.amazon.in/seller-blog/reduce-your-amazon-selling-costs--complete-guide-to-seller-fee-change-2026",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "PASS",
+        "fragile": false,
+        "expected": 295.95,
+        "margin": 36.86,
+        "conservative": 234.12
+      },
+      "channels": {
+        "shopify": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 264.99,
+          "margin": 33.0,
+          "conservative": 189.16
+        },
+        "amazon_in": {
+          "status": "PASS",
+          "fragile": false,
+          "expected": 295.95,
+          "margin": 36.86,
+          "conservative": 234.12
+        },
+        "flipkart": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 273.48,
+          "margin": 34.06,
+          "conservative": 211.64
+        },
+        "meesho": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 252.69,
+          "margin": 34.06,
+          "conservative": 157.66
+        }
+      },
+      "passing_channels": [
+        "amazon_in",
+        "flipkart",
+        "meesho",
+        "shopify"
+      ],
+      "retail_validated": true,
+      "sources": [
+        "https://dir.indiamart.com/bhubaneswar/ethnic-jewellery.html",
+        "https://dir.indiamart.com/bhubaneswar/fashion-earrings.html",
+        "https://www.globallinker.com/products/handmade-dhokra-tribal-earring-8360900",
+        "https://www.globallinker.com/products/handmade-dhokra-tribal-round-brass-earrings-8360884",
+        "https://www.amazon.in/dokra-jewellery/s?k=dokra+jewellery",
+        "https://www.amazon.in/Miharu-Handmade-Dhokra-Earrings-Jewellery/dp/B082HGMQH4",
+        "https://itokri.com/collections/dokra-craft-earrings"
+      ],
+      "review": {
+        "verdict": "needs_info",
+        "by": "product-reviewer",
+        "at": "2026-10-22",
+        "notes": "Rs 899 for 2 pairs (Rs 450/pair) sits inside the single-pair dhokra range (Arteastic Rs 390-425, iTokri Rs 590-826, Miharu ~Rs 750) and Amazon.in charges 0% referral under Rs 1,000 including jewellery, but the Rs 187/pair cost comes only from an IndiaMART snippet and a USD-converted GlobalLinker price, and the margin breaks at ~Rs 210/pair (Rs 420 for 2 -> 31.4% Amazon, 27.5% Shopify; at Rs 799 price it fails everywhere). For skin-contact jewellery we also need the supplier's written metal/alloy statement (lead and nickel content, hook material) before listing; no 'pure brass', 'nickel-free' or 'hypoallergenic' claims, and no dhokra-specific complaint pattern was found publicly but tarnish/skin-reaction risk remains; confirm Amazon/Flipkart returnability for earrings and the exact 2 designs with photo permission. Amazon.in 0% referral source: https://sell.amazon.in/seller-blog/reduce-your-amazon-selling-costs--complete-guide-to-seller-fee-change-2026",
+        "competitor_prices": [
+          {
+            "price": 390,
+            "url": "https://www.amazon.in/dokra-jewellery/s?k=dokra+jewellery",
+            "note": "per pair, Arteastic brass dangle Rs 390-425 (research search snapshot)"
+          },
+          {
+            "price": 750,
+            "url": "https://www.amazon.in/Miharu-Handmade-Dhokra-Earrings-Jewellery/dp/B082HGMQH4",
+            "note": "per pair, Miharu dhokra dangle (research snippet)"
+          },
+          {
+            "price": 590,
+            "url": "https://itokri.com/collections/dokra-craft-earrings",
+            "note": "per pair, Odisha dokra threadwork Rs 590-826"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
+      "id": "RA-20261022C-3",
+      "name": "Handmade sheesham wood serving tray with brass jali inlay and handles, approx. 15x10 in",
+      "category": "kitchen_organisation",
+      "price": 799.0,
+      "supplier_cost": 180.0,
+      "stage": "NEEDS_INFO",
+      "reason": "Rs 799 is competitive (15x10 in brass-inlay wood tray Rs 899 on Vibecity, sheesham 14x10/14x9 Rs 899-1,175 on Amazon.in), but the Rs 180 cost for a 15x10 sheesham tray with brass jali is an unopened TradeIndia snippet and looks too low next to Ace Wood's Rs 249 for a plain 10x10 tray; because the UP supplier makes it website-only (Shopify), 30% holds only up to ~Rs 230 cost (Rs 250 -> 27.6%). Need a written quote for the exact 15x10 in tray stating genuine sheesham (not mango/acacia), solid brass jali vs brass-coloured sheet, finish, packed weight/dimensions and MOQ, plus photos with permission.",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "PASS",
+        "fragile": false,
+        "expected": 285.52,
+        "margin": 43.5,
+        "conservative": 216.19
+      },
+      "channels": {
+        "shopify": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 248.56,
+          "margin": 37.87,
+          "conservative": 163.23
+        },
+        "amazon_in": {
+          "status": "PASS",
+          "fragile": false,
+          "expected": 285.52,
+          "margin": 43.5,
+          "conservative": 216.19
+        },
+        "flipkart": {
+          "status": "PASS",
+          "fragile": false,
+          "expected": 260.55,
+          "margin": 39.7,
+          "conservative": 190.21
+        },
+        "meesho": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 221.63,
+          "margin": 36.55,
+          "conservative": 116.28
+        }
+      },
+      "passing_channels": [
+        "amazon_in",
+        "flipkart",
+        "meesho",
+        "shopify"
+      ],
+      "retail_validated": true,
+      "sources": [
+        "https://www.tradeindia.com/products/wood-brass-jali-serving-tray-6976423.html",
+        "https://www.indiamart.com/yk-handicrafts/wooden-tray.html",
+        "https://www.indiamart.com/acewoodcrafts/wooden-tray.html",
+        "https://www.amazon.in/Creation-India-Craft-Handicrafted-Rastorant/dp/B07HY5F8WJ",
+        "https://www.amazon.in/one-Wooden-Handmade-Serving-sheesham/dp/B07W6NS82Q",
+        "https://www.amazon.in/Woodsfy-Sheesham-Handcrafted-Breakfast-Multipurpose/dp/B0FH56VRXW",
+        "https://www.flipkart.com/s-i-creation-sheesham-wood-handmade-handcrafted-wooden-large-size-serving-trays-kitchen-tableware-tray/p/itm8e07ebcc0c43e",
+        "https://www.amazon.in/Multipurpose-Handmade-Serving-Decorative-Sheesham/dp/B0CY2MG5FK"
+      ],
+      "review": {
+        "verdict": "needs_info",
+        "by": "product-reviewer",
+        "at": "2026-10-22",
+        "notes": "Rs 799 is competitive (15x10 in brass-inlay wood tray Rs 899 on Vibecity, sheesham 14x10/14x9 Rs 899-1,175 on Amazon.in), but the Rs 180 cost for a 15x10 sheesham tray with brass jali is an unopened TradeIndia snippet and looks too low next to Ace Wood's Rs 249 for a plain 10x10 tray; because the UP supplier makes it website-only (Shopify), 30% holds only up to ~Rs 230 cost (Rs 250 -> 27.6%). Need a written quote for the exact 15x10 in tray stating genuine sheesham (not mango/acacia), solid brass jali vs brass-coloured sheet, finish, packed weight/dimensions and MOQ, plus photos with permission.",
+        "competitor_prices": [
+          {
+            "price": 899,
+            "url": "https://www.vibecity.com/handmade-wooden-serving-tray-for-dinner-table-and-restaurants-to-serve-tea-fruits-food-dinner-lunch-breakfast-or-for/36417954",
+            "note": "15x10 in wood + brass inlay, described as Indian rosewood (search snippet)"
+          },
+          {
+            "price": 1175,
+            "url": "https://www.amazon.in/Creation-India-Craft-Handicrafted-Rastorant/dp/B07HY5F8WJ",
+            "note": "sheesham 14x10x1.5 in, MRP 1,350 (research snippet)"
+          },
+          {
+            "price": 899,
+            "url": "https://www.amazon.in/one-Wooden-Handmade-Serving-sheesham/dp/B07W6NS82Q",
+            "note": "sheesham 14x9 in (research snippet)"
+          },
+          {
+            "price": 999,
+            "url": "https://www.amazon.in/Woodsfy-Sheesham-Handcrafted-Breakfast-Multipurpose/dp/B0FH56VRXW",
+            "note": "plain sheesham tray (research snippet)"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
       "id": "RA-20261022-2",
       "name": "Personalised UV-printed MDF house name plate, approx. 14x12 in (custom family name)",
       "category": "home_decor",
@@ -1224,6 +1404,97 @@
           {
             "price": 499,
             "url": "https://www.amazon.in/GADGETSWEAR-Aluminum-Foldable-Adjustable-Accessories/dp/B0D9S1B73V"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
+      "id": "RA-20261022C-1",
+      "name": "Handmade Pipili applique (chandua) cotton wall hanging, approx. 2.5-3 ft square (Pipli, Odisha)",
+      "category": "home_decor",
+      "price": 699.0,
+      "supplier_cost": 250.0,
+      "stage": "REJECTED",
+      "reason": "reviewer or CA rejected: Rs 699 is not competitive for any size we can source at a margin: the Rs 250 Dev Hari listing has no size (search snippet), every size-matched Odisha 3x3 ft quote is Rs 529-650 (loss-making at Rs 699: -9.5% Amazon at Rs 529), and break-even for 30% at Rs 699 is ~Rs 270. If Rs 250 buys a ~29-30 in piece, the market price is Rs 484 (NEALEXKLUSIVE 29x29 in), where margin is ~12% Amazon at Rs 499; even the best case (36 in at Rs 250) only gives 31.9% Amazon / 28.2% Flipkart when matched to the Rs 675 36x36 in competitor. Resubmit only with a written quote of Rs 250 or less for a stated >=36 in cotton chandua.",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 209.46,
+        "margin": 34.2,
+        "conservative": 150.43
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 181.5,
+          "margin": 29.63,
+          "conservative": 107.47
+        },
+        "amazon_in": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 209.46,
+          "margin": 34.2,
+          "conservative": 150.43
+        },
+        "flipkart": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 186.98,
+          "margin": 30.53,
+          "conservative": 126.95
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 166.36,
+          "margin": 29.4,
+          "conservative": 77.2
+        }
+      },
+      "passing_channels": [
+        "amazon_in",
+        "flipkart"
+      ],
+      "retail_validated": true,
+      "sources": [
+        "https://m.indiamart.com/dev-hari-traders/wall-hanging.html",
+        "https://www.indiamart.com/proddetail/pipili-handmade-applique-black-chandua-17856845155.html",
+        "https://www.indiamart.com/proddetail/wall-hanging-jagannath-full-hand-stitching-pipili-applique-chandua-22092396191.html",
+        "https://www.indiamart.com/proddetail/chandua-20945112762.html",
+        "https://www.indiamart.com/proddetail/aw10-pipili-applique-chandua-21301276997.html",
+        "https://www.amazon.in/Neal-exclusive-Applique-Village-Handicraft/dp/B086J3HKP4",
+        "https://amazon.in/Applique-Handcrafted-Hanging-Chandua-Jagannath/dp/B0C394K883",
+        "https://www.amazon.in/Handcrafted-Colorful-Applique-Chandua-Hanging/dp/B08HL788JX"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-10-22",
+        "notes": "Rs 699 is not competitive for any size we can source at a margin: the Rs 250 Dev Hari listing has no size (search snippet), every size-matched Odisha 3x3 ft quote is Rs 529-650 (loss-making at Rs 699: -9.5% Amazon at Rs 529), and break-even for 30% at Rs 699 is ~Rs 270. If Rs 250 buys a ~29-30 in piece, the market price is Rs 484 (NEALEXKLUSIVE 29x29 in), where margin is ~12% Amazon at Rs 499; even the best case (36 in at Rs 250) only gives 31.9% Amazon / 28.2% Flipkart when matched to the Rs 675 36x36 in competitor. Resubmit only with a written quote of Rs 250 or less for a stated >=36 in cotton chandua.",
+        "competitor_prices": [
+          {
+            "price": 484,
+            "url": "https://www.amazon.in/Neal-exclusive-Applique-Village-Handicraft/dp/B086J3HKP4",
+            "note": "29x29 in (research snippet; amazon.in not fetchable from this session)"
+          },
+          {
+            "price": 675,
+            "url": "https://amazon.in/Applique-Handcrafted-Hanging-Chandua-Jagannath/dp/B0C394K883",
+            "note": "36x36 in black-base (research snippet)"
+          },
+          {
+            "price": 1099,
+            "url": "https://www.amazon.in/Handcrafted-Colorful-Applique-Chandua-Hanging/dp/B08HL788JX",
+            "note": "size not stated in snippet"
+          },
+          {
+            "price": 529,
+            "url": "https://www.indiamart.com/proddetail/chandua-20945112762.html",
+            "note": "supplier/B2B 3x3 ft Cuttack (snippet; as cited by researcher)"
           }
         ]
       },
