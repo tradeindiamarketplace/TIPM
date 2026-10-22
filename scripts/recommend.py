@@ -63,6 +63,9 @@ def evaluate(c: dict) -> dict:
                              margin=float(b.margin_pct) if b else None,
                              conservative=float(r.scenarios["conservative"].expected_contribution) if b else None)
     min_m = POLICY["economics"]["min_margin_pct"]
+    if (c.get("ca") or {}).get("tax_path") == "bill_to_ship_to_website_only":
+        # Out-of-state supplier: marketplace pickup needs a GST registration in that state (docs/05).
+        chans = {k: v for k, v in chans.items() if k == "shopify"}
     passing = {k: v for k, v in chans.items() if v["margin"] is not None and v["margin"] >= min_m
                and v["expected"] >= POLICY["economics"]["min_contribution_inr"]}
     best = max(passing.items(), key=lambda kv: kv[1]["expected"]) if passing else \
@@ -76,6 +79,9 @@ def evaluate(c: dict) -> dict:
     elif review == "reject" or ca == "reject":
         stage, reason = "REJECTED", "reviewer or CA rejected: " + "; ".join(
             filter(None, [(c.get("review") or {}).get("notes"), (c.get("ca") or {}).get("notes")]))
+    elif review == "needs_info" or ca == "needs_info":
+        stage, reason = "NEEDS_INFO", "; ".join(filter(None, [(c.get("review") or {}).get("notes"),
+                                                            (c.get("ca") or {}).get("notes")]))
     elif review != "approve":
         stage, reason = "AWAITING_REVIEW", "profit target met; waiting for the review agent"
     elif ca != "approve":
@@ -89,7 +95,7 @@ def evaluate(c: dict) -> dict:
                 sources=c.get("sources", []), review=c.get("review"), ca=c.get("ca"))
 
 
-ORDER = ["RECOMMENDED", "AWAITING_CA", "AWAITING_REVIEW", "BELOW_TARGET", "REJECTED"]
+ORDER = ["RECOMMENDED", "AWAITING_CA", "NEEDS_INFO", "AWAITING_REVIEW", "BELOW_TARGET", "REJECTED"]
 
 
 def main() -> list[dict]:

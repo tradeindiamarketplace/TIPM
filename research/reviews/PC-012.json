@@ -1,0 +1,23 @@
+{
+  "id": "PC-012",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-10-22",
+    "notes": "Price uncompetitive: 40x40 cm 340 GSM 5-packs sell for Rs 225-355 (SOFTSPUN, Amazon.in) and Rs 247-347 (SOFTSPUN, Flipkart), so Rs 449 will not sell; at Rs 399 the margin is 24% (Amazon) and at Rs 349 13%. Its only cited source (Khurda directory) quotes 40x60 cm cloth, not 40x40.",
+    "competitor_prices": [
+      {
+        "price": 225,
+        "url": "https://www.amazon.in/SOFTSPUN-Microfiber-Detailing-Polishing-Muticolor/dp/B01LZ3TGL2"
+      },
+      {
+        "price": 355,
+        "url": "https://www.amazon.in/SOFTSPUN-Microfiber-Cleaning-Detailing-Polishing/dp/B01B7UD24M"
+      },
+      {
+        "price": 247,
+        "url": "https://www.flipkart.com/softspun-microfiber-cloth-5-pcs-40x40-cms-340-gsm-multicolor-dry-cleaning/p/itmb6648002edd37"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "PC-017",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-10-22",
+    "notes": "Price unrealistic: comparable foldable aluminium stands sell for Rs 199-369 on Amazon.in and Rs 296-298 on Flipkart (STRIFF ~3,100 reviews at Rs 296); Rs 599 has no differentiated product behind it. At Rs 399 the model gives only 7.7% (Amazon) and ~0% Flipkart, at Rs 349 it is loss-making. Supplier cost basis (IndiaMART Rs 160-195/pc) is plausible, but the market price does not leave margin.",
+    "competitor_prices": [
+      {
+        "price": 199,
+        "url": "https://www.amazon.in/Portable-Aluminium-Foldable-Adjustable-Ergonomic/dp/B0H42CSMK4"
+      },
+      {
+        "price": 245,
+        "url": "https://www.amazon.in/Aluminum-Foldable-Portable-Tabletop-Compatible/dp/B0HLGJX6V6"
+      },
+      {
+        "price": 369,
+        "url": "https://www.amazon.in/BHOMANI-Quality-Foldable-Aluminium-Dynamic/dp/B0DJPHP8P9"
+      },
+      {
+        "price": 296,
+        "url": "https://www.flipkart.com/striff-aluminum-laptop-stand-foldable-adjustable-ventilated-up-15-6-black-aluminium-floor-desk-adjustable-height-compatible-40-44cm-laptops/p/itmb4f8ff270286a"
+      },
+      {
+        "price": 298,
+        "url": "https://www.flipkart.com/amextron-aluminium-portable-laptop-stand-height-adjustable-foldable-macbook-hp-dell-all-other-device-iron-compatible-26-35-cm-laptops/p/itm6d7ccfc1e9d8d"
+      }
+    ]
+  }
+}

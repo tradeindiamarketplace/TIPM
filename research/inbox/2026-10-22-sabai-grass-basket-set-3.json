@@ -1,0 +1,74 @@
+{
+  "id": "RA-20261022-1",
+  "name": "Handwoven sabai grass storage baskets, set of 3 (Odisha handicraft)",
+  "category": "home_storage",
+  "weight": "le_1kg",
+  "supplier_cost": 360,
+  "supplier_cost_note": "Craft Vista Pvt Ltd, Baripada (Mayurbhanj, Odisha): multicolour round sabai grass basket Rs 120/piece, 'various sizes' (IndiaMART similar-products panel and ExportersIndia, seen 2026-10-22) x 3 = Rs 360. Size per price NOT confirmed; larger Odisha listings run higher: Utkalika Bhubaneswar 7-8 in Rs 269/piece (MOQ 70), Kalaghar Bhubaneswar Rs 310, Craft Vista Rs 380 -> realistic range Rs 360-807 for 3. Get a nested-set quote.",
+  "price": 999,
+  "retail_observed": "Comparable sets: The India Craft House sabai set of 2 Rs 750; Natriel set of 3 Rs 1,479 (out of stock); Amazon.in handcrafted sabai set of 3 (30/26/20 cm) Rs 1,763; single lidded baskets on Amazon.in Rs 349-499 (Naushad Rs 349, Natriel Rs 499). Seen 2026-10-22 via search snapshots.",
+  "gst_pct": 12,
+  "electrical": false,
+  "documents": [],
+  "demand_signals": [
+    {
+      "source": "Housiey: 10 Home Decor Trends Taking Over Indian Homes in 2026",
+      "url": "https://housiey.com/blogs/10-home-decor-trends-taking-over-indian-homes-in-2026",
+      "seen_on": "2026-10-22",
+      "summary": "Seller/realty blog listing woven baskets, brass decor and hand-painted/handmade artisan decor and personalised decor among 2026 Indian home-decor trends (editorial, no volume data)"
+    },
+    {
+      "source": "Shiprocket blog: home decor trends India",
+      "url": "https://www.shiprocket.in/blog/home-decor-trends-india/",
+      "seen_on": "2026-10-22",
+      "summary": "Shiprocket May 2026 shipment data: storage boxes lead home-decor orders; mid-range pricing dominates (aggregate category data, not item-specific)"
+    }
+  ],
+  "risks": [
+    "Supplier cost assumes the Rs 120 listing covers all 3 sizes; if nested sizes cost Rs 269-310 each the set fails at Rs 999",
+    "Volumetric weight of a 30 cm basket may push courier slab above le_1kg",
+    "Handmade: colour/size variation -> 'not as pictured' returns",
+    "Moisture/mould in storage",
+    "GST: HSN 4602 basketwork; may be 5% after Sept-2025 handicraft rate cut - CA to confirm (12% used to stay conservative)",
+    "Odisha supplier: GST-local, good for ITC and pickup"
+  ],
+  "sources": [
+    "https://www.exportersindia.com/indian-suppliers/grass-baskets.htm",
+    "https://www.indiamart.com/proddetail/sabai-grass-baskets-27379601348.html",
+    "https://www.indiamart.com/proddetail/sabai-storage-basket-19220170991.html",
+    "https://www.indiamart.com/proddetail/sabai-grass-2850431614573.html",
+    "https://www.amazon.in/Handcrafted-Sabai-Grass-Storage-Basket/dp/B0GX1XT244",
+    "https://www.amazon.in/sabai-grass-baskets/s?k=sabai+grass+baskets",
+    "https://theindiacrafthouse.com/en-us/products/the-india-craft-house-sabai-grass-handmade-multicoloured-basket-set-of-2-mmb02a",
+    "https://www.natriel.com/products/handcrafted-sabai-grass-round-storage-baskets-set-of-3"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "needs_info",
+    "by": "product-reviewer",
+    "at": "2026-10-22",
+    "notes": "Deciding fact unconfirmed: the Rs 120/piece Craft Vista price has no size, and Craft Vista's own searchable listings are Rs 250-350/piece (ExportersIndia, IndiaMART woven-basket panel) - at a set cost above about Rs 430 the set fails 30% at Rs 999 (Rs 500 -> 21.6%, Rs 750 -> -7.6%; even Rs 1,499 at Rs 750 cost only reaches 23.4%). Retail for sets of 3 is Rs 1,763-1,995 so price room exists, but get a written quote for the exact nested 3-size set (dimensions, nested packed box size for volumetric weight) plus photos before any sample; handmade colour/size variation must be stated in the listing.",
+    "competitor_prices": [
+      {
+        "price": 1995,
+        "url": "https://nestasia.in/products/wicker-storage-basket-set-of-3"
+      },
+      {
+        "price": 2190,
+        "url": "https://nestasia.in/products/kitchen-organization-baskets"
+      },
+      {
+        "price": 1763,
+        "url": "https://www.amazon.in/Handcrafted-Sabai-Grass-Storage-Basket/dp/B0GX1XT244"
+      },
+      {
+        "price": 750,
+        "url": "https://theindiacrafthouse.com/en-us/products/the-india-craft-house-sabai-grass-handmade-multicoloured-basket-set-of-2-mmb02a"
+      },
+      {
+        "price": 350,
+        "url": "https://www.exportersindia.com/mayurbhanj/grass-baskets.htm"
+      }
+    ]
+  }
+}

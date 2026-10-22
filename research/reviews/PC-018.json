@@ -1,0 +1,23 @@
+{
+  "id": "PC-018",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-10-22",
+    "notes": "Price unrealistic: the same aluminium laptop stand + phone stand combo sells for Rs 349-404 (TARKAN 2-in-1) and Rs 499 (GADGETSWEAR) on Amazon.in; Rs 899 is roughly double. The model is loss-making at Rs 599 (-4% Amazon) and below, and the combo also needs two suppliers (two parcels) unless one stocks both.",
+    "competitor_prices": [
+      {
+        "price": 404,
+        "url": "https://www.amazon.in/TARKAN-Aluminium-Mobile-Adjustable-Black/dp/B0DHZL4JLW"
+      },
+      {
+        "price": 399,
+        "url": "https://www.amazon.in/TARKAN-Aluminium-Mobile-Adjustable-Silver/dp/B0D84317NH"
+      },
+      {
+        "price": 499,
+        "url": "https://www.amazon.in/GADGETSWEAR-Aluminum-Foldable-Adjustable-Accessories/dp/B0D9S1B73V"
+      }
+    ]
+  }
+}

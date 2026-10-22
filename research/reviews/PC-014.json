@@ -1,0 +1,31 @@
+{
+  "id": "PC-014",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-10-22",
+    "notes": "Price unrealistic: 13-piece brush sets with pouch sell for Rs 126-142 on Flipkart and Rs 78-128 on Meesho, versus our Rs 449; at Rs 299 the model is already at ~0% margin. Shedding is also the common complaint pattern for budget brush sets, and the pouch cost is an unquoted assumption.",
+    "competitor_prices": [
+      {
+        "price": 126,
+        "url": "https://www.flipkart.com/anshaura-13-pcs-makeup-brush-set-soft-professional-cosmetic-brushes-pouch-green/p/itm1c4430926d743"
+      },
+      {
+        "price": 138,
+        "url": "https://www.flipkart.com/onevue-13-pc-unique-makeup-brush-set-pouch-m06183/p/itm9f791a305641d"
+      },
+      {
+        "price": 142,
+        "url": "https://www.flipkart.com/onevue-13-pc-unique-makeup-brush-set-pouch-m06240/p/itmdb483734633b6"
+      },
+      {
+        "price": 78,
+        "url": "https://www.meesho.com/13-pcs-makeup-brushes-foundation-brushes-professional-cosmetic-brushes-set-premium-synthetic-brushes-with-plush-bag-for-foundation-face-powder-blush-eye-shadow-lip-gloss/p/7cjqn0"
+      },
+      {
+        "price": 128,
+        "url": "https://www.meesho.com/first-beauty-13-pcs-makeup-brushes-set-foundation-powder-concealer-eyeshadow-blush-highlighter-eyebrow-brush-make-up-brush-set-travel-makeup-brushes-with-cloth-bag-for-beginner-and-makeup-artist-greenpurplebrown/p/2knvcz"
+      }
+    ]
+  }
+}

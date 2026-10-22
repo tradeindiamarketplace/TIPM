@@ -1,0 +1,62 @@
+{
+  "id": "RA-20261022-2",
+  "name": "Personalised UV-printed MDF house name plate, approx. 14x12 in (custom family name)",
+  "category": "home_decor",
+  "weight": "le_1kg",
+  "supplier_cost": 200,
+  "supplier_cost_note": "Pati Graphics, Bhubaneswar (Odisha): 'House Name Plates' Rs 200/piece excl. tax (IndiaMART, seen 2026-10-22); size and material not stated in snippet. Other: Delhi MDF name plate Rs 75-150/piece; Pune 12 in MDF Rs 300/piece. Must confirm 14x12 in MDF, single-piece custom print, drop-ship.",
+  "price": 799,
+  "retail_observed": "Amazon.in snapshots 2026-10-22: 14x12 in premium 3D UV-printed MDF Rs 799; 40x30 cm MDF family name board Rs 999; customised family name + house number Rs 636; 15x7 in 3D-letter plate (MustHome) Rs 474; small 9x3 in engraved plates Rs 269-299 (smaller, not comparable).",
+  "gst_pct": 18,
+  "electrical": false,
+  "documents": [],
+  "demand_signals": [
+    {
+      "source": "Housiey: 10 Home Decor Trends Taking Over Indian Homes in 2026",
+      "url": "https://housiey.com/blogs/10-home-decor-trends-taking-over-indian-homes-in-2026",
+      "seen_on": "2026-10-22",
+      "summary": "Seller/realty blog listing woven baskets, brass decor and hand-painted/handmade artisan decor and personalised decor among 2026 Indian home-decor trends (editorial, no volume data)"
+    }
+  ],
+  "risks": [
+    "Supplier size/material at Rs 200 not confirmed; at Rs 300+ it fails at Rs 799",
+    "Custom orders: spelling errors become seller cost; need proof-approval step and a 2-4 day lead time",
+    "Corner chipping/scratches in transit; 3D acrylic letters can snap",
+    "Smaller 15x7 in plates sell from Rs 474, so size must be clearly the larger format",
+    "Personalised items are usually non-returnable, but marketplace policy must be checked",
+    "GST rate (HSN 4421/4911) to be confirmed by CA"
+  ],
+  "sources": [
+    "https://www.indiamart.com/proddetail/house-name-plates-2851965591288.html",
+    "https://dir.indiamart.com/delhi/wooden-name-plate.html",
+    "https://www.indiamart.com/proddetail/mdf-nameplate-23025757233.html",
+    "https://www.amazon.in/customised-name-plate/s?k=customised+name+plate",
+    "https://www.amazon.in/s?k=customised+wooden+name+plate+for+home+entrance",
+    "https://www.amazon.in/Name-Plates/s?k=Name+Plates"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "needs_info",
+    "by": "product-reviewer",
+    "at": "2026-10-22",
+    "notes": "Pati Graphics' IndiaMART profile is a general print shop and no house-name-plate listing with size/material could be found, so the Rs 200 cost basis is unverified; other custom wooden plates are Rs 300-500/piece wholesale (Pune Rs 300, Ecozone Rs 500) and break-even at the Rs 799 price ceiling (a like-for-like 14x12 in plate sells at Rs 799) is about Rs 280 (Rs 300 -> 27.6%). Before a sample, get a written quote for 14x12 in MDF UV print, single-piece drop-ship, with a proof-approval step; listing must state personalised items are non-returnable except damage/seller error (seller pays for spelling errors), and packaging must protect corners.",
+    "competitor_prices": [
+      {
+        "price": 799,
+        "url": "https://www.amazon.in/customised-name-plate/s?k=customised+name+plate"
+      },
+      {
+        "price": 999,
+        "url": "https://www.amazon.in/s?k=customised+wooden+name+plate+for+home+entrance"
+      },
+      {
+        "price": 500,
+        "url": "https://m.indiamart.com/ecozone-craft-supplies"
+      },
+      {
+        "price": 1500,
+        "url": "https://m.indiamart.com/vidushi-arts"
+      }
+    ]
+  }
+}

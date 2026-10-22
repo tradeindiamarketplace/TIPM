@@ -302,6 +302,29 @@ def _load_inbox():
 _known = {c["id"] for c in CANDIDATES}
 CANDIDATES += [c for c in _load_inbox() if c["id"] not in _known]
 
+
+def _apply_verdicts():
+    """Review/CA verdicts for candidates defined in this file (research/reviews/<id>.json).
+
+    Inbox candidates carry their verdicts inline; these overlay files let the review and CA agents
+    record verdicts for the hand-written candidates above without editing Python."""
+    import json
+    from pathlib import Path
+    by_id = {c["id"]: c for c in CANDIDATES}
+    for f in sorted((Path(__file__).parent / "reviews").glob("*.json")):
+        v = json.loads(f.read_text())
+        c = by_id.get(v.get("id"))
+        if c is None:
+            continue
+        for k in ("review", "ca"):
+            if k in v:
+                c[k] = v[k]
+        if v.get("ca", {}).get("gst_pct_confirmed") is not None:
+            c["gst_pct"] = D(str(v["ca"]["gst_pct_confirmed"]))
+
+
+_apply_verdicts()
+
 FEE_SOURCES = {
     "amazon_in": [
         "https://press.aboutamazon.com/in/2026/3/amazon-announces-zero-referral-fees-on-over-12-5-crore-products-sellers-to-save-up-to-70-in-fees",

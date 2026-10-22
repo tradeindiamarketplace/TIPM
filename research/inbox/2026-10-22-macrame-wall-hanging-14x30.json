@@ -1,0 +1,85 @@
+{
+  "id": "RA-20261022-3",
+  "name": "Handmade cotton macrame wall hanging, approx. 14x30 in",
+  "category": "home_decor",
+  "weight": "le_500g",
+  "supplier_cost": 165,
+  "supplier_cost_note": "Ghaziabad seller, white/off-white cotton-rope handmade macrame wall hanging 14x30 in Rs 165/piece (IndiaMART, seen 2026-10-22); Nobel Handicrafts, Hapur Rs 180/piece. MOQ not shown. No Odisha supplier found.",
+  "price": 599,
+  "retail_observed": "Amazon.in snapshots 2026-10-22: TIMEYARD 14x33 in Rs 719; Mkono cotton 2-pc 28x13 in Rs 639; large boho piece Rs 998; smaller owl 12x23 in Rs 338 and 2-pc 20x33 cm Rs 280 (smaller sizes, not like-for-like).",
+  "gst_pct": 5,
+  "electrical": false,
+  "documents": [],
+  "demand_signals": [
+    {
+      "source": "Housiey: 10 Home Decor Trends Taking Over Indian Homes in 2026",
+      "url": "https://housiey.com/blogs/10-home-decor-trends-taking-over-indian-homes-in-2026",
+      "seen_on": "2026-10-22",
+      "summary": "Seller/realty blog listing woven baskets, brass decor and hand-painted/handmade artisan decor and personalised decor among 2026 Indian home-decor trends (editorial, no volume data)"
+    },
+    {
+      "source": "IMARC India home decor market 2026-2034",
+      "url": "https://imarcgroup.com/india-home-decor-market",
+      "seen_on": "2026-10-22",
+      "summary": "Reports rising demand for decor in natural materials incl. organic cotton and jute; online channel had 32.08% share in 2025 (market-level, not item-level)"
+    }
+  ],
+  "risks": [
+    "Smaller macrame pieces sell at Rs 280-338; listing must make the 14x30 in size clear",
+    "Handmade variation in knotting and tassel length",
+    "Crushing/creasing of fringe in poly mailer",
+    "No Odisha supplier found (UP suppliers)",
+    "GST rate (cotton made-up article) to be confirmed by CA"
+  ],
+  "sources": [
+    "https://www.indiamart.com/proddetail/handmade-macrame-wall-hanging-16430893791.html",
+    "https://www.indiamart.com/proddetail/macrame-wall-hanging-19531353212.html",
+    "https://www.amazon.in/Macrame-Wall-Hanging/s?k=Macrame+Wall+Hanging",
+    "https://www.amazon.in/Mkono-Macrame-Hanging-Bohemian-Geometric/dp/B07PT6QRXN",
+    "https://www.amazon.in/tms-Bohemian-Macram%C3%A9-Wall-Hanging/dp/B0CVSDP6CT",
+    "https://www.amazon.in/Waterlily-Macrame-Hanging-Bohemian-Geometric/dp/B0B6T62PHX"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "approve",
+    "by": "product-reviewer",
+    "at": "2026-10-22",
+    "notes": "Two UP suppliers agree at Rs 165-180 for 14x30 in cotton (34.8-37.7% at Rs 599, still 30.1% at Rs 499), it is light and not breakable, and a like-for-like 14x31 in piece lists at Rs 899 and 14x33 in at Rs 719, so Rs 599 is realistic - approve a 1-2 piece sample only. Margin is fragile (fails 30% above about Rs 200 cost or below Rs 499 price); sample must confirm true 14x30 in size incl. fringe and cord thickness, since 'smaller than expected' is the main complaint pattern and small pieces sell at Rs 280-499.",
+    "competitor_prices": [
+      {
+        "price": 719,
+        "url": "https://www.amazon.in/Macrame-Wall-Hanging/s?k=Macrame+Wall+Hanging"
+      },
+      {
+        "price": 899,
+        "url": "https://m.indiamart.com/perfectinnovation/wall-macrame.html"
+      },
+      {
+        "price": 639,
+        "url": "https://www.amazon.in/Mkono-Macrame-Hanging-Bohemian-Geometric/dp/B07PT6QRXN"
+      },
+      {
+        "price": 499,
+        "url": "https://www.vibecity.com/macrame-wall-hanging/80963862"
+      }
+    ]
+  },
+  "ca": {
+    "verdict": "approve",
+    "by": "ca-advisor",
+    "at": "2026-10-22",
+    "hsn": "5609 (articles of yarn/twine/cordage/rope n.e.s., e.g. 5609 00 20/90) most likely; 6307 90 (other made-up textile articles) is the main alternative. 5805/5810 do not fit (not hand-woven tapestry, not embroidery); 6304 (furnishing articles) is a weaker fit. Rate is 5% under every plausible heading at Rs 599.",
+    "gst_pct_confirmed": 5,
+    "licences": [],
+    "tax_path": "bill_to_ship_to_website_only",
+    "notes": "Not a licensed CA; analysis for the owner's CA to confirm. GST: candidate had 12%, corrected to 5% (gst_pct updated 12 -> 5). Since 22-09-2025 (56th GST Council, Notification 9/2025-Central Tax (Rate) dt 17-09-2025) heading 5609 twine/cordage/rope articles (other than coir) moved 12% -> 5% [GST Council press release https://gstcouncil.gov.in/sites/default/files/2025-09/press_release_press_information_bureau_0.pdf ; https://taxguru.in/goods-and-service-tax/impact-rate-rationalization-gst-2-0-regime-textile-sector.html ; https://www.credlix.com/hsn-code/560900 ; https://www.cmaknowledge.in/2025/10/gst-rate-changes-effective-22-09-2025-notification-09-2025-ctr.html], and Chapter 63 made-ups (6304/6307) are 5% up to Rs 2,500 per piece, 18% above (Notfn 9/2025 Sch I S.No. for Ch 63 / Sch II above Rs 2,500) [https://www.taxheal.com/?p=31615 ; https://tallysolutions.com/gst/textile-gst-rates/ ; https://taxclue.in/hsn-code/63072010]; Ch 58 (5805/5810) also 5% [https://tax2win.in/guide/special-woven-fabrics-gst-rate-hsn-code]. Sources are search snippets of secondary sites citing the notification; official CBIC/GST Council pages could not be fetched from this session. Licences: none found (no BIS QCO for textile decor; not electrical, not food-contact). Legal Metrology (Packaged Commodities) Rules 2011 apply to the pre-packed retail piece: name and address of manufacturer/packer (and importer if any), common/generic name, net quantity by number (1 N) plus dimensions 14x30 in, MRP inclusive of all taxes, month/year of manufacture/packing, consumer-care contact, country of origin (India); the same declarations must be shown on the website listing (LM Rules r.6(10) e-commerce, Consumer Protection (E-Commerce) Rules 2020). Supplier must put the label on the pack or the owner must supply one. 'Handmade' and '100% cotton' are product claims; policy require_evidence_for_claims means get the supplier's written confirmation/fibre declaration before using '100% cotton'. Tax path: both suppliers (Ghaziabad, Hapur) are in UP, no Odisha supplier found, so per docs/05 this can only be sold on TradeIndiaMarketplace.com (own website) via bill-to-ship-to (supplier bills owner's Odisha GSTIN with IGST, ships to customer; owner charges IGST/CGST+SGST by customer's state under IGST Act s.10(1)(b)). Amazon.in/Flipkart/Meesho are NOT reachable (pickup address must be on a registration in that state) unless an Odisha supplier is found; recommend.py still lists them as passing but that ignores the tax path. Margin after correction (recommend.py, 2026-10-22, base scenario, website shopify channel): at 5% GST and Rs 165 cost expected Rs 199.48/order, 38.01% margin (conservative Rs 131.56; marked fragile); at Rs 180 cost Rs 185.08, 35.26%. Both meet min 30% and Rs 60. (At the old 12% it was 33.87% / 30.95%.) Approve for website only, 1-2 piece sample first as the reviewer said.",
+    "confirm_with_real_ca": [
+      "HSN for a cotton-rope macrame wall hanging: 5609 vs 6307 90 (vs 6304) and that the rate is 5% under Notification 9/2025-CT(Rate) as amended to date",
+      "Bill-to-ship-to from a UP supplier to Odisha GSTIN for website orders: place of supply, IGST charging, invoice and e-way bill format (needed above Rs 50,000 consignment)",
+      "ITC on the supplier's IGST invoice when goods never reach Odisha premises",
+      "That the supplier is GST registered and issues a tax invoice (small IndiaMART handicraft sellers may be unregistered or composition dealers, which would remove ITC and change the margin)",
+      "Legal Metrology label responsibility (supplier vs owner as packer/marketer) for drop-shipped packs",
+      "Whether GST is charged at 5% on the full sale price including any shipping fee collected from the customer"
+    ]
+  }
+}

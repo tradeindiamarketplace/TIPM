@@ -17,3 +17,6 @@ For each candidate in research/inbox/*.json without a "review" field (and any th
               "notes": "<one or two sentences with the deciding reason>", "competitor_prices": [{"price": n, "url": "..."}]}
 6. Run `python3 scripts/recommend.py` and list what changed.
 Approve only when you'd be comfortable spending the owner's money on a sample.
+
+Candidates defined in research/candidates.py (ids PC-...) can't hold verdicts inline. For those, write
+research/reviews/<id>.json as {"id": "<id>", "review": {...}} (keep any existing "ca" key in that file).

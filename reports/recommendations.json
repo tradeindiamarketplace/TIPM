@@ -9,287 +9,263 @@
   },
   "items": [
     {
-      "id": "PC-018",
-      "name": "Desk combo: aluminium laptop stand + phone stand",
-      "category": "electronics_accessories_non_electrical",
-      "price": 899.0,
-      "supplier_cost": 300.0,
-      "stage": "AWAITING_REVIEW",
-      "reason": "profit target met; waiting for the review agent",
-      "best_channel": "amazon_in",
+      "id": "RA-20261022-3",
+      "name": "Handmade cotton macrame wall hanging, approx. 14x30 in",
+      "category": "home_decor",
+      "price": 599.0,
+      "supplier_cost": 165.0,
+      "stage": "RECOMMENDED",
+      "reason": "passes policy, profit target, review and CA",
+      "best_channel": "shopify",
       "best": {
         "status": "PASS",
         "fragile": true,
-        "expected": 214.92,
-        "margin": 30.66,
-        "conservative": 146.04
+        "expected": 199.48,
+        "margin": 38.01,
+        "conservative": 131.56
       },
       "channels": {
         "shopify": {
-          "status": "FAIL",
-          "fragile": false,
-          "expected": 173.96,
-          "margin": 24.82,
-          "conservative": 89.08
-        },
-        "amazon_in": {
           "status": "PASS",
           "fragile": true,
-          "expected": 214.92,
-          "margin": 30.66,
-          "conservative": 146.04
-        },
-        "flipkart": {
-          "status": "FAIL",
-          "fragile": false,
-          "expected": 187.44,
-          "margin": 26.74,
-          "conservative": 117.57
-        },
-        "meesho": {
-          "status": "FAIL",
-          "fragile": false,
-          "expected": 151.83,
-          "margin": 23.45,
-          "conservative": 47.34
+          "expected": 199.48,
+          "margin": 38.01,
+          "conservative": 131.56
         }
       },
       "passing_channels": [
-        "amazon_in"
+        "shopify"
       ],
-      "retail_validated": false,
+      "retail_validated": true,
       "sources": [
-        "https://m.indiamart.com/impcat/laptop-stands.html",
-        "https://m.indiamart.com/ismart-technology/mobile-stands.html"
+        "https://www.indiamart.com/proddetail/handmade-macrame-wall-hanging-16430893791.html",
+        "https://www.indiamart.com/proddetail/macrame-wall-hanging-19531353212.html",
+        "https://www.amazon.in/Macrame-Wall-Hanging/s?k=Macrame+Wall+Hanging",
+        "https://www.amazon.in/Mkono-Macrame-Hanging-Bohemian-Geometric/dp/B07PT6QRXN",
+        "https://www.amazon.in/tms-Bohemian-Macram%C3%A9-Wall-Hanging/dp/B0CVSDP6CT",
+        "https://www.amazon.in/Waterlily-Macrame-Hanging-Bohemian-Geometric/dp/B0B6T62PHX"
       ],
-      "review": null,
-      "ca": null
+      "review": {
+        "verdict": "approve",
+        "by": "product-reviewer",
+        "at": "2026-10-22",
+        "notes": "Two UP suppliers agree at Rs 165-180 for 14x30 in cotton (34.8-37.7% at Rs 599, still 30.1% at Rs 499), it is light and not breakable, and a like-for-like 14x31 in piece lists at Rs 899 and 14x33 in at Rs 719, so Rs 599 is realistic - approve a 1-2 piece sample only. Margin is fragile (fails 30% above about Rs 200 cost or below Rs 499 price); sample must confirm true 14x30 in size incl. fringe and cord thickness, since 'smaller than expected' is the main complaint pattern and small pieces sell at Rs 280-499.",
+        "competitor_prices": [
+          {
+            "price": 719,
+            "url": "https://www.amazon.in/Macrame-Wall-Hanging/s?k=Macrame+Wall+Hanging"
+          },
+          {
+            "price": 899,
+            "url": "https://m.indiamart.com/perfectinnovation/wall-macrame.html"
+          },
+          {
+            "price": 639,
+            "url": "https://www.amazon.in/Mkono-Macrame-Hanging-Bohemian-Geometric/dp/B07PT6QRXN"
+          },
+          {
+            "price": 499,
+            "url": "https://www.vibecity.com/macrame-wall-hanging/80963862"
+          }
+        ]
+      },
+      "ca": {
+        "verdict": "approve",
+        "by": "ca-advisor",
+        "at": "2026-10-22",
+        "hsn": "5609 (articles of yarn/twine/cordage/rope n.e.s., e.g. 5609 00 20/90) most likely; 6307 90 (other made-up textile articles) is the main alternative. 5805/5810 do not fit (not hand-woven tapestry, not embroidery); 6304 (furnishing articles) is a weaker fit. Rate is 5% under every plausible heading at Rs 599.",
+        "gst_pct_confirmed": 5,
+        "licences": [],
+        "tax_path": "bill_to_ship_to_website_only",
+        "notes": "Not a licensed CA; analysis for the owner's CA to confirm. GST: candidate had 12%, corrected to 5% (gst_pct updated 12 -> 5). Since 22-09-2025 (56th GST Council, Notification 9/2025-Central Tax (Rate) dt 17-09-2025) heading 5609 twine/cordage/rope articles (other than coir) moved 12% -> 5% [GST Council press release https://gstcouncil.gov.in/sites/default/files/2025-09/press_release_press_information_bureau_0.pdf ; https://taxguru.in/goods-and-service-tax/impact-rate-rationalization-gst-2-0-regime-textile-sector.html ; https://www.credlix.com/hsn-code/560900 ; https://www.cmaknowledge.in/2025/10/gst-rate-changes-effective-22-09-2025-notification-09-2025-ctr.html], and Chapter 63 made-ups (6304/6307) are 5% up to Rs 2,500 per piece, 18% above (Notfn 9/2025 Sch I S.No. for Ch 63 / Sch II above Rs 2,500) [https://www.taxheal.com/?p=31615 ; https://tallysolutions.com/gst/textile-gst-rates/ ; https://taxclue.in/hsn-code/63072010]; Ch 58 (5805/5810) also 5% [https://tax2win.in/guide/special-woven-fabrics-gst-rate-hsn-code]. Sources are search snippets of secondary sites citing the notification; official CBIC/GST Council pages could not be fetched from this session. Licences: none found (no BIS QCO for textile decor; not electrical, not food-contact). Legal Metrology (Packaged Commodities) Rules 2011 apply to the pre-packed retail piece: name and address of manufacturer/packer (and importer if any), common/generic name, net quantity by number (1 N) plus dimensions 14x30 in, MRP inclusive of all taxes, month/year of manufacture/packing, consumer-care contact, country of origin (India); the same declarations must be shown on the website listing (LM Rules r.6(10) e-commerce, Consumer Protection (E-Commerce) Rules 2020). Supplier must put the label on the pack or the owner must supply one. 'Handmade' and '100% cotton' are product claims; policy require_evidence_for_claims means get the supplier's written confirmation/fibre declaration before using '100% cotton'. Tax path: both suppliers (Ghaziabad, Hapur) are in UP, no Odisha supplier found, so per docs/05 this can only be sold on TradeIndiaMarketplace.com (own website) via bill-to-ship-to (supplier bills owner's Odisha GSTIN with IGST, ships to customer; owner charges IGST/CGST+SGST by customer's state under IGST Act s.10(1)(b)). Amazon.in/Flipkart/Meesho are NOT reachable (pickup address must be on a registration in that state) unless an Odisha supplier is found; recommend.py still lists them as passing but that ignores the tax path. Margin after correction (recommend.py, 2026-10-22, base scenario, website shopify channel): at 5% GST and Rs 165 cost expected Rs 199.48/order, 38.01% margin (conservative Rs 131.56; marked fragile); at Rs 180 cost Rs 185.08, 35.26%. Both meet min 30% and Rs 60. (At the old 12% it was 33.87% / 30.95%.) Approve for website only, 1-2 piece sample first as the reviewer said.",
+        "confirm_with_real_ca": [
+          "HSN for a cotton-rope macrame wall hanging: 5609 vs 6307 90 (vs 6304) and that the rate is 5% under Notification 9/2025-CT(Rate) as amended to date",
+          "Bill-to-ship-to from a UP supplier to Odisha GSTIN for website orders: place of supply, IGST charging, invoice and e-way bill format (needed above Rs 50,000 consignment)",
+          "ITC on the supplier's IGST invoice when goods never reach Odisha premises",
+          "That the supplier is GST registered and issues a tax invoice (small IndiaMART handicraft sellers may be unregistered or composition dealers, which would remove ITC and change the margin)",
+          "Legal Metrology label responsibility (supplier vs owner as packer/marketer) for drop-shipped packs",
+          "Whether GST is charged at 5% on the full sale price including any shipping fee collected from the customer"
+        ]
+      }
     },
     {
-      "id": "PC-013",
-      "name": "Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 10",
-      "category": "cleaning_utility",
-      "price": 699.0,
-      "supplier_cost": 225.0,
-      "stage": "AWAITING_REVIEW",
-      "reason": "profit target met; waiting for the review agent",
+      "id": "RA-20261022-1",
+      "name": "Handwoven sabai grass storage baskets, set of 3 (Odisha handicraft)",
+      "category": "home_storage",
+      "price": 999.0,
+      "supplier_cost": 360.0,
+      "stage": "NEEDS_INFO",
+      "reason": "Deciding fact unconfirmed: the Rs 120/piece Craft Vista price has no size, and Craft Vista's own searchable listings are Rs 250-350/piece (ExportersIndia, IndiaMART woven-basket panel) - at a set cost above about Rs 430 the set fails 30% at Rs 999 (Rs 500 -> 21.6%, Rs 750 -> -7.6%; even Rs 1,499 at Rs 750 cost only reaches 23.4%). Retail for sets of 3 is Rs 1,763-1,995 so price room exists, but get a written quote for the exact nested 3-size set (dimensions, nested packed box size for volumetric weight) plus photos before any sample; handmade colour/size variation must be stated in the listing.",
       "best_channel": "amazon_in",
       "best": {
         "status": "PASS",
-        "fragile": true,
-        "expected": 180.98,
-        "margin": 33.21,
-        "conservative": 127.39
+        "fragile": false,
+        "expected": 312.01,
+        "margin": 38.02,
+        "conservative": 246.13
       },
       "channels": {
         "shopify": {
-          "status": "FAIL",
-          "fragile": false,
-          "expected": 158.02,
-          "margin": 29.0,
-          "conservative": 90.43
+          "status": "PASS",
+          "fragile": true,
+          "expected": 272.05,
+          "margin": 33.15,
+          "conservative": 191.17
         },
         "amazon_in": {
           "status": "PASS",
-          "fragile": true,
-          "expected": 180.98,
-          "margin": 33.21,
-          "conservative": 127.39
+          "fragile": false,
+          "expected": 312.01,
+          "margin": 38.02,
+          "conservative": 246.13
         },
         "flipkart": {
           "status": "PASS",
           "fragile": true,
-          "expected": 163.51,
-          "margin": 30.0,
-          "conservative": 109.91
+          "expected": 282.03,
+          "margin": 34.37,
+          "conservative": 215.15
         },
         "meesho": {
           "status": "PASS",
           "fragile": true,
-          "expected": 152.14,
-          "margin": 30.22,
-          "conservative": 72.55
+          "expected": 256.92,
+          "margin": 33.89,
+          "conservative": 154.92
         }
       },
       "passing_channels": [
         "amazon_in",
         "flipkart",
-        "meesho"
+        "meesho",
+        "shopify"
       ],
       "retail_validated": true,
       "sources": [
-        "https://m.indiamart.com/impcat/microfiber-cloths.html"
+        "https://www.exportersindia.com/indian-suppliers/grass-baskets.htm",
+        "https://www.indiamart.com/proddetail/sabai-grass-baskets-27379601348.html",
+        "https://www.indiamart.com/proddetail/sabai-storage-basket-19220170991.html",
+        "https://www.indiamart.com/proddetail/sabai-grass-2850431614573.html",
+        "https://www.amazon.in/Handcrafted-Sabai-Grass-Storage-Basket/dp/B0GX1XT244",
+        "https://www.amazon.in/sabai-grass-baskets/s?k=sabai+grass+baskets",
+        "https://theindiacrafthouse.com/en-us/products/the-india-craft-house-sabai-grass-handmade-multicoloured-basket-set-of-2-mmb02a",
+        "https://www.natriel.com/products/handcrafted-sabai-grass-round-storage-baskets-set-of-3"
       ],
-      "review": null,
+      "review": {
+        "verdict": "needs_info",
+        "by": "product-reviewer",
+        "at": "2026-10-22",
+        "notes": "Deciding fact unconfirmed: the Rs 120/piece Craft Vista price has no size, and Craft Vista's own searchable listings are Rs 250-350/piece (ExportersIndia, IndiaMART woven-basket panel) - at a set cost above about Rs 430 the set fails 30% at Rs 999 (Rs 500 -> 21.6%, Rs 750 -> -7.6%; even Rs 1,499 at Rs 750 cost only reaches 23.4%). Retail for sets of 3 is Rs 1,763-1,995 so price room exists, but get a written quote for the exact nested 3-size set (dimensions, nested packed box size for volumetric weight) plus photos before any sample; handmade colour/size variation must be stated in the listing.",
+        "competitor_prices": [
+          {
+            "price": 1995,
+            "url": "https://nestasia.in/products/wicker-storage-basket-set-of-3"
+          },
+          {
+            "price": 2190,
+            "url": "https://nestasia.in/products/kitchen-organization-baskets"
+          },
+          {
+            "price": 1763,
+            "url": "https://www.amazon.in/Handcrafted-Sabai-Grass-Storage-Basket/dp/B0GX1XT244"
+          },
+          {
+            "price": 750,
+            "url": "https://theindiacrafthouse.com/en-us/products/the-india-craft-house-sabai-grass-handmade-multicoloured-basket-set-of-2-mmb02a"
+          },
+          {
+            "price": 350,
+            "url": "https://www.exportersindia.com/mayurbhanj/grass-baskets.htm"
+          }
+        ]
+      },
       "ca": null
     },
     {
-      "id": "PC-017",
-      "name": "Aluminium adjustable laptop stand, foldable",
-      "category": "electronics_accessories_non_electrical",
-      "price": 599.0,
-      "supplier_cost": 150.0,
-      "stage": "AWAITING_REVIEW",
-      "reason": "profit target met; waiting for the review agent",
+      "id": "RA-20261022-2",
+      "name": "Personalised UV-printed MDF house name plate, approx. 14x12 in (custom family name)",
+      "category": "home_decor",
+      "price": 799.0,
+      "supplier_cost": 200.0,
+      "stage": "NEEDS_INFO",
+      "reason": "Pati Graphics' IndiaMART profile is a general print shop and no house-name-plate listing with size/material could be found, so the Rs 200 cost basis is unverified; other custom wooden plates are Rs 300-500/piece wholesale (Pune Rs 300, Ecozone Rs 500) and break-even at the Rs 799 price ceiling (a like-for-like 14x12 in plate sells at Rs 799) is about Rs 280 (Rs 300 -> 27.6%). Before a sample, get a written quote for 14x12 in MDF UV print, single-piece drop-ship, with a proof-approval step; listing must state personalised items are non-returnable except damage/seller error (seller pays for spelling errors), and packaging must protect corners.",
       "best_channel": "amazon_in",
       "best": {
         "status": "PASS",
-        "fragile": true,
-        "expected": 160.02,
-        "margin": 34.26,
-        "conservative": 105.31
+        "fragile": false,
+        "expected": 267.95,
+        "margin": 43.01,
+        "conservative": 207.46
       },
       "channels": {
         "shopify": {
-          "status": "FAIL",
-          "fragile": false,
-          "expected": 136.06,
-          "margin": 29.13,
-          "conservative": 66.35
+          "status": "PASS",
+          "fragile": true,
+          "expected": 235.99,
+          "margin": 37.88,
+          "conservative": 160.5
         },
         "amazon_in": {
           "status": "PASS",
-          "fragile": true,
-          "expected": 160.02,
-          "margin": 34.26,
-          "conservative": 105.31
+          "fragile": false,
+          "expected": 267.95,
+          "margin": 43.01,
+          "conservative": 207.46
         },
         "flipkart": {
-          "status": "FAIL",
+          "status": "PASS",
           "fragile": false,
-          "expected": 140.04,
-          "margin": 29.99,
-          "conservative": 84.34
+          "expected": 242.97,
+          "margin": 39.0,
+          "conservative": 181.49
         },
         "meesho": {
-          "status": "FAIL",
-          "fragile": false,
-          "expected": 124.48,
-          "margin": 28.85,
-          "conservative": 43.44
+          "status": "PASS",
+          "fragile": true,
+          "expected": 222.3,
+          "margin": 38.62,
+          "conservative": 130.42
         }
       },
       "passing_channels": [
-        "amazon_in"
+        "amazon_in",
+        "flipkart",
+        "meesho",
+        "shopify"
       ],
       "retail_validated": true,
       "sources": [
-        "https://m.indiamart.com/impcat/laptop-stands.html",
-        "https://m.indiamart.com/apareal-computer/laptop-stand.html"
+        "https://www.indiamart.com/proddetail/house-name-plates-2851965591288.html",
+        "https://dir.indiamart.com/delhi/wooden-name-plate.html",
+        "https://www.indiamart.com/proddetail/mdf-nameplate-23025757233.html",
+        "https://www.amazon.in/customised-name-plate/s?k=customised+name+plate",
+        "https://www.amazon.in/s?k=customised+wooden+name+plate+for+home+entrance",
+        "https://www.amazon.in/Name-Plates/s?k=Name+Plates"
       ],
-      "review": null,
-      "ca": null
-    },
-    {
-      "id": "PC-014",
-      "name": "Makeup brush set 13 pcs with storage pouch",
-      "category": "beauty",
-      "price": 449.0,
-      "supplier_cost": 110.0,
-      "stage": "AWAITING_REVIEW",
-      "reason": "profit target met; waiting for the review agent",
-      "best_channel": "amazon_in",
-      "best": {
-        "status": "PASS",
-        "fragile": true,
-        "expected": 116.47,
-        "margin": 33.27,
-        "conservative": 69.05
+      "review": {
+        "verdict": "needs_info",
+        "by": "product-reviewer",
+        "at": "2026-10-22",
+        "notes": "Pati Graphics' IndiaMART profile is a general print shop and no house-name-plate listing with size/material could be found, so the Rs 200 cost basis is unverified; other custom wooden plates are Rs 300-500/piece wholesale (Pune Rs 300, Ecozone Rs 500) and break-even at the Rs 799 price ceiling (a like-for-like 14x12 in plate sells at Rs 799) is about Rs 280 (Rs 300 -> 27.6%). Before a sample, get a written quote for 14x12 in MDF UV print, single-piece drop-ship, with a proof-approval step; listing must state personalised items are non-returnable except damage/seller error (seller pays for spelling errors), and packaging must protect corners.",
+        "competitor_prices": [
+          {
+            "price": 799,
+            "url": "https://www.amazon.in/customised-name-plate/s?k=customised+name+plate"
+          },
+          {
+            "price": 999,
+            "url": "https://www.amazon.in/s?k=customised+wooden+name+plate+for+home+entrance"
+          },
+          {
+            "price": 500,
+            "url": "https://m.indiamart.com/ecozone-craft-supplies"
+          },
+          {
+            "price": 1500,
+            "url": "https://m.indiamart.com/vidushi-arts"
+          }
+        ]
       },
-      "channels": {
-        "shopify": {
-          "status": "FAIL",
-          "fragile": false,
-          "expected": 83.51,
-          "margin": 23.85,
-          "conservative": 22.09
-        },
-        "amazon_in": {
-          "status": "PASS",
-          "fragile": true,
-          "expected": 116.47,
-          "margin": 33.27,
-          "conservative": 69.05
-        },
-        "flipkart": {
-          "status": "FAIL",
-          "fragile": false,
-          "expected": 95.24,
-          "margin": 27.21,
-          "conservative": 47.82
-        },
-        "meesho": {
-          "status": "FAIL",
-          "fragile": false,
-          "expected": 78.43,
-          "margin": 24.25,
-          "conservative": 10.42
-        }
-      },
-      "passing_channels": [
-        "amazon_in"
-      ],
-      "retail_validated": false,
-      "sources": [
-        "https://m.indiamart.com/impcat/cosmetic-brush-set.html"
-      ],
-      "review": null,
-      "ca": null
-    },
-    {
-      "id": "PC-012",
-      "name": "Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 (at Rs 449)",
-      "category": "cleaning_utility",
-      "price": 449.0,
-      "supplier_cost": 112.5,
-      "stage": "AWAITING_REVIEW",
-      "reason": "profit target met; waiting for the review agent",
-      "best_channel": "amazon_in",
-      "best": {
-        "status": "PASS",
-        "fragile": true,
-        "expected": 114.07,
-        "margin": 32.58,
-        "conservative": 66.7
-      },
-      "channels": {
-        "shopify": {
-          "status": "FAIL",
-          "fragile": false,
-          "expected": 81.11,
-          "margin": 23.17,
-          "conservative": 19.74
-        },
-        "amazon_in": {
-          "status": "PASS",
-          "fragile": true,
-          "expected": 114.07,
-          "margin": 32.58,
-          "conservative": 66.7
-        },
-        "flipkart": {
-          "status": "FAIL",
-          "fragile": false,
-          "expected": 92.84,
-          "margin": 26.52,
-          "conservative": 45.47
-        },
-        "meesho": {
-          "status": "FAIL",
-          "fragile": false,
-          "expected": 76.12,
-          "margin": 23.53,
-          "conservative": 8.2
-        }
-      },
-      "passing_channels": [
-        "amazon_in"
-      ],
-      "retail_validated": true,
-      "sources": [
-        "https://dir.indiamart.com/khurda/microfiber-cloths.html"
-      ],
-      "review": null,
       "ca": null
     },
     {
@@ -920,6 +896,335 @@
       "ca": null
     },
     {
+      "id": "RA-20261022-4",
+      "name": "Brass pooja / aarti thali set, 12 in, 5 pieces",
+      "category": "home_decor",
+      "price": 799.0,
+      "supplier_cost": 200.0,
+      "stage": "REJECTED",
+      "reason": "reviewer or CA rejected: The Rs 200 Faisal Handicrafts listing could not be found or verified, and the comparable 12 in 5-piece brass set found wholesale is Rs 800/set (MOQ 10, ExportersIndia) with other Moradabad sets at Rs 350-430 - break-even for 30% at Rs 799 is about Rs 310, so the realistic cost fails (Rs 360 -> 22.5%, Rs 430 -> 12.3%). A Rs 200 set is likely thin/plated, the 'pure brass' claim needs a test report the supplier has not provided, and dents/tarnish add return risk; resubmit only with a verified quote of Rs 300 or less including plate gauge/weight and a material test report.",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "PASS",
+        "fragile": false,
+        "expected": 301.32,
+        "margin": 45.91,
+        "conservative": 239.39
+      },
+      "channels": {
+        "shopify": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 269.36,
+          "margin": 41.04,
+          "conservative": 192.43
+        },
+        "amazon_in": {
+          "status": "PASS",
+          "fragile": false,
+          "expected": 301.32,
+          "margin": 45.91,
+          "conservative": 239.39
+        },
+        "flipkart": {
+          "status": "PASS",
+          "fragile": false,
+          "expected": 276.35,
+          "margin": 42.11,
+          "conservative": 213.41
+        },
+        "meesho": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 253.13,
+          "margin": 41.74,
+          "conservative": 158.53
+        }
+      },
+      "passing_channels": [
+        "amazon_in",
+        "flipkart",
+        "meesho",
+        "shopify"
+      ],
+      "retail_validated": true,
+      "sources": [
+        "https://www.indiamart.com/proddetail/brass-pooja-aarti-thali-set-2851933195833.html",
+        "https://www.indiamart.com/proddetail/brass-pooja-thali-set-2857473007797.html",
+        "https://www.indiamart.com/neweraarts-collection/brass-pooja-thali-set.html",
+        "https://dir.indiamart.com/moradabad/brass-pooja-thalis.html",
+        "https://www.amazon.in/Rolimoli-Brass-Pooja-Thali-Decorative/dp/B091KY7MX6",
+        "https://www.amazon.in/Brass-Pooja-Thali-Lite-Pack/dp/B0D7NPCFMV",
+        "https://www.amazon.in/Piepot-Traditional-Pooja-Thali-Accessories/dp/B0BG8PGKL6"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-10-22",
+        "notes": "The Rs 200 Faisal Handicrafts listing could not be found or verified, and the comparable 12 in 5-piece brass set found wholesale is Rs 800/set (MOQ 10, ExportersIndia) with other Moradabad sets at Rs 350-430 - break-even for 30% at Rs 799 is about Rs 310, so the realistic cost fails (Rs 360 -> 22.5%, Rs 430 -> 12.3%). A Rs 200 set is likely thin/plated, the 'pure brass' claim needs a test report the supplier has not provided, and dents/tarnish add return risk; resubmit only with a verified quote of Rs 300 or less including plate gauge/weight and a material test report.",
+        "competitor_prices": [
+          {
+            "price": 800,
+            "url": "https://www.exportersindia.com/product-detail/brass-thali-set-2136259475.htm"
+          },
+          {
+            "price": 350,
+            "url": "https://m.indiamart.com/hardwarelighting/brass-pooja-items.html"
+          },
+          {
+            "price": 1259,
+            "url": "https://bhunes.com/collections/all/products/handcrafted-brass-pooja-thali-peetal-aarti-plate-pital-puja-thambalam-for-temple-rituals-home-mandir-traditional-pittal-worship-plate"
+          },
+          {
+            "price": 699,
+            "url": "https://www.amazon.in/Rolimoli-Brass-Pooja-Thali-Decorative/dp/B091KY7MX6"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
+      "id": "PC-018",
+      "name": "Desk combo: aluminium laptop stand + phone stand",
+      "category": "electronics_accessories_non_electrical",
+      "price": 899.0,
+      "supplier_cost": 300.0,
+      "stage": "REJECTED",
+      "reason": "reviewer or CA rejected: Price unrealistic: the same aluminium laptop stand + phone stand combo sells for Rs 349-404 (TARKAN 2-in-1) and Rs 499 (GADGETSWEAR) on Amazon.in; Rs 899 is roughly double. The model is loss-making at Rs 599 (-4% Amazon) and below, and the combo also needs two suppliers (two parcels) unless one stocks both.",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 214.92,
+        "margin": 30.66,
+        "conservative": 146.04
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 173.96,
+          "margin": 24.82,
+          "conservative": 89.08
+        },
+        "amazon_in": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 214.92,
+          "margin": 30.66,
+          "conservative": 146.04
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 187.44,
+          "margin": 26.74,
+          "conservative": 117.57
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 151.83,
+          "margin": 23.45,
+          "conservative": 47.34
+        }
+      },
+      "passing_channels": [
+        "amazon_in"
+      ],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/laptop-stands.html",
+        "https://m.indiamart.com/ismart-technology/mobile-stands.html"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-10-22",
+        "notes": "Price unrealistic: the same aluminium laptop stand + phone stand combo sells for Rs 349-404 (TARKAN 2-in-1) and Rs 499 (GADGETSWEAR) on Amazon.in; Rs 899 is roughly double. The model is loss-making at Rs 599 (-4% Amazon) and below, and the combo also needs two suppliers (two parcels) unless one stocks both.",
+        "competitor_prices": [
+          {
+            "price": 404,
+            "url": "https://www.amazon.in/TARKAN-Aluminium-Mobile-Adjustable-Black/dp/B0DHZL4JLW"
+          },
+          {
+            "price": 399,
+            "url": "https://www.amazon.in/TARKAN-Aluminium-Mobile-Adjustable-Silver/dp/B0D84317NH"
+          },
+          {
+            "price": 499,
+            "url": "https://www.amazon.in/GADGETSWEAR-Aluminum-Foldable-Adjustable-Accessories/dp/B0D9S1B73V"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
+      "id": "PC-013",
+      "name": "Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 10",
+      "category": "cleaning_utility",
+      "price": 699.0,
+      "supplier_cost": 225.0,
+      "stage": "REJECTED",
+      "reason": "reviewer or CA rejected: Price uncompetitive: 10-packs of 40x40 cm ~340 GSM cloths list at Rs 615 (SOFTSPUN, Flipkart) and Rs 625 (Glosswerkz, Amazon.in), and SOFTSPUN 5-packs sell for Rs 225-355, so the 'Rs 499-695 per 5-pack' basis does not hold on the marketplaces. At Rs 599 margin drops to ~22% (Amazon), at Rs 499 to ~12%; below the 30% target.",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 180.98,
+        "margin": 33.21,
+        "conservative": 127.39
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 158.02,
+          "margin": 29.0,
+          "conservative": 90.43
+        },
+        "amazon_in": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 180.98,
+          "margin": 33.21,
+          "conservative": 127.39
+        },
+        "flipkart": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 163.51,
+          "margin": 30.0,
+          "conservative": 109.91
+        },
+        "meesho": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 152.14,
+          "margin": 30.22,
+          "conservative": 72.55
+        }
+      },
+      "passing_channels": [
+        "amazon_in",
+        "flipkart",
+        "meesho"
+      ],
+      "retail_validated": true,
+      "sources": [
+        "https://m.indiamart.com/impcat/microfiber-cloths.html"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-10-22",
+        "notes": "Price uncompetitive: 10-packs of 40x40 cm ~340 GSM cloths list at Rs 615 (SOFTSPUN, Flipkart) and Rs 625 (Glosswerkz, Amazon.in), and SOFTSPUN 5-packs sell for Rs 225-355, so the 'Rs 499-695 per 5-pack' basis does not hold on the marketplaces. At Rs 599 margin drops to ~22% (Amazon), at Rs 499 to ~12%; below the 30% target.",
+        "competitor_prices": [
+          {
+            "price": 615,
+            "url": "https://www.flipkart.com/softspun-microfiber-cloth-40x40-cms-10-piece-towel-set-340gsm-dry-cleaning/p/itm4d469704baccd"
+          },
+          {
+            "price": 625,
+            "url": "https://www.amazon.in/Glosswerkz-Premium-Microfibre-Cloth-10/dp/B08X496Q65"
+          },
+          {
+            "price": 310,
+            "url": "https://www.flipkart.com/homerz-microfiber-multipurpose-cleaning-cloth-300-gsm-set-10-wet-dry/p/itm3c75c2ff268d1"
+          },
+          {
+            "price": 549,
+            "url": "https://www.amazon.in/UltraCleanse-Microfiber-Cloth-350-GSM/dp/B0CCFLXHQ8"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
+      "id": "PC-017",
+      "name": "Aluminium adjustable laptop stand, foldable",
+      "category": "electronics_accessories_non_electrical",
+      "price": 599.0,
+      "supplier_cost": 150.0,
+      "stage": "REJECTED",
+      "reason": "reviewer or CA rejected: Price unrealistic: comparable foldable aluminium stands sell for Rs 199-369 on Amazon.in and Rs 296-298 on Flipkart (STRIFF ~3,100 reviews at Rs 296); Rs 599 has no differentiated product behind it. At Rs 399 the model gives only 7.7% (Amazon) and ~0% Flipkart, at Rs 349 it is loss-making. Supplier cost basis (IndiaMART Rs 160-195/pc) is plausible, but the market price does not leave margin.",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 160.02,
+        "margin": 34.26,
+        "conservative": 105.31
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 136.06,
+          "margin": 29.13,
+          "conservative": 66.35
+        },
+        "amazon_in": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 160.02,
+          "margin": 34.26,
+          "conservative": 105.31
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 140.04,
+          "margin": 29.99,
+          "conservative": 84.34
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 124.48,
+          "margin": 28.85,
+          "conservative": 43.44
+        }
+      },
+      "passing_channels": [
+        "amazon_in"
+      ],
+      "retail_validated": true,
+      "sources": [
+        "https://m.indiamart.com/impcat/laptop-stands.html",
+        "https://m.indiamart.com/apareal-computer/laptop-stand.html"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-10-22",
+        "notes": "Price unrealistic: comparable foldable aluminium stands sell for Rs 199-369 on Amazon.in and Rs 296-298 on Flipkart (STRIFF ~3,100 reviews at Rs 296); Rs 599 has no differentiated product behind it. At Rs 399 the model gives only 7.7% (Amazon) and ~0% Flipkart, at Rs 349 it is loss-making. Supplier cost basis (IndiaMART Rs 160-195/pc) is plausible, but the market price does not leave margin.",
+        "competitor_prices": [
+          {
+            "price": 199,
+            "url": "https://www.amazon.in/Portable-Aluminium-Foldable-Adjustable-Ergonomic/dp/B0H42CSMK4"
+          },
+          {
+            "price": 245,
+            "url": "https://www.amazon.in/Aluminum-Foldable-Portable-Tabletop-Compatible/dp/B0HLGJX6V6"
+          },
+          {
+            "price": 369,
+            "url": "https://www.amazon.in/BHOMANI-Quality-Foldable-Aluminium-Dynamic/dp/B0DJPHP8P9"
+          },
+          {
+            "price": 296,
+            "url": "https://www.flipkart.com/striff-aluminum-laptop-stand-foldable-adjustable-ventilated-up-15-6-black-aluminium-floor-desk-adjustable-height-compatible-40-44cm-laptops/p/itmb4f8ff270286a"
+          },
+          {
+            "price": 298,
+            "url": "https://www.flipkart.com/amextron-aluminium-portable-laptop-stand-height-adjustable-foldable-macbook-hp-dell-all-other-device-iron-compatible-26-35-cm-laptops/p/itm6d7ccfc1e9d8d"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
       "id": "RA-20261021-3",
       "name": "Satin heatless hair curler (curling rod) set",
       "category": "beauty_tools",
@@ -1007,6 +1312,164 @@
           {
             "price": 320,
             "url": "https://www.flipkart.com/ortiza-heatless-hair-curler-overnight-curls-blowout-rods-all-types-curler/p/itm9766f51e82e8a"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
+      "id": "PC-014",
+      "name": "Makeup brush set 13 pcs with storage pouch",
+      "category": "beauty",
+      "price": 449.0,
+      "supplier_cost": 110.0,
+      "stage": "REJECTED",
+      "reason": "reviewer or CA rejected: Price unrealistic: 13-piece brush sets with pouch sell for Rs 126-142 on Flipkart and Rs 78-128 on Meesho, versus our Rs 449; at Rs 299 the model is already at ~0% margin. Shedding is also the common complaint pattern for budget brush sets, and the pouch cost is an unquoted assumption.",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 116.47,
+        "margin": 33.27,
+        "conservative": 69.05
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 83.51,
+          "margin": 23.85,
+          "conservative": 22.09
+        },
+        "amazon_in": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 116.47,
+          "margin": 33.27,
+          "conservative": 69.05
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 95.24,
+          "margin": 27.21,
+          "conservative": 47.82
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 78.43,
+          "margin": 24.25,
+          "conservative": 10.42
+        }
+      },
+      "passing_channels": [
+        "amazon_in"
+      ],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/cosmetic-brush-set.html"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-10-22",
+        "notes": "Price unrealistic: 13-piece brush sets with pouch sell for Rs 126-142 on Flipkart and Rs 78-128 on Meesho, versus our Rs 449; at Rs 299 the model is already at ~0% margin. Shedding is also the common complaint pattern for budget brush sets, and the pouch cost is an unquoted assumption.",
+        "competitor_prices": [
+          {
+            "price": 126,
+            "url": "https://www.flipkart.com/anshaura-13-pcs-makeup-brush-set-soft-professional-cosmetic-brushes-pouch-green/p/itm1c4430926d743"
+          },
+          {
+            "price": 138,
+            "url": "https://www.flipkart.com/onevue-13-pc-unique-makeup-brush-set-pouch-m06183/p/itm9f791a305641d"
+          },
+          {
+            "price": 142,
+            "url": "https://www.flipkart.com/onevue-13-pc-unique-makeup-brush-set-pouch-m06240/p/itmdb483734633b6"
+          },
+          {
+            "price": 78,
+            "url": "https://www.meesho.com/13-pcs-makeup-brushes-foundation-brushes-professional-cosmetic-brushes-set-premium-synthetic-brushes-with-plush-bag-for-foundation-face-powder-blush-eye-shadow-lip-gloss/p/7cjqn0"
+          },
+          {
+            "price": 128,
+            "url": "https://www.meesho.com/first-beauty-13-pcs-makeup-brushes-set-foundation-powder-concealer-eyeshadow-blush-highlighter-eyebrow-brush-make-up-brush-set-travel-makeup-brushes-with-cloth-bag-for-beginner-and-makeup-artist-greenpurplebrown/p/2knvcz"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
+      "id": "PC-012",
+      "name": "Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 5 (at Rs 449)",
+      "category": "cleaning_utility",
+      "price": 449.0,
+      "supplier_cost": 112.5,
+      "stage": "REJECTED",
+      "reason": "reviewer or CA rejected: Price uncompetitive: 40x40 cm 340 GSM 5-packs sell for Rs 225-355 (SOFTSPUN, Amazon.in) and Rs 247-347 (SOFTSPUN, Flipkart), so Rs 449 will not sell; at Rs 399 the margin is 24% (Amazon) and at Rs 349 13%. Its only cited source (Khurda directory) quotes 40x60 cm cloth, not 40x40.",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 114.07,
+        "margin": 32.58,
+        "conservative": 66.7
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 81.11,
+          "margin": 23.17,
+          "conservative": 19.74
+        },
+        "amazon_in": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 114.07,
+          "margin": 32.58,
+          "conservative": 66.7
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 92.84,
+          "margin": 26.52,
+          "conservative": 45.47
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 76.12,
+          "margin": 23.53,
+          "conservative": 8.2
+        }
+      },
+      "passing_channels": [
+        "amazon_in"
+      ],
+      "retail_validated": true,
+      "sources": [
+        "https://dir.indiamart.com/khurda/microfiber-cloths.html"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-10-22",
+        "notes": "Price uncompetitive: 40x40 cm 340 GSM 5-packs sell for Rs 225-355 (SOFTSPUN, Amazon.in) and Rs 247-347 (SOFTSPUN, Flipkart), so Rs 449 will not sell; at Rs 399 the margin is 24% (Amazon) and at Rs 349 13%. Its only cited source (Khurda directory) quotes 40x60 cm cloth, not 40x40.",
+        "competitor_prices": [
+          {
+            "price": 225,
+            "url": "https://www.amazon.in/SOFTSPUN-Microfiber-Detailing-Polishing-Muticolor/dp/B01LZ3TGL2"
+          },
+          {
+            "price": 355,
+            "url": "https://www.amazon.in/SOFTSPUN-Microfiber-Cleaning-Detailing-Polishing/dp/B01B7UD24M"
+          },
+          {
+            "price": 247,
+            "url": "https://www.flipkart.com/softspun-microfiber-cloth-5-pcs-40x40-cms-340-gsm-multicolor-dry-cleaning/p/itmb6648002edd37"
           }
         ]
       },

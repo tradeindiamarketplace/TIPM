@@ -47,6 +47,21 @@ class ProductPolicy(unittest.TestCase):
         c["documents"] = POLICY["exception"]["electrical"]["required_documents"]
         self.assertEqual(policy_problems(c), [])
 
+    def test_needs_info_is_its_own_stage(self):
+        from scripts.recommend import evaluate
+        c = dict(self.base, id="T1", name="t", gst_pct=D("18"), review={"verdict": "needs_info", "notes": "quote needed"})
+        r = evaluate(c)
+        self.assertEqual(r["stage"], "NEEDS_INFO")
+        self.assertIn("quote needed", r["reason"])
+
+    def test_website_only_tax_path_limits_channels(self):
+        from scripts.recommend import evaluate
+        c = dict(self.base, id="T2", name="t", gst_pct=D("18"), review={"verdict": "approve"},
+                 ca={"verdict": "approve", "tax_path": "bill_to_ship_to_website_only"})
+        r = evaluate(c)
+        self.assertEqual(set(r["channels"]), {"shopify"})
+        self.assertIn(r["best_channel"], ("shopify", None))
+
     def test_price_and_weight_limits(self):
         self.assertTrue(policy_problems(dict(self.base, price=D("299"))))
         self.assertTrue(policy_problems(dict(self.base, weight="le_5kg")))

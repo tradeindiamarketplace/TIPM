@@ -1,0 +1,27 @@
+{
+  "id": "PC-013",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-10-22",
+    "notes": "Price uncompetitive: 10-packs of 40x40 cm ~340 GSM cloths list at Rs 615 (SOFTSPUN, Flipkart) and Rs 625 (Glosswerkz, Amazon.in), and SOFTSPUN 5-packs sell for Rs 225-355, so the 'Rs 499-695 per 5-pack' basis does not hold on the marketplaces. At Rs 599 margin drops to ~22% (Amazon), at Rs 499 to ~12%; below the 30% target.",
+    "competitor_prices": [
+      {
+        "price": 615,
+        "url": "https://www.flipkart.com/softspun-microfiber-cloth-40x40-cms-10-piece-towel-set-340gsm-dry-cleaning/p/itm4d469704baccd"
+      },
+      {
+        "price": 625,
+        "url": "https://www.amazon.in/Glosswerkz-Premium-Microfibre-Cloth-10/dp/B08X496Q65"
+      },
+      {
+        "price": 310,
+        "url": "https://www.flipkart.com/homerz-microfiber-multipurpose-cleaning-cloth-300-gsm-set-10-wet-dry/p/itm3c75c2ff268d1"
+      },
+      {
+        "price": 549,
+        "url": "https://www.amazon.in/UltraCleanse-Microfiber-Cloth-350-GSM/dp/B0CCFLXHQ8"
+      }
+    ]
+  }
+}

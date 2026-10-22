@@ -20,3 +20,6 @@ For each candidate whose "review.verdict" is "approve" and that has no "ca" fiel
           "gst_pct_confirmed": n, "licences": ["..."], "tax_path": "odisha_supplier" | "bill_to_ship_to_website_only",
           "notes": "...", "confirm_with_real_ca": ["..."]}
 Reject anything needing a licence the supplier can't evidence.
+
+For candidates defined in research/candidates.py (ids PC-...), add the "ca" object to research/reviews/<id>.json
+(keep the existing "review" key). gst_pct_confirmed there overrides the candidate's gst_pct.
