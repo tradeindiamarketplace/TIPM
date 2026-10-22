@@ -1,0 +1,83 @@
+{
+  "id": "RA-20261022B-1",
+  "name": "Handwoven sabai grass wall decor plates, set of 3 (8/10/12 in), Odisha handicraft",
+  "category": "home_decor",
+  "weight": "le_2kg",
+  "supplier_cost": 700,
+  "supplier_cost_note": "OJs Visit Arena, Bhubaneswar (Odisha): 'Assorted Sabai Grass Baskets, For Decoration, Size 8x3, 10x3 and 12x3 Inches' Rs 700/set, excl. taxes and shipping, in stock (IndiaMART, seen 2026-10-22 via search snapshot; seller rating 3.5 from 2 reviews). Alternatives: Sigmascott Pvt Ltd, Bhubaneswar: 'Sabai Grass Woven Wall Plate - Set of 3 (8/10/12 in)' 249 INR per unit, MOQ 50 (TradeIndia) - unit (per set vs per plate) ambiguous, could cut cost sharply if per set; Sigmascott single round wall plate Rs 199/piece, MOQ 10, size 'customised' (IndiaMART); Craft Vista Baripada wall plate Rs 350/piece. Get written quote for the exact 8/10/12 in set with photos.",
+  "price": 1599,
+  "retail_observed": "Sets of 3 sabai grass wall plates: Gunmala Rs 1,250 (smaller 6/8/10 in); Utkalika Odisha Rs 1,560 sale (out of stock); Bhumee Creations Rs 1,799 (Amazon.in); star-pattern set Rs 2,050 (Amazon.in); Gulaabi Ghar Rs 2,490 (Amazon.in); The State Square Rs 2,490; DIYBaazar Rs 3,599. Seen 2026-10-22 via search snapshots. No comparable 8/10/12 in set found well below Rs 1,250.",
+  "gst_pct": 5,
+  "electrical": false,
+  "documents": [],
+  "demand_signals": [
+    {
+      "source": "Amazon.in search 'sabai grass wall plates'",
+      "url": "https://www.amazon.in/sabai-grass-wall-plates/s?k=sabai+grass+wall+plates",
+      "seen_on": "2026-10-22",
+      "summary": "Multiple sellers (Gulaabi Ghar, Bhumee Creations, Bhartiye Crafts, Jaypore, Swadeh, Whispering Homes) list sets of 3/5/7/9 at Rs 1,799-2,490; some listings show low stock (no sales volumes available)"
+    },
+    {
+      "source": "Housiey: 10 Home Decor Trends Taking Over Indian Homes in 2026",
+      "url": "https://housiey.com/blogs/10-home-decor-trends-taking-over-indian-homes-in-2026",
+      "seen_on": "2026-10-22",
+      "summary": "Editorial: woven baskets and handmade artisan decor among 2026 Indian decor trends (no volume data; cited in earlier run)"
+    },
+    {
+      "source": "VillageSquare: Odisha's humble sabai grass makes fashion statement",
+      "url": "https://villagesquare.in/odishas-humble-sabai-grass-makes-fashion-statement/",
+      "seen_on": "2026-10-22",
+      "summary": "Feature (undated in snapshot) reporting sabai grass as trending in high-end boutique circuit; qualitative only"
+    }
+  ],
+  "risks": [
+    "Parcel: actual weight not stated; a 12 in plate nested set packs ~32x32x6-8 cm, volumetric ~1.2-1.6 kg, so le_2kg slab used; le_1kg only if packed flatter",
+    "Amazon/Flipkart above Rs 1,000 carry 12% referral in the model, so margin there is ~21-22% at Rs 1,599; base case relies on Shopify/Meesho",
+    "Supplier is a trader with only 2 reviews; confirm maker, colours and that 8x3/10x3/12x3 in are wall-hanging plates (hook/loop) not bowls",
+    "Handmade colour/size variation -> 'not as pictured' returns; state variation in listing",
+    "Moisture/mould in storage; crush damage in courier if not boxed",
+    "GST: HSN 4602 basketwork; 5% assumed (handicraft rate cut Sept 2025); at 12% margin drops ~5 points - CA to confirm",
+    "Odisha supplier: GST-local, eligible for Amazon/Flipkart/Meesho pickup"
+  ],
+  "sources": [
+    "https://www.indiamart.com/proddetail/sabai-grass-baskets-2850431605612.html",
+    "https://www.tradeindia.com/products/sabai-grass-woven-wall-plate-c8511804.html",
+    "https://www.tradeindia.com/products/sabai-grass-basket-c8509640.html",
+    "https://www.indiamart.com/proddetail/handicraft-sabai-sea-kauna-grass-wall-plate-23371045962.html",
+    "https://www.amazon.in/Gulaabi-Ghar-Decorative-Traditional-Multicolour/dp/B0DWS98YK5",
+    "https://www.amazon.in/sabai-grass-wall-plates/s?k=sabai+grass+wall+plates",
+    "https://www.gunmala.com/products/Traditional%20Star%20Plate/4063121000000656677",
+    "https://utkalikaodisha.com/product/sabai-grass-wall-plate-set-of-5-2/",
+    "https://thestatesquare.com/product/handcrafted-sabai-grass-wall-decor-plate-set-of-3-12-10-8/",
+    "https://diybaazar.com/sabai-grass-wall-plate-set-of-3"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "needs_info",
+    "by": "product-reviewer",
+    "at": "2026-10-22",
+    "notes": "Deciding fact unconfirmed: the only Rs 700/set quote is a trader (OJs Visit Arena, 3.5 stars from 2 reviews) whose listing says 'baskets' 8x3/10x3/12x3 in, not confirmed as hooped wall plates, and the Sigmascott 8/10/12 in set is indexed as Rs 249 'per piece', MOQ 20 (search snippet of the TradeIndia listing) - if per plate the set costs Rs 747 and Shopify/Meesho fall to 29.8% (Amazon/Flipkart ~18-19%), only if per set does it clear easily; at Rs 700 it passes only Shopify/Meesho (33%) on the le_2kg slab. Price is not a differentiator: the identical 8/10/12 in set sells at Rs 1,599 (Grasscrafts) and Rs 1,560 (Utkalika), so get a written Sigmascott/maker quote stating per-set price, hoop on back, colours, packed box size and weight before any sample.",
+    "competitor_prices": [
+      {
+        "price": 1599,
+        "url": "https://grasscrafts.com/products/plates-i-basket-1"
+      },
+      {
+        "price": 1560,
+        "url": "https://utkalikaodisha.com/product/sabai-grass-wall-plate-set-of-5-2/"
+      },
+      {
+        "price": 2495,
+        "url": "https://www.amazon.in/sabai-grass-wall-plates/s?k=sabai+grass+wall+plates"
+      },
+      {
+        "price": 2490,
+        "url": "https://thestatesquare.com/product/handcrafted-sabai-grass-wall-decor-plate-set-of-3-12-10-8/"
+      },
+      {
+        "price": 3599,
+        "url": "https://diybaazar.com/sabai-grass-wall-plate-set-of-3"
+      }
+    ]
+  }
+}

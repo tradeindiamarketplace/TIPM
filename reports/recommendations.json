@@ -89,6 +89,99 @@
       }
     },
     {
+      "id": "RA-20261022B-1",
+      "name": "Handwoven sabai grass wall decor plates, set of 3 (8/10/12 in), Odisha handicraft",
+      "category": "home_decor",
+      "price": 1599.0,
+      "supplier_cost": 700.0,
+      "stage": "NEEDS_INFO",
+      "reason": "Deciding fact unconfirmed: the only Rs 700/set quote is a trader (OJs Visit Arena, 3.5 stars from 2 reviews) whose listing says 'baskets' 8x3/10x3/12x3 in, not confirmed as hooped wall plates, and the Sigmascott 8/10/12 in set is indexed as Rs 249 'per piece', MOQ 20 (search snippet of the TradeIndia listing) - if per plate the set costs Rs 747 and Shopify/Meesho fall to 29.8% (Amazon/Flipkart ~18-19%), only if per set does it clear easily; at Rs 700 it passes only Shopify/Meesho (33%) on the le_2kg slab. Price is not a differentiator: the identical 8/10/12 in set sells at Rs 1,599 (Grasscrafts) and Rs 1,560 (Utkalika), so get a written Sigmascott/maker quote stating per-set price, hoop on back, colours, packed box size and weight before any sample.",
+      "best_channel": "shopify",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 462.07,
+        "margin": 32.98,
+        "conservative": 354.75
+      },
+      "channels": {
+        "shopify": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 462.07,
+          "margin": 32.98,
+          "conservative": 354.75
+        },
+        "amazon_in": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 308.15,
+          "margin": 21.99,
+          "conservative": 216.83
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 294.17,
+          "margin": 21.0,
+          "conservative": 201.86
+        },
+        "meesho": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 428.68,
+          "margin": 33.12,
+          "conservative": 282.11
+        }
+      },
+      "passing_channels": [
+        "meesho",
+        "shopify"
+      ],
+      "retail_validated": true,
+      "sources": [
+        "https://www.indiamart.com/proddetail/sabai-grass-baskets-2850431605612.html",
+        "https://www.tradeindia.com/products/sabai-grass-woven-wall-plate-c8511804.html",
+        "https://www.tradeindia.com/products/sabai-grass-basket-c8509640.html",
+        "https://www.indiamart.com/proddetail/handicraft-sabai-sea-kauna-grass-wall-plate-23371045962.html",
+        "https://www.amazon.in/Gulaabi-Ghar-Decorative-Traditional-Multicolour/dp/B0DWS98YK5",
+        "https://www.amazon.in/sabai-grass-wall-plates/s?k=sabai+grass+wall+plates",
+        "https://www.gunmala.com/products/Traditional%20Star%20Plate/4063121000000656677",
+        "https://utkalikaodisha.com/product/sabai-grass-wall-plate-set-of-5-2/",
+        "https://thestatesquare.com/product/handcrafted-sabai-grass-wall-decor-plate-set-of-3-12-10-8/",
+        "https://diybaazar.com/sabai-grass-wall-plate-set-of-3"
+      ],
+      "review": {
+        "verdict": "needs_info",
+        "by": "product-reviewer",
+        "at": "2026-10-22",
+        "notes": "Deciding fact unconfirmed: the only Rs 700/set quote is a trader (OJs Visit Arena, 3.5 stars from 2 reviews) whose listing says 'baskets' 8x3/10x3/12x3 in, not confirmed as hooped wall plates, and the Sigmascott 8/10/12 in set is indexed as Rs 249 'per piece', MOQ 20 (search snippet of the TradeIndia listing) - if per plate the set costs Rs 747 and Shopify/Meesho fall to 29.8% (Amazon/Flipkart ~18-19%), only if per set does it clear easily; at Rs 700 it passes only Shopify/Meesho (33%) on the le_2kg slab. Price is not a differentiator: the identical 8/10/12 in set sells at Rs 1,599 (Grasscrafts) and Rs 1,560 (Utkalika), so get a written Sigmascott/maker quote stating per-set price, hoop on back, colours, packed box size and weight before any sample.",
+        "competitor_prices": [
+          {
+            "price": 1599,
+            "url": "https://grasscrafts.com/products/plates-i-basket-1"
+          },
+          {
+            "price": 1560,
+            "url": "https://utkalikaodisha.com/product/sabai-grass-wall-plate-set-of-5-2/"
+          },
+          {
+            "price": 2495,
+            "url": "https://www.amazon.in/sabai-grass-wall-plates/s?k=sabai+grass+wall+plates"
+          },
+          {
+            "price": 2490,
+            "url": "https://thestatesquare.com/product/handcrafted-sabai-grass-wall-decor-plate-set-of-3-12-10-8/"
+          },
+          {
+            "price": 3599,
+            "url": "https://diybaazar.com/sabai-grass-wall-plate-set-of-3"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
       "id": "RA-20261022-1",
       "name": "Handwoven sabai grass storage baskets, set of 3 (Odisha handicraft)",
       "category": "home_storage",
@@ -263,6 +356,83 @@
           {
             "price": 1500,
             "url": "https://m.indiamart.com/vidushi-arts"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
+      "id": "RA-20261022B-3",
+      "name": "Handwoven sabai grass roti / chapati box with lid, approx. 8 in (Odisha handicraft)",
+      "category": "kitchen_organisation",
+      "price": 749.0,
+      "supplier_cost": 299.0,
+      "stage": "NEEDS_INFO",
+      "reason": "At the quoted Rs 299 cost the box passes 30% only on Amazon (31.4%) and only if it ships in le_1kg; an 8x8 in box packed at ~23x23x10 cm is volumetric ~1.06 kg (le_2kg), where every channel falls to 18-26%, and the Sigmascott 'chapati box' snippet does not confirm a lid. Needs a written quote for the exact 8 in box with fitted lid (Baripada maker at ~Rs 200, which gives 41-46%, or Rs 299 sold at Rs 799 -> 31-36%), plus packed dimensions/weight (The India Craft House's comparable 8-9.5 in basket is 540 g); list as a storage/serving basket only, no 'food grade', hygiene or keeps-warm claims.",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 206.23,
+        "margin": 31.42,
+        "conservative": 146.27
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 176.27,
+          "margin": 26.86,
+          "conservative": 101.31
+        },
+        "amazon_in": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 206.23,
+          "margin": 31.42,
+          "conservative": 146.27
+        },
+        "flipkart": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 182.5,
+          "margin": 27.81,
+          "conservative": 121.55
+        },
+        "meesho": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 161.51,
+          "margin": 26.64,
+          "conservative": 70.62
+        }
+      },
+      "passing_channels": [
+        "amazon_in"
+      ],
+      "retail_validated": true,
+      "sources": [
+        "https://www.tradeindia.com/products/natural-sabai-grass-handmade-chapati-box-c8412282.html",
+        "https://www.indiamart.com/sigmascott/handicraft-basket.html",
+        "https://www.tradeindia.com/sigmascott-private-limited-40997747/sabai-grass-box.html",
+        "https://www.amazon.in/Sabai-Grass-Roti-Box-Lid/dp/B0GW2P87BT",
+        "https://www.amazon.in/KADAM-HAAT-Handmade-Chapati-Paratha/dp/B07SYZPZ33",
+        "https://www.amazon.in/sabai-grass-box/s?k=sabai+grass+box",
+        "https://www.meesho.com/handcrafted-sabai-grass-basket-with-lid-round-wicker-woven-baskets-storage-box-for-home-and-bathroom-decor-multiutility-usage-as-jewellery-box-or-on-desk-small-planter-ideally-suited-for-unique-durable-eco-friendly-gifting-experience/p/5zzi8l"
+      ],
+      "review": {
+        "verdict": "needs_info",
+        "by": "product-reviewer",
+        "at": "2026-10-22",
+        "notes": "At the quoted Rs 299 cost the box passes 30% only on Amazon (31.4%) and only if it ships in le_1kg; an 8x8 in box packed at ~23x23x10 cm is volumetric ~1.06 kg (le_2kg), where every channel falls to 18-26%, and the Sigmascott 'chapati box' snippet does not confirm a lid. Needs a written quote for the exact 8 in box with fitted lid (Baripada maker at ~Rs 200, which gives 41-46%, or Rs 299 sold at Rs 799 -> 31-36%), plus packed dimensions/weight (The India Craft House's comparable 8-9.5 in basket is 540 g); list as a storage/serving basket only, no 'food grade', hygiene or keeps-warm claims.",
+        "competitor_prices": [
+          {
+            "price": 1099,
+            "url": "https://www.nykaafashion.com/kadam-haat-handmade-sabai-grass-roti-box-black/p/13785189"
+          },
+          {
+            "price": 769,
+            "url": "https://www.amazon.in/Sabai-Grass-Roti-Box-Lid/dp/B0GW2P87BT"
           }
         ]
       },
@@ -1135,6 +1305,94 @@
           {
             "price": 549,
             "url": "https://www.amazon.in/UltraCleanse-Microfiber-Cloth-350-GSM/dp/B0CCFLXHQ8"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
+      "id": "RA-20261022B-2",
+      "name": "Handmade sabai grass round tea coasters, set of 6 (Mayurbhanj, Odisha)",
+      "category": "kitchen_organisation",
+      "price": 499.0,
+      "supplier_cost": 150.0,
+      "stage": "REJECTED",
+      "reason": "reviewer or CA rejected: Not competitive without a holder: sets of 6 WITH a storage box sell at Rs 494 (Utkalika Odisha) and Rs 499 on Amazon.in (MRP 920), while the no-holder sets we found are Nestasia Rs 550 and The India Craft House Rs 810 (brand-led); our Rs 499 no-holder set has no edge, and adding a holder kills the margin (cost Rs 200 at Rs 499 -> 18.8-26.8% on every channel; matching Rs 459 at Rs 150 cost -> 24-32%, Shopify/Meesho fail). Even at the base case Shopify is 29.8% and the price sits Rs 50 above the Rs 449 floor, so there is no room for returns from size/colour variation.",
+      "best_channel": "amazon_in",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 165.22,
+        "margin": 37.79,
+        "conservative": 114.81
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 130.26,
+          "margin": 29.79,
+          "conservative": 65.85
+        },
+        "amazon_in": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 165.22,
+          "margin": 37.79,
+          "conservative": 114.81
+        },
+        "flipkart": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 142.74,
+          "margin": 32.65,
+          "conservative": 92.33
+        },
+        "meesho": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 121.95,
+          "margin": 30.19,
+          "conservative": 48.33
+        }
+      },
+      "passing_channels": [
+        "amazon_in",
+        "flipkart",
+        "meesho"
+      ],
+      "retail_validated": true,
+      "sources": [
+        "https://www.exportersindia.com/indian-suppliers/tea-coaster.htm",
+        "https://www.indiamart.com/craftvista/",
+        "https://www.indiamart.com/proddetail/sabai-grass-coaster-set-of-6-box-23553369330.html",
+        "https://www.indiamart.com/proddetail/sabai-sea-kauna-grass-handicrafts-colorful-tokris-basket-23369520688.html",
+        "https://nestasia.in/products/natural-coaster-set-with-box",
+        "https://www.flipkart.com/ivorycharm-round-sabai-grass-coaster-set/p/itm00f06fa8eb214",
+        "https://www.flipkart.com/gssra-round-sabai-grass-coaster-set/p/itmd9f56730b8c2e",
+        "https://www.amazon.in/sabai-grass/s?k=sabai+grass"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-10-22",
+        "notes": "Not competitive without a holder: sets of 6 WITH a storage box sell at Rs 494 (Utkalika Odisha) and Rs 499 on Amazon.in (MRP 920), while the no-holder sets we found are Nestasia Rs 550 and The India Craft House Rs 810 (brand-led); our Rs 499 no-holder set has no edge, and adding a holder kills the margin (cost Rs 200 at Rs 499 -> 18.8-26.8% on every channel; matching Rs 459 at Rs 150 cost -> 24-32%, Shopify/Meesho fail). Even at the base case Shopify is 29.8% and the price sits Rs 50 above the Rs 449 floor, so there is no room for returns from size/colour variation.",
+        "competitor_prices": [
+          {
+            "price": 494,
+            "url": "https://utkalikaodisha.com/product/handcrafted-sabai-grass-coaster-set-with-storage-box-eco-friendly-handmade-drink-coasters-set-of-6-box/"
+          },
+          {
+            "price": 499,
+            "url": "https://www.amazon.in/sabai-grass-box/s?k=sabai+grass+box"
+          },
+          {
+            "price": 550,
+            "url": "https://nestasia.in/products/sustainable-coasters"
+          },
+          {
+            "price": 810,
+            "url": "https://theindiacrafthouse.com/en-us/products/handcrafted-sabai-grass-coaster-set-set-of-6-mmrb03c"
           }
         ]
       },

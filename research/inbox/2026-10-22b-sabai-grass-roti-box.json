@@ -1,0 +1,61 @@
+{
+  "id": "RA-20261022B-3",
+  "name": "Handwoven sabai grass roti / chapati box with lid, approx. 8 in (Odisha handicraft)",
+  "category": "kitchen_organisation",
+  "weight": "le_1kg",
+  "supplier_cost": 299,
+  "supplier_cost_note": "Sigmascott Pvt Ltd, Bhubaneswar (Odisha): 'Natural Sabai Grass Handmade Chapati Box - 8x8 inch' approx. Rs 299, MOQ 50 (TradeIndia, seen 2026-10-22 via search snapshot). Same seller on IndiaMART: round basket with lid Rs 249 and Rs 349 (natural), round chapati basket Rs 199. A Baripada (Mayurbhanj) maker lists a round sabai grass chapati box at Rs 200/piece (lid not confirmed) - at Rs 200 the margin rises to ~41-46%. Get a quote with lid type and photos.",
+  "price": 749,
+  "retail_observed": "Prista sabai grass roti box with lid Rs 749-899 across listings (product page Rs 769, MRP 1,599; 4.4 stars / 25 reviews per snapshot), Amazon.in; Bhumee Creations 9x9x3 in roti casserole ~Rs 854 (Flipkart, MRP 1,900); KADAM HAAT with wooden lid ~Rs 999 (Amazon.in). Cheaper adjacent: Meesho small sabai basket with lid Rs 255 (not a roti box). Seen 2026-10-22 via search snapshots.",
+  "gst_pct": 5,
+  "electrical": false,
+  "documents": [],
+  "demand_signals": [
+    {
+      "source": "Amazon.in: Prista Handcrafted Sabai Grass Roti Box with Lid",
+      "url": "https://www.amazon.in/Sabai-Grass-Roti-Box-Lid/dp/B0GW2P87BT",
+      "seen_on": "2026-10-22",
+      "summary": "Listing shows 4.4 stars from 25 reviews and several price points/variants (Rs 749-899): evidence of some sales, no volume data"
+    },
+    {
+      "source": "Amazon.in search 'sabai grass box'",
+      "url": "https://www.amazon.in/sabai-grass-box/s?k=sabai+grass+box",
+      "seen_on": "2026-10-22",
+      "summary": "Multiple sellers (Prista, KADAM HAAT, Aranya Shilpo, Bhumee Creations, Bhartiye Crafts) offer sabai roti boxes; niche but active"
+    }
+  ],
+  "risks": [
+    "Food-contact use: do NOT claim 'food grade', 'keeps rotis hot' or insulation without evidence; KADAM HAAT reviews say rotis dry out and it keeps warm only ~30 min",
+    "Hand wash only; moisture/mould if stored damp - care card needed",
+    "Volumetric weight of a ~23 cm box (23x23x10 cm ~1.06 kg) may tip into le_2kg; at le_2kg margin falls below 30% unless cost is ~Rs 200",
+    "Margin is thin at Rs 299 cost: Amazon ~31%, Shopify/Flipkart/Meesho 27-28% at Rs 749; needs the Rs 200 maker price or Rs 799",
+    "GST: HSN 4602 basketwork; 5% assumed - CA to confirm",
+    "Odisha supplier: GST-local, marketplace-eligible"
+  ],
+  "sources": [
+    "https://www.tradeindia.com/products/natural-sabai-grass-handmade-chapati-box-c8412282.html",
+    "https://www.indiamart.com/sigmascott/handicraft-basket.html",
+    "https://www.tradeindia.com/sigmascott-private-limited-40997747/sabai-grass-box.html",
+    "https://www.amazon.in/Sabai-Grass-Roti-Box-Lid/dp/B0GW2P87BT",
+    "https://www.amazon.in/KADAM-HAAT-Handmade-Chapati-Paratha/dp/B07SYZPZ33",
+    "https://www.amazon.in/sabai-grass-box/s?k=sabai+grass+box",
+    "https://www.meesho.com/handcrafted-sabai-grass-basket-with-lid-round-wicker-woven-baskets-storage-box-for-home-and-bathroom-decor-multiutility-usage-as-jewellery-box-or-on-desk-small-planter-ideally-suited-for-unique-durable-eco-friendly-gifting-experience/p/5zzi8l"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "needs_info",
+    "by": "product-reviewer",
+    "at": "2026-10-22",
+    "notes": "At the quoted Rs 299 cost the box passes 30% only on Amazon (31.4%) and only if it ships in le_1kg; an 8x8 in box packed at ~23x23x10 cm is volumetric ~1.06 kg (le_2kg), where every channel falls to 18-26%, and the Sigmascott 'chapati box' snippet does not confirm a lid. Needs a written quote for the exact 8 in box with fitted lid (Baripada maker at ~Rs 200, which gives 41-46%, or Rs 299 sold at Rs 799 -> 31-36%), plus packed dimensions/weight (The India Craft House's comparable 8-9.5 in basket is 540 g); list as a storage/serving basket only, no 'food grade', hygiene or keeps-warm claims.",
+    "competitor_prices": [
+      {
+        "price": 1099,
+        "url": "https://www.nykaafashion.com/kadam-haat-handmade-sabai-grass-roti-box-black/p/13785189"
+      },
+      {
+        "price": 769,
+        "url": "https://www.amazon.in/Sabai-Grass-Roti-Box-Lid/dp/B0GW2P87BT"
+      }
+    ]
+  }
+}

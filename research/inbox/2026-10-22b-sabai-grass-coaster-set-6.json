@@ -1,0 +1,70 @@
+{
+  "id": "RA-20261022B-2",
+  "name": "Handmade sabai grass round tea coasters, set of 6 (Mayurbhanj, Odisha)",
+  "category": "kitchen_organisation",
+  "weight": "le_500g",
+  "supplier_cost": 150,
+  "supplier_cost_note": "Craft Vista Pvt Ltd, Baripada (Mayurbhanj, Odisha): handmade sabai grass tea coaster Rs 25/piece (natural, grey and multicolour listings; grey listing MOQ 100 pieces) x 6 = Rs 150 (IndiaMART / ExportersIndia, seen 2026-10-22 via search snapshots). Does NOT include a holder/box; most competitors include one. Other Odisha quotes: AK Smile Enterprise (Balasore) 4 in coasters Rs 120/set (set size unstated); Sigmascott Bhubaneswar natural set of 6 Rs 280 (unit ambiguous), MOQ 10; GB Oreole Bhadrak set of 6 + box Rs 350/set - at Rs 280-350 the item fails the margin target.",
+  "price": 499,
+  "retail_observed": "Sets of 6 sabai grass coasters: Rs 459 (Utkal Crafts, with box, Amazon.in, MRP 780); Rs 499 (Amazon.in, 'Handmade Sabai Grass Coaster Set of 6', MRP 920); Nestasia Rs 550; The Paizley Rs 575 (Flipkart); LOKLORE with storage box Rs 775 (Amazon.in); older Bhumee Creations listing Rs 779. Seen 2026-10-22 via search snapshots; Amazon product URLs not captured for each.",
+  "gst_pct": 5,
+  "electrical": false,
+  "documents": [],
+  "demand_signals": [
+    {
+      "source": "Amazon.in / Flipkart search snapshots 'sabai grass coaster set of 6'",
+      "url": "https://www.amazon.in/sabai-grass/s?k=sabai+grass",
+      "seen_on": "2026-10-22",
+      "summary": "At least 6 active sellers (LOKLORE, Bhumee Creations, Utkal Crafts, The Paizley, IvoryCharm, GSSRA) list sabai coaster sets of 6 at Rs 459-779; shows an established category, no sales volumes available"
+    },
+    {
+      "source": "30Stades: How Mayurbhanj's tribal women handcrafted a Rs 70 lakh enterprise from sabai grass",
+      "url": "https://30stades.com/enterprise/how-mayurbhanj-tribal-women-handcrafted-rs70-lakh-enterprise-ecofriendly-sabai-grass-10864965",
+      "seen_on": "2026-10-22",
+      "summary": "Producer company of 84 groups across 70+ villages in Mayurbhanj: supply base exists (undated in snapshot)"
+    }
+  ],
+  "risks": [
+    "Price-competitive: Rs 459-499 sets with a box already exist; we must add a holder/box or a gift sleeve, which raises cost (box not quoted)",
+    "At Rs 499 Shopify/Meesho sit right at 30%; Amazon/Flipkart pass with ~33-38%",
+    "MOQ 100 pieces (~17 sets) on grey listing; confirm MOQ for natural/multicolour",
+    "Handmade size/colour variation; fraying",
+    "GST: HSN 4602; 5% assumed - CA to confirm",
+    "Odisha supplier: GST-local, marketplace-eligible"
+  ],
+  "sources": [
+    "https://www.exportersindia.com/indian-suppliers/tea-coaster.htm",
+    "https://www.indiamart.com/craftvista/",
+    "https://www.indiamart.com/proddetail/sabai-grass-coaster-set-of-6-box-23553369330.html",
+    "https://www.indiamart.com/proddetail/sabai-sea-kauna-grass-handicrafts-colorful-tokris-basket-23369520688.html",
+    "https://nestasia.in/products/natural-coaster-set-with-box",
+    "https://www.flipkart.com/ivorycharm-round-sabai-grass-coaster-set/p/itm00f06fa8eb214",
+    "https://www.flipkart.com/gssra-round-sabai-grass-coaster-set/p/itmd9f56730b8c2e",
+    "https://www.amazon.in/sabai-grass/s?k=sabai+grass"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-10-22",
+    "notes": "Not competitive without a holder: sets of 6 WITH a storage box sell at Rs 494 (Utkalika Odisha) and Rs 499 on Amazon.in (MRP 920), while the no-holder sets we found are Nestasia Rs 550 and The India Craft House Rs 810 (brand-led); our Rs 499 no-holder set has no edge, and adding a holder kills the margin (cost Rs 200 at Rs 499 -> 18.8-26.8% on every channel; matching Rs 459 at Rs 150 cost -> 24-32%, Shopify/Meesho fail). Even at the base case Shopify is 29.8% and the price sits Rs 50 above the Rs 449 floor, so there is no room for returns from size/colour variation.",
+    "competitor_prices": [
+      {
+        "price": 494,
+        "url": "https://utkalikaodisha.com/product/handcrafted-sabai-grass-coaster-set-with-storage-box-eco-friendly-handmade-drink-coasters-set-of-6-box/"
+      },
+      {
+        "price": 499,
+        "url": "https://www.amazon.in/sabai-grass-box/s?k=sabai+grass+box"
+      },
+      {
+        "price": 550,
+        "url": "https://nestasia.in/products/sustainable-coasters"
+      },
+      {
+        "price": 810,
+        "url": "https://theindiacrafthouse.com/en-us/products/handcrafted-sabai-grass-coaster-set-set-of-6-mmrb03c"
+      }
+    ]
+  }
+}
