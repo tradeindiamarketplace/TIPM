@@ -24,6 +24,7 @@ from research.candidates import CANDIDATES, CHANNELS, RESEARCH_DATE  # noqa: E40
 from scripts.profit_report import run  # noqa: E402
 
 POLICY = tomllib.loads((ROOT / "config/product_policy.toml").read_text())
+SELLER_STATE = tomllib.loads((ROOT / "config/settings.toml").read_text()).get("seller", {}).get("gst_state", "")
 SLABS = ["le_500g", "le_1kg", "le_2kg"]
 
 
@@ -63,7 +64,9 @@ def evaluate(c: dict) -> dict:
                              margin=float(b.margin_pct) if b else None,
                              conservative=float(r.scenarios["conservative"].expected_contribution) if b else None)
     min_m = POLICY["economics"]["min_margin_pct"]
-    if (c.get("ca") or {}).get("tax_path") == "bill_to_ship_to_website_only":
+    out_of_state = bool(c.get("supplier_state")) and SELLER_STATE and \
+        c["supplier_state"].strip().lower() != SELLER_STATE.lower()
+    if out_of_state or (c.get("ca") or {}).get("tax_path") == "bill_to_ship_to_website_only":
         # Out-of-state supplier: marketplace pickup needs a GST registration in that state (docs/05).
         chans = {k: v for k, v in chans.items() if k == "shopify"}
     passing = {k: v for k, v in chans.items() if v["margin"] is not None and v["margin"] >= min_m

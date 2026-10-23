@@ -362,99 +362,6 @@
       "ca": null
     },
     {
-      "id": "RA-20261022C-3",
-      "name": "Handmade sheesham wood serving tray with brass jali inlay and handles, approx. 15x10 in",
-      "category": "kitchen_organisation",
-      "price": 799.0,
-      "supplier_cost": 180.0,
-      "stage": "NEEDS_INFO",
-      "reason": "Rs 799 is competitive (15x10 in brass-inlay wood tray Rs 899 on Vibecity, sheesham 14x10/14x9 Rs 899-1,175 on Amazon.in), but the Rs 180 cost for a 15x10 sheesham tray with brass jali is an unopened TradeIndia snippet and looks too low next to Ace Wood's Rs 249 for a plain 10x10 tray; because the UP supplier makes it website-only (Shopify), 30% holds only up to ~Rs 230 cost (Rs 250 -> 27.6%). Need a written quote for the exact 15x10 in tray stating genuine sheesham (not mango/acacia), solid brass jali vs brass-coloured sheet, finish, packed weight/dimensions and MOQ, plus photos with permission.",
-      "best_channel": "amazon_in",
-      "best": {
-        "status": "PASS",
-        "fragile": false,
-        "expected": 285.52,
-        "margin": 43.5,
-        "conservative": 216.19
-      },
-      "channels": {
-        "shopify": {
-          "status": "PASS",
-          "fragile": true,
-          "expected": 248.56,
-          "margin": 37.87,
-          "conservative": 163.23
-        },
-        "amazon_in": {
-          "status": "PASS",
-          "fragile": false,
-          "expected": 285.52,
-          "margin": 43.5,
-          "conservative": 216.19
-        },
-        "flipkart": {
-          "status": "PASS",
-          "fragile": false,
-          "expected": 260.55,
-          "margin": 39.7,
-          "conservative": 190.21
-        },
-        "meesho": {
-          "status": "PASS",
-          "fragile": true,
-          "expected": 221.63,
-          "margin": 36.55,
-          "conservative": 116.28
-        }
-      },
-      "passing_channels": [
-        "amazon_in",
-        "flipkart",
-        "meesho",
-        "shopify"
-      ],
-      "retail_validated": true,
-      "sources": [
-        "https://www.tradeindia.com/products/wood-brass-jali-serving-tray-6976423.html",
-        "https://www.indiamart.com/yk-handicrafts/wooden-tray.html",
-        "https://www.indiamart.com/acewoodcrafts/wooden-tray.html",
-        "https://www.amazon.in/Creation-India-Craft-Handicrafted-Rastorant/dp/B07HY5F8WJ",
-        "https://www.amazon.in/one-Wooden-Handmade-Serving-sheesham/dp/B07W6NS82Q",
-        "https://www.amazon.in/Woodsfy-Sheesham-Handcrafted-Breakfast-Multipurpose/dp/B0FH56VRXW",
-        "https://www.flipkart.com/s-i-creation-sheesham-wood-handmade-handcrafted-wooden-large-size-serving-trays-kitchen-tableware-tray/p/itm8e07ebcc0c43e",
-        "https://www.amazon.in/Multipurpose-Handmade-Serving-Decorative-Sheesham/dp/B0CY2MG5FK"
-      ],
-      "review": {
-        "verdict": "needs_info",
-        "by": "product-reviewer",
-        "at": "2026-10-22",
-        "notes": "Rs 799 is competitive (15x10 in brass-inlay wood tray Rs 899 on Vibecity, sheesham 14x10/14x9 Rs 899-1,175 on Amazon.in), but the Rs 180 cost for a 15x10 sheesham tray with brass jali is an unopened TradeIndia snippet and looks too low next to Ace Wood's Rs 249 for a plain 10x10 tray; because the UP supplier makes it website-only (Shopify), 30% holds only up to ~Rs 230 cost (Rs 250 -> 27.6%). Need a written quote for the exact 15x10 in tray stating genuine sheesham (not mango/acacia), solid brass jali vs brass-coloured sheet, finish, packed weight/dimensions and MOQ, plus photos with permission.",
-        "competitor_prices": [
-          {
-            "price": 899,
-            "url": "https://www.vibecity.com/handmade-wooden-serving-tray-for-dinner-table-and-restaurants-to-serve-tea-fruits-food-dinner-lunch-breakfast-or-for/36417954",
-            "note": "15x10 in wood + brass inlay, described as Indian rosewood (search snippet)"
-          },
-          {
-            "price": 1175,
-            "url": "https://www.amazon.in/Creation-India-Craft-Handicrafted-Rastorant/dp/B07HY5F8WJ",
-            "note": "sheesham 14x10x1.5 in, MRP 1,350 (research snippet)"
-          },
-          {
-            "price": 899,
-            "url": "https://www.amazon.in/one-Wooden-Handmade-Serving-sheesham/dp/B07W6NS82Q",
-            "note": "sheesham 14x9 in (research snippet)"
-          },
-          {
-            "price": 999,
-            "url": "https://www.amazon.in/Woodsfy-Sheesham-Handcrafted-Breakfast-Multipurpose/dp/B0FH56VRXW",
-            "note": "plain sheesham tray (research snippet)"
-          }
-        ]
-      },
-      "ca": null
-    },
-    {
       "id": "RA-20261022-2",
       "name": "Personalised UV-printed MDF house name plate, approx. 14x12 in (custom family name)",
       "category": "home_decor",
@@ -536,6 +443,75 @@
           {
             "price": 1500,
             "url": "https://m.indiamart.com/vidushi-arts"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
+      "id": "RA-20261022C-3",
+      "name": "Handmade sheesham wood serving tray with brass jali inlay and handles, approx. 15x10 in",
+      "category": "kitchen_organisation",
+      "price": 799.0,
+      "supplier_cost": 180.0,
+      "stage": "NEEDS_INFO",
+      "reason": "Rs 799 is competitive (15x10 in brass-inlay wood tray Rs 899 on Vibecity, sheesham 14x10/14x9 Rs 899-1,175 on Amazon.in), but the Rs 180 cost for a 15x10 sheesham tray with brass jali is an unopened TradeIndia snippet and looks too low next to Ace Wood's Rs 249 for a plain 10x10 tray; because the UP supplier makes it website-only (Shopify), 30% holds only up to ~Rs 230 cost (Rs 250 -> 27.6%). Need a written quote for the exact 15x10 in tray stating genuine sheesham (not mango/acacia), solid brass jali vs brass-coloured sheet, finish, packed weight/dimensions and MOQ, plus photos with permission.",
+      "best_channel": "shopify",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 248.56,
+        "margin": 37.87,
+        "conservative": 163.23
+      },
+      "channels": {
+        "shopify": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 248.56,
+          "margin": 37.87,
+          "conservative": 163.23
+        }
+      },
+      "passing_channels": [
+        "shopify"
+      ],
+      "retail_validated": true,
+      "sources": [
+        "https://www.tradeindia.com/products/wood-brass-jali-serving-tray-6976423.html",
+        "https://www.indiamart.com/yk-handicrafts/wooden-tray.html",
+        "https://www.indiamart.com/acewoodcrafts/wooden-tray.html",
+        "https://www.amazon.in/Creation-India-Craft-Handicrafted-Rastorant/dp/B07HY5F8WJ",
+        "https://www.amazon.in/one-Wooden-Handmade-Serving-sheesham/dp/B07W6NS82Q",
+        "https://www.amazon.in/Woodsfy-Sheesham-Handcrafted-Breakfast-Multipurpose/dp/B0FH56VRXW",
+        "https://www.flipkart.com/s-i-creation-sheesham-wood-handmade-handcrafted-wooden-large-size-serving-trays-kitchen-tableware-tray/p/itm8e07ebcc0c43e",
+        "https://www.amazon.in/Multipurpose-Handmade-Serving-Decorative-Sheesham/dp/B0CY2MG5FK"
+      ],
+      "review": {
+        "verdict": "needs_info",
+        "by": "product-reviewer",
+        "at": "2026-10-22",
+        "notes": "Rs 799 is competitive (15x10 in brass-inlay wood tray Rs 899 on Vibecity, sheesham 14x10/14x9 Rs 899-1,175 on Amazon.in), but the Rs 180 cost for a 15x10 sheesham tray with brass jali is an unopened TradeIndia snippet and looks too low next to Ace Wood's Rs 249 for a plain 10x10 tray; because the UP supplier makes it website-only (Shopify), 30% holds only up to ~Rs 230 cost (Rs 250 -> 27.6%). Need a written quote for the exact 15x10 in tray stating genuine sheesham (not mango/acacia), solid brass jali vs brass-coloured sheet, finish, packed weight/dimensions and MOQ, plus photos with permission.",
+        "competitor_prices": [
+          {
+            "price": 899,
+            "url": "https://www.vibecity.com/handmade-wooden-serving-tray-for-dinner-table-and-restaurants-to-serve-tea-fruits-food-dinner-lunch-breakfast-or-for/36417954",
+            "note": "15x10 in wood + brass inlay, described as Indian rosewood (search snippet)"
+          },
+          {
+            "price": 1175,
+            "url": "https://www.amazon.in/Creation-India-Craft-Handicrafted-Rastorant/dp/B07HY5F8WJ",
+            "note": "sheesham 14x10x1.5 in, MRP 1,350 (research snippet)"
+          },
+          {
+            "price": 899,
+            "url": "https://www.amazon.in/one-Wooden-Handmade-Serving-sheesham/dp/B07W6NS82Q",
+            "note": "sheesham 14x9 in (research snippet)"
+          },
+          {
+            "price": 999,
+            "url": "https://www.amazon.in/Woodsfy-Sheesham-Handcrafted-Breakfast-Multipurpose/dp/B0FH56VRXW",
+            "note": "plain sheesham tray (research snippet)"
           }
         ]
       },
@@ -670,6 +646,82 @@
         "https://m.indiamart.com/impcat/saree-cover.html"
       ],
       "review": null,
+      "ca": null
+    },
+    {
+      "id": "RA-20261023-1",
+      "name": "Solid sheesham wood wall key holder, 6 hooks (plain/honey finish)",
+      "category": "home_storage",
+      "price": 599.0,
+      "supplier_cost": 170.0,
+      "stage": "BELOW_TARGET",
+      "reason": "no channel reaches 30% margin",
+      "best_channel": "shopify",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": 141.88,
+        "margin": 28.83,
+        "conservative": 71.48
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 141.88,
+          "margin": 28.83,
+          "conservative": 71.48
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": true,
+      "sources": [
+        "https://dir.indiamart.com/saharanpur/wooden-key-holder.html",
+        "https://www.indiamart.com/proddetail/wooden-key-holder-with-wall-hooks-for-home-office-decorative-multipurpose-hanging-rack-26324539648.html",
+        "https://www.amazon.in/Wall-Key-Holders/b?ie=UTF8&node=1380540031",
+        "https://www.amazon.in/wood-key-holder-for-wall/s?k=wood+key+holder+for+wall",
+        "https://www.amazon.in/WOXOUR-ENTERPRISE-Stylish-Wooden-Holder/dp/B0G1N6J9NL",
+        "https://www.woodenstreet.com/product/tree-of-life-sheesham-wood-6-hooks-key-holder",
+        "https://shop.gkwretail.com/products/key-holder-sheesham-wood-owl-key-hook-6-hooks"
+      ],
+      "review": {
+        "verdict": "needs_info",
+        "by": "product-reviewer",
+        "at": "2026-10-23",
+        "notes": "The UP (Saharanpur) supplier means website-only via bill-to-ship-to, and there the margin engine gives 28.8% at the Rs 170 snippet cost (le_1kg, 12% GST). It reaches 30% only at about Rs 160-165 (Rs 160 gives 30.8%, Rs 150 gives 32.7%), or at Rs 170 if the packed weight is 500 g or less (32.9%) or the CA confirms 5% GST on HSN 4420 after 22-09-2025 (33.3%). Rs 599 is below verified sheesham 6-hook prices (Vibecity Rs 879, Woodenstreet Rs 999, Pepperfry Rs 1,030); I could not re-verify GM CRAFT's Rs 749 because Amazon.in was unreachable. Before buying a sample, get a written quote at Rs 150-160 or less from an Odisha stockist or this supplier. It must state genuine solid sheesham (not mango wood or MDF) and 6 screwed metal hooks, include screws and wall plugs, and give the packed weight, MOQ (Saharanpur wholesale lists show 500-piece MOQs, e.g. Fine Handicrafts at Rs 110-200), GST invoice terms and willingness to drop-ship, plus photos with permission.",
+        "competitor_prices": [
+          {
+            "price": 879,
+            "url": "https://www.vibecity.com/kunji-almirah-key-holder/35473077",
+            "note": "sheesham key holder, MRP 1,099 (search snippet; hook count not shown)"
+          },
+          {
+            "price": 999,
+            "url": "https://www.woodenstreet.com/product/shades-of-owl-sheesham-wood-6-hooks-key-holder",
+            "note": "sheesham 6 hooks, MRP 1,199 (search snippet)"
+          },
+          {
+            "price": 1030,
+            "url": "https://www.pepperfry.com/product/brown-sheesham-wooden-6-hooks-handcrafted-key-holder-2244584.html",
+            "note": "sheesham 6 hooks, MRP 1,299 (search snippet)"
+          },
+          {
+            "price": 1499,
+            "url": "https://www.woodenstreet.com/product/tree-of-life-sheesham-wood-6-hooks-key-holder",
+            "note": "sheesham 6 hooks, MRP 1,699 (search snippet)"
+          },
+          {
+            "price": 749,
+            "url": "https://www.amazon.in/Wall-Key-Holders/b?ie=UTF8&node=1380540031",
+            "note": "GM CRAFT sheesham 7 hooks, from the research agent's snippet; not re-verified (Amazon.in unreachable, not found in search)"
+          }
+        ],
+        "evidence_checked": {
+          "complaint_patterns": "No sheesham-specific complaints found. Generic wooden key holder reviews mention hooks shipped unassembled, broken hooks and weak plastic anchors (https://www.walmart.com/ip/Gone-Fishing-Coat-Rack-Wall-Mount-Wood-Key-Holder-Wall-11-8-7-9inch-Black-Fish-Key-Rack-Hangers-5-Alloy-Hooks-Wall-Art-Decor-Entryway-Front-Door-Fish/6440261534). Cheap 'wooden' Meesho 6-hook listings do not state the wood type (https://www.meesho.com/shivmaan-art-wooden-wall-mounted-designer-key-holders-6-hooks/p/6rbslb).",
+          "gst": "Secondary sources show HSN 4420 moved from 12% to 5% from 22-09-2025, with 5% conditional on the goods being handmade handicraft (https://taxguru.in/goods-and-service-tax/rajasthan-aar-5-percent-gst-handicraft-job-work-subject-conditions.html, https://disytax.com/hsn-chapter-44-wood-articles-gst/). CA to confirm; gst_pct is left at 12%.",
+          "supplier_cost": "The Rs 170 IndiaMART snippet could not be opened. Another Saharanpur lead, Fine Handicrafts, lists wooden key holders at Rs 110-200 with MOQ 500, wood type and hook count not stated (https://www.exportersindia.com/finehandicrafts/keychain.htm)."
+        }
+      },
       "ca": null
     },
     {
@@ -1253,13 +1305,13 @@
       "supplier_cost": 200.0,
       "stage": "REJECTED",
       "reason": "reviewer or CA rejected: The Rs 200 Faisal Handicrafts listing could not be found or verified, and the comparable 12 in 5-piece brass set found wholesale is Rs 800/set (MOQ 10, ExportersIndia) with other Moradabad sets at Rs 350-430 - break-even for 30% at Rs 799 is about Rs 310, so the realistic cost fails (Rs 360 -> 22.5%, Rs 430 -> 12.3%). A Rs 200 set is likely thin/plated, the 'pure brass' claim needs a test report the supplier has not provided, and dents/tarnish add return risk; resubmit only with a verified quote of Rs 300 or less including plate gauge/weight and a material test report.",
-      "best_channel": "amazon_in",
+      "best_channel": "shopify",
       "best": {
         "status": "PASS",
-        "fragile": false,
-        "expected": 301.32,
-        "margin": 45.91,
-        "conservative": 239.39
+        "fragile": true,
+        "expected": 269.36,
+        "margin": 41.04,
+        "conservative": 192.43
       },
       "channels": {
         "shopify": {
@@ -1268,33 +1320,9 @@
           "expected": 269.36,
           "margin": 41.04,
           "conservative": 192.43
-        },
-        "amazon_in": {
-          "status": "PASS",
-          "fragile": false,
-          "expected": 301.32,
-          "margin": 45.91,
-          "conservative": 239.39
-        },
-        "flipkart": {
-          "status": "PASS",
-          "fragile": false,
-          "expected": 276.35,
-          "margin": 42.11,
-          "conservative": 213.41
-        },
-        "meesho": {
-          "status": "PASS",
-          "fragile": true,
-          "expected": 253.13,
-          "margin": 41.74,
-          "conservative": 158.53
         }
       },
       "passing_channels": [
-        "amazon_in",
-        "flipkart",
-        "meesho",
         "shopify"
       ],
       "retail_validated": true,

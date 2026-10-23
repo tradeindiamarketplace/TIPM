@@ -19334,6 +19334,5169 @@
           ]
         }
       }
+    },
+    {
+      "id": "RA-20261022B-2",
+      "product": "Handmade sabai grass round tea coasters, set of 6 (Mayurbhanj, Odisha)",
+      "channel": "shopify",
+      "price": "499",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 29.79% < minimum 30%",
+        "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "343.22",
+      "min_viable": "500.58",
+      "scenarios": {
+        "conservative": {
+          "expected": "65.85",
+          "margin_pct": "15.75",
+          "net_revenue": "475.24",
+          "cash_out": "334.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "499.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-23.76"
+            ],
+            [
+              "Net revenue",
+              "475.24"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-72.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-19.96"
+            ],
+            [
+              "Advertising per order",
+              "-90.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "128.28"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-62.43"
+            ],
+            [
+              "= Expected contribution per order",
+              "65.85"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "130.26",
+          "margin_pct": "29.79",
+          "net_revenue": "475.24",
+          "cash_out": "292.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "499.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-23.76"
+            ],
+            [
+              "Net revenue",
+              "475.24"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-60.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-19.96"
+            ],
+            [
+              "Advertising per order",
+              "-60.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "170.28"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-40.02"
+            ],
+            [
+              "= Expected contribution per order",
+              "130.26"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "160.26",
+          "margin_pct": "35.72",
+          "net_revenue": "475.24",
+          "cash_out": "274.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "499.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-23.76"
+            ],
+            [
+              "Net revenue",
+              "475.24"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-60.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-19.96"
+            ],
+            [
+              "Advertising per order",
+              "-42.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "188.28"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-28.01"
+            ],
+            [
+              "= Expected contribution per order",
+              "160.26"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022B-2",
+      "product": "Handmade sabai grass round tea coasters, set of 6 (Mayurbhanj, Odisha)",
+      "channel": "amazon_in",
+      "price": "499",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "310.43",
+      "min_viable": "443.48",
+      "scenarios": {
+        "conservative": {
+          "expected": "114.81",
+          "margin_pct": "27.45",
+          "net_revenue": "475.24",
+          "cash_out": "295.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "499.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-23.76"
+            ],
+            [
+              "Net revenue",
+              "475.24"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-78.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "177.24"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-62.43"
+            ],
+            [
+              "= Expected contribution per order",
+              "114.81"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "165.22",
+          "margin_pct": "37.79",
+          "net_revenue": "475.24",
+          "cash_out": "267.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "499.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-23.76"
+            ],
+            [
+              "Net revenue",
+              "475.24"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "205.24"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-40.02"
+            ],
+            [
+              "= Expected contribution per order",
+              "165.22"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "186.22",
+          "margin_pct": "41.51",
+          "net_revenue": "475.24",
+          "cash_out": "258.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "499.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-23.76"
+            ],
+            [
+              "Net revenue",
+              "475.24"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "214.24"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-28.01"
+            ],
+            [
+              "= Expected contribution per order",
+              "186.22"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022B-2",
+      "product": "Handmade sabai grass round tea coasters, set of 6 (Mayurbhanj, Odisha)",
+      "channel": "flipkart",
+      "price": "499",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "331.29",
+      "min_viable": "479.32",
+      "scenarios": {
+        "conservative": {
+          "expected": "92.33",
+          "margin_pct": "22.08",
+          "net_revenue": "475.24",
+          "cash_out": "295.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "499.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-23.76"
+            ],
+            [
+              "Net revenue",
+              "475.24"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-78.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-32.48"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "154.76"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-62.43"
+            ],
+            [
+              "= Expected contribution per order",
+              "92.33"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "142.74",
+          "margin_pct": "32.65",
+          "net_revenue": "475.24",
+          "cash_out": "267.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "499.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-23.76"
+            ],
+            [
+              "Net revenue",
+              "475.24"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-32.48"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "182.76"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-40.02"
+            ],
+            [
+              "= Expected contribution per order",
+              "142.74"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "163.75",
+          "margin_pct": "36.50",
+          "net_revenue": "475.24",
+          "cash_out": "258.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "499.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-23.76"
+            ],
+            [
+              "Net revenue",
+              "475.24"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-32.48"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "191.76"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-28.01"
+            ],
+            [
+              "= Expected contribution per order",
+              "163.75"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022B-2",
+      "product": "Handmade sabai grass round tea coasters, set of 6 (Mayurbhanj, Odisha)",
+      "channel": "meesho",
+      "price": "499",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "348.35",
+      "min_viable": "497.65",
+      "scenarios": {
+        "conservative": {
+          "expected": "48.33",
+          "margin_pct": "13.12",
+          "net_revenue": "475.24",
+          "cash_out": "292.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "499.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-23.76"
+            ],
+            [
+              "Net revenue",
+              "475.24"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-90.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "180.24"
+            ],
+            [
+              "Return exposure at 22.50% returns",
+              "-131.90"
+            ],
+            [
+              "= Expected contribution per order",
+              "48.33"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "121.95",
+          "margin_pct": "30.19",
+          "net_revenue": "475.24",
+          "cash_out": "267.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "499.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-23.76"
+            ],
+            [
+              "Net revenue",
+              "475.24"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-75.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-20.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "205.24"
+            ],
+            [
+              "Return exposure at 15.00% returns",
+              "-83.29"
+            ],
+            [
+              "= Expected contribution per order",
+              "121.95"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "152.94",
+          "margin_pct": "35.96",
+          "net_revenue": "475.24",
+          "cash_out": "261.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "499.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-23.76"
+            ],
+            [
+              "Net revenue",
+              "475.24"
+            ],
+            [
+              "Supplier cost",
+              "-150.00"
+            ],
+            [
+              "Forward shipping",
+              "-75.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-14.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "211.24"
+            ],
+            [
+              "Return exposure at 10.50% returns",
+              "-58.30"
+            ],
+            [
+              "= Expected contribution per order",
+              "152.94"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022B-3",
+      "product": "Handwoven sabai grass roti / chapati box with lid, approx. 8 in (Odisha handicraft)",
+      "channel": "shopify",
+      "price": "749",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 26.86% < minimum 30%",
+        "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "538.20",
+      "min_viable": "784.95",
+      "scenarios": {
+        "conservative": {
+          "expected": "101.31",
+          "margin_pct": "16.14",
+          "net_revenue": "713.33",
+          "cash_out": "514.95",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "749.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-35.67"
+            ],
+            [
+              "Net revenue",
+              "713.33"
+            ],
+            [
+              "Supplier cost",
+              "-299.00"
+            ],
+            [
+              "Forward shipping",
+              "-96.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-29.96"
+            ],
+            [
+              "Advertising per order",
+              "-90.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "183.37"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-82.06"
+            ],
+            [
+              "= Expected contribution per order",
+              "101.31"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "176.27",
+          "margin_pct": "26.86",
+          "net_revenue": "713.33",
+          "cash_out": "468.95",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "749.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-35.67"
+            ],
+            [
+              "Net revenue",
+              "713.33"
+            ],
+            [
+              "Supplier cost",
+              "-299.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-29.96"
+            ],
+            [
+              "Advertising per order",
+              "-60.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "229.37"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-53.11"
+            ],
+            [
+              "= Expected contribution per order",
+              "176.27"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "210.20",
+          "margin_pct": "31.22",
+          "net_revenue": "713.33",
+          "cash_out": "450.95",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "749.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-35.67"
+            ],
+            [
+              "Net revenue",
+              "713.33"
+            ],
+            [
+              "Supplier cost",
+              "-299.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-29.96"
+            ],
+            [
+              "Advertising per order",
+              "-42.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "247.37"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-37.17"
+            ],
+            [
+              "= Expected contribution per order",
+              "210.20"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022B-3",
+      "product": "Handwoven sabai grass roti / chapati box with lid, approx. 8 in (Odisha handicraft)",
+      "channel": "amazon_in",
+      "price": "749",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "513.63",
+      "min_viable": "733.76",
+      "scenarios": {
+        "conservative": {
+          "expected": "146.27",
+          "margin_pct": "23.30",
+          "net_revenue": "713.33",
+          "cash_out": "469.95",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "749.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-35.67"
+            ],
+            [
+              "Net revenue",
+              "713.33"
+            ],
+            [
+              "Supplier cost",
+              "-299.00"
+            ],
+            [
+              "Forward shipping",
+              "-96.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "228.33"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-82.06"
+            ],
+            [
+              "= Expected contribution per order",
+              "146.27"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "206.23",
+          "margin_pct": "31.42",
+          "net_revenue": "713.33",
+          "cash_out": "438.95",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "749.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-35.67"
+            ],
+            [
+              "Net revenue",
+              "713.33"
+            ],
+            [
+              "Supplier cost",
+              "-299.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "259.33"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-53.11"
+            ],
+            [
+              "= Expected contribution per order",
+              "206.23"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "231.16",
+          "margin_pct": "34.33",
+          "net_revenue": "713.33",
+          "cash_out": "429.95",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "749.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-35.67"
+            ],
+            [
+              "Net revenue",
+              "713.33"
+            ],
+            [
+              "Supplier cost",
+              "-299.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "268.33"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-37.17"
+            ],
+            [
+              "= Expected contribution per order",
+              "231.16"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022B-3",
+      "product": "Handwoven sabai grass roti / chapati box with lid, approx. 8 in (Odisha handicraft)",
+      "channel": "flipkart",
+      "price": "749",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 27.81% < minimum 30%",
+        "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "534.59",
+      "min_viable": "773.44",
+      "scenarios": {
+        "conservative": {
+          "expected": "121.55",
+          "margin_pct": "19.36",
+          "net_revenue": "713.33",
+          "cash_out": "475.95",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "749.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-35.67"
+            ],
+            [
+              "Net revenue",
+              "713.33"
+            ],
+            [
+              "Supplier cost",
+              "-299.00"
+            ],
+            [
+              "Forward shipping",
+              "-102.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-48.73"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "203.61"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-82.06"
+            ],
+            [
+              "= Expected contribution per order",
+              "121.55"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "182.50",
+          "margin_pct": "27.81",
+          "net_revenue": "713.33",
+          "cash_out": "443.95",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "749.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-35.67"
+            ],
+            [
+              "Net revenue",
+              "713.33"
+            ],
+            [
+              "Supplier cost",
+              "-299.00"
+            ],
+            [
+              "Forward shipping",
+              "-85.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-48.73"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "235.61"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-53.11"
+            ],
+            [
+              "= Expected contribution per order",
+              "182.50"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "207.43",
+          "margin_pct": "30.80",
+          "net_revenue": "713.33",
+          "cash_out": "434.95",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "749.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-35.67"
+            ],
+            [
+              "Net revenue",
+              "713.33"
+            ],
+            [
+              "Supplier cost",
+              "-299.00"
+            ],
+            [
+              "Forward shipping",
+              "-85.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-48.73"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "244.61"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-37.17"
+            ],
+            [
+              "= Expected contribution per order",
+              "207.43"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022B-3",
+      "product": "Handwoven sabai grass roti / chapati box with lid, approx. 8 in (Odisha handicraft)",
+      "channel": "meesho",
+      "price": "749",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 26.64% < minimum 30%",
+        "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "549.48",
+      "min_viable": "784.99",
+      "scenarios": {
+        "conservative": {
+          "expected": "70.62",
+          "margin_pct": "12.77",
+          "net_revenue": "713.33",
+          "cash_out": "478.95",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "749.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-35.67"
+            ],
+            [
+              "Net revenue",
+              "713.33"
+            ],
+            [
+              "Supplier cost",
+              "-299.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "239.33"
+            ],
+            [
+              "Return exposure at 22.50% returns",
+              "-168.71"
+            ],
+            [
+              "= Expected contribution per order",
+              "70.62"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "161.51",
+          "margin_pct": "26.64",
+          "net_revenue": "713.33",
+          "cash_out": "448.95",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "749.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-35.67"
+            ],
+            [
+              "Net revenue",
+              "713.33"
+            ],
+            [
+              "Supplier cost",
+              "-299.00"
+            ],
+            [
+              "Forward shipping",
+              "-100.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-20.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "269.33"
+            ],
+            [
+              "Return exposure at 15.00% returns",
+              "-107.83"
+            ],
+            [
+              "= Expected contribution per order",
+              "161.51"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "199.86",
+          "margin_pct": "31.30",
+          "net_revenue": "713.33",
+          "cash_out": "442.95",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "749.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-35.67"
+            ],
+            [
+              "Net revenue",
+              "713.33"
+            ],
+            [
+              "Supplier cost",
+              "-299.00"
+            ],
+            [
+              "Forward shipping",
+              "-100.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-14.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "275.33"
+            ],
+            [
+              "Return exposure at 10.50% returns",
+              "-75.48"
+            ],
+            [
+              "= Expected contribution per order",
+              "199.86"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022B-1",
+      "product": "Handwoven sabai grass wall decor plates, set of 3 (8/10/12 in), Odisha handicraft",
+      "channel": "shopify",
+      "price": "1599",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "1046.41",
+      "min_viable": "1526.16",
+      "scenarios": {
+        "conservative": {
+          "expected": "354.75",
+          "margin_pct": "26.47",
+          "net_revenue": "1522.86",
+          "cash_out": "984.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "1599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-76.14"
+            ],
+            [
+              "Net revenue",
+              "1522.86"
+            ],
+            [
+              "Supplier cost",
+              "-700.00"
+            ],
+            [
+              "Forward shipping",
+              "-144.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-63.96"
+            ],
+            [
+              "Advertising per order",
+              "-90.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "509.90"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-155.14"
+            ],
+            [
+              "= Expected contribution per order",
+              "354.75"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "462.07",
+          "margin_pct": "32.98",
+          "net_revenue": "1522.86",
+          "cash_out": "930.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "1599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-76.14"
+            ],
+            [
+              "Net revenue",
+              "1522.86"
+            ],
+            [
+              "Supplier cost",
+              "-700.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-63.96"
+            ],
+            [
+              "Advertising per order",
+              "-60.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "563.90"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-101.83"
+            ],
+            [
+              "= Expected contribution per order",
+              "462.07"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "510.62",
+          "margin_pct": "35.52",
+          "net_revenue": "1522.86",
+          "cash_out": "912.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "1599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-76.14"
+            ],
+            [
+              "Net revenue",
+              "1522.86"
+            ],
+            [
+              "Supplier cost",
+              "-700.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-63.96"
+            ],
+            [
+              "Advertising per order",
+              "-42.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "581.90"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-71.28"
+            ],
+            [
+              "= Expected contribution per order",
+              "510.62"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022B-1",
+      "product": "Handwoven sabai grass wall decor plates, set of 3 (8/10/12 in), Odisha handicraft",
+      "channel": "amazon_in",
+      "price": "1599",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 21.99% < minimum 30%",
+        "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "1191.49",
+      "min_viable": "1826.35",
+      "scenarios": {
+        "conservative": {
+          "expected": "216.83",
+          "margin_pct": "16.18",
+          "net_revenue": "1522.86",
+          "cash_out": "933.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "1599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-76.14"
+            ],
+            [
+              "Net revenue",
+              "1522.86"
+            ],
+            [
+              "Supplier cost",
+              "-700.00"
+            ],
+            [
+              "Forward shipping",
+              "-138.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-252.88"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "371.98"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-155.14"
+            ],
+            [
+              "= Expected contribution per order",
+              "216.83"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "308.15",
+          "margin_pct": "21.99",
+          "net_revenue": "1522.86",
+          "cash_out": "895.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "1599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-76.14"
+            ],
+            [
+              "Net revenue",
+              "1522.86"
+            ],
+            [
+              "Supplier cost",
+              "-700.00"
+            ],
+            [
+              "Forward shipping",
+              "-115.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-252.88"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "409.98"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-101.83"
+            ],
+            [
+              "= Expected contribution per order",
+              "308.15"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "347.70",
+          "margin_pct": "24.19",
+          "net_revenue": "1522.86",
+          "cash_out": "886.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "1599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-76.14"
+            ],
+            [
+              "Net revenue",
+              "1522.86"
+            ],
+            [
+              "Supplier cost",
+              "-700.00"
+            ],
+            [
+              "Forward shipping",
+              "-115.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-252.88"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "418.98"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-71.28"
+            ],
+            [
+              "= Expected contribution per order",
+              "347.70"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022B-1",
+      "product": "Handwoven sabai grass wall decor plates, set of 3 (8/10/12 in), Odisha handicraft",
+      "channel": "flipkart",
+      "price": "1599",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 21.00% < minimum 30%",
+        "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "1196.67",
+      "min_viable": "1868.33",
+      "scenarios": {
+        "conservative": {
+          "expected": "201.86",
+          "margin_pct": "15.06",
+          "net_revenue": "1522.86",
+          "cash_out": "939.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "1599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-76.14"
+            ],
+            [
+              "Net revenue",
+              "1522.86"
+            ],
+            [
+              "Supplier cost",
+              "-700.00"
+            ],
+            [
+              "Forward shipping",
+              "-144.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-261.86"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "357.00"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-155.14"
+            ],
+            [
+              "= Expected contribution per order",
+              "201.86"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "294.17",
+          "margin_pct": "21.00",
+          "net_revenue": "1522.86",
+          "cash_out": "900.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "1599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-76.14"
+            ],
+            [
+              "Net revenue",
+              "1522.86"
+            ],
+            [
+              "Supplier cost",
+              "-700.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-261.86"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "396.00"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-101.83"
+            ],
+            [
+              "= Expected contribution per order",
+              "294.17"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "333.72",
+          "margin_pct": "23.21",
+          "net_revenue": "1522.86",
+          "cash_out": "891.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "1599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-76.14"
+            ],
+            [
+              "Net revenue",
+              "1522.86"
+            ],
+            [
+              "Supplier cost",
+              "-700.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-261.86"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "405.00"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-71.28"
+            ],
+            [
+              "= Expected contribution per order",
+              "333.72"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022B-1",
+      "product": "Handwoven sabai grass wall decor plates, set of 3 (8/10/12 in), Odisha handicraft",
+      "channel": "meesho",
+      "price": "1599",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "1069.45",
+      "min_viable": "1527.79",
+      "scenarios": {
+        "conservative": {
+          "expected": "282.11",
+          "margin_pct": "23.90",
+          "net_revenue": "1522.86",
+          "cash_out": "960.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "1599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-76.14"
+            ],
+            [
+              "Net revenue",
+              "1522.86"
+            ],
+            [
+              "Supplier cost",
+              "-700.00"
+            ],
+            [
+              "Forward shipping",
+              "-180.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "587.86"
+            ],
+            [
+              "Return exposure at 22.50% returns",
+              "-305.74"
+            ],
+            [
+              "= Expected contribution per order",
+              "282.11"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "428.68",
+          "margin_pct": "33.12",
+          "net_revenue": "1522.86",
+          "cash_out": "920.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "1599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-76.14"
+            ],
+            [
+              "Net revenue",
+              "1522.86"
+            ],
+            [
+              "Supplier cost",
+              "-700.00"
+            ],
+            [
+              "Forward shipping",
+              "-150.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-20.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "627.86"
+            ],
+            [
+              "Return exposure at 15.00% returns",
+              "-199.18"
+            ],
+            [
+              "= Expected contribution per order",
+              "428.68"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "494.43",
+          "margin_pct": "36.28",
+          "net_revenue": "1522.86",
+          "cash_out": "914.00",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "1599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-76.14"
+            ],
+            [
+              "Net revenue",
+              "1522.86"
+            ],
+            [
+              "Supplier cost",
+              "-700.00"
+            ],
+            [
+              "Forward shipping",
+              "-150.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-14.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "633.86"
+            ],
+            [
+              "Return exposure at 10.50% returns",
+              "-139.43"
+            ],
+            [
+              "= Expected contribution per order",
+              "494.43"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022C-2",
+      "product": "Handmade Dhokra (dokra) tribal brass dangle earrings, combo of 2 pairs (Odisha)",
+      "channel": "shopify",
+      "price": "899",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "588.41",
+      "min_viable": "857.83",
+      "scenarios": {
+        "conservative": {
+          "expected": "189.16",
+          "margin_pct": "24.63",
+          "net_revenue": "872.82",
+          "cash_out": "562.22",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-26.18"
+            ],
+            [
+              "Net revenue",
+              "872.82"
+            ],
+            [
+              "Supplier cost",
+              "-374.00"
+            ],
+            [
+              "Forward shipping",
+              "-72.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-35.96"
+            ],
+            [
+              "Advertising per order",
+              "-90.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "285.86"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-96.70"
+            ],
+            [
+              "= Expected contribution per order",
+              "189.16"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "264.99",
+          "margin_pct": "33.00",
+          "net_revenue": "872.82",
+          "cash_out": "520.22",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-26.18"
+            ],
+            [
+              "Net revenue",
+              "872.82"
+            ],
+            [
+              "Supplier cost",
+              "-374.00"
+            ],
+            [
+              "Forward shipping",
+              "-60.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-35.96"
+            ],
+            [
+              "Advertising per order",
+              "-60.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "327.86"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-62.87"
+            ],
+            [
+              "= Expected contribution per order",
+              "264.99"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "301.85",
+          "margin_pct": "36.64",
+          "net_revenue": "872.82",
+          "cash_out": "502.22",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-26.18"
+            ],
+            [
+              "Net revenue",
+              "872.82"
+            ],
+            [
+              "Supplier cost",
+              "-374.00"
+            ],
+            [
+              "Forward shipping",
+              "-60.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-35.96"
+            ],
+            [
+              "Advertising per order",
+              "-42.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "345.86"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-44.01"
+            ],
+            [
+              "= Expected contribution per order",
+              "301.85"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022C-2",
+      "product": "Handmade Dhokra (dokra) tribal brass dangle earrings, combo of 2 pairs (Odisha)",
+      "channel": "amazon_in",
+      "price": "899",
+      "status": "PASS",
+      "fragile": false,
+      "reasons": [
+        "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "567.66",
+      "min_viable": "810.95",
+      "scenarios": {
+        "conservative": {
+          "expected": "234.12",
+          "margin_pct": "30.48",
+          "net_revenue": "872.82",
+          "cash_out": "523.22",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-26.18"
+            ],
+            [
+              "Net revenue",
+              "872.82"
+            ],
+            [
+              "Supplier cost",
+              "-374.00"
+            ],
+            [
+              "Forward shipping",
+              "-78.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "330.82"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-96.70"
+            ],
+            [
+              "= Expected contribution per order",
+              "234.12"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "295.95",
+          "margin_pct": "36.86",
+          "net_revenue": "872.82",
+          "cash_out": "495.22",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-26.18"
+            ],
+            [
+              "Net revenue",
+              "872.82"
+            ],
+            [
+              "Supplier cost",
+              "-374.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "358.82"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-62.87"
+            ],
+            [
+              "= Expected contribution per order",
+              "295.95"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "323.81",
+          "margin_pct": "39.30",
+          "net_revenue": "872.82",
+          "cash_out": "486.22",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-26.18"
+            ],
+            [
+              "Net revenue",
+              "872.82"
+            ],
+            [
+              "Supplier cost",
+              "-374.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "367.82"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-44.01"
+            ],
+            [
+              "= Expected contribution per order",
+              "323.81"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022C-2",
+      "product": "Handmade Dhokra (dokra) tribal brass dangle earrings, combo of 2 pairs (Odisha)",
+      "channel": "flipkart",
+      "price": "899",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "584.00",
+      "min_viable": "844.72",
+      "scenarios": {
+        "conservative": {
+          "expected": "211.64",
+          "margin_pct": "27.55",
+          "net_revenue": "872.82",
+          "cash_out": "523.22",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-26.18"
+            ],
+            [
+              "Net revenue",
+              "872.82"
+            ],
+            [
+              "Supplier cost",
+              "-374.00"
+            ],
+            [
+              "Forward shipping",
+              "-78.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-52.48"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "308.34"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-96.70"
+            ],
+            [
+              "= Expected contribution per order",
+              "211.64"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "273.48",
+          "margin_pct": "34.06",
+          "net_revenue": "872.82",
+          "cash_out": "495.22",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-26.18"
+            ],
+            [
+              "Net revenue",
+              "872.82"
+            ],
+            [
+              "Supplier cost",
+              "-374.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-52.48"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "336.34"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-62.87"
+            ],
+            [
+              "= Expected contribution per order",
+              "273.48"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "301.33",
+          "margin_pct": "36.57",
+          "net_revenue": "872.82",
+          "cash_out": "486.22",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-26.18"
+            ],
+            [
+              "Net revenue",
+              "872.82"
+            ],
+            [
+              "Supplier cost",
+              "-374.00"
+            ],
+            [
+              "Forward shipping",
+              "-65.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-52.48"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "345.34"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-44.01"
+            ],
+            [
+              "= Expected contribution per order",
+              "301.33"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022C-2",
+      "product": "Handmade Dhokra (dokra) tribal brass dangle earrings, combo of 2 pairs (Odisha)",
+      "channel": "meesho",
+      "price": "899",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "592.79",
+      "min_viable": "846.85",
+      "scenarios": {
+        "conservative": {
+          "expected": "157.66",
+          "margin_pct": "23.31",
+          "net_revenue": "872.82",
+          "cash_out": "520.22",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-26.18"
+            ],
+            [
+              "Net revenue",
+              "872.82"
+            ],
+            [
+              "Supplier cost",
+              "-374.00"
+            ],
+            [
+              "Forward shipping",
+              "-90.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "353.82"
+            ],
+            [
+              "Return exposure at 22.50% returns",
+              "-196.16"
+            ],
+            [
+              "= Expected contribution per order",
+              "157.66"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "252.69",
+          "margin_pct": "34.06",
+          "net_revenue": "872.82",
+          "cash_out": "495.22",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-26.18"
+            ],
+            [
+              "Net revenue",
+              "872.82"
+            ],
+            [
+              "Supplier cost",
+              "-374.00"
+            ],
+            [
+              "Forward shipping",
+              "-75.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-20.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "378.82"
+            ],
+            [
+              "Return exposure at 15.00% returns",
+              "-126.12"
+            ],
+            [
+              "= Expected contribution per order",
+              "252.69"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "296.53",
+          "margin_pct": "37.96",
+          "net_revenue": "872.82",
+          "cash_out": "489.22",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "899.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-26.18"
+            ],
+            [
+              "Net revenue",
+              "872.82"
+            ],
+            [
+              "Supplier cost",
+              "-374.00"
+            ],
+            [
+              "Forward shipping",
+              "-75.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-14.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "384.82"
+            ],
+            [
+              "Return exposure at 10.50% returns",
+              "-88.29"
+            ],
+            [
+              "= Expected contribution per order",
+              "296.53"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022C-1",
+      "product": "Handmade Pipili applique (chandua) cotton wall hanging, approx. 2.5-3 ft square (Pipli, Odisha)",
+      "channel": "shopify",
+      "price": "699",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 29.63% < minimum 30%",
+        "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "481.94",
+      "min_viable": "702.91",
+      "scenarios": {
+        "conservative": {
+          "expected": "107.47",
+          "margin_pct": "18.34",
+          "net_revenue": "665.71",
+          "cash_out": "463.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-33.29"
+            ],
+            [
+              "Net revenue",
+              "665.71"
+            ],
+            [
+              "Supplier cost",
+              "-250.00"
+            ],
+            [
+              "Forward shipping",
+              "-96.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-27.96"
+            ],
+            [
+              "Advertising per order",
+              "-90.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "186.75"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-79.29"
+            ],
+            [
+              "= Expected contribution per order",
+              "107.47"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "181.50",
+          "margin_pct": "29.63",
+          "net_revenue": "665.71",
+          "cash_out": "417.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-33.29"
+            ],
+            [
+              "Net revenue",
+              "665.71"
+            ],
+            [
+              "Supplier cost",
+              "-250.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-27.96"
+            ],
+            [
+              "Advertising per order",
+              "-60.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "232.75"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-51.26"
+            ],
+            [
+              "= Expected contribution per order",
+              "181.50"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "214.87",
+          "margin_pct": "34.19",
+          "net_revenue": "665.71",
+          "cash_out": "399.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-33.29"
+            ],
+            [
+              "Net revenue",
+              "665.71"
+            ],
+            [
+              "Supplier cost",
+              "-250.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-27.96"
+            ],
+            [
+              "Advertising per order",
+              "-42.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "250.75"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-35.88"
+            ],
+            [
+              "= Expected contribution per order",
+              "214.87"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022C-1",
+      "product": "Handmade Pipili applique (chandua) cotton wall hanging, approx. 2.5-3 ft square (Pipli, Odisha)",
+      "channel": "amazon_in",
+      "price": "699",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "459.94",
+      "min_viable": "657.07",
+      "scenarios": {
+        "conservative": {
+          "expected": "150.43",
+          "margin_pct": "25.68",
+          "net_revenue": "665.71",
+          "cash_out": "418.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-33.29"
+            ],
+            [
+              "Net revenue",
+              "665.71"
+            ],
+            [
+              "Supplier cost",
+              "-250.00"
+            ],
+            [
+              "Forward shipping",
+              "-96.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "229.71"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-79.29"
+            ],
+            [
+              "= Expected contribution per order",
+              "150.43"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "209.46",
+          "margin_pct": "34.20",
+          "net_revenue": "665.71",
+          "cash_out": "387.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-33.29"
+            ],
+            [
+              "Net revenue",
+              "665.71"
+            ],
+            [
+              "Supplier cost",
+              "-250.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "260.71"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-51.26"
+            ],
+            [
+              "= Expected contribution per order",
+              "209.46"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "233.83",
+          "margin_pct": "37.21",
+          "net_revenue": "665.71",
+          "cash_out": "378.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-33.29"
+            ],
+            [
+              "Net revenue",
+              "665.71"
+            ],
+            [
+              "Supplier cost",
+              "-250.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "269.71"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-35.88"
+            ],
+            [
+              "= Expected contribution per order",
+              "233.83"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022C-1",
+      "product": "Handmade Pipili applique (chandua) cotton wall hanging, approx. 2.5-3 ft square (Pipli, Odisha)",
+      "channel": "flipkart",
+      "price": "699",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "479.32",
+      "min_viable": "693.48",
+      "scenarios": {
+        "conservative": {
+          "expected": "126.95",
+          "margin_pct": "21.67",
+          "net_revenue": "665.71",
+          "cash_out": "424.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-33.29"
+            ],
+            [
+              "Net revenue",
+              "665.71"
+            ],
+            [
+              "Supplier cost",
+              "-250.00"
+            ],
+            [
+              "Forward shipping",
+              "-102.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-47.48"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "206.24"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-79.29"
+            ],
+            [
+              "= Expected contribution per order",
+              "126.95"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "186.98",
+          "margin_pct": "30.53",
+          "net_revenue": "665.71",
+          "cash_out": "392.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-33.29"
+            ],
+            [
+              "Net revenue",
+              "665.71"
+            ],
+            [
+              "Supplier cost",
+              "-250.00"
+            ],
+            [
+              "Forward shipping",
+              "-85.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-47.48"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "238.24"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-51.26"
+            ],
+            [
+              "= Expected contribution per order",
+              "186.98"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "211.36",
+          "margin_pct": "33.63",
+          "net_revenue": "665.71",
+          "cash_out": "383.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-33.29"
+            ],
+            [
+              "Net revenue",
+              "665.71"
+            ],
+            [
+              "Supplier cost",
+              "-250.00"
+            ],
+            [
+              "Forward shipping",
+              "-85.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-47.48"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "247.24"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-35.88"
+            ],
+            [
+              "= Expected contribution per order",
+              "211.36"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022C-1",
+      "product": "Handmade Pipili applique (chandua) cotton wall hanging, approx. 2.5-3 ft square (Pipli, Odisha)",
+      "channel": "meesho",
+      "price": "699",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 29.40% < minimum 30%",
+        "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "493.49",
+      "min_viable": "705.00",
+      "scenarios": {
+        "conservative": {
+          "expected": "77.20",
+          "margin_pct": "14.96",
+          "net_revenue": "665.71",
+          "cash_out": "427.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-33.29"
+            ],
+            [
+              "Net revenue",
+              "665.71"
+            ],
+            [
+              "Supplier cost",
+              "-250.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "240.71"
+            ],
+            [
+              "Return exposure at 22.50% returns",
+              "-163.51"
+            ],
+            [
+              "= Expected contribution per order",
+              "77.20"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "166.36",
+          "margin_pct": "29.40",
+          "net_revenue": "665.71",
+          "cash_out": "397.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-33.29"
+            ],
+            [
+              "Net revenue",
+              "665.71"
+            ],
+            [
+              "Supplier cost",
+              "-250.00"
+            ],
+            [
+              "Forward shipping",
+              "-100.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-20.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "270.71"
+            ],
+            [
+              "Return exposure at 15.00% returns",
+              "-104.36"
+            ],
+            [
+              "= Expected contribution per order",
+              "166.36"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "203.66",
+          "margin_pct": "34.18",
+          "net_revenue": "665.71",
+          "cash_out": "391.50",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "699.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-33.29"
+            ],
+            [
+              "Net revenue",
+              "665.71"
+            ],
+            [
+              "Supplier cost",
+              "-250.00"
+            ],
+            [
+              "Forward shipping",
+              "-100.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-14.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "276.71"
+            ],
+            [
+              "Return exposure at 10.50% returns",
+              "-73.05"
+            ],
+            [
+              "= Expected contribution per order",
+              "203.66"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022C-3",
+      "product": "Handmade sheesham wood serving tray with brass jali inlay and handles, approx. 15x10 in",
+      "channel": "shopify",
+      "price": "799",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "480.91",
+      "min_viable": "702.43",
+      "scenarios": {
+        "conservative": {
+          "expected": "163.23",
+          "margin_pct": "26.00",
+          "net_revenue": "713.39",
+          "cash_out": "450.60",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "799.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-85.61"
+            ],
+            [
+              "Net revenue",
+              "713.39"
+            ],
+            [
+              "Supplier cost",
+              "-180.00"
+            ],
+            [
+              "Forward shipping",
+              "-144.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-31.96"
+            ],
+            [
+              "Advertising per order",
+              "-90.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "252.43"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-89.21"
+            ],
+            [
+              "= Expected contribution per order",
+              "163.23"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "248.56",
+          "margin_pct": "37.87",
+          "net_revenue": "713.39",
+          "cash_out": "396.60",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "799.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-85.61"
+            ],
+            [
+              "Net revenue",
+              "713.39"
+            ],
+            [
+              "Supplier cost",
+              "-180.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-31.96"
+            ],
+            [
+              "Advertising per order",
+              "-60.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "306.43"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-57.87"
+            ],
+            [
+              "= Expected contribution per order",
+              "248.56"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "283.92",
+          "margin_pct": "42.16",
+          "net_revenue": "713.39",
+          "cash_out": "378.60",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "799.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-85.61"
+            ],
+            [
+              "Net revenue",
+              "713.39"
+            ],
+            [
+              "Supplier cost",
+              "-180.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-31.96"
+            ],
+            [
+              "Advertising per order",
+              "-42.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "324.43"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-40.51"
+            ],
+            [
+              "= Expected contribution per order",
+              "283.92"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022C-3",
+      "product": "Handmade sheesham wood serving tray with brass jali inlay and handles, approx. 15x10 in",
+      "channel": "amazon_in",
+      "price": "799",
+      "status": "PASS",
+      "fragile": false,
+      "reasons": [
+        "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "451.40",
+      "min_viable": "644.87",
+      "scenarios": {
+        "conservative": {
+          "expected": "216.19",
+          "margin_pct": "34.44",
+          "net_revenue": "713.39",
+          "cash_out": "399.60",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "799.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-85.61"
+            ],
+            [
+              "Net revenue",
+              "713.39"
+            ],
+            [
+              "Supplier cost",
+              "-180.00"
+            ],
+            [
+              "Forward shipping",
+              "-138.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "305.39"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-89.21"
+            ],
+            [
+              "= Expected contribution per order",
+              "216.19"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "285.52",
+          "margin_pct": "43.50",
+          "net_revenue": "713.39",
+          "cash_out": "361.60",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "799.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-85.61"
+            ],
+            [
+              "Net revenue",
+              "713.39"
+            ],
+            [
+              "Supplier cost",
+              "-180.00"
+            ],
+            [
+              "Forward shipping",
+              "-115.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "343.39"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-57.87"
+            ],
+            [
+              "= Expected contribution per order",
+              "285.52"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "311.88",
+          "margin_pct": "46.31",
+          "net_revenue": "713.39",
+          "cash_out": "352.60",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "799.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-85.61"
+            ],
+            [
+              "Net revenue",
+              "713.39"
+            ],
+            [
+              "Supplier cost",
+              "-180.00"
+            ],
+            [
+              "Forward shipping",
+              "-115.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "352.39"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-40.51"
+            ],
+            [
+              "= Expected contribution per order",
+              "311.88"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022C-3",
+      "product": "Handmade sheesham wood serving tray with brass jali inlay and handles, approx. 15x10 in",
+      "channel": "flipkart",
+      "price": "799",
+      "status": "PASS",
+      "fragile": false,
+      "reasons": [
+        "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "471.85",
+      "min_viable": "683.27",
+      "scenarios": {
+        "conservative": {
+          "expected": "190.21",
+          "margin_pct": "30.30",
+          "net_revenue": "713.39",
+          "cash_out": "405.60",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "799.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-85.61"
+            ],
+            [
+              "Net revenue",
+              "713.39"
+            ],
+            [
+              "Supplier cost",
+              "-180.00"
+            ],
+            [
+              "Forward shipping",
+              "-144.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-49.98"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "279.42"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-89.21"
+            ],
+            [
+              "= Expected contribution per order",
+              "190.21"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "260.55",
+          "margin_pct": "39.70",
+          "net_revenue": "713.39",
+          "cash_out": "366.60",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "799.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-85.61"
+            ],
+            [
+              "Net revenue",
+              "713.39"
+            ],
+            [
+              "Supplier cost",
+              "-180.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-49.98"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "318.42"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-57.87"
+            ],
+            [
+              "= Expected contribution per order",
+              "260.55"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "286.91",
+          "margin_pct": "42.60",
+          "net_revenue": "713.39",
+          "cash_out": "357.60",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "799.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-85.61"
+            ],
+            [
+              "Net revenue",
+              "713.39"
+            ],
+            [
+              "Supplier cost",
+              "-180.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-49.98"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "327.42"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-40.51"
+            ],
+            [
+              "= Expected contribution per order",
+              "286.91"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261022C-3",
+      "product": "Handmade sheesham wood serving tray with brass jali inlay and handles, approx. 15x10 in",
+      "channel": "meesho",
+      "price": "799",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "506.96",
+      "min_viable": "724.24",
+      "scenarios": {
+        "conservative": {
+          "expected": "116.28",
+          "margin_pct": "21.03",
+          "net_revenue": "713.39",
+          "cash_out": "426.60",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "799.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-85.61"
+            ],
+            [
+              "Net revenue",
+              "713.39"
+            ],
+            [
+              "Supplier cost",
+              "-180.00"
+            ],
+            [
+              "Forward shipping",
+              "-180.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "298.39"
+            ],
+            [
+              "Return exposure at 22.50% returns",
+              "-182.11"
+            ],
+            [
+              "= Expected contribution per order",
+              "116.28"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "221.63",
+          "margin_pct": "36.55",
+          "net_revenue": "713.39",
+          "cash_out": "386.60",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "799.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-85.61"
+            ],
+            [
+              "Net revenue",
+              "713.39"
+            ],
+            [
+              "Supplier cost",
+              "-180.00"
+            ],
+            [
+              "Forward shipping",
+              "-150.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-20.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "338.39"
+            ],
+            [
+              "Return exposure at 15.00% returns",
+              "-116.76"
+            ],
+            [
+              "= Expected contribution per order",
+              "221.63"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "262.66",
+          "margin_pct": "41.14",
+          "net_revenue": "713.39",
+          "cash_out": "380.60",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "799.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-85.61"
+            ],
+            [
+              "Net revenue",
+              "713.39"
+            ],
+            [
+              "Supplier cost",
+              "-180.00"
+            ],
+            [
+              "Forward shipping",
+              "-150.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-14.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "344.39"
+            ],
+            [
+              "Return exposure at 10.50% returns",
+              "-81.73"
+            ],
+            [
+              "= Expected contribution per order",
+              "262.66"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261023-1",
+      "product": "Solid sheesham wood wall key holder, 6 hooks (plain/honey finish)",
+      "channel": "shopify",
+      "price": "599",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 28.83% < minimum 30%",
+        "shopify fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "417.43",
+      "min_viable": "609.72",
+      "scenarios": {
+        "conservative": {
+          "expected": "71.48",
+          "margin_pct": "15.19",
+          "net_revenue": "534.82",
+          "cash_out": "391.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-170.00"
+            ],
+            [
+              "Forward shipping",
+              "-96.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-23.96"
+            ],
+            [
+              "Advertising per order",
+              "-90.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "139.86"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-68.38"
+            ],
+            [
+              "= Expected contribution per order",
+              "71.48"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "141.88",
+          "margin_pct": "28.83",
+          "net_revenue": "534.82",
+          "cash_out": "345.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-170.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-23.96"
+            ],
+            [
+              "Advertising per order",
+              "-60.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "185.86"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-43.99"
+            ],
+            [
+              "= Expected contribution per order",
+              "141.88"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "173.07",
+          "margin_pct": "34.28",
+          "net_revenue": "534.82",
+          "cash_out": "327.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-170.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-23.96"
+            ],
+            [
+              "Advertising per order",
+              "-42.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "203.86"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-30.79"
+            ],
+            [
+              "= Expected contribution per order",
+              "173.07"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261023-1",
+      "product": "Solid sheesham wood wall key holder, 6 hooks (plain/honey finish)",
+      "channel": "amazon_in",
+      "price": "599",
+      "status": "PASS",
+      "fragile": true,
+      "reasons": [
+        "amazon_in fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "397.11",
+      "min_viable": "567.30",
+      "scenarios": {
+        "conservative": {
+          "expected": "110.44",
+          "margin_pct": "23.47",
+          "net_revenue": "534.82",
+          "cash_out": "346.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-170.00"
+            ],
+            [
+              "Forward shipping",
+              "-96.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "178.82"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-68.38"
+            ],
+            [
+              "= Expected contribution per order",
+              "110.44"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "165.84",
+          "margin_pct": "33.70",
+          "net_revenue": "534.82",
+          "cash_out": "315.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-170.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "209.82"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-43.99"
+            ],
+            [
+              "= Expected contribution per order",
+              "165.84"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "188.03",
+          "margin_pct": "37.24",
+          "net_revenue": "534.82",
+          "cash_out": "306.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-170.00"
+            ],
+            [
+              "Forward shipping",
+              "-80.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-30.00"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "218.82"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-30.79"
+            ],
+            [
+              "= Expected contribution per order",
+              "188.03"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261023-1",
+      "product": "Solid sheesham wood wall key holder, 6 hooks (plain/honey finish)",
+      "channel": "flipkart",
+      "price": "599",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 29.64% < minimum 30%",
+        "flipkart fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "415.85",
+      "min_viable": "602.18",
+      "scenarios": {
+        "conservative": {
+          "expected": "89.47",
+          "margin_pct": "19.01",
+          "net_revenue": "534.82",
+          "cash_out": "352.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-170.00"
+            ],
+            [
+              "Forward shipping",
+              "-102.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-44.98"
+            ],
+            [
+              "Advertising per order",
+              "-45.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "157.85"
+            ],
+            [
+              "Return exposure at 12.00% returns",
+              "-68.38"
+            ],
+            [
+              "= Expected contribution per order",
+              "89.47"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "145.86",
+          "margin_pct": "29.64",
+          "net_revenue": "534.82",
+          "cash_out": "320.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-170.00"
+            ],
+            [
+              "Forward shipping",
+              "-85.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-44.98"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "189.85"
+            ],
+            [
+              "Return exposure at 8.00% returns",
+              "-43.99"
+            ],
+            [
+              "= Expected contribution per order",
+              "145.86"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "168.06",
+          "margin_pct": "33.29",
+          "net_revenue": "534.82",
+          "cash_out": "311.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-170.00"
+            ],
+            [
+              "Forward shipping",
+              "-85.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-44.98"
+            ],
+            [
+              "Advertising per order",
+              "-21.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "198.85"
+            ],
+            [
+              "Return exposure at 5.60% returns",
+              "-30.79"
+            ],
+            [
+              "= Expected contribution per order",
+              "168.06"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "RA-20261023-1",
+      "product": "Solid sheesham wood wall key holder, 6 hooks (plain/honey finish)",
+      "channel": "meesho",
+      "price": "599",
+      "status": "FAIL",
+      "fragile": false,
+      "reasons": [
+        "margin 28.40% < minimum 30%",
+        "meesho fee schedule not verified (third-party summaries, 2026-10-21)"
+      ],
+      "missing": [],
+      "break_even": "428.89",
+      "min_viable": "612.71",
+      "scenarios": {
+        "conservative": {
+          "expected": "46.76",
+          "margin_pct": "11.28",
+          "net_revenue": "534.82",
+          "cash_out": "355.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-170.00"
+            ],
+            [
+              "Forward shipping",
+              "-120.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-30.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "189.82"
+            ],
+            [
+              "Return exposure at 22.50% returns",
+              "-143.06"
+            ],
+            [
+              "= Expected contribution per order",
+              "46.76"
+            ]
+          ]
+        },
+        "base": {
+          "expected": "129.10",
+          "margin_pct": "28.40",
+          "net_revenue": "534.82",
+          "cash_out": "325.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-170.00"
+            ],
+            [
+              "Forward shipping",
+              "-100.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-20.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "219.82"
+            ],
+            [
+              "Return exposure at 15.00% returns",
+              "-90.72"
+            ],
+            [
+              "= Expected contribution per order",
+              "129.10"
+            ]
+          ]
+        },
+        "optimistic": {
+          "expected": "162.32",
+          "margin_pct": "33.91",
+          "net_revenue": "534.82",
+          "cash_out": "319.40",
+          "lines": [
+            [
+              "Gross sale incl. GST (after discount)",
+              "599.00"
+            ],
+            [
+              "Output GST (pass-through)",
+              "-64.18"
+            ],
+            [
+              "Net revenue",
+              "534.82"
+            ],
+            [
+              "Supplier cost",
+              "-170.00"
+            ],
+            [
+              "Forward shipping",
+              "-100.00"
+            ],
+            [
+              "Packaging",
+              "-15.00"
+            ],
+            [
+              "Channel fees excl. GST (ITC)",
+              "-10.00"
+            ],
+            [
+              "Advertising per order",
+              "-14.00"
+            ],
+            [
+              "Other variable",
+              "0.00"
+            ],
+            [
+              "= Contribution if kept",
+              "225.82"
+            ],
+            [
+              "Return exposure at 10.50% returns",
+              "-63.51"
+            ],
+            [
+              "= Expected contribution per order",
+              "162.32"
+            ]
+          ]
+        }
+      }
     }
   ]
 }

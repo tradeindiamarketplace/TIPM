@@ -26,5 +26,6 @@ Each run:
    id ("RA-YYYYMMDD-n"), name, category (snake_case; use the policy's preferred categories where they fit),
    weight ("le_500g"|"le_1kg"|"le_2kg"), supplier_cost (number, excl. GST, or null), supplier_cost_note, price (proposed
    selling price incl. GST), retail_observed, gst_pct (best estimate; the CA agent confirms), electrical (true/false),
-   documents ([]), demand_signals ([{source, url, seen_on, summary}]), risks ([...]), sources ([urls]), stage: "NEW".
+   documents ([]), supplier_state (state of the supplier's dispatch address, e.g. "Odisha", "Uttar Pradesh";
+   anything other than Odisha means website-only, see docs/05), demand_signals ([{source, url, seen_on, summary}]), risks ([...]), sources ([urls]), stage: "NEW".
 5. Run `python3 scripts/recommend.py` and report the new candidates' stage and best profit per order in one short table.

@@ -62,6 +62,13 @@ class ProductPolicy(unittest.TestCase):
         self.assertEqual(set(r["channels"]), {"shopify"})
         self.assertIn(r["best_channel"], ("shopify", None))
 
+    def test_out_of_state_supplier_is_website_only(self):
+        from scripts.recommend import evaluate
+        r = evaluate(dict(self.base, id="T3", name="t", gst_pct=D("18"), supplier_state="Uttar Pradesh"))
+        self.assertEqual(set(r["channels"]), {"shopify"})
+        r = evaluate(dict(self.base, id="T4", name="t", gst_pct=D("18"), supplier_state="Odisha"))
+        self.assertEqual(len(r["channels"]), 4)
+
     def test_price_and_weight_limits(self):
         self.assertTrue(policy_problems(dict(self.base, price=D("299"))))
         self.assertTrue(policy_problems(dict(self.base, weight="le_5kg")))
