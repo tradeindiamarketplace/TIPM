@@ -1,0 +1,77 @@
+{
+  "id": "RA-20261025D-1",
+  "name": "Handmade palm-leaf (talapatra) pattachitra wall art, approx. 9.8 in, framed (Raghurajpur, Odisha)",
+  "category": "home_decor",
+  "weight": "le_500g",
+  "supplier_cost": 889,
+  "supplier_cost_note": "IndiaMART seller 'ms-zoctal' (Raghurajpur/Pipli area, Odisha): 9.8-inch palm leaf pattachitra painting with frame, Rs 889/piece (WebSearch snippet seen 2026-10-25; MOQ, GST treatment and frame material not shown; page not fetchable from this session, DNS blocked). Other indications: a Pune IndiaMART seller lists a palm-leaf painting with golden-grass frame at Rs 200 but describes it as 'Printed, Handmade' (likely not hand-etched, not used); Kynasha Commerce palm leaf talapatra Rs 980/piece (state unknown); Gonasika Exim, Bhubaneswar quotes palm-leaf engravings at Rs 28.35 per centimetre, MOQ 20 pieces for 8x11 in and 13x13 in designs (globallinker, unit basis unclear). Rs 889 must be confirmed by written quote, including whether it is hand-etched and the frame material.",
+  "price": 2299,
+  "retail_observed": "IndiaHandmade: Raghurajpur palm leaf engraving of Jagannath, Balabhadra & Subhadra by Apindra Swain Rs 3,000 (down from Rs 3,500, size not stated, seen 2026-10-25). Exotic India: Shri Jagannath palm leaf painting from Odisha, 9.5 x 9 in, 300 g, USD 37.50 (international pricing, approx. Rs 3,100). MeMeraki: Apindra Swain etched palm-leaf work 13 x 13 in Rs 3,500. No Amazon.in or iTokri size-matched listing with price was found in this run; Amazon competition not checked.",
+  "gst_pct": 12,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Odisha",
+  "demand_signals": [
+    {
+      "source": "IndiaHandmade product listing",
+      "url": "https://www.indiahandmade.com/catalog/product/view/id/30696",
+      "seen_on": "2026-10-25",
+      "summary": "Artisan talapatra piece retailing at Rs 3,000 with only one in stock (snippet); shows an established premium retail price, no volume data"
+    },
+    {
+      "source": "MeMeraki talapatra collection",
+      "url": "https://www.memeraki.com/collections/talapatra?page=3",
+      "seen_on": "2026-10-25",
+      "summary": "Dedicated talapatra collection spanning at least 3 pages, plus paid online talapatra workshops; signals collector interest, no sales volume data"
+    }
+  ],
+  "risks": [
+    "Supplier price is from a search snippet only; MOQ, exact size and hand-etched vs printed must be confirmed in writing",
+    "Frame material unknown: if it has a glass front it is a blocked glass_fragile item; source unglazed (cloth/wood/grass frame) or unframed pieces only",
+    "Retail comparisons are artisan-signed pieces (Rs 3,000-3,500) and an export site; a commodity 10 in piece may sell lower, Amazon.in price not validated",
+    "Dried palm leaf can crack if bent; needs rigid board packing, not a poly mailer",
+    "Handmade variation; supplier photos with permission needed",
+    "Cheap printed imitations exist (e.g. Rs 200 'printed' listing); listing must state hand-etched only if confirmed",
+    "GST: HSN 9701 (hand-made paintings) or 4602/4823 assumed 12%, CA to confirm"
+  ],
+  "sources": [
+    "https://m.indiamart.com/ms-zoctal",
+    "https://m.indiamart.com/impcat/paintings.html",
+    "https://globallinker.com/products/palm-leaf-engraving-of-meditating-buddha-8441993",
+    "https://www.indiahandmade.com/catalog/product/view/id/30696",
+    "https://exoticindiaart.com/product/paintings/shri-jagannath-ji-palm-leaf-painting-from-odisha-wrb436",
+    "https://www.memeraki.com/collections/talapatra?page=3",
+    "https://memeraki.com/products/journey-of-lord-jagannath-in-talapatra-by-purusottam-swain"
+  ],
+  "stage": "REVIEWED",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-10-25",
+    "notes": "Price unrealistic: the supplier itself (ZOCTALGEM / ms-zoctal) sells this exact 9.8 in framed palm-leaf pattachitra direct on Amazon.in (B0CJ5NM91D, price not retrievable), and comparable framed palm-leaf pieces retail at Rs 999 (6x9 in) to Rs 1,599 (13x13 in) on Vibecity; at Rs 1,599 the Shopify-only margin (Odisha supplier) falls to 19.3% (Rs 253), below the 30% floor, and 30% needs roughly Rs 1,900+. Rs 889 for workshop-grade etching is plausible but unverified (cheap printed copies exist), and frame type is unknown: similar listings use glass fronts (Krishna Rasleela: 'fiber wood and glass'), which would be a blocked glass_fragile item. Reopen only if the ZOCTALGEM Amazon price is >= Rs 2,000 and the supplier confirms in writing: hand-etched (not printed), unglazed frame material, MOQ, GST invoice.",
+    "competitor_prices": [
+      {
+        "price": 999,
+        "url": "https://www.vibecity.com/jagannath-balabhadra-subhadra-picture-frame-or-hand-printed-artwork/53184478",
+        "note": "6x9 in dried palm leaf frame, MRP 1,699 (search snippet 2026-10-25)"
+      },
+      {
+        "price": 1599,
+        "url": "https://www.vibecity.com/framed-tree-of-life-artwork/16568838",
+        "note": "13x13 in framed Tree of Life artwork, MRP 2,499 (snippet; medium not confirmed)"
+      },
+      {
+        "price": 2500,
+        "url": "https://www.vibecity.com/krishna-rasleela-palm-leaf-engraving-picture-frame-or-handcrafted-art/66686578",
+        "note": "22x10 in, fiber wood and glass, out of stock"
+      },
+      {
+        "price": 3000,
+        "url": "https://www.indiahandmade.com/catalog/product/view/id/30696",
+        "note": "artisan-signed (Apindra Swain), 13x13 in unframed"
+      }
+    ],
+    "same_supplier_on_marketplace": "https://www.amazon.in/ZOCTALGEM-pattachitra-Raghurajpur-handicrafts-background/dp/B0CJ5NM91D",
+    "unverified": "Amazon.in/Flipkart/Meesho prices not retrievable (amazon.in DNS blocked from session); iTokri has no size-matched talapatra listing found"
+  }
+}
