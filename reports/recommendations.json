@@ -1362,6 +1362,63 @@
       "ca": null
     },
     {
+      "id": "RA-20261025-1",
+      "name": "Foldable non-woven fabric storage box for kids' toys/books, set of 3",
+      "category": "kids_non_toy",
+      "price": 799.0,
+      "supplier_cost": 240.0,
+      "stage": "REJECTED",
+      "reason": "reviewer or CA rejected: Kuber Industries sells a directly comparable non-woven foldable 27 cm (10.6 in) cube set of 3 at Rs 549 incl. tax, and branded Anko 10.6 in sets are Rs 899-1,039 on sale, so Rs 799 for an unbranded set is not credible; matching ~Rs 549 is below the Rs 699 point that already gave only 26.6% margin (under the 30% floor). Supplier size/quality also unconfirmed; Amazon.in/Flipkart listings not reachable this run.",
+      "best_channel": "shopify",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 230.96,
+        "margin": 35.19,
+        "conservative": 154.83
+      },
+      "channels": {
+        "shopify": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 230.96,
+          "margin": 35.19,
+          "conservative": 154.83
+        }
+      },
+      "passing_channels": [
+        "shopify"
+      ],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/bindalinternational/storage-box.html",
+        "https://m.indiamart.com/impcat/storage-cube.html",
+        "https://www.tradeindia.com/products/66-l-storage-box-c9942838.html",
+        "https://shop.globalbees.com/products/anko-premium-foldable-storage-box-for-clothes-books-toys-set-of-3-sturdy-durable-fabric-with-strong-eyelets-collapsible-organizer-for-home-office-bedroom-pink-10-6-inches"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-10-25",
+        "notes": "Kuber Industries sells a directly comparable non-woven foldable 27 cm (10.6 in) cube set of 3 at Rs 549 incl. tax, and branded Anko 10.6 in sets are Rs 899-1,039 on sale, so Rs 799 for an unbranded set is not credible; matching ~Rs 549 is below the Rs 699 point that already gave only 26.6% margin (under the 30% floor). Supplier size/quality also unconfirmed; Amazon.in/Flipkart listings not reachable this run.",
+        "competitor_prices": [
+          {
+            "price": 549,
+            "url": "https://shop.globalbees.com/products/kuber-industries-non-woven-small-foldable-square-1000000022676"
+          },
+          {
+            "price": 899,
+            "url": "https://shop.globalbees.com/products/anko-foldable-storage-cube-set-of-3-sturdy-durable-fabric-strong-eyelets-sage-storage-box-for-saree-shirts-woolens-books-toys-10-6-x-10-6-x-10-6-inch"
+          },
+          {
+            "price": 1039,
+            "url": "https://shop.globalbees.com/products/anko-premium-foldable-storage-box-for-clothes-books-toys-set-of-3-sturdy-durable-fabric-with-strong-eyelets-collapsible-organizer-for-home-office-bedroom-pink-10-6-inches"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
       "id": "PC-018",
       "name": "Desk combo: aluminium laptop stand + phone stand",
       "category": "electronics_accessories_non_electrical",

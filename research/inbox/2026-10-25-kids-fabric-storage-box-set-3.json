@@ -1,0 +1,58 @@
+{
+  "id": "RA-20261025-1",
+  "name": "Foldable non-woven fabric storage box for kids' toys/books, set of 3",
+  "category": "kids_non_toy",
+  "weight": "le_1kg",
+  "supplier_cost": 240,
+  "supplier_cost_note": "Bindal International, Indore (Madhya Pradesh), IndiaMART: fabric 'Clothing Storage Box' Rs 80/piece x 3 (search snippet seen 2026-10-25; size, GSM, MOQ and drop-ship not shown; marketed for clothing, not toys). Same seller lists non-woven multi-compartment foldable box Rs 125/piece. Alternatives: Merayo Egrab LLP, Mumbai fabric cube organiser Rs 200/piece (at that cost the set fails); TradeIndia 66 L foldable fabric box with window Rs 190/piece, MOQ 100. Must confirm size comparable to retail (approx. 10-11 in cube) at Rs 80.",
+  "price": 799,
+  "retail_observed": "GlobalBees Shop (seen 2026-10-25): Anko premium foldable fabric storage box set of 3, 10.6 in, for clothes/books/toys, Rs 1,039 (regular Rs 1,935). No Amazon.in/Flipkart rupee prices found this run; low-price Indian brands (e.g. Kuber Industries) likely undercut, so Rs 799 is UNVALIDATED (Rs 699 gave only 26.6% margin in recommend.py) against unbranded marketplace listings.",
+  "gst_pct": 12,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Madhya Pradesh",
+  "demand_signals": [
+    {
+      "source": "GlobalBees Shop listing (Anko set of 3)",
+      "url": "https://shop.globalbees.com/products/anko-premium-foldable-storage-box-for-clothes-books-toys-set-of-3-sturdy-durable-fabric-with-strong-eyelets-collapsible-organizer-for-home-office-bedroom-pink-10-6-inches",
+      "seen_on": "2026-10-25",
+      "summary": "Active Indian retail listing for a 3-box fabric set marketed for toys/books at Rs 1,039; no sales-volume data seen"
+    }
+  ],
+  "risks": [
+    "Supplier Rs 80/piece item size and fabric quality unconfirmed; if real cost is Rs 200/piece (Mumbai cube) the margin fails",
+    "Supplier is in Madhya Pradesh: website-only per docs/05",
+    "Retail comparison is a single branded listing on sale; unbranded Amazon/Flipkart sets may be much cheaper (not checked)",
+    "Not a toy, but avoid toy/child-safety claims in listing; storage only",
+    "Non-woven boxes can arrive crushed or with weak handles; return/complaint risk",
+    "GST rate (non-woven/textile articles, HSN 6307 or 4202) is a guess; CA to confirm",
+    "Set of 3 weight assumed under 1 kg, unconfirmed"
+  ],
+  "sources": [
+    "https://m.indiamart.com/bindalinternational/storage-box.html",
+    "https://m.indiamart.com/impcat/storage-cube.html",
+    "https://www.tradeindia.com/products/66-l-storage-box-c9942838.html",
+    "https://shop.globalbees.com/products/anko-premium-foldable-storage-box-for-clothes-books-toys-set-of-3-sturdy-durable-fabric-with-strong-eyelets-collapsible-organizer-for-home-office-bedroom-pink-10-6-inches"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-10-25",
+    "notes": "Kuber Industries sells a directly comparable non-woven foldable 27 cm (10.6 in) cube set of 3 at Rs 549 incl. tax, and branded Anko 10.6 in sets are Rs 899-1,039 on sale, so Rs 799 for an unbranded set is not credible; matching ~Rs 549 is below the Rs 699 point that already gave only 26.6% margin (under the 30% floor). Supplier size/quality also unconfirmed; Amazon.in/Flipkart listings not reachable this run.",
+    "competitor_prices": [
+      {
+        "price": 549,
+        "url": "https://shop.globalbees.com/products/kuber-industries-non-woven-small-foldable-square-1000000022676"
+      },
+      {
+        "price": 899,
+        "url": "https://shop.globalbees.com/products/anko-foldable-storage-cube-set-of-3-sturdy-durable-fabric-strong-eyelets-sage-storage-box-for-saree-shirts-woolens-books-toys-10-6-x-10-6-x-10-6-inch"
+      },
+      {
+        "price": 1039,
+        "url": "https://shop.globalbees.com/products/anko-premium-foldable-storage-box-for-clothes-books-toys-set-of-3-sturdy-durable-fabric-with-strong-eyelets-collapsible-organizer-for-home-office-bedroom-pink-10-6-inches"
+      }
+    ]
+  }
+}
