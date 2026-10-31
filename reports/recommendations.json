@@ -1679,6 +1679,72 @@
       "ca": null
     },
     {
+      "id": "RA-20261031B-1",
+      "name": "Hand-carved mango wood salad / serving bowl, natural finish (approx. 8-10 in)",
+      "category": "kitchen_organisation",
+      "price": 649.0,
+      "supplier_cost": 180.0,
+      "stage": "REJECTED",
+      "reason": "reviewer or CA rejected: Supplier cost Rs 180 is unsupported (IndiaMART category 'from' snippets, no size/wood/MOQ); the only sized IndiaMART price found is Rs 380/piece for a 6 in round mango bowl (MOQ not shown), and export listings show 10.5 in at $7-10/unit, so an 8-10 in bowl single-piece is very likely above the Rs 188 cap the 30% margin needs at Rs 649. No marketplace listing below Rs 649 found (Amazon.in/Meesho returned nothing; flipkart.com/nestasia.in not reachable from this session); food-contact finish still needs written supplier confirmation and no 'food safe' claim without a test report. Reopen only with a written quote <= Rs 188 for the exact size, single-piece drop-ship.",
+      "best_channel": "shopify",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 206.89,
+        "margin": 36.38,
+        "conservative": 133.36
+      },
+      "channels": {
+        "shopify": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 206.89,
+          "margin": 36.38,
+          "conservative": 133.36
+        }
+      },
+      "passing_channels": [
+        "shopify"
+      ],
+      "retail_validated": false,
+      "sources": [
+        "https://dir.indiamart.com/impcat/wooden-salad-bowl.html",
+        "https://www.woodenstreet.com/product/natural-wood-finish-1-piece-wooden-salad-bowl",
+        "https://theindusvalley.in/products/ceramic-glazed-mango-wood-bowl-dia-7-8-height-2-5",
+        "https://shop.arcedior.com/products/green-wooden-salad-bowl",
+        "https://thesummerhouse.in/products/salad-bowl"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-10-31",
+        "notes": "Supplier cost Rs 180 is unsupported (IndiaMART category 'from' snippets, no size/wood/MOQ); the only sized IndiaMART price found is Rs 380/piece for a 6 in round mango bowl (MOQ not shown), and export listings show 10.5 in at $7-10/unit, so an 8-10 in bowl single-piece is very likely above the Rs 188 cap the 30% margin needs at Rs 649. No marketplace listing below Rs 649 found (Amazon.in/Meesho returned nothing; flipkart.com/nestasia.in not reachable from this session); food-contact finish still needs written supplier confirmation and no 'food safe' claim without a test report. Reopen only with a written quote <= Rs 188 for the exact size, single-piece drop-ship.",
+        "competitor_prices": [
+          {
+            "price": 669,
+            "url": "https://www.woodenstreet.com/product/natural-wood-finish-1-piece-wooden-salad-bowl"
+          },
+          {
+            "price": 861,
+            "url": "https://flipkart.com/homesake-wooden-serving-bowl-12-flat-base-salads-fruits-popcorn-pasta/p/itm2b324a10f7fd6"
+          },
+          {
+            "price": 1400,
+            "url": "https://thesummerhouse.in/products/salad-bowl"
+          }
+        ],
+        "supplier_price_check": [
+          {
+            "price": 380,
+            "unit": "piece, 6 in round mango wood bowl, MOQ not shown",
+            "url": "https://m.indiamart.com/empirehandicrafts"
+          }
+        ],
+        "caveats": "Flipkart Rs 861 is a search-snippet price possibly from a stale cache; all prices from search snippets seen 2026-10-31, pages not opened."
+      },
+      "ca": null
+    },
+    {
       "id": "PC-013",
       "name": "Microfiber cleaning cloth 40x40 cm, 350 GSM, pack of 10",
       "category": "cleaning_utility",

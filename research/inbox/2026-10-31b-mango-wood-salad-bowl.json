@@ -1,0 +1,67 @@
+{
+  "id": "RA-20261031B-1",
+  "name": "Hand-carved mango wood salad / serving bowl, natural finish (approx. 8-10 in)",
+  "category": "kitchen_organisation",
+  "weight": "le_1kg",
+  "supplier_cost": 180,
+  "supplier_cost_note": "IndiaMART 'wooden salad bowl' category page (search snippet seen 2026-10-31) shows starting prices per piece: Aijaz Handicrafts from Rs 80, Noble Wood Crafts (Saharanpur, UP) from Rs 110, MG Collections from Rs 180. Wood type, size, finish and MOQ not shown; Rs 180 (top of range) used as a conservative estimate. No Odisha or eastern-India supplier found. Pages not opened directly.",
+  "price": 649,
+  "retail_observed": "WoodenStreet natural-finish wooden (mango) salad bowl Rs 669 (MRP 1,923); The Indus Valley ceramic-glazed mango wood bowl Rs 899; Arcedior enamelled 6 in mango wood salad bowl Rs 1,120-1,260; The Summer House 9 in mango wood salad bowl Rs 1,400 (all search snippets seen 2026-10-31). Amazon.in/Flipkart/Meesho prices for comparable plain bowls NOT checked (no results returned) - UNVALIDATED against marketplaces.",
+  "gst_pct": 5,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Uttar Pradesh",
+  "demand_signals": [
+    {
+      "source": "Indian D2C home brands listing mango wood salad bowls",
+      "url": "https://www.woodenstreet.com/product/natural-wood-finish-1-piece-wooden-salad-bowl",
+      "seen_on": "2026-10-31",
+      "summary": "Several Indian home brands (WoodenStreet, The Indus Valley, Arcedior, The Summer House) sell mango wood salad bowls at Rs 669-1,400; presence signal only, no sales volume data"
+    }
+  ],
+  "risks": [
+    "Food-contact: must be natural/oil (food-safe oil) finish with no lacquer, PU, enamel or paint on the inside; get supplier written confirmation of finish; do not claim 'food grade' or 'food safe' without a test report",
+    "Supplier prices are IndiaMART category 'starting from' snippets with no size/wood/MOQ; need a written quote for the exact bowl",
+    "UP supplier: website-only (Shopify); 30% needs supplier cost <= ~29% of price (Rs 188 at Rs 649) - Rs 180 leaves almost no headroom; if quote is above ~Rs 188 it fails",
+    "Marketplace check not done: if the same supplier or brands sell comparable plain mango wood bowls on Amazon.in/Flipkart/Meesho below ~Rs 500, the item fails",
+    "Wood cracking/warping in dry season and transit dents; care instructions (hand wash, oil) needed to limit returns",
+    "Many 'mango wood' listings are acacia/engineered; confirm wood species before claiming",
+    "GST: HSN 4419 wooden tableware believed 5% after the 22-09-2025 rate change; CA to confirm"
+  ],
+  "sources": [
+    "https://dir.indiamart.com/impcat/wooden-salad-bowl.html",
+    "https://www.woodenstreet.com/product/natural-wood-finish-1-piece-wooden-salad-bowl",
+    "https://theindusvalley.in/products/ceramic-glazed-mango-wood-bowl-dia-7-8-height-2-5",
+    "https://shop.arcedior.com/products/green-wooden-salad-bowl",
+    "https://thesummerhouse.in/products/salad-bowl"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-10-31",
+    "notes": "Supplier cost Rs 180 is unsupported (IndiaMART category 'from' snippets, no size/wood/MOQ); the only sized IndiaMART price found is Rs 380/piece for a 6 in round mango bowl (MOQ not shown), and export listings show 10.5 in at $7-10/unit, so an 8-10 in bowl single-piece is very likely above the Rs 188 cap the 30% margin needs at Rs 649. No marketplace listing below Rs 649 found (Amazon.in/Meesho returned nothing; flipkart.com/nestasia.in not reachable from this session); food-contact finish still needs written supplier confirmation and no 'food safe' claim without a test report. Reopen only with a written quote <= Rs 188 for the exact size, single-piece drop-ship.",
+    "competitor_prices": [
+      {
+        "price": 669,
+        "url": "https://www.woodenstreet.com/product/natural-wood-finish-1-piece-wooden-salad-bowl"
+      },
+      {
+        "price": 861,
+        "url": "https://flipkart.com/homesake-wooden-serving-bowl-12-flat-base-salads-fruits-popcorn-pasta/p/itm2b324a10f7fd6"
+      },
+      {
+        "price": 1400,
+        "url": "https://thesummerhouse.in/products/salad-bowl"
+      }
+    ],
+    "supplier_price_check": [
+      {
+        "price": 380,
+        "unit": "piece, 6 in round mango wood bowl, MOQ not shown",
+        "url": "https://m.indiamart.com/empirehandicrafts"
+      }
+    ],
+    "caveats": "Flipkart Rs 861 is a search-snippet price possibly from a stale cache; all prices from search snippets seen 2026-10-31, pages not opened."
+  }
+}
