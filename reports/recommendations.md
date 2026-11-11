@@ -41,3 +41,4 @@ Ranked by expected profit per order (base scenario). Minimum 30% margin and Rs 6
 | REJECTED | Manual pull-string vegetable chopper, 500 ml | Amazon.in (Easy Ship) | Rs 199 | Rs -10 | -6.5% | Rs -50 | - | price below Rs 449 · retail price unvalidated |
 | REJECTED | Cotton fridge vegetable storage bags, set of 6 | Amazon.in (Easy Ship) | Rs 199 | Rs -61 | -35.0% | Rs -101 | - | price below Rs 449 |
 | REJECTED | Stainless steel masala dabba, 7 containers | - | Rs 549 | - | - | - | - | no supplier cost yet |
+| REJECTED | Odisha golden grass (kaincha) handwoven round table mat, set of 4 (approx. 12 in) | - | Rs 899 | - | - | - | - | no supplier cost yet · retail price unvalidated |

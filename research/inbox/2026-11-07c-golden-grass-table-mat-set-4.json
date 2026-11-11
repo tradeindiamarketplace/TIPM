@@ -1,0 +1,43 @@
+{
+  "id": "RA-20261107C-1",
+  "name": "Odisha golden grass (kaincha) handwoven round table mat, set of 4 (approx. 12 in)",
+  "category": "kitchen_organisation",
+  "weight": "le_1kg",
+  "supplier_cost": null,
+  "supplier_cost_note": "No supplier/wholesale price found (searches 2026-11-07). Nearest IndiaMART listing: Balasore, Odisha seller, sabai-grass round coaster mat Rs 400/piece (not golden grass, not like-for-like). Kendrapara golden-grass artisans/SANKALP Kendrapara project would need direct quote; owner to obtain one before review.",
+  "price": 899,
+  "retail_observed": "Seen 2026-11-07 via search snippets (pages not fetched): Kala Karigari 'Aranya Golden Grass Heritage Mat' single 12 in Rs 299 (struck-through Rs 1,699), set of 4 Rs 999; Gaatha 'Golden Grass Mat ~19 (set of two)' Rs 465 (out of stock); other Gaatha grass-mat sets Rs 450-670. Price Rs 899 is a placeholder below the Rs 999 set-of-4 observation; UNVALIDATED until a supplier cost is known.",
+  "gst_pct": 5,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Odisha",
+  "demand_signals": [
+    {
+      "source": "Kala Karigari listing (Odisha golden grass mats, retail)",
+      "url": "https://kalakarigari.com/product/aranya-golden-grass-heritage-mat-set-of-4",
+      "seen_on": "2026-11-07",
+      "summary": "Online craft retailer currently lists an Odisha golden grass mat set of 4 at Rs 999 (discounted); shows a live retail price point, no sales-volume data"
+    },
+    {
+      "source": "Gaatha grass mat listings",
+      "url": "https://shop.gaatha.com/golden-grass-mat-19-set-of-two-html",
+      "seen_on": "2026-11-07",
+      "summary": "Golden grass mat set of 2 at Rs 465, out of stock; several grass-mat sets Rs 450-670 (stock-out is weak evidence of demand only)"
+    }
+  ],
+  "risks": [
+    "No supplier price: margin cannot be computed yet; Odisha supplier (Kendrapara) must quote per set incl. packing",
+    "Not yet checked whether the same makers sell on Amazon.in/Meesho/Flipkart cheaper (lesson from prior reviews)",
+    "Craft retailers show heavy 'discounts' (Rs 1,699 -> Rs 299), so true market price may be ~Rs 250-300 per mat",
+    "Overlaps in buyer intent with existing sabai grass coaster/basket candidates; reviewer should check cannibalisation",
+    "Natural fibre: moisture/fungus in monsoon storage, handmade size/colour variation",
+    "GST/HSN (4602 basketwork/plaiting materials) to be confirmed by CA"
+  ],
+  "sources": [
+    "https://kalakarigari.com/product/aranya-golden-grass-heritage-mat",
+    "https://kalakarigari.com/product/aranya-golden-grass-heritage-mat-set-of-4",
+    "https://shop.gaatha.com/golden-grass-mat-19-set-of-two-html",
+    "https://m.indiamart.com/impcat/coaster-mat.html"
+  ],
+  "stage": "NEW"
+}

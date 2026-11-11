@@ -2603,6 +2603,28 @@
       ],
       "review": null,
       "ca": null
+    },
+    {
+      "id": "RA-20261107C-1",
+      "name": "Odisha golden grass (kaincha) handwoven round table mat, set of 4 (approx. 12 in)",
+      "category": "kitchen_organisation",
+      "price": 899.0,
+      "supplier_cost": null,
+      "stage": "REJECTED",
+      "reason": "no supplier cost yet",
+      "best_channel": null,
+      "best": null,
+      "channels": {},
+      "passing_channels": [],
+      "retail_validated": false,
+      "sources": [
+        "https://kalakarigari.com/product/aranya-golden-grass-heritage-mat",
+        "https://kalakarigari.com/product/aranya-golden-grass-heritage-mat-set-of-4",
+        "https://shop.gaatha.com/golden-grass-mat-19-set-of-two-html",
+        "https://m.indiamart.com/impcat/coaster-mat.html"
+      ],
+      "review": null,
+      "ca": null
     }
   ]
 }
