@@ -725,6 +725,42 @@
       "ca": null
     },
     {
+      "id": "RA-20261111-3",
+      "name": "Printed silk potli bag cum bangle/jewellery organiser, set of 3 (wedding gifting)",
+      "category": "women_accessories",
+      "price": 599.0,
+      "supplier_cost": 180.0,
+      "stage": "BELOW_TARGET",
+      "reason": "no channel reaches 30% margin",
+      "best_channel": "shopify",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": 127.26,
+        "margin": 27.25,
+        "conservative": 62.15
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 127.26,
+          "margin": 27.25,
+          "conservative": 62.15
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/potli-bags.html",
+        "https://m.indiamart.com/himachalee/potli-bag.html",
+        "https://shop.globalbees.com/products/potli-bag-traditional-handcrafted-silk-with-intricate-embroidery-20cm-x-12cm-multicolour",
+        "https://knowledge.digirake.com/?p=8855"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
       "id": "RA-20261021-1",
       "name": "PU leather jewellery organiser box (rings, earrings, necklaces)",
       "category": "women_accessories",
@@ -2622,6 +2658,53 @@
         "https://kalakarigari.com/product/aranya-golden-grass-heritage-mat-set-of-4",
         "https://shop.gaatha.com/golden-grass-mat-19-set-of-two-html",
         "https://m.indiamart.com/impcat/coaster-mat.html"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "RA-20261111-2",
+      "name": "Hand-carved Odisha soapstone Ganesha idol, approx. 6 in (wedding / housewarming gift)",
+      "category": "home_decor",
+      "price": 1499.0,
+      "supplier_cost": null,
+      "stage": "REJECTED",
+      "reason": "no supplier cost yet",
+      "best_channel": null,
+      "best": null,
+      "channels": {},
+      "passing_channels": [],
+      "retail_validated": false,
+      "sources": [
+        "https://www.globallinker.com/products/ganesha-idol-12-8599327",
+        "https://m.indiamart.com/the-stone-studio/gift-statue.html",
+        "https://www.globallinker.com/products/ganapati-statue-8452629",
+        "https://www.indiahandmade.com/catalog/product/view/id/31020",
+        "https://www.indiahandmade.com/catalog/product/view/id/30911"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "RA-20261111-1",
+      "name": "Handwoven Sambalpuri ikat cotton cushion covers, 16x16 in, set of 2 (Odisha handloom)",
+      "category": "home_furnishing",
+      "price": 899.0,
+      "supplier_cost": null,
+      "stage": "REJECTED",
+      "reason": "no supplier cost yet",
+      "best_channel": null,
+      "best": null,
+      "channels": {},
+      "passing_channels": [],
+      "retail_validated": false,
+      "sources": [
+        "https://itokri.com/products/2023-897-1-1-sambalpuri-ikat-cotton-cushion-cover-16-x-16-in",
+        "https://www.itokri.com/products/2023-897-1-7-sambalpuri-ikat-cotton-cushion-cover-16-x-16-in",
+        "https://www.itokri.com/products/2023-897-1-6-sambalpuri-ikat-cotton-cushion-cover-16-x-16-in",
+        "https://sites.google.com/view/ambika-handloom/",
+        "https://www.textileinfomedia.com/priyadarshini-handloom/designer-handloom-saree",
+        "https://m.indiamart.com/impcat/patchwork-pillow-cover.html"
       ],
       "review": null,
       "ca": null

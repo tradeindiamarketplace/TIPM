@@ -1,0 +1,42 @@
+{
+  "id": "RA-20261111-3",
+  "name": "Printed silk potli bag cum bangle/jewellery organiser, set of 3 (wedding gifting)",
+  "category": "women_accessories",
+  "weight": "le_500g",
+  "supplier_cost": 180,
+  "supplier_cost_note": "Rs 60/piece x 3: IndiaMART listing 'Multicolored Printed Potli Bags for Women Cum Bangle Organiser Jewellery, Return Gift Rs 60/Piece', seen 2026-11-11 via WebSearch snippet (page not fetched). Seller name, location and MOQ not captured; exact listing URL not isolated from the IndiaMART potli category results. Assumed excl. GST. Other potli listings in the same results: velvet with golden dori Rs 150/piece, embroidered silk Rs 270/piece, basic satin/velvet return-gift potlis Rs 15-16/piece.",
+  "price": 599,
+  "retail_observed": "UNVALIDATED: no retail price for a comparable printed potli/bangle-organiser set was captured this run (GlobalBees lists a handcrafted embroidered silk potli 20x12 cm, price not seen).",
+  "gst_pct": 18,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "UNKNOWN",
+  "demand_signals": [
+    {
+      "source": "IndiaMART wedding return-gift potli listings",
+      "url": "https://m.indiamart.com/himachalee/potli-bag.html",
+      "seen_on": "2026-11-11",
+      "summary": "Multiple B2B sellers list potli bags specifically for wedding/return gifting; supply-side signal only, no consumer demand data."
+    },
+    {
+      "source": "DigiRake wholesale wedding return gifts guide",
+      "url": "https://knowledge.digirake.com/?p=8855",
+      "seen_on": "2026-11-11",
+      "summary": "Guide on bulk-buying wedding return gifts (potlis among them); undated; retailer marketing content."
+    }
+  ],
+  "risks": [
+    "Supplier location unknown: treated as out of Odisha (website-only) until confirmed",
+    "Retail price unvalidated; potlis sell cheaply as bulk return gifts (Rs 15-60), so a Rs 599 set of 3 must be positioned as a premium organiser gift and checked against Amazon/Meesho",
+    "'Silk' claim needs supplier evidence; likely art silk / polyester; describe accurately",
+    "Print/colour variation vs photos; low-cost supplier quality unknown",
+    "HSN (4202 / 6307) and GST rate to be confirmed by CA; 18% used conservatively"
+  ],
+  "sources": [
+    "https://m.indiamart.com/impcat/potli-bags.html",
+    "https://m.indiamart.com/himachalee/potli-bag.html",
+    "https://shop.globalbees.com/products/potli-bag-traditional-handcrafted-silk-with-intricate-embroidery-20cm-x-12cm-multicolour",
+    "https://knowledge.digirake.com/?p=8855"
+  ],
+  "stage": "NEW"
+}

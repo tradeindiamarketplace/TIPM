@@ -1,0 +1,39 @@
+{
+  "id": "RA-20261111-1",
+  "name": "Handwoven Sambalpuri ikat cotton cushion covers, 16x16 in, set of 2 (Odisha handloom)",
+  "category": "home_furnishing",
+  "weight": "le_500g",
+  "supplier_cost": null,
+  "supplier_cost_note": "No supplier/wholesale price found (WebSearch 2026-11-11). No IndiaMART listing for a Sambalpuri ikat cushion cover from an Odisha seller appeared. Leads only: Ambika Handloom (Odisha, says bulk orders for resellers via WhatsApp, lists dress materials/sarees, not cushion covers); Priyadarshini Handloom, Bhubaneswar (Sambalpuri ikat sarees, MOQ 10, no cushion covers listed). Non-comparable benchmark: Jaipur patchwork 16x16 covers Rs 75 and Rs 210/piece on IndiaMART. Owner must obtain a per-set quote from a Sambalpur/Bargarh weaver or cooperative.",
+  "price": 899,
+  "retail_observed": "iTokri 16x16 in Sambalpuri ikat cotton cushion cover: page data shows price 45000, read as approx. Rs 450 per cover if stored in paise (inference, not confirmed; one variant marked unavailable, another available), seen 2026-11-11 via search snippet, page not fetched. UNVALIDATED: Rs 899 for 2 is a placeholder at approx. that per-cover level.",
+  "gst_pct": 5,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Odisha",
+  "demand_signals": [
+    {
+      "source": "iTokri Sambalpuri ikat cushion cover listings",
+      "url": "https://itokri.com/products/2023-897-1-1-sambalpuri-ikat-cotton-cushion-cover-16-x-16-in",
+      "seen_on": "2026-11-11",
+      "summary": "Online craft retailer carries several colour variants of a 16x16 in Sambalpuri ikat cushion cover; at least one variant shown unavailable. Live retail listing only; no sales-volume or trend data found."
+    }
+  ],
+  "risks": [
+    "No supplier price: margin cannot be computed; Odisha weaver must quote per set incl. packing",
+    "Retail price inferred from page data (45000 assumed paise); must be checked on the live page",
+    "Handloom: colour/pattern varies piece to piece; photos must match supply; 'handloom' claim should be backed by supplier (Handloom Mark if claimed)",
+    "Cushion inserts not included (keeps weight low); state clearly to avoid returns",
+    "No dated demand signal (no Google Trends / best-seller data captured this run)",
+    "Category 'home_furnishing' is not in the policy's preferred list (not blocked); HSN 6304 rate to be confirmed by CA"
+  ],
+  "sources": [
+    "https://itokri.com/products/2023-897-1-1-sambalpuri-ikat-cotton-cushion-cover-16-x-16-in",
+    "https://www.itokri.com/products/2023-897-1-7-sambalpuri-ikat-cotton-cushion-cover-16-x-16-in",
+    "https://www.itokri.com/products/2023-897-1-6-sambalpuri-ikat-cotton-cushion-cover-16-x-16-in",
+    "https://sites.google.com/view/ambika-handloom/",
+    "https://www.textileinfomedia.com/priyadarshini-handloom/designer-handloom-saree",
+    "https://m.indiamart.com/impcat/patchwork-pillow-cover.html"
+  ],
+  "stage": "NEW"
+}

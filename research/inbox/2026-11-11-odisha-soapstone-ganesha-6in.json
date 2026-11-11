@@ -1,0 +1,39 @@
+{
+  "id": "RA-20261111-2",
+  "name": "Hand-carved Odisha soapstone Ganesha idol, approx. 6 in (wedding / housewarming gift)",
+  "category": "home_decor",
+  "weight": "le_2kg",
+  "supplier_cost": null,
+  "supplier_cost_note": "No usable supplier price (WebSearch 2026-11-11). The Stone Studio (Khordha, Odisha) shows a 12-in soapstone Ganesha at Rs 190.44 per piece, MOQ 1, on GlobalLinker, but the same seller lists an 8-in stone Ganesh at Rs 14,800 on IndiaMART, so the Rs 190.44 figure looks like a data error or different basis and is NOT used. Gonasika Exim (Bhubaneswar) lists a Ganapati statue, price on request. Owner to get a quote for a 6-in piece incl. protective packing.",
+  "price": 1499,
+  "retail_observed": "indiahandmade.com (seen 2026-11-11 via search snippet): hand-carved stone Ganesha 4 in Rs 5,500 (Braja Kalakruti); hand-carved white stone Ganesha 6x5 in Rs 3,500 (Sri Raja Stone Carving Centre; stone type not stated as soapstone). Rs 1,499 is a placeholder well below these; UNVALIDATED until mass-market (Amazon/Flipkart) prices are checked.",
+  "gst_pct": 5,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Odisha",
+  "demand_signals": [
+    {
+      "source": "indiahandmade.com stone Ganesha listings",
+      "url": "https://www.indiahandmade.com/catalog/product/view/id/30911",
+      "seen_on": "2026-11-11",
+      "summary": "Odisha stone-carving centres retail small hand-carved Ganesha idols at Rs 3,500-5,500. Shows a premium price point; no sales-volume data."
+    }
+  ],
+  "risks": [
+    "No supplier price: margin cannot be computed",
+    "Stone can chip/break in courier (not glass, but breakage returns likely); needs foam/double-box packing, which adds weight and cost",
+    "Weight of a 6-in solid stone idol unverified; le_2kg is an assumption, confirm with supplier",
+    "Religious item: damage-in-transit complaints are sensitive; product photos must be the actual piece style",
+    "Observed retail is artisan-site pricing; mass-market prices may be far lower (not checked this run)",
+    "No dated trend signal captured; seasonal (wedding/housewarming) demand is an assumption",
+    "HSN 6802 GST rate to be confirmed by CA"
+  ],
+  "sources": [
+    "https://www.globallinker.com/products/ganesha-idol-12-8599327",
+    "https://m.indiamart.com/the-stone-studio/gift-statue.html",
+    "https://www.globallinker.com/products/ganapati-statue-8452629",
+    "https://www.indiahandmade.com/catalog/product/view/id/31020",
+    "https://www.indiahandmade.com/catalog/product/view/id/30911"
+  ],
+  "stage": "NEW"
+}
