@@ -1,0 +1,106 @@
+{
+  "id": "RA-20261112D-1",
+  "name": "Handmade cotton macrame plant hanger, set of 2 (no pots), boho balcony / indoor plant decor",
+  "category": "home_decor",
+  "weight": "le_500g",
+  "supplier_cost": 130,
+  "supplier_cost_note": "Set of 2 = 2 x Rs 65/piece. This is the Alisha Enterprises, Hapur (UP) IndiaMART listing 'Macrame Plant Hanger' at Rs 65/piece, with a 'Macrame Plant Holder' at Rs 60/piece. You Like Hand Works (IndiaMART) lists 'Designer Macrame Plant Hanging' at Rs 60/piece. All three prices come from WebSearch snippets seen on 2026-11-12. The supplier pages could not be opened (indiamart blocked). The MOQ, length, cord thickness and GST status of these sellers are not shown. Ghaziabad sellers are higher: Sai Trading lists Rs 90/piece (MOQ 500) and Rs 100/piece for cotton, and Home Decor Inc lists Rs 90/piece. At Rs 90-100/piece (Rs 180-200 per set) the cost is 36-40% of Rs 499, above the about 29% ceiling for an out-of-Odisha supplier, so only the Rs 60-65 sellers work. No Odisha supplier found.",
+  "price": 499,
+  "retail_observed": "Set-of-2 macrame plant hangers seen 2026-11-12 in WebSearch snippets: Vibecity 'Beautiful Macrame Hanging Planter (Set of 2)' Rs 599 (MRP 799); Nykaa Fashion Ecofynd macrame cotton plant hanger set of 2, MRP Rs 899 (sale price not visible); NurseryLive Handmade SA007 sutli set of 2 Rs 349 sale (Rs 384 / Rs 449 regular on another copy of the listing); Pepperfry Ecofynd off-white set of 2 at Rs 399 and Rs 199 (MRP 499). Only Vibecity (Rs 599) and the Nykaa MRP (Rs 899) are at or above Rs 499. Several sellers sell for less, down to Rs 199. No Amazon.in set-of-2 price came up, and Flipkart results showed no price.",
+  "gst_pct": 5,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Uttar Pradesh",
+  "demand_signals": [
+    {
+      "source": "Owner's own catalogue: macrame wall hanging (RA-20261022-3)",
+      "url": "research/inbox/2026-10-22-macrame-wall-hanging-14x30.json",
+      "seen_on": "2026-11-12",
+      "summary": "The task brief calls the macrame wall hanging the store's one success. A plant hanger is an adjacent item in the same material from the same UP supplier cluster (Hapur/Ghaziabad), so it can be cross-sold. This is internal, with no volume data."
+    },
+    {
+      "source": "Multiple Indian retailers stock set-of-2 macrame plant hangers (Vibecity, Pepperfry/Ecofynd, Nykaa Fashion, NurseryLive, Hunarsetu)",
+      "url": "https://www.vibecity.com/beautiful-macrame-hanging-planter-set-of-2/05979043",
+      "seen_on": "2026-11-12",
+      "summary": "An established retail category across at least 5 Indian sites. There is no sales-volume or trend data. Heavy discounting on Pepperfry (60% off to Rs 199) suggests a crowded category."
+    }
+  ],
+  "risks": [
+    "Price competition: Pepperfry Rs 199-399 and NurseryLive Rs 349 undercut Rs 499. Only 1 seller price (Vibecity Rs 599) is above Rs 499. The listing needs better photos, a stated length/cord thickness and a balcony/plant styling angle. Otherwise it may not sell at Rs 499.",
+    "The margin depends on the Rs 60-65/piece Hapur sellers. Ghaziabad prices of Rs 90-100/piece push the cost to 36-40% of the price (fails the about 29% website-only threshold).",
+    "Supplier MOQ unknown. Sai Trading's MOQ is 500 pieces. A sample and a drop-ship agreement must be confirmed before listing.",
+    "Size and quality not specified in the snippets (length, cord mm, jute vs cotton). The main complaint risk is 'smaller/thinner than expected'. Get a sample first.",
+    "UP supplier means website only (bill-to-ship-to, per docs/05). Marketplaces are not reachable without an Odisha supplier.",
+    "GST 5% estimated by analogy with the CA's ruling on the macrame wall hanging (HSN 5609 / 6307). The CA agent to confirm. '100% cotton' claim needs supplier written confirmation."
+  ],
+  "sources": [
+    "https://m.indiamart.com/alishaenterprisesharpur",
+    "https://m.indiamart.com/youlikehandworks",
+    "https://www.indiamart.com/saitrading-ghaziabad/hand-macrame-plant-hanger.html",
+    "https://www.indiamart.com/saitrading-ghaziabad/macrame-wall-hanging-and-plant-hangers.html",
+    "https://m.indiamart.com/impcat/plant-hanger.html",
+    "https://www.vibecity.com/beautiful-macrame-hanging-planter-set-of-2/05979043",
+    "https://www.nykaafashion.com/ecofynd-macrame-cotton-plant-hanger-set-of-2/p/9607211",
+    "https://nurserylive.com/products/handmade-sa007-macrame-hanger-for-plants-sutli-brown-set-of-2",
+    "https://www.pepperfry.com/product/off-white-macrame-boho-hanging-planter-set-of-2-by-ecofynd-2010056.html",
+    "https://www.pepperfry.com/product/off-white-macrame-designer-hanging-planter-set-of-2-2010058.html"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-11-12",
+    "notes": "Rs 499 is not realistic: of the set-of-2 prices found on 2026-11-12 only Vibecity (Rs 599) is above it, while Pepperfry (Rs 199/399), NurseryLive (Rs 349) and Nykaa/Homesake (Rs 340) sell lower, and the margin does not survive any realistic lower price (profit_report shopify base at cost Rs 130: Rs 449 = 27.4%, Rs 399 = 18.8%, Rs 349 = 7.9%, all under the 30% minimum; Rs 449 is also the policy price floor). Even at Rs 499 it only passes (34.2%) on unverified Rs 60-65/pc IndiaMART snippet costs and drops to 23.2% at the Rs 90/pc Ghaziabad cost; reviews of similar hangers also report thin cord and shorter-than-listed length.",
+    "competitor_prices": [
+      {
+        "price": 599,
+        "url": "https://www.vibecity.com/beautiful-macrame-hanging-planter-set-of-2/05979043",
+        "seen_on": "2026-11-12",
+        "note": "set of 2, MRP 799 (WebSearch snippet)"
+      },
+      {
+        "price": 399,
+        "url": "https://www.pepperfry.com/product/off-white-macrame-designer-hanging-planter-set-of-2-2010058.html",
+        "seen_on": "2026-11-12",
+        "note": "Ecofynd set of 2, MRP 499 (WebSearch snippet)"
+      },
+      {
+        "price": 199,
+        "url": "https://www.pepperfry.com/product/off-white-macrame-boho-hanging-planter-set-of-2-by-ecofynd-2010056.html",
+        "seen_on": "2026-11-12",
+        "note": "Ecofynd boho set of 2, MRP 499; snippets also showed Rs 189 (MRP 399) on a sibling boho listing (2010055) - exact URL-to-price mapping between the two boho listings not confirmed"
+      },
+      {
+        "price": 349,
+        "url": "https://nurserylive.com/products/handmade-sa007-macrame-hanger-for-plants-sutli-brown-set-of-2",
+        "seen_on": "2026-11-12",
+        "note": "sutli/jute set of 2, down from 384 (WebSearch snippet)"
+      },
+      {
+        "price": 340,
+        "url": "https://www.nykaa.com/homesake-macrame-plant-hanger-weaving-2-pieces-single/p/9568389",
+        "seen_on": "2026-11-12",
+        "note": "Homesake 2 pieces, listed regular 2000 (WebSearch snippet)"
+      }
+    ],
+    "margin_check": {
+      "source": "scripts/profit_report.run(candidate,'shopify'), base scenario, run 2026-11-12",
+      "cost_130": {
+        "599": 44.41,
+        "499": 34.18,
+        "449": 27.36,
+        "399": 18.83,
+        "349": 7.86
+      },
+      "cost_180": {
+        "499": 23.21,
+        "449": 15.16
+      }
+    },
+    "complaint_sources": [
+      "https://meesho.com/d/p/67BUOA",
+      "https://www.desertcart.sg/products/296806700-ecofynd-cotton-plant-hanger-ivory-39-inches-1-piece"
+    ],
+    "unverified": "No Amazon.in or Flipkart set-of-2 price found in 4 WebSearch calls; Meesho set-of-2 price (snippet showed 210) was ambiguous and not used. Supplier costs remain snippet-only (IndiaMART pages blocked)."
+  }
+}

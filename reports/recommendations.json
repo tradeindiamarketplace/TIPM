@@ -2190,6 +2190,106 @@
       "ca": null
     },
     {
+      "id": "RA-20261112D-1",
+      "name": "Handmade cotton macrame plant hanger, set of 2 (no pots), boho balcony / indoor plant decor",
+      "category": "home_decor",
+      "price": 499.0,
+      "supplier_cost": 130.0,
+      "stage": "REJECTED",
+      "reason": "reviewer or CA rejected: Rs 499 is not realistic: of the set-of-2 prices found on 2026-11-12 only Vibecity (Rs 599) is above it, while Pepperfry (Rs 199/399), NurseryLive (Rs 349) and Nykaa/Homesake (Rs 340) sell lower, and the margin does not survive any realistic lower price (profit_report shopify base at cost Rs 130: Rs 449 = 27.4%, Rs 399 = 18.8%, Rs 349 = 7.9%, all under the 30% minimum; Rs 449 is also the policy price floor). Even at Rs 499 it only passes (34.2%) on unverified Rs 60-65/pc IndiaMART snippet costs and drops to 23.2% at the Rs 90/pc Ghaziabad cost; reviews of similar hangers also report thin cord and shorter-than-listed length.",
+      "best_channel": "shopify",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 149.46,
+        "margin": 34.18,
+        "conservative": 84.65
+      },
+      "channels": {
+        "shopify": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 149.46,
+          "margin": 34.18,
+          "conservative": 84.65
+        }
+      },
+      "passing_channels": [
+        "shopify"
+      ],
+      "retail_validated": true,
+      "sources": [
+        "https://m.indiamart.com/alishaenterprisesharpur",
+        "https://m.indiamart.com/youlikehandworks",
+        "https://www.indiamart.com/saitrading-ghaziabad/hand-macrame-plant-hanger.html",
+        "https://www.indiamart.com/saitrading-ghaziabad/macrame-wall-hanging-and-plant-hangers.html",
+        "https://m.indiamart.com/impcat/plant-hanger.html",
+        "https://www.vibecity.com/beautiful-macrame-hanging-planter-set-of-2/05979043",
+        "https://www.nykaafashion.com/ecofynd-macrame-cotton-plant-hanger-set-of-2/p/9607211",
+        "https://nurserylive.com/products/handmade-sa007-macrame-hanger-for-plants-sutli-brown-set-of-2",
+        "https://www.pepperfry.com/product/off-white-macrame-boho-hanging-planter-set-of-2-by-ecofynd-2010056.html",
+        "https://www.pepperfry.com/product/off-white-macrame-designer-hanging-planter-set-of-2-2010058.html"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-11-12",
+        "notes": "Rs 499 is not realistic: of the set-of-2 prices found on 2026-11-12 only Vibecity (Rs 599) is above it, while Pepperfry (Rs 199/399), NurseryLive (Rs 349) and Nykaa/Homesake (Rs 340) sell lower, and the margin does not survive any realistic lower price (profit_report shopify base at cost Rs 130: Rs 449 = 27.4%, Rs 399 = 18.8%, Rs 349 = 7.9%, all under the 30% minimum; Rs 449 is also the policy price floor). Even at Rs 499 it only passes (34.2%) on unverified Rs 60-65/pc IndiaMART snippet costs and drops to 23.2% at the Rs 90/pc Ghaziabad cost; reviews of similar hangers also report thin cord and shorter-than-listed length.",
+        "competitor_prices": [
+          {
+            "price": 599,
+            "url": "https://www.vibecity.com/beautiful-macrame-hanging-planter-set-of-2/05979043",
+            "seen_on": "2026-11-12",
+            "note": "set of 2, MRP 799 (WebSearch snippet)"
+          },
+          {
+            "price": 399,
+            "url": "https://www.pepperfry.com/product/off-white-macrame-designer-hanging-planter-set-of-2-2010058.html",
+            "seen_on": "2026-11-12",
+            "note": "Ecofynd set of 2, MRP 499 (WebSearch snippet)"
+          },
+          {
+            "price": 199,
+            "url": "https://www.pepperfry.com/product/off-white-macrame-boho-hanging-planter-set-of-2-by-ecofynd-2010056.html",
+            "seen_on": "2026-11-12",
+            "note": "Ecofynd boho set of 2, MRP 499; snippets also showed Rs 189 (MRP 399) on a sibling boho listing (2010055) - exact URL-to-price mapping between the two boho listings not confirmed"
+          },
+          {
+            "price": 349,
+            "url": "https://nurserylive.com/products/handmade-sa007-macrame-hanger-for-plants-sutli-brown-set-of-2",
+            "seen_on": "2026-11-12",
+            "note": "sutli/jute set of 2, down from 384 (WebSearch snippet)"
+          },
+          {
+            "price": 340,
+            "url": "https://www.nykaa.com/homesake-macrame-plant-hanger-weaving-2-pieces-single/p/9568389",
+            "seen_on": "2026-11-12",
+            "note": "Homesake 2 pieces, listed regular 2000 (WebSearch snippet)"
+          }
+        ],
+        "margin_check": {
+          "source": "scripts/profit_report.run(candidate,'shopify'), base scenario, run 2026-11-12",
+          "cost_130": {
+            "599": 44.41,
+            "499": 34.18,
+            "449": 27.36,
+            "399": 18.83,
+            "349": 7.86
+          },
+          "cost_180": {
+            "499": 23.21,
+            "449": 15.16
+          }
+        },
+        "complaint_sources": [
+          "https://meesho.com/d/p/67BUOA",
+          "https://www.desertcart.sg/products/296806700-ecofynd-cotton-plant-hanger-ivory-39-inches-1-piece"
+        ],
+        "unverified": "No Amazon.in or Flipkart set-of-2 price found in 4 WebSearch calls; Meesho set-of-2 price (snippet showed 210) was ambiguous and not used. Supplier costs remain snippet-only (IndiaMART pages blocked)."
+      },
+      "ca": null
+    },
+    {
       "id": "RA-20261021-3",
       "name": "Satin heatless hair curler (curling rod) set",
       "category": "beauty_tools",
