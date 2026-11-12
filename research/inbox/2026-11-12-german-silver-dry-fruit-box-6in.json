@@ -1,0 +1,66 @@
+{
+  "id": "RA-20261112-3",
+  "name": "German silver (white metal) dry fruit box with lid, approx. 6 in, wedding / return gift",
+  "category": "home_gifting",
+  "weight": "le_1kg",
+  "supplier_cost": 240,
+  "supplier_cost_note": "IndiaMART listing 'German Silver Box, 6 inch' Rs 240/piece, usage return gift, plating silver, seller Sabri International; seen 2026-11-12 via WebSearch snippet of https://m.indiamart.com/impcat/silver-box.html (page not fetchable). Seller state and MOQ not captured. Assumed excl. GST. Other listings in the same results: Dua Metal, Moradabad, 1000 g German silver dry fruit box Rs 330/piece; 350 g round box Rs 125/piece; 500 g wedding box Rs 170/piece; 250 g box Rs 395/piece.",
+  "price": 799,
+  "retail_observed": "UNVALIDATED: no retail price for a single 6 in German silver dry fruit box was found. Related data points seen 2026-11-12: Natriel German silver dry fruit platter and bowl set Rs 1,989 sale (out of stock, larger set); a two-bowl 'INTERNATIONAL GIFT' bowl set at Rs 390 on a July-2026 comparison page (magicdrop.in), which suggests Rs 799 may be high for a single box.",
+  "gst_pct": 18,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "UNKNOWN",
+  "demand_signals": [
+    {
+      "source": "DigiRake 'German Silver Return Gifts: Complete Buying Guide'",
+      "url": "https://knowledge.digirake.com/?p=8834",
+      "seen_on": "2026-11-12",
+      "summary": "Buying guide covering German silver return gifts for weddings/festivals; undated retailer content, no volume data."
+    },
+    {
+      "source": "IndiaMART wedding gift / silver dry fruit box categories",
+      "url": "https://m.indiamart.com/impcat/silver-dry-fruit-box.html",
+      "seen_on": "2026-11-12",
+      "summary": "Many B2B sellers list German silver dry fruit boxes as wedding return gifts; supply-side signal only."
+    }
+  ],
+  "risks": [
+    "Supplier location unknown: treated as out of Odisha (website-only) until confirmed; Moradabad (UP) is the likely source cluster",
+    "Retail price unvalidated; Rs 799 must be checked against Amazon/Meesho before listing",
+    "Material claim: some 'German silver' listings are aluminium or iron with plating; describe as white metal/silver-plated unless supplier evidence is provided (policy require_evidence_for_claims)",
+    "Tarnishing and dents in transit; needs rigid gift box",
+    "Avoid glass-jar variants (fragile glass is blocked)",
+    "Sold empty (no dry fruits) to stay out of the food category",
+    "Category 'home_gifting' is not in the preferred list; GST/HSN (7117/7326/7418) to be confirmed by CA"
+  ],
+  "sources": [
+    "https://m.indiamart.com/impcat/silver-box.html",
+    "https://m.indiamart.com/impcat/silver-dry-fruit-box.html",
+    "https://m.indiamart.com/impcat/wedding-gift.html",
+    "https://www.natriel.com/products/german-silver-dry-fruit-platter-and-bowl-set",
+    "https://magicdrop.in/drops/bhaubeej-gift",
+    "https://knowledge.digirake.com/?p=8834"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-11-12",
+    "notes": "Rs 799 is unsupported: three targeted searches on 2026-11-12 found no retail listing for a single German silver box near Rs 799, while a 2-bowl German silver set retails at Rs 390 (magicdrop.in, per research note; not re-fetchable) and a lidded box with 4 bowls is Rs 480 wholesale on IndiaMART; the economics fail below about Rs 760 (Rs 599 gives 10.6% margin, Rs 499 is loss-making). Also unresolved: supplier state, the 'German silver' material claim (no evidence, policy require_evidence_for_claims) and a non-preferred category.",
+    "competitor_prices": [
+      {
+        "price": 390,
+        "url": "https://magicdrop.in/drops/bhaubeej-gift"
+      },
+      {
+        "price": 480,
+        "url": "https://m.indiamart.com/impcat/silver-box.html"
+      },
+      {
+        "price": 2699,
+        "url": "https://www.natriel.com/products/german-silver-dry-fruit-platter-and-bowl-set-with-lid-home-decor-item"
+      }
+    ]
+  }
+}

@@ -725,6 +725,41 @@
       "ca": null
     },
     {
+      "id": "RA-20261112-1",
+      "name": "360-degree rotating 2-tier makeup / skincare organiser (plastic, clear)",
+      "category": "home_storage",
+      "price": 599.0,
+      "supplier_cost": 150.0,
+      "stage": "BELOW_TARGET",
+      "reason": "no channel reaches 30% margin",
+      "best_channel": "shopify",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": 136.06,
+        "margin": 29.13,
+        "conservative": 66.35
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 136.06,
+          "margin": 29.13,
+          "conservative": 66.35
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": true,
+      "sources": [
+        "https://m.indiamart.com/impcat/rotating-makeup-organizer.html",
+        "https://shop.globalbees.com/products/modular-2-tier-round-stand-versatile-kitchen-storage-organizer-21-5cm-transparent",
+        "https://www.meesho.com/xpandio-rotating-makeup-organizer-for-vanity-high-capacity-skincare-clear-make-up-storage-perfume-organizers-cosmetic-dresser-organizer-countertop-360-spinning-vintage-green-2-tier/p/829urz"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
       "id": "RA-20261111-3",
       "name": "Printed silk potli bag cum bangle/jewellery organiser, set of 3 (wedding gifting)",
       "category": "women_accessories",
@@ -1777,6 +1812,127 @@
           }
         ],
         "caveats": "Flipkart Rs 861 is a search-snippet price possibly from a stale cache; all prices from search snippets seen 2026-10-31, pages not opened."
+      },
+      "ca": null
+    },
+    {
+      "id": "RA-20261112-3",
+      "name": "German silver (white metal) dry fruit box with lid, approx. 6 in, wedding / return gift",
+      "category": "home_gifting",
+      "price": 799.0,
+      "supplier_cost": 240.0,
+      "stage": "REJECTED",
+      "reason": "reviewer or CA rejected: Rs 799 is unsupported: three targeted searches on 2026-11-12 found no retail listing for a single German silver box near Rs 799, while a 2-bowl German silver set retails at Rs 390 (magicdrop.in, per research note; not re-fetchable) and a lidded box with 4 bowls is Rs 480 wholesale on IndiaMART; the economics fail below about Rs 760 (Rs 599 gives 10.6% margin, Rs 499 is loss-making). Also unresolved: supplier state, the 'German silver' material claim (no evidence, policy require_evidence_for_claims) and a non-preferred category.",
+      "best_channel": "shopify",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 197.59,
+        "margin": 31.72,
+        "conservative": 122.9
+      },
+      "channels": {
+        "shopify": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 197.59,
+          "margin": 31.72,
+          "conservative": 122.9
+        }
+      },
+      "passing_channels": [
+        "shopify"
+      ],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/silver-box.html",
+        "https://m.indiamart.com/impcat/silver-dry-fruit-box.html",
+        "https://m.indiamart.com/impcat/wedding-gift.html",
+        "https://www.natriel.com/products/german-silver-dry-fruit-platter-and-bowl-set",
+        "https://magicdrop.in/drops/bhaubeej-gift",
+        "https://knowledge.digirake.com/?p=8834"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-11-12",
+        "notes": "Rs 799 is unsupported: three targeted searches on 2026-11-12 found no retail listing for a single German silver box near Rs 799, while a 2-bowl German silver set retails at Rs 390 (magicdrop.in, per research note; not re-fetchable) and a lidded box with 4 bowls is Rs 480 wholesale on IndiaMART; the economics fail below about Rs 760 (Rs 599 gives 10.6% margin, Rs 499 is loss-making). Also unresolved: supplier state, the 'German silver' material claim (no evidence, policy require_evidence_for_claims) and a non-preferred category.",
+        "competitor_prices": [
+          {
+            "price": 390,
+            "url": "https://magicdrop.in/drops/bhaubeej-gift"
+          },
+          {
+            "price": 480,
+            "url": "https://m.indiamart.com/impcat/silver-box.html"
+          },
+          {
+            "price": 2699,
+            "url": "https://www.natriel.com/products/german-silver-dry-fruit-platter-and-bowl-set-with-lid-home-decor-item"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
+      "id": "RA-20261112-2",
+      "name": "Bamboo desk organiser, 3 compartments (pen / mobile / cards), office and corporate gifting",
+      "category": "office_desk",
+      "price": 699.0,
+      "supplier_cost": 199.0,
+      "stage": "REJECTED",
+      "reason": "reviewer or CA rejected: Competitors sell the same 3-way pen/visiting-card/mobile holder far cheaper: Rs 149 on Meesho (BMB Shoppe, about 4.2 stars from 400+ ratings) and Rs 213 for the Gurez Woodkey 3-in-1 (now down from the Rs 449 the researcher saw); the only Rs 699 anchor is a wooden Apkamart listing with an inflated Rs 2,500 MRP. The margin needs about Rs 670 or more (Rs 599 gives 23.2%, Rs 449 is loss-making), so no realistic price meets the 30% target.",
+      "best_channel": "shopify",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 192.18,
+        "margin": 33.47,
+        "conservative": 118.79
+      },
+      "channels": {
+        "shopify": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 192.18,
+          "margin": 33.47,
+          "conservative": 118.79
+        }
+      },
+      "passing_channels": [
+        "shopify"
+      ],
+      "retail_validated": true,
+      "sources": [
+        "https://m.indiamart.com/impcat/desk-organizer.html",
+        "https://m.indiamart.com/decorpoholix/profile.html",
+        "https://apkamart.com/a/s/products/pen-stand-52",
+        "https://indiahandmade.com/bamboo-pen-holder.html",
+        "https://gurez.com/product/woodkey-wooden-desk-organizer-black-3in1-7"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-11-12",
+        "notes": "Competitors sell the same 3-way pen/visiting-card/mobile holder far cheaper: Rs 149 on Meesho (BMB Shoppe, about 4.2 stars from 400+ ratings) and Rs 213 for the Gurez Woodkey 3-in-1 (now down from the Rs 449 the researcher saw); the only Rs 699 anchor is a wooden Apkamart listing with an inflated Rs 2,500 MRP. The margin needs about Rs 670 or more (Rs 599 gives 23.2%, Rs 449 is loss-making), so no realistic price meets the 30% target.",
+        "competitor_prices": [
+          {
+            "price": 149,
+            "url": "https://www.meesho.com/rs-pen-stand-with-visiting-card-mobile-holder-multipurpose-wooden-desk-organizer-pen-and-pencil-stand-for-office-table-with-business-card-holder-box/p/7oib2o"
+          },
+          {
+            "price": 213,
+            "url": "https://gurez.com/product/woodkey-wooden-desk-organizer-black-3in1-7"
+          },
+          {
+            "price": 211,
+            "url": "https://www.flipkart.com/artend-1-compartments-wooden-pen-holder-study-desk-organiser/p/itmec705a62712f5"
+          },
+          {
+            "price": 699,
+            "url": "https://apkamart.com/a/s/products/pen-stand-52"
+          }
+        ]
       },
       "ca": null
     },

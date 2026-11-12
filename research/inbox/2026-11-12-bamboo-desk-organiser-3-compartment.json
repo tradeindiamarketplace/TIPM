@@ -1,0 +1,67 @@
+{
+  "id": "RA-20261112-2",
+  "name": "Bamboo desk organiser, 3 compartments (pen / mobile / cards), office and corporate gifting",
+  "category": "office_desk",
+  "weight": "le_1kg",
+  "supplier_cost": 199,
+  "supplier_cost_note": "IndiaMART listing 'Bamboo Desk Organiser - Stylish, Functional & Eco-Friendly' Rs 199/piece, 3 compartments, seller Greeniecan India, New Delhi; seen 2026-11-12 via WebSearch snippet of https://m.indiamart.com/impcat/desk-organizer.html (page not fetchable). MOQ not captured. Assumed excl. GST. Other bamboo listings in the same results: De Corpoholix bamboo mobile-pen stand sets Rs 97-180/piece; Akinitos (Chennai) bamboo card holder with double pen holder Rs 115/piece.",
+  "price": 699,
+  "retail_observed": "PARTIAL: Apkamart 'Wooden Pen Mobile & Card Holder 3 Compartments - 7 Inch' Rs 699 sale (MRP shown Rs 2,500), wooden not bamboo; indiahandmade.com bamboo pen holder (single compartment) Rs 450 special price (Rs 500 regular), out of stock; Gurez Woodkey 3-in-1 engineered-wood organiser Rs 449 MRP. All seen 2026-11-12 via WebSearch snippets. No exact bamboo 3-compartment retail price found.",
+  "gst_pct": 12,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Delhi",
+  "demand_signals": [
+    {
+      "source": "IndiaMART corporate-gifting desk organiser listings",
+      "url": "https://m.indiamart.com/proddetail/lotus-pen-stand-with-coasters-stylish-desk-organizer-for-corporate-gifting-office-accessories-2856387575430.html",
+      "seen_on": "2026-11-12",
+      "summary": "Several B2B sellers (Pune, Delhi, Chennai) market bamboo/wood pen stands specifically for corporate gifting; supply-side signal only."
+    },
+    {
+      "source": "Apkamart retail listing",
+      "url": "https://apkamart.com/a/s/products/pen-stand-52",
+      "seen_on": "2026-11-12",
+      "summary": "3-compartment pen/mobile/card holder sold at Rs 699; retail price anchor, no sales data."
+    }
+  ],
+  "risks": [
+    "Out-of-Odisha supplier (New Delhi): website-only per docs/05",
+    "Margin depends on Rs 699 holding; cheapest comparables retail at Rs 449, so price may need to fall (which would breach the ~29% cost ratio)",
+    "Bamboo can mould/crack in humid storage; check finish and packaging",
+    "'Eco-friendly' claim should be worded carefully; no certification seen",
+    "GST rate for bamboo articles (HSN 4602/4421) to be confirmed by CA; 12% is an estimate"
+  ],
+  "sources": [
+    "https://m.indiamart.com/impcat/desk-organizer.html",
+    "https://m.indiamart.com/decorpoholix/profile.html",
+    "https://apkamart.com/a/s/products/pen-stand-52",
+    "https://indiahandmade.com/bamboo-pen-holder.html",
+    "https://gurez.com/product/woodkey-wooden-desk-organizer-black-3in1-7"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-11-12",
+    "notes": "Competitors sell the same 3-way pen/visiting-card/mobile holder far cheaper: Rs 149 on Meesho (BMB Shoppe, about 4.2 stars from 400+ ratings) and Rs 213 for the Gurez Woodkey 3-in-1 (now down from the Rs 449 the researcher saw); the only Rs 699 anchor is a wooden Apkamart listing with an inflated Rs 2,500 MRP. The margin needs about Rs 670 or more (Rs 599 gives 23.2%, Rs 449 is loss-making), so no realistic price meets the 30% target.",
+    "competitor_prices": [
+      {
+        "price": 149,
+        "url": "https://www.meesho.com/rs-pen-stand-with-visiting-card-mobile-holder-multipurpose-wooden-desk-organizer-pen-and-pencil-stand-for-office-table-with-business-card-holder-box/p/7oib2o"
+      },
+      {
+        "price": 213,
+        "url": "https://gurez.com/product/woodkey-wooden-desk-organizer-black-3in1-7"
+      },
+      {
+        "price": 211,
+        "url": "https://www.flipkart.com/artend-1-compartments-wooden-pen-holder-study-desk-organiser/p/itmec705a62712f5"
+      },
+      {
+        "price": 699,
+        "url": "https://apkamart.com/a/s/products/pen-stand-52"
+      }
+    ]
+  }
+}

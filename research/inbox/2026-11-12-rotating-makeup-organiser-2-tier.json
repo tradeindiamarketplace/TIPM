@@ -1,0 +1,41 @@
+{
+  "id": "RA-20261112-1",
+  "name": "360-degree rotating 2-tier makeup / skincare organiser (plastic, clear)",
+  "category": "home_storage",
+  "weight": "le_1kg",
+  "supplier_cost": 150,
+  "supplier_cost_note": "IndiaMART listing '360 Rotating Makeup Organizer - 2 Tier Adjustable Skincare Carousel' Rs 150/piece, seen 2026-11-12 via WebSearch snippet of the IndiaMART rotating-makeup-organizer category page (page not fetchable from this sandbox). Seller name, city/state and MOQ not captured. Assumed excl. GST. Other listings in the same results: 2-layer rotating plastic organiser Rs 75/piece, rotating organiser Rs 200/piece, plastic 360 rotating organiser Rs 255/piece.",
+  "price": 599,
+  "retail_observed": "PARTIAL: closest comparable retail is Anko 2-Tiered Plastic Round Turntable Clear Organizer (8 in) at Rs 1,195 regular price on shop.globalbees.com (seen 2026-11-12 via WebSearch snippet). Meesho lists Xpandio 2-tier rotating makeup organisers but no price was visible. No Amazon/Flipkart price captured; Rs 599 sits well below the one rupee price seen.",
+  "gst_pct": 18,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "UNKNOWN",
+  "demand_signals": [
+    {
+      "source": "Meesho listings (Xpandio 2-tier rotating makeup organiser, several colours)",
+      "url": "https://www.meesho.com/xpandio-rotating-makeup-organizer-for-vanity-high-capacity-skincare-clear-make-up-storage-perfume-organizers-cosmetic-dresser-organizer-countertop-360-spinning-vintage-green-2-tier/p/829urz",
+      "seen_on": "2026-11-12",
+      "summary": "Indian sellers list the product in multiple colour variants on Meesho; presence signal only, no sales volume or rank seen."
+    },
+    {
+      "source": "Globalbees retail listing (Anko 2-tier turntable organiser)",
+      "url": "https://shop.globalbees.com/products/modular-2-tier-round-stand-versatile-kitchen-storage-organizer-21-5cm-transparent",
+      "seen_on": "2026-11-12",
+      "summary": "Branded comparable sells at Rs 1,195 regular price; retail price anchor, not demand data."
+    }
+  ],
+  "risks": [
+    "Supplier location and MOQ unknown: treated as out of Odisha (website-only, Shopify) until confirmed",
+    "Wide supplier price band (Rs 75-255) suggests quality variation; get photos/sample to confirm 2-tier size and clarity",
+    "Plastic may scratch or crack in transit; needs boxed packaging (not glass, so not blocked)",
+    "Retail validated only against one branded comparable; check Amazon/Meesho price before listing",
+    "Volumetric weight of a boxed carousel may exceed 1 kg slab; confirm carton size"
+  ],
+  "sources": [
+    "https://m.indiamart.com/impcat/rotating-makeup-organizer.html",
+    "https://shop.globalbees.com/products/modular-2-tier-round-stand-versatile-kitchen-storage-organizer-21-5cm-transparent",
+    "https://www.meesho.com/xpandio-rotating-makeup-organizer-for-vanity-high-capacity-skincare-clear-make-up-storage-perfume-organizers-cosmetic-dresser-organizer-countertop-360-spinning-vintage-green-2-tier/p/829urz"
+  ],
+  "stage": "NEW"
+}
