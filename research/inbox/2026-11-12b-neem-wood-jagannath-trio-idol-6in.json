@@ -1,0 +1,51 @@
+{
+  "id": "RA-20261112B-1",
+  "name": "Hand-carved, hand-painted neem wood Jagannath, Balabhadra and Subhadra idol set, approx. 6 in (Puri, Odisha)",
+  "category": "home_decor",
+  "weight": "le_500g",
+  "supplier_cost": null,
+  "supplier_cost_note": "No supplier price found. Real Enterprises, Puri, Odisha (IndiaMART seller of wooden deity idols) lists several 6 in neem wood Jagannath trio sets, but the search snippets seen on 2026-11-12 showed no prices; m.indiamart.com cannot be opened from this session (DNS blocked). Kumu & Company, Puri (IndiaMART) priced only a wooden chariot (Rs 4,700). A wholesale quote from a Puri maker is needed. Do not use the Utkalika retail price (Rs 1,090) as supplier cost: that is a retail price, so the margin would be negative.",
+  "price": 899,
+  "retail_observed": "UNVALIDATED on Amazon/Flipkart/Meesho. Seen 2026-11-12: Utkalika (Odisha State co-operative handicrafts outlet) 6 in neem wood Jagannath, Baladev and Subhadra figurine set, INR 1,090, in stock (utkalikaodisha.com and hunarsetu.com listing); Hunarsetu 6 in handcrafted wooden Jagannath trio on acrylic base, INR 1,049, in stock; Utkalika 5 in-per-idol neem wood set INR 1,548, out of stock. Meesho has a 4 in 'Real Craft' wooden Jagannath, Balaram and Subhadra showpiece (42 reviews, 4.4 rating), but its price could not be seen (meesho.com blocked; the snippet did not show it). No Amazon.in or Flipkart 6 in wooden trio listing with a price came up in 3 searches. Rs 899 is below the two Odisha retail prices but has NOT been checked against Meesho/Amazon. A cheap 4 in Meesho listing may undercut it.",
+  "gst_pct": 12,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Odisha",
+  "demand_signals": [
+    {
+      "source": "Meesho listing: Real Craft Lord Jagannath, Balaram and Subhadra idol, 4 in, wood",
+      "url": "https://www.meesho.com/real-craft-lord-jagannath-balaram-and-subhadra-idol-4-inches-multicolour-decorative-showpiece-10-cm-wood-multicolorclassic-idols-figurines/p/ghfoj",
+      "seen_on": "2026-11-12",
+      "summary": "42 reviews, 4.4 rating according to the search snippet. This shows some marketplace demand for a smaller wooden trio. The price was not visible."
+    },
+    {
+      "source": "Utkalika / Hunarsetu 6 in neem wood trio set",
+      "url": "https://www.hunarsetu.com/en/product/jagannath-baladev-and-subhadra-divine-neem-wooden-figurine-set-6-inch--msondc-57a3b52c28e809ae9699e5c2e310c94c",
+      "seen_on": "2026-11-12",
+      "summary": "In stock at INR 1,090. The 5 in-per-idol Utkalika set (INR 1,548) is out of stock. Stock-outs are a weak demand signal; there is no volume data."
+    },
+    {
+      "source": "Real Enterprises, Puri (IndiaMART)",
+      "url": "https://m.indiamart.com/realenterprisesindia/profile.html",
+      "seen_on": "2026-11-12",
+      "summary": "A Puri seller lists 5, 6, 8 and 10 in neem wood trio sets. This is a supply-side signal only."
+    }
+  ],
+  "risks": [
+    "No supplier cost: stays REJECTED ('no supplier cost yet') until a Puri wholesale quote is obtained. To reach about 35-40% cost at Rs 899, the landed cost needs to be about Rs 315-360 or less.",
+    "Retail not validated on Meesho/Amazon/Flipkart. Cheaper 4 in or resin/MDF Jagannath sets may undercut Rs 899. Check before any listing.",
+    "Religious item: images must be respectful, and listings should avoid any 'temple-blessed' or 'Puri Srimandir' claims without evidence. 'Neem wood' and 'hand-carved' claims need supplier confirmation (policy require_evidence_for_claims).",
+    "Hand-painted finish can chip in transit. Needs bubble wrap and a rigid box; the weight of under 500 g is estimated, not measured.",
+    "GST rate is an estimate (wooden handicraft statuettes, HSN 4420). The CA agent should confirm it."
+  ],
+  "sources": [
+    "https://utkalikaodisha.com/product/neem-wood-lord-jagannath-balabhadra-subhadra-idol-2",
+    "https://utkalikaodisha.com/?p=36043",
+    "https://www.hunarsetu.com/en/product/jagannath-baladev-and-subhadra-divine-neem-wooden-figurine-set-6-inch--msondc-57a3b52c28e809ae9699e5c2e310c94c",
+    "https://www.hunarsetu.com/en/product/handcrafted-wooden-jagannath-trio-idol-set-traditional-temple-decor-with-acrylic-multicolour-6inch-msondc-6940d340126247ee471d29bab34cf0b8",
+    "https://www.meesho.com/real-craft-lord-jagannath-balaram-and-subhadra-idol-4-inches-multicolour-decorative-showpiece-10-cm-wood-multicolorclassic-idols-figurines/p/ghfoj",
+    "https://m.indiamart.com/realenterprisesindia/profile.html",
+    "https://m.indiamart.com/kumu-odisha"
+  ],
+  "stage": "NEW"
+}

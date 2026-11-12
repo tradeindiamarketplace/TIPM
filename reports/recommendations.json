@@ -2864,6 +2864,31 @@
       ],
       "review": null,
       "ca": null
+    },
+    {
+      "id": "RA-20261112B-1",
+      "name": "Hand-carved, hand-painted neem wood Jagannath, Balabhadra and Subhadra idol set, approx. 6 in (Puri, Odisha)",
+      "category": "home_decor",
+      "price": 899.0,
+      "supplier_cost": null,
+      "stage": "REJECTED",
+      "reason": "no supplier cost yet",
+      "best_channel": null,
+      "best": null,
+      "channels": {},
+      "passing_channels": [],
+      "retail_validated": false,
+      "sources": [
+        "https://utkalikaodisha.com/product/neem-wood-lord-jagannath-balabhadra-subhadra-idol-2",
+        "https://utkalikaodisha.com/?p=36043",
+        "https://www.hunarsetu.com/en/product/jagannath-baladev-and-subhadra-divine-neem-wooden-figurine-set-6-inch--msondc-57a3b52c28e809ae9699e5c2e310c94c",
+        "https://www.hunarsetu.com/en/product/handcrafted-wooden-jagannath-trio-idol-set-traditional-temple-decor-with-acrylic-multicolour-6inch-msondc-6940d340126247ee471d29bab34cf0b8",
+        "https://www.meesho.com/real-craft-lord-jagannath-balaram-and-subhadra-idol-4-inches-multicolour-decorative-showpiece-10-cm-wood-multicolorclassic-idols-figurines/p/ghfoj",
+        "https://m.indiamart.com/realenterprisesindia/profile.html",
+        "https://m.indiamart.com/kumu-odisha"
+      ],
+      "review": null,
+      "ca": null
     }
   ]
 }
