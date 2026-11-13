@@ -1,0 +1,73 @@
+{
+  "id": "RA-20261113D-1",
+  "name": "Handmade resin coaster set with gold foil, 4 in round (set; piece count to be confirmed, target set of 4)",
+  "category": "kitchen_organisation",
+  "weight": "le_500g",
+  "supplier_cost": 220,
+  "supplier_cost_note": "IndiaMART 'Handmade Coasters' category page (search snippet seen 2026-11-13): 'Handmade Resin Coaster Set with Gold Foil. Premium Luxury Table Coasters' Rs 220/Set, white, 4 inch, resin. The snippet did not show the seller name, city, number of pieces per set or MOQ. A different listing on the same page, a set of 4 hand-painted resin coasters from Jagdamba Marble Handicrafts (Dayal Bagh, Agra), is Rs 450/Set, which is too high for this price. The resin-coaster category page shows a wide range (Rs 65-800/piece). Pages not opened directly.",
+  "price": 799,
+  "retail_observed": "Morataara blue resin coasters, set of 4, 4 in, Rs 1,850 incl. taxes (https://morataara.com/products/blue-resin-coasters-set-of-4); Vibecity HN Hues aquamarine resin art round coasters, set of 4, Rs 1,599 (MRP 2,999) (vibecity.com); Vibecity handmade resin coaster set with stand Rs 1,800 (includes a stand, so less comparable). LOWER competitor: WoodenStreet green gold-flakes triangular resin coasters, set of 4, Rs 649 (MRP 1,075). All search snippets seen 2026-11-13, pages not opened. Amazon.in/Flipkart/Meesho prices NOT checked (UNVALIDATED against marketplaces).",
+  "gst_pct": 18,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Unknown (seller city not shown; treated as out-of-Odisha, website-only)",
+  "demand_signals": [
+    {
+      "source": "Indian D2C / curated home brands listing resin coaster sets",
+      "url": "https://morataara.com/products/blue-resin-coasters-set-of-4",
+      "seen_on": "2026-11-13",
+      "summary": "Morataara (Rs 1,850), Vibecity HN Hues (Rs 1,599, 'only 1 left' per snippet), WoodenStreet (Rs 649) and Pernia's Pop-Up Shop (Think Artly resin set, $57) all list resin coaster sets. This shows the products are listed. No sales volume data."
+    }
+  ],
+  "risks": [
+    "Supplier listing gives no seller, city, pieces per set or MOQ. Need a written quote confirming a set of 4, single-set drop-ship, at <= ~Rs 231 (29% of Rs 799).",
+    "WoodenStreet sells a set of 4 resin coasters with gold flakes at Rs 649, which is below the proposed Rs 799. Shoppers may compare on price.",
+    "Marketplace check not done. If Amazon.in, Flipkart or Meesho sell similar resin coaster sets well below Rs 799, conversion will suffer.",
+    "Resin can chip or scratch and may yellow under UV, and hot mugs can mark it. Do not claim heat-proof or food-grade without a test report (Vibecity notes 'not food grade').",
+    "Handmade pieces vary in colour and pattern. The listing needs to say so to reduce 'not as pictured' returns.",
+    "GST: 18% assumed (HSN 3926/3924 plastic articles). CA to confirm.",
+    "Not glass. Pack with bubble wrap anyway to protect the gold foil edges."
+  ],
+  "sources": [
+    "https://m.indiamart.com/impcat/handmade-coasters.html",
+    "https://m.indiamart.com/impcat/resin-coaster.html",
+    "https://morataara.com/products/blue-resin-coasters-set-of-4",
+    "https://www.vibecity.com/hn-hues-aquamarine-aesthetic-resin-art-round-coasters-set-of-4-handcraft-marble-effect-for-multipurpose-use-cups-mugs/88089560",
+    "https://www.vibecity.com/handmade-resin-coaster-set-with-stand/52150224",
+    "https://www.woodenstreet.com/product/green-gold-flakes-set-of-4-triangular-premium-resin-coasters",
+    "https://www.perniaspopupshop.com/think-artly-black-white-resin-round-coaster-set-thnk102348.html"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "needs_info",
+    "by": "product-reviewer",
+    "at": "2026-11-13",
+    "notes": "Rs 799 has no price headroom: Flipkart resin coaster sets of 4 sell at Rs 670-799 (Vision Craft Rs 745/offer 670, Custogifthub Rs 759-799/offer 684-724; cached snippets, roughly Aug 2026, seen 2026-11-13), one listing at Rs 264, and WoodenStreet gold-flake set of 4 at Rs 649, so plan for ~Rs 649, which cuts net revenue (ex-GST) from ~Rs 677 to ~Rs 550. The Rs 220 cost is an unattributed IndiaMART snippet with no seller, city, piece count or MOQ. Need a written quote for a 4-piece set, single-set drop-ship, at <= ~Rs 180, plus real photos with permission. Make no heat-proof or food-grade claims without a test report.",
+    "competitor_prices": [
+      {
+        "price": 745,
+        "url": "https://www.flipkart.com/vision-craft-resin-round-coaster-set/p/itm67d392ce66584"
+      },
+      {
+        "price": 799,
+        "url": "https://www.flipkart.com/custogifthub-round-resin-coaster-set/p/itm88770d686aaa9"
+      },
+      {
+        "price": 759,
+        "url": "https://www.flipkart.com/custogifthub-round-resin-coaster-set/p/itmde551ea7e3f74"
+      },
+      {
+        "price": 649,
+        "url": "https://www.woodenstreet.com/product/green-gold-flakes-set-of-4-triangular-premium-resin-coasters"
+      },
+      {
+        "price": 1850,
+        "url": "https://morataara.com/products/blue-resin-coasters-set-of-4"
+      },
+      {
+        "price": 1599,
+        "url": "https://www.vibecity.com/hn-hues-aquamarine-aesthetic-resin-art-round-coasters-set-of-4-handcraft-marble-effect-for-multipurpose-use-cups-mugs/88089560"
+      }
+    ]
+  }
+}

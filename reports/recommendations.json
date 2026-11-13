@@ -518,6 +518,78 @@
       "ca": null
     },
     {
+      "id": "RA-20261113D-1",
+      "name": "Handmade resin coaster set with gold foil, 4 in round (set; piece count to be confirmed, target set of 4)",
+      "category": "kitchen_organisation",
+      "price": 799.0,
+      "supplier_cost": 220.0,
+      "stage": "NEEDS_INFO",
+      "reason": "Rs 799 has no price headroom: Flipkart resin coaster sets of 4 sell at Rs 670-799 (Vision Craft Rs 745/offer 670, Custogifthub Rs 759-799/offer 684-724; cached snippets, roughly Aug 2026, seen 2026-11-13), one listing at Rs 264, and WoodenStreet gold-flake set of 4 at Rs 649, so plan for ~Rs 649, which cuts net revenue (ex-GST) from ~Rs 677 to ~Rs 550. The Rs 220 cost is an unattributed IndiaMART snippet with no seller, city, piece count or MOQ. Need a written quote for a 4-piece set, single-set drop-ship, at <= ~Rs 180, plus real photos with permission. Make no heat-proof or food-grade claims without a test report.",
+      "best_channel": "shopify",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 236.79,
+        "margin": 38.01,
+        "conservative": 165.7
+      },
+      "channels": {
+        "shopify": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 236.79,
+          "margin": 38.01,
+          "conservative": 165.7
+        }
+      },
+      "passing_channels": [
+        "shopify"
+      ],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/handmade-coasters.html",
+        "https://m.indiamart.com/impcat/resin-coaster.html",
+        "https://morataara.com/products/blue-resin-coasters-set-of-4",
+        "https://www.vibecity.com/hn-hues-aquamarine-aesthetic-resin-art-round-coasters-set-of-4-handcraft-marble-effect-for-multipurpose-use-cups-mugs/88089560",
+        "https://www.vibecity.com/handmade-resin-coaster-set-with-stand/52150224",
+        "https://www.woodenstreet.com/product/green-gold-flakes-set-of-4-triangular-premium-resin-coasters",
+        "https://www.perniaspopupshop.com/think-artly-black-white-resin-round-coaster-set-thnk102348.html"
+      ],
+      "review": {
+        "verdict": "needs_info",
+        "by": "product-reviewer",
+        "at": "2026-11-13",
+        "notes": "Rs 799 has no price headroom: Flipkart resin coaster sets of 4 sell at Rs 670-799 (Vision Craft Rs 745/offer 670, Custogifthub Rs 759-799/offer 684-724; cached snippets, roughly Aug 2026, seen 2026-11-13), one listing at Rs 264, and WoodenStreet gold-flake set of 4 at Rs 649, so plan for ~Rs 649, which cuts net revenue (ex-GST) from ~Rs 677 to ~Rs 550. The Rs 220 cost is an unattributed IndiaMART snippet with no seller, city, piece count or MOQ. Need a written quote for a 4-piece set, single-set drop-ship, at <= ~Rs 180, plus real photos with permission. Make no heat-proof or food-grade claims without a test report.",
+        "competitor_prices": [
+          {
+            "price": 745,
+            "url": "https://www.flipkart.com/vision-craft-resin-round-coaster-set/p/itm67d392ce66584"
+          },
+          {
+            "price": 799,
+            "url": "https://www.flipkart.com/custogifthub-round-resin-coaster-set/p/itm88770d686aaa9"
+          },
+          {
+            "price": 759,
+            "url": "https://www.flipkart.com/custogifthub-round-resin-coaster-set/p/itmde551ea7e3f74"
+          },
+          {
+            "price": 649,
+            "url": "https://www.woodenstreet.com/product/green-gold-flakes-set-of-4-triangular-premium-resin-coasters"
+          },
+          {
+            "price": 1850,
+            "url": "https://morataara.com/products/blue-resin-coasters-set-of-4"
+          },
+          {
+            "price": 1599,
+            "url": "https://www.vibecity.com/hn-hues-aquamarine-aesthetic-resin-art-round-coasters-set-of-4-handcraft-marble-effect-for-multipurpose-use-cups-mugs/88089560"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
       "id": "RA-20261022B-3",
       "name": "Handwoven sabai grass roti / chapati box with lid, approx. 8 in (Odisha handicraft)",
       "category": "kitchen_organisation",
@@ -1458,6 +1530,71 @@
         ],
         "same_supplier_on_marketplace": "https://www.amazon.in/ZOCTALGEM-pattachitra-Raghurajpur-handicrafts-background/dp/B0CJ5NM91D",
         "unverified": "Amazon.in/Flipkart/Meesho prices not retrievable (amazon.in DNS blocked from session); iTokri has no size-matched talapatra listing found"
+      },
+      "ca": null
+    },
+    {
+      "id": "RA-20261113D-2",
+      "name": "Black powder-coated iron metal wall art, single piece (size to be confirmed, target ~24 in)",
+      "category": "home_decor",
+      "price": 1099.0,
+      "supplier_cost": 299.0,
+      "stage": "REJECTED",
+      "reason": "reviewer or CA rejected: A ~24 in iron piece breaks the le_2kg weight rule. Comparable black iron wall art on Pepperfry weighs 1.5-2.6 kg actual (WallCentre tree 1.9 kg, Desert Oak eagle 1.5 kg, Desert Oak frame 2.6 kg, Decorativs 127x53 cm 2.5 kg; seen 2026-11-13). A rigid ~61x61 cm carton even 5 cm deep is ~3.7 kg volumetric (L*W*H/5000, my estimate). The Rs 299 cost for an unknown design and size ('24-48', no unit) is also unverified. Our Rs 1,099 price would hold (Flipkart 18x24 in black metal art Rs 1,566, Pepperfry Rs 2,199+), so a small piece (<= ~15 in) with a confirmed packed weight could be submitted again as a new candidate.",
+      "best_channel": "shopify",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 322.85,
+        "margin": 37.68,
+        "conservative": 231.17
+      },
+      "channels": {
+        "shopify": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 322.85,
+          "margin": 37.68,
+          "conservative": 231.17
+        }
+      },
+      "passing_channels": [
+        "shopify"
+      ],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/metal-wall-art.html",
+        "https://wallmantra.com/products/abstract-stone-inspired-metal-wall-art-piece-green-black",
+        "https://www.pepperfry.com/product/black-iron-fram-metal-wall-art-by-desert-oak-1998053.html",
+        "https://www.pepperfry.com/product/iron-abstract-wall-art-in-black-by-decorativs-2036965.html"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-11-13",
+        "notes": "A ~24 in iron piece breaks the le_2kg weight rule. Comparable black iron wall art on Pepperfry weighs 1.5-2.6 kg actual (WallCentre tree 1.9 kg, Desert Oak eagle 1.5 kg, Desert Oak frame 2.6 kg, Decorativs 127x53 cm 2.5 kg; seen 2026-11-13). A rigid ~61x61 cm carton even 5 cm deep is ~3.7 kg volumetric (L*W*H/5000, my estimate). The Rs 299 cost for an unknown design and size ('24-48', no unit) is also unverified. Our Rs 1,099 price would hold (Flipkart 18x24 in black metal art Rs 1,566, Pepperfry Rs 2,199+), so a small piece (<= ~15 in) with a confirmed packed weight could be submitted again as a new candidate.",
+        "competitor_prices": [
+          {
+            "price": 1566,
+            "url": "https://www.flipkart.com/rapido-electornics-ayatul-kursi-metal-wall-art-18-24-inch/p/itm5b54741291a2c"
+          },
+          {
+            "price": 2199,
+            "url": "https://www.pepperfry.com/product/independent-tree-of-life-metal-wall-art-by-wallcentre-1914998.html"
+          },
+          {
+            "price": 2349,
+            "url": "https://www.pepperfry.com/product/black-iron-fram-metal-wall-art-by-desert-oak-1998050.html"
+          },
+          {
+            "price": 4749,
+            "url": "https://www.pepperfry.com/product/black-iron-eigle-metal-wall-art-1998047.html"
+          },
+          {
+            "price": 4499,
+            "url": "https://wallmantra.com/products/abstract-stone-inspired-metal-wall-art-piece-green-black"
+          }
+        ]
       },
       "ca": null
     },

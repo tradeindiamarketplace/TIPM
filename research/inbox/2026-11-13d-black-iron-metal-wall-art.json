@@ -1,0 +1,67 @@
+{
+  "id": "RA-20261113D-2",
+  "name": "Black powder-coated iron metal wall art, single piece (size to be confirmed, target ~24 in)",
+  "category": "home_decor",
+  "weight": "le_2kg",
+  "supplier_cost": 299,
+  "supplier_cost_note": "IndiaMART 'Metal Wall Art' category page (search snippet seen 2026-11-13): 'Black Iron Metal Wall Art' Rs 299/Piece, A Z Handicrafts, Moradabad (UP), 8 years on IndiaMART, rated 4.7 from 81 ratings. Size is listed as '24-48' with no unit. Design, weight, finish and MOQ were not shown. Other IndiaMART iron wall art in the snippet: Rs 449/piece (another seller), and Rs 1,250-1,700 for 2x2 ft pieces. Page not opened directly.",
+  "price": 1099,
+  "retail_observed": "WallMantra abstract stone-inspired metal wall art (green and black) Rs 4,499 (size not shown); Pepperfry Desert Oak 'Black Iron Fram Metal Wall Art' Rs 5,599 (MRP 9,699, size not shown); Pepperfry Decorativs black and yellow abstract iron wall art Rs 5,199 (MRP 7,899). All search snippets seen 2026-11-13. Sizes and designs are not matched to the supplier piece, so these are category comparables only. Amazon.in/Flipkart/Meesho prices NOT checked (UNVALIDATED against marketplaces, where cheap MDF and iron wall art is common).",
+  "gst_pct": 18,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Uttar Pradesh",
+  "demand_signals": [
+    {
+      "source": "Indian D2C / furniture marketplaces listing black iron wall art",
+      "url": "https://wallmantra.com/products/abstract-stone-inspired-metal-wall-art-piece-green-black",
+      "seen_on": "2026-11-13",
+      "summary": "WallMantra and Pepperfry (Desert Oak, Decorativs) list many black iron wall art pieces at Rs 4,199-8,549. This shows the products are listed and priced high. No sales volume data."
+    }
+  ],
+  "risks": [
+    "Size unit is unknown ('24-48'). If it is 24-48 inches, the parcel's volumetric weight is likely to exceed the 2 kg slab and could break the weight rule. Get exact dimensions, actual weight and packed carton size before going further.",
+    "The Rs 299 price is a category snippet. The design is unknown, and Rs 299 for a 24 in+ iron piece looks low (2x2 ft pieces elsewhere are Rs 1,250-1,700). Need a written quote for a specific design, single-piece drop-ship, at <= ~Rs 318 (29% of Rs 1,099).",
+    "Retail comparables are different designs and sizes. The Rs 4,000+ D2C prices may reflect larger pieces, so the true comparable price could be lower.",
+    "Marketplace check not done. Amazon.in, Flipkart and Meesho have many low-priced metal and MDF wall art pieces that could undercut Rs 1,099.",
+    "Bent corners and paint chips in transit. Needs rigid packing, and the supplier must agree to cover replacement.",
+    "Designs must not copy artists' or brands' IP, or show religious or brand logos without care.",
+    "Category 'home_decor' is not in the policy's preferred list, though it is not blocked.",
+    "GST: 18% assumed (HSN 7326 iron articles). The handicraft 5% rate may apply. CA to confirm."
+  ],
+  "sources": [
+    "https://m.indiamart.com/impcat/metal-wall-art.html",
+    "https://wallmantra.com/products/abstract-stone-inspired-metal-wall-art-piece-green-black",
+    "https://www.pepperfry.com/product/black-iron-fram-metal-wall-art-by-desert-oak-1998053.html",
+    "https://www.pepperfry.com/product/iron-abstract-wall-art-in-black-by-decorativs-2036965.html"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-11-13",
+    "notes": "A ~24 in iron piece breaks the le_2kg weight rule. Comparable black iron wall art on Pepperfry weighs 1.5-2.6 kg actual (WallCentre tree 1.9 kg, Desert Oak eagle 1.5 kg, Desert Oak frame 2.6 kg, Decorativs 127x53 cm 2.5 kg; seen 2026-11-13). A rigid ~61x61 cm carton even 5 cm deep is ~3.7 kg volumetric (L*W*H/5000, my estimate). The Rs 299 cost for an unknown design and size ('24-48', no unit) is also unverified. Our Rs 1,099 price would hold (Flipkart 18x24 in black metal art Rs 1,566, Pepperfry Rs 2,199+), so a small piece (<= ~15 in) with a confirmed packed weight could be submitted again as a new candidate.",
+    "competitor_prices": [
+      {
+        "price": 1566,
+        "url": "https://www.flipkart.com/rapido-electornics-ayatul-kursi-metal-wall-art-18-24-inch/p/itm5b54741291a2c"
+      },
+      {
+        "price": 2199,
+        "url": "https://www.pepperfry.com/product/independent-tree-of-life-metal-wall-art-by-wallcentre-1914998.html"
+      },
+      {
+        "price": 2349,
+        "url": "https://www.pepperfry.com/product/black-iron-fram-metal-wall-art-by-desert-oak-1998050.html"
+      },
+      {
+        "price": 4749,
+        "url": "https://www.pepperfry.com/product/black-iron-eigle-metal-wall-art-1998047.html"
+      },
+      {
+        "price": 4499,
+        "url": "https://wallmantra.com/products/abstract-stone-inspired-metal-wall-art-piece-green-black"
+      }
+    ]
+  }
+}
