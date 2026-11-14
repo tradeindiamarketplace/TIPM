@@ -1,0 +1,89 @@
+{
+  "id": "RA-20261114-1",
+  "name": "Handwoven cotton dhurrie rug, 2x3 ft, reversible (bedside / doorway / pooja room)",
+  "category": "home_furnishing",
+  "weight": "le_1kg",
+  "supplier_cost": 168,
+  "supplier_cost_note": "IndiaMART cotton durries / cotton handloom durries category pages (WebSearch snippets seen 2026-11-14, pages not opened): 'white reversible Royal handweave 2x3 ft durrie' Rs 28/sq ft, so 6 sq ft = ~Rs 168/piece (my arithmetic); 'royal handloom farshi durrie' 2x3 ft Rs 165/piece. Seller name and city for these two were not shown in the snippet. Other per-piece 2x3 ft listings: Panipat Mayur Overseas green plain handwoven 2x3 ft Rs 40/sq ft = ~Rs 240; National Woollen & Finishers green printed handloom durrie 2x3 ft Rs 250/piece. IndiaMART prices are typically ex-GST; MOQ not shown. At Rs 699 the cost ceiling for an out-of-Odisha supplier (~29%) is ~Rs 203, so only the Rs 165-168 listings fit; the Rs 240-250 listings do not.",
+  "price": 699,
+  "retail_observed": "Pepperfry: black cotton vintage 2x3 ft hand-woven dhurrie (Sashaa World) Rs 739 (https://www.pepperfry.com/product/black-cotton-vintage-2-x-3-feet-hand-woven-carpet-by-sashaa-world-1958552.html); Vibecity: 2x3 ft block-printed cotton dhurrie Rs 960 (MRP 1,152), out of stock in snapshot (https://vibecity.com/2-3ft-block-printed-cotton-rug-bohemian-cotton-printed-rugs-flat-weaves-non-shedding-indian-dhurrie-block-print-bathroom/06761102); Vibecity cotton handmade reversible dhurrie, 2x3 option, Rs 3,200 (https://vibecity.com/cotton-handmade-dhurries-rug-indian-traditional-wooden-loom-rugs-flatwoven-cotton-kilim-dhurries-rug-cotton-panja/08186394); Urban Ladder Unik dhurrie 2x3 Rs 6,000 (https://www.urbanladder.com/product/unik-dhurrie-2-x-3-9657286). LOWER competitor: Flipkart 'Shag Weaving 2 ft x 3 ft' rug Rs 496 (MRP 1,500), titled polyester though description says cotton (https://www.flipkart.com/shag-weaving-2-ft-x-3-polyester-runner/p/itm9ec6055acfd01). All search snippets seen 2026-11-14, pages not opened. Amazon.in price NOT found (UNVALIDATED on Amazon).",
+  "gst_pct": 5,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Unknown (seller city not shown for the Rs 165-168 listings; likely Rajasthan/Haryana/UP dhurrie clusters; treated as out-of-Odisha, website-only)",
+  "demand_signals": [
+    {
+      "source": "Indian home-decor retailers listing 2x3 ft cotton dhurries",
+      "url": "https://www.pepperfry.com/product/black-cotton-vintage-2-x-3-feet-hand-woven-carpet-by-sashaa-world-1958552.html",
+      "seen_on": "2026-11-14",
+      "summary": "Pepperfry (Rs 739), Vibecity (Rs 960 out of stock; Rs 3,200), Urban Ladder (Rs 6,000) and Flipkart (Rs 496) list 2x3 ft dhurries/rugs. Shows the format is actively retailed; no sales volume data found."
+    }
+  ],
+  "risks": [
+    "Supplier snippet gives no seller name, city or MOQ for the Rs 165-168 listings. Need a written quote for single-piece drop-ship at <= ~Rs 203 incl. packing, plus photos with permission.",
+    "Flipkart has a 2x3 ft rug at Rs 496 (material ambiguous). Marketplace shoppers may compare on price; Amazon.in not checked.",
+    "Weight not confirmed. A 2x3 ft cotton dhurrie is usually well under 1 kg, but get the packed weight from the supplier; slab le_1kg assumed.",
+    "Colour/weave variation in handloom items and possible colour bleed on first wash; listing must say 'dry clean / gentle hand wash, colours may vary'.",
+    "Do not claim '100% cotton' or 'handloom' without supplier confirmation (Handloom Mark if claiming handloom).",
+    "GST: 5% assumed for cotton dhurries (HSN 5702). CA to confirm.",
+    "Not fragile, not electrical, not a blocked category."
+  ],
+  "sources": [
+    "https://dir.indiamart.com/impcat/cotton-durries.html",
+    "https://dir.indiamart.com/impcat/cotton-handloom-durries.html",
+    "https://dir.indiamart.com/panipat/cotton-durries.html",
+    "https://www.pepperfry.com/product/black-cotton-vintage-2-x-3-feet-hand-woven-carpet-by-sashaa-world-1958552.html",
+    "https://vibecity.com/2-3ft-block-printed-cotton-rug-bohemian-cotton-printed-rugs-flat-weaves-non-shedding-indian-dhurrie-block-print-bathroom/06761102",
+    "https://vibecity.com/cotton-handmade-dhurries-rug-indian-traditional-wooden-loom-rugs-flatwoven-cotton-kilim-dhurries-rug-cotton-panja/08186394",
+    "https://www.urbanladder.com/product/unik-dhurrie-2-x-3-9657286",
+    "https://www.flipkart.com/shag-weaving-2-ft-x-3-polyester-runner/p/itm9ec6055acfd01"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-11-14",
+    "notes": "Rs 699 does not hold: Pepperfry sells Saral Home 2x3 ft hand-woven cotton dhurries at Rs 569-599 (a 2-pack at Rs 569) and machine-made at Rs 379. At a realistic Rs 569 the Shopify margin is 30.4% only at the unverified Rs 168 snippet cost (fails the worse case) and drops to 23.7% at Rs 203. The cost comes from a search snippet with no seller, MOQ, packing or GST, so the margin is not proven.",
+    "competitor_prices": [
+      {
+        "price": 569,
+        "url": "https://www.pepperfry.com/product/brown-cotton-2-ft-x-3-ft-hand-woven-dhurrie-1898455.html",
+        "note": "Saral Home brown 2x3 ft hand woven, MRP 799; search snippet seen 2026-11-14"
+      },
+      {
+        "price": 599,
+        "url": "https://www.pepperfry.com/product/red-cotton-2-ft-x-3-ft-hand-woven-dhurrie-1898456.html",
+        "note": "Saral Home red 2x3 ft hand woven, MRP 799; snippet 2026-11-14"
+      },
+      {
+        "price": 569,
+        "url": "https://www.pepperfry.com/product/grey-cotton-2-ft-x-3-ft-hand-woven-dhurrie-pack-of-2-1898453.html",
+        "note": "Saral Home grey 2x3 ft hand woven PACK OF 2 (~Rs 285/pc); category-listing snippet 2026-11-14"
+      },
+      {
+        "price": 379,
+        "url": "https://www.pepperfry.com/product/grey-cotton-machine-made-2-x-3-feet-dhurrie-1850804.html",
+        "note": "Saral Home grey 2x3 ft machine made, MRP 799; snippet 2026-11-14"
+      },
+      {
+        "price": 739,
+        "url": "https://www.pepperfry.com/product/black-cotton-vintage-2-x-3-feet-hand-woven-carpet-by-sashaa-world-1958552.html",
+        "note": "Sashaa World 2x3 ft hand woven, listed weight 1 kg; snippet 2026-11-14"
+      },
+      {
+        "price": 496,
+        "url": "https://www.flipkart.com/shag-weaving-2-ft-x-3-polyester-runner/p/itm9ec6055acfd01",
+        "note": "Flipkart 2x3 ft rug, titled polyester; snippet 2026-11-14"
+      },
+      {
+        "price": 2129,
+        "url": "https://www.pepperfry.com/product/red-cotton-reversible-machine-woven-3-x-2-feet-dhurrie-by-art-india-1884150.html",
+        "note": "Art India 3x2 ft reversible machine woven, listed weight 0.8 kg; snippet 2026-11-14"
+      }
+    ],
+    "weight_check": "Listed weights for 2x3 ft cotton dhurries are 0.8 kg (Pepperfry Art India) and 1 kg (Pepperfry Sashaa World; Urban Ladder Unik), all from search snippets on 2026-11-14. le_1kg is plausible, but a 1 kg rug plus packing may go over 1 kg into le_2kg. Packed weight from the supplier is still needed.",
+    "fragile_flag": "In recommend.py 'fragile' is an economics flag: it passes the base case but fails the worse case for returns, ads or shipping. It does not mean physical breakage. The dhurrie is not glass_fragile and has no breakage risk in transit. At Rs 699 the flag is set because the margin is thin, not because the item breaks.",
+    "not_found": "Amazon.in and Meesho prices for 2x3 ft cotton dhurries were not found in 4 searches. The Meesho listing (https://www.meesho.com/prisha-handloom-fancy-kitchen-mat-doormatbath-mat-floormat-rugs/p/f734lt) showed no price. No complaint data was gathered.",
+    "reopen_if": "A named supplier quotes a single-piece drop-ship at or below Rs 168 including packing and GST, gives a packed weight of 1 kg or less, and provides photos with permission. The product would then need to be relisted at about Rs 569 and re-run."
+  }
+}
