@@ -949,6 +949,46 @@
       "ca": null
     },
     {
+      "id": "RA-20261116D-1",
+      "name": "Personalised laser-engraved wooden pen stand with mobile stand and visiting-card holder (custom name)",
+      "category": "office_desk",
+      "price": 549.0,
+      "supplier_cost": 140.0,
+      "stage": "BELOW_TARGET",
+      "reason": "no channel reaches 30% margin",
+      "best_channel": "shopify",
+      "best": {
+        "status": "FAIL",
+        "fragile": false,
+        "expected": 108.67,
+        "margin": 25.39,
+        "conservative": 40.46
+      },
+      "channels": {
+        "shopify": {
+          "status": "FAIL",
+          "fragile": false,
+          "expected": 108.67,
+          "margin": 25.39,
+          "conservative": 40.46
+        }
+      },
+      "passing_channels": [],
+      "retail_validated": true,
+      "sources": [
+        "https://www.indiamart.com/proddetail/inoim%E2%84%A2-wooden-pen-stand-with-mobile-card-holder-custom-promotional-gift-for-corporate-branding-26389718897.html",
+        "https://www.indiamart.com/diamond-art-creation/pen-and-card-holder.html",
+        "https://www.indiamart.com/proddetail/wooden-mobile-stand-2858796864573.html",
+        "https://www.indiamart.com/proddetail/customized-black-wooden-pen-stand-2858212596762.html",
+        "https://www.amazon.in/personalized-stand/s?k=personalized+pen+stand",
+        "https://www.amazon.in/customized-stand-with-name/s?k=customized+pen+stand+with+name",
+        "https://www.amazon.in/STAR-GIFTING-Personalized-Customized-Engraved/dp/B0BH37R9QK",
+        "https://www.amazon.in/holder-personalised/s?k=pen+holder+personalised"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
       "id": "PC-015",
       "name": "Hair claw clips, pack of 12",
       "category": "women_accessories",

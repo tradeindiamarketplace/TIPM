@@ -1,0 +1,41 @@
+{
+  "id": "RA-20261116D-1",
+  "name": "Personalised laser-engraved wooden pen stand with mobile stand and visiting-card holder (custom name)",
+  "category": "office_desk",
+  "weight": "le_1kg",
+  "supplier_cost": 140,
+  "supplier_cost_note": "Inoim wooden pen stand with mobile & card holder, custom engraving/print, Rs 140/piece excl. GST (IndiaMART listing 26389718897, search snippet seen 2026-11-16). Same Inoim brand from Diamond Art Creation, Surat (Gujarat): Rs 130/piece, MOQ 10 (seen 2026-11-16). Single-piece personalised drop-ship and per-piece engraving charge NOT confirmed. Higher alternatives: Chennai wooden mobile stand Rs 200; Surat customised black pen stand with clock Rs 350 (seen 2026-11-16). Rs 140 is 25.5% of Rs 549.",
+  "price": 549,
+  "retail_observed": "Amazon.in search snippets seen 2026-11-16: SHIVOM CRAFTS personalised wooden pen stand with name, visiting-card holder and mobile stand Rs 549 (same spec); STAR GIFTING wooden pen, card holder & mobile stand with watch and metal pen, name engraved Rs 599; SAVRI organiser with clock, pen, mobile and card holder Rs 799. Cheaper competition: Deskart name-engraved pen stand with mobile holder Rs 265; EpicLane with clock Rs 319; Deskart organiser with clock Rs 379.",
+  "gst_pct": 18,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Gujarat",
+  "demand_signals": [
+    {
+      "source": "Amazon.in search: personalized pen stand / customized pen stand with name",
+      "url": "https://www.amazon.in/personalized-stand/s?k=personalized+pen+stand",
+      "seen_on": "2026-11-16",
+      "summary": "Many sellers list personalised wooden pen stands (Deskart, EpicLane, SHIVOM CRAFTS, STAR GIFTING, SAVRI, CrownLit), positioned as gifts for doctors, CAs, advocates and corporate clients. Shows an established gift category; no sales-volume or trend data found."
+    }
+  ],
+  "risks": [
+    "Price competition: same-type engraved stands sell at Rs 265-379 on Amazon.in, so Rs 549 depends on better finish, gift box and photos",
+    "Supplier is out of Odisha (Gujarat, inferred from the Surat seller of the Inoim brand), so website-only; supplier location for the Rs 140 listing not confirmed",
+    "Rs 140 listing is aimed at corporate bulk orders; single-piece personalised drop-ship, engraving charge and lead time need a written quote",
+    "Custom orders: spelling errors are seller cost; need a proof-approval step; personalised items should be non-returnable except damage or seller error",
+    "Thin MDF/wood slots can crack in transit; packaging must protect it",
+    "GST rate (HSN 4421) to be confirmed by CA; 18% used as a conservative figure"
+  ],
+  "sources": [
+    "https://www.indiamart.com/proddetail/inoim%E2%84%A2-wooden-pen-stand-with-mobile-card-holder-custom-promotional-gift-for-corporate-branding-26389718897.html",
+    "https://www.indiamart.com/diamond-art-creation/pen-and-card-holder.html",
+    "https://www.indiamart.com/proddetail/wooden-mobile-stand-2858796864573.html",
+    "https://www.indiamart.com/proddetail/customized-black-wooden-pen-stand-2858212596762.html",
+    "https://www.amazon.in/personalized-stand/s?k=personalized+pen+stand",
+    "https://www.amazon.in/customized-stand-with-name/s?k=customized+pen+stand+with+name",
+    "https://www.amazon.in/STAR-GIFTING-Personalized-Customized-Engraved/dp/B0BH37R9QK",
+    "https://www.amazon.in/holder-personalised/s?k=pen+holder+personalised"
+  ],
+  "stage": "NEW"
+}

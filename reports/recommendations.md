@@ -17,6 +17,7 @@ Ranked by expected profit per order (base scenario). Minimum 30% margin and Rs 6
 | BELOW_TARGET | 360-degree rotating 2-tier makeup / skincare organiser (plastic, clear) | TradeIndiaMarketplace.com (Shopify Basic) | Rs 599 | Rs 136 | 29.1% | Rs 66 | - | no channel reaches 30% margin |
 | BELOW_TARGET | Printed silk potli bag cum bangle/jewellery organiser, set of 3 (wedding gifting) | TradeIndiaMarketplace.com (Shopify Basic) | Rs 599 | Rs 127 | 27.2% | Rs 62 | - | no channel reaches 30% margin · retail price unvalidated |
 | BELOW_TARGET | PU leather jewellery organiser box (rings, earrings, necklaces) | Amazon.in (Easy Ship) | Rs 549 | Rs 126 | 29.5% | Rs 77 | - | no channel reaches 30% margin |
+| BELOW_TARGET | Personalised laser-engraved wooden pen stand with mobile stand and visiting-card holder (custom name) | TradeIndiaMarketplace.com (Shopify Basic) | Rs 549 | Rs 109 | 25.4% | Rs 40 | - | no channel reaches 30% margin |
 | BELOW_TARGET | Hair claw clips, pack of 12 | Amazon.in (Easy Ship) | Rs 449 | Rs 95 | 27.2% | Rs 48 | - | no channel reaches 30% margin · retail price unvalidated |
 | BELOW_TARGET | Kids stainless steel insulated lunch box (3 containers) | Amazon.in (Easy Ship) | Rs 599 | Rs 94 | 19.1% | Rs 40 | - | no channel reaches 30% margin · retail price unvalidated |
 | BELOW_TARGET | Non-woven saree / clothes cover organisers, set of 12 | Amazon.in (Easy Ship) | Rs 549 | Rs 81 | 17.9% | Rs 28 | - | no channel reaches 30% margin |
