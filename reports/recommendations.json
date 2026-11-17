@@ -2140,6 +2140,69 @@
       "ca": null
     },
     {
+      "id": "RA-20261117-1",
+      "name": "Wax seal stamp kit, 7-in-1 (brass stamp head, wooden handle, sealing wax, melting spoon) in gift box",
+      "category": "office_desk",
+      "price": 799.0,
+      "supplier_cost": 264.0,
+      "stage": "REJECTED",
+      "reason": "reviewer or CA rejected: Rs 799 is not supported by current evidence: the only verified generic gift-box comparable (Supvox, Rs 839) is tracker data ending early 2026, while a generic Curated Cart wax seal kit tracks on Amazon.in at avg Rs 313 / low Rs 253 (May 2026) and no live Flipkart or Meesho price exists; at Rs 799 margin is only 31.2% (fragile, website-only) and at a more defensible Rs 599 it falls to ~10% (Rs 47/order), Rs 499 is loss-making. Secondary: Rs 264 kit contents unknown and most kits ship tea-light candles (lighter must be excluded), plus summer wax deformation.",
+      "best_channel": "shopify",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 194.55,
+        "margin": 31.23,
+        "conservative": 124.34
+      },
+      "channels": {
+        "shopify": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 194.55,
+          "margin": 31.23,
+          "conservative": 124.34
+        }
+      },
+      "passing_channels": [
+        "shopify"
+      ],
+      "retail_validated": true,
+      "sources": [
+        "https://www.indiamart.com/proddetail/wax-seal-stamp-set-2853047026730.html",
+        "https://dir.indiamart.com/impcat/wax-seals.html",
+        "https://m.indiamart.com/impcat/wax-seals.html",
+        "https://www.indiamart.com/mahalaxmi-art-craft-coimbatore/wax-seals.html",
+        "https://price-history.in/product/supvox-wax-seal-stamp-kit-sealing-R8XFkbw8",
+        "https://price-history.in/product/wax-seal-stamp-kit-harry-potter-O5IaagG5",
+        "https://www.flipkart.com/ikalaa-wax-seal-stamp-kit/p/itm5db3deef13225"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-11-17",
+        "notes": "Rs 799 is not supported by current evidence: the only verified generic gift-box comparable (Supvox, Rs 839) is tracker data ending early 2026, while a generic Curated Cart wax seal kit tracks on Amazon.in at avg Rs 313 / low Rs 253 (May 2026) and no live Flipkart or Meesho price exists; at Rs 799 margin is only 31.2% (fragile, website-only) and at a more defensible Rs 599 it falls to ~10% (Rs 47/order), Rs 499 is loss-making. Secondary: Rs 264 kit contents unknown and most kits ship tea-light candles (lighter must be excluded), plus summer wax deformation.",
+        "competitor_prices": [
+          {
+            "price": 839,
+            "url": "https://price-history.in/product/supvox-wax-seal-stamp-kit-sealing-R8XFkbw8",
+            "note": "Amazon.in via tracker, data to early 2026, seen 2026-11-17; MRP 1464, avg 940, low 659"
+          },
+          {
+            "price": 313,
+            "url": "https://price-history.in/product/curated-cart-wedding-wax-seal-stamp-pmf51kw8",
+            "note": "Amazon.in via tracker, Curated Cart kit (50 beads, brass stamp): average Rs 313, 6-month low Rs 253 on 2026-05-12, list Rs 1,048; WebSearch snippet seen 2026-11-17, page fetch blocked"
+          },
+          {
+            "price": 799,
+            "url": "https://price-history.in/product/wax-seal-stamp-kit-harry-potter-O5IaagG5",
+            "note": "licensed Harry Potter theme, not comparable; avg 783, low 661 (2024-10-04)"
+          }
+        ]
+      },
+      "ca": null
+    },
+    {
       "id": "RA-20261112-2",
       "name": "Bamboo desk organiser, 3 compartments (pen / mobile / cards), office and corporate gifting",
       "category": "office_desk",

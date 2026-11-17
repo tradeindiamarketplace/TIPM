@@ -1,0 +1,70 @@
+{
+  "id": "RA-20261117-1",
+  "name": "Wax seal stamp kit, 7-in-1 (brass stamp head, wooden handle, sealing wax, melting spoon) in gift box",
+  "category": "office_desk",
+  "weight": "le_500g",
+  "supplier_cost": 264,
+  "supplier_cost_note": "IndiaMART listing 'Wax Seal Stamp Set at Rs 264/piece', Surat (Gujarat) seller, described as a 7-in-1 wax seal stamp set (WebSearch snippet seen 2026-11-17). Exact contents, MOQ, GST treatment and single-piece drop-ship NOT confirmed. Other IndiaMART kit prices seen the same day: 20 mm kit with wax beads, candle, melting spoon and wooden handle Rs 349/piece; Surat 25 mm kit Rs 410/piece; Coimbatore kit Rs 570/piece (MOQ 5). Rs 264 is 33% of Rs 799, above the ~29% guide for out-of-Odisha suppliers.",
+  "price": 799,
+  "retail_observed": "Amazon.in via price-history.in tracker (seen 2026-11-17; tracker data runs only to early 2026, so live prices need re-checking): Supvox wax seal stamp kit with gift box Rs 839 (MRP Rs 1,464; all-time low Rs 659; average Rs 940); a Harry Potter-themed wax seal kit with gift box Rs 799 (reference Rs 1,299; average Rs 783; licensed theme, used only as a price comparison, not to be copied). Flipkart IKALAA wax seal stamp kit page: price not available, currently unavailable (seen 2026-11-17). No Meesho price found.",
+  "gst_pct": 18,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Gujarat",
+  "demand_signals": [
+    {
+      "source": "price-history.in tracker of Amazon.in listings",
+      "url": "https://price-history.in/product/supvox-wax-seal-stamp-kit-sealing-R8XFkbw8",
+      "seen_on": "2026-11-17",
+      "summary": "Supvox wax seal kit with gift box tracked on Amazon.in at Rs 659-1,464 (average Rs 940), showing a sustained retail price point for gift-boxed kits. No sales-volume or trend data found."
+    },
+    {
+      "source": "IndiaMART wax seals category",
+      "url": "https://dir.indiamart.com/impcat/wax-seals.html",
+      "seen_on": "2026-11-17",
+      "summary": "Many Indian suppliers (Surat, Coimbatore, Delhi, Mumbai) list wax seal stamp kits at Rs 264-827/piece, with custom kits from Rs 1,800. Shows supply depth; not a demand signal by itself."
+    }
+  ],
+  "risks": [
+    "Supplier cost is 33% of the proposed price, above the ~29% guide for out-of-Odisha (website-only) suppliers; may land BELOW_TARGET",
+    "Retail comparables come from a third-party tracker whose data ends early 2026; live Amazon.in/Flipkart prices must be re-checked before listing",
+    "Exact kit contents of the Rs 264 listing unknown; if it includes candles or a lighter it needs checking (no lighter or flammable liquid allowed); confirm wax is sticks/beads",
+    "Supplier in Surat, Gujarat: website-only per docs/05; single-piece drop-ship, MOQ and dispatch time need a written quote",
+    "Avoid licensed themes (Harry Potter etc.) and trademarked crests; use generic designs (initials, floral, mandala) only",
+    "Wax can soften or deform in summer transit; gift box must protect the stamp head",
+    "GST/HSN (stamp 9611 vs sealing wax 3404) to be confirmed by the CA; 18% used as a conservative figure"
+  ],
+  "sources": [
+    "https://www.indiamart.com/proddetail/wax-seal-stamp-set-2853047026730.html",
+    "https://dir.indiamart.com/impcat/wax-seals.html",
+    "https://m.indiamart.com/impcat/wax-seals.html",
+    "https://www.indiamart.com/mahalaxmi-art-craft-coimbatore/wax-seals.html",
+    "https://price-history.in/product/supvox-wax-seal-stamp-kit-sealing-R8XFkbw8",
+    "https://price-history.in/product/wax-seal-stamp-kit-harry-potter-O5IaagG5",
+    "https://www.flipkart.com/ikalaa-wax-seal-stamp-kit/p/itm5db3deef13225"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-11-17",
+    "notes": "Rs 799 is not supported by current evidence: the only verified generic gift-box comparable (Supvox, Rs 839) is tracker data ending early 2026, while a generic Curated Cart wax seal kit tracks on Amazon.in at avg Rs 313 / low Rs 253 (May 2026) and no live Flipkart or Meesho price exists; at Rs 799 margin is only 31.2% (fragile, website-only) and at a more defensible Rs 599 it falls to ~10% (Rs 47/order), Rs 499 is loss-making. Secondary: Rs 264 kit contents unknown and most kits ship tea-light candles (lighter must be excluded), plus summer wax deformation.",
+    "competitor_prices": [
+      {
+        "price": 839,
+        "url": "https://price-history.in/product/supvox-wax-seal-stamp-kit-sealing-R8XFkbw8",
+        "note": "Amazon.in via tracker, data to early 2026, seen 2026-11-17; MRP 1464, avg 940, low 659"
+      },
+      {
+        "price": 313,
+        "url": "https://price-history.in/product/curated-cart-wedding-wax-seal-stamp-pmf51kw8",
+        "note": "Amazon.in via tracker, Curated Cart kit (50 beads, brass stamp): average Rs 313, 6-month low Rs 253 on 2026-05-12, list Rs 1,048; WebSearch snippet seen 2026-11-17, page fetch blocked"
+      },
+      {
+        "price": 799,
+        "url": "https://price-history.in/product/wax-seal-stamp-kit-harry-potter-O5IaagG5",
+        "note": "licensed Harry Potter theme, not comparable; avg 783, low 661 (2024-10-04)"
+      }
+    ]
+  }
+}
