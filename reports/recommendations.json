@@ -590,6 +590,76 @@
       "ca": null
     },
     {
+      "id": "RA-20261119-1",
+      "name": "Pure copper drinking tumbler, 300 ml, set of 2 (plain/hammered, lacquer-free)",
+      "category": "kitchen_organisation",
+      "price": 699.0,
+      "supplier_cost": 200.0,
+      "stage": "NEEDS_INFO",
+      "reason": "No hard-rule breach and no mass-marketplace pair found at or below Rs 450, but the 'pure copper' claim has no material test report (documents empty; policy require_evidence_for_claims) and Rs 100/piece (IndiaMART listing, not a quote) is the price point most at risk of thin-gauge or plated stock; margin passes only at Rs 699 with Rs 200/pair cost (36.8%) and fails at Rs 599 (27.1%) or Rs 280/pair cost (23.4%), while verified comparables sit at Rs 500-599 and the Rs 755-906 Flipkart figures are stale cached tiles. Needed before approve: supplier written quote (price, MOQ, wall thickness/weight per piece, drop-ship) plus a copper purity test report for that exact SKU, and a live Meesho/Amazon.in pair price.",
+      "best_channel": "shopify",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 211.22,
+        "margin": 36.79,
+        "conservative": 141.85
+      },
+      "channels": {
+        "shopify": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 211.22,
+          "margin": 36.79,
+          "conservative": 141.85
+        }
+      },
+      "passing_channels": [
+        "shopify"
+      ],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/copper-glass.html",
+        "https://www.flipkart.com/hi/indianartvilla-steel-hammered-set-6-glass-tumbler-cup-400-ml-each-serving-drinking-water/p/itmemyat2qwqtbt5",
+        "https://www.flipkart.com/hi/indianartvilla-set-3-copper-mathat-glass-handle/p/itmevzfdvfnj3j5s",
+        "https://indiahandmade.com/prisha-india-craft-drinkware-tableware-pure-copper-water-glass-tumbler-set-of-2-har778909.html",
+        "https://www.meesho.com/premium-quality-handcrafted-copper-glass-300-ml-pack-of-2/p/7skxil",
+        "https://www.meesho.com/pure-copper-bottle-and-copper-glass-drinkware-set-combo/p/2tljw"
+      ],
+      "review": {
+        "verdict": "needs_info",
+        "by": "product-reviewer",
+        "at": "2026-11-19",
+        "notes": "No hard-rule breach and no mass-marketplace pair found at or below Rs 450, but the 'pure copper' claim has no material test report (documents empty; policy require_evidence_for_claims) and Rs 100/piece (IndiaMART listing, not a quote) is the price point most at risk of thin-gauge or plated stock; margin passes only at Rs 699 with Rs 200/pair cost (36.8%) and fails at Rs 599 (27.1%) or Rs 280/pair cost (23.4%), while verified comparables sit at Rs 500-599 and the Rs 755-906 Flipkart figures are stale cached tiles. Needed before approve: supplier written quote (price, MOQ, wall thickness/weight per piece, drop-ship) plus a copper purity test report for that exact SKU, and a live Meesho/Amazon.in pair price.",
+        "competitor_prices": [
+          {
+            "price": 500,
+            "url": "https://indiahandmade.com/prisha-india-craft-drinkware-tableware-pure-copper-water-glass-tumbler-set-of-2-har778909.html",
+            "note": "Prisha India Craft 300 ml set of 2, sale Rs 500 (regular Rs 1,000), WebSearch snippet seen 2026-11-19"
+          },
+          {
+            "price": 599,
+            "url": "https://www.bigbasket.com/pc/kitchen-garden-pets/steel-utensils/copper-utensils/",
+            "note": "Prime-Metal copper plain glass 300 ml set of 2, WebSearch snippet (cached) seen 2026-11-19"
+          },
+          {
+            "price": 755,
+            "url": "https://www.flipkart.com/hi/indianartvilla-steel-hammered-set-6-glass-tumbler-cup-400-ml-each-serving-drinking-water/p/itmemyat2qwqtbt5",
+            "note": "IndianArtVilla 300 ml set of 2 (MRP 1,070) from related-product tile on cached page showing 'Get it by 27 Jul' - stale, not a live price"
+          },
+          {
+            "price": 906,
+            "url": "https://www.flipkart.com/hi/indianartvilla-steel-hammered-set-6-glass-tumbler-cup-400-ml-each-serving-drinking-water/p/itmemyat2qwqtbt5",
+            "note": "Jhandu 300 ml pack of 2 (MRP 937), same stale related-product tile"
+          }
+        ],
+        "supplier_cost_check": "IndiaMART copper-glass category (https://m.indiamart.com/impcat/copper-glass.html, WebSearch seen 2026-11-19) confirms Moradabad 300 ml listings at Rs 100, 140, 165, 220 and 550/piece; listing prices only, purity/MOQ unconfirmed. Dial4Trade Moradabad shows Rs 158-256/piece (https://www.dial4trade.com/moradabad/copper-tumbler.htm).",
+        "unverified": "Meesho 300 ml pack-of-2 price not visible in search and meesho.com not reachable from this session (https://www.meesho.com/premium-quality-handcrafted-copper-glass-300-ml-pack-of-2/p/7skxil); no Amazon.in pair price found in 4 searches.",
+        "complaint_patterns": "Desertcart listing of IndianArtVilla pure copper 300 ml set of 2 (https://www.desertcart.vn/products/64803980, seen 2026-11-19): reviewer reports black spots within 3 days and poor copper quality; another wanted thicker metal. Plated/thin stock and tarnish are the main return/dispute risks."
+      },
+      "ca": null
+    },
+    {
       "id": "RA-20261022B-3",
       "name": "Handwoven sabai grass roti / chapati box with lid, approx. 8 in (Odisha handicraft)",
       "category": "kitchen_organisation",
