@@ -1,0 +1,99 @@
+{
+  "id": "RA-20261120D-1",
+  "name": "Natural cork round coasters, 10 cm, set of 6 (kraft-box gift pack, no holder)",
+  "category": "kitchen_organisation",
+  "weight": "le_500g",
+  "supplier_cost": 96,
+  "supplier_cost_note": "DERIVED from listed per-piece prices, not a quote. WebSearch snippets seen 2026-11-20 (IndiaMART pages not opened; blocked): Enable Nature, Jaipur (Rajasthan) lists 10 cm round cork coasters at Rs 16/piece, so 6 x Rs 16 = Rs 96. Divine Cork India, Vadodara (Gujarat) lists 4 mm round cork coasters at Rs 25/piece (6 x 25 = Rs 150). Other listings: round cork tea coaster Rs 35/piece (Dharmi Kreation); 4-piece cork coaster set with holder Rs 119; cork coaster set 4 in Rs 60/set (m.indiamart.com/impcat/cork-coasters.html). MOQ, thickness, GST treatment (incl./excl.), kraft box and single-order drop-ship were not visible. At Rs 150 (Vadodara price) cost is about 33% of price, above the ~29% out-of-state limit, so the Rs 16 Jaipur price (or an equivalent) must be confirmed in writing, including box and packing.",
+  "price": 449,
+  "retail_observed": "Seen 2026-11-20 via WebSearch snippets (pages not opened): IKEA round reversible cork coaster set, 3 pieces, on Flipkart Rs 380 (list Rs 699) on one listing and Rs 489 on another (flipkart.com/ikea-round-reversible-cork-coaster-set/p/itm0ed5e0932383f); IKEA India's own site IKEA 365 cork coaster Rs 92 per 2-pack (ikea.com/in/en/p/ikea-365-coaster-cork-10282947); UMAI set of 6 (diatomite, not cork) with cork-and-steel holder Rs 1,059 on Globalbees. Flipkart 6-piece WOOD (not cork) coaster sets with holder Rs 133-150 (Craftzo, LADECOR). No Amazon.in or Meesho price for a natural cork 6-set found. Rs 449 for 6 cork coasters (about Rs 75 each) is below the Flipkart IKEA reseller price per piece but well above IKEA's own Rs 46 each; the mass-marketplace price for a 6-set is UNVALIDATED.",
+  "gst_pct": 5,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Rajasthan",
+  "demand_signals": [
+    {
+      "source": "Flipkart listing of IKEA cork coaster 3-set (resold)",
+      "url": "https://www.flipkart.com/ikea-round-reversible-cork-coaster-set/p/itm0ed5e0932383f",
+      "seen_on": "2026-11-20",
+      "summary": "Natural cork coasters are listed on Flipkart at Rs 380-489 for 3 pieces (cached snippets). Shows price acceptance for cork coasters on a mass marketplace; no sales volume or trend data found."
+    },
+    {
+      "source": "IKEA India product page",
+      "url": "https://www.ikea.com/in/en/p/ikea-365-coaster-cork-10282947",
+      "seen_on": "2026-11-20",
+      "summary": "IKEA sells a 10 cm cork coaster at Rs 92 per 2-pack. Shows that the category exists in India, but it also sets a low price anchor (competition risk)."
+    },
+    {
+      "source": "Globalbees UMAI coaster set of 6 with cork holder",
+      "url": "https://shop.globalbees.com/products/umai-coaster-set-of-6-dia-10cm-dining-table-decor-accessories-beautiful-floral-coasters-for-cups-coffee-mugs-glasses-with-cork-steel-holder-heat-resistant-absorbing-tea-coaster",
+      "seen_on": "2026-11-20",
+      "summary": "A D2C 6-piece coaster set with a cork holder sells at Rs 1,059, so a premium coaster-set tier exists. It is a different material (diatomite) and gives a price-band signal only."
+    }
+  ],
+  "risks": [
+    "Competition: IKEA's own price is Rs 46 per cork coaster and Flipkart wood 6-sets with holder are Rs 133-150, so Rs 449 depends on gift-pack presentation. Check live Amazon.in and Meesho cork 6-set prices before asking for a quote",
+    "Supplier cost is derived (6 x Rs 16 listed price) and not quoted. Box, packing and GST are not included. Out-of-state supplier (Rajasthan) means website-only via bill-to-ship-to (docs/05), so cost must stay at about Rs 130 or less (~29% of Rs 449). The Vadodara Rs 25/piece price would fail this",
+    "Close to already-explored coaster lines (resin gold-foil coasters, sabai grass coaster set 6); reviewer to check it is not a repeat of a failed line",
+    "Thin 3-4 mm cork can crumble or chip at the edges and stains with use, which can drive 'not as pictured' returns. Specify 5 mm+ thickness and photograph the real stock",
+    "'Natural cork' is a material claim; agglomerated cork is common. Get supplier evidence (policy require_evidence_for_claims)",
+    "No demand trend data found (Google Trends not checked this run); demand is inferred from listings only",
+    "GST: natural cork articles (HSN 4503) assumed 5% after the 22-09-2025 rate changes (previously 12%); CA to confirm"
+  ],
+  "sources": [
+    "https://m.indiamart.com/impcat/cork-coasters.html",
+    "https://www.flipkart.com/ikea-round-reversible-cork-coaster-set/p/itm0ed5e0932383f",
+    "https://www.ikea.com/in/en/p/ikea-365-coaster-cork-10282947",
+    "https://shop.globalbees.com/products/umai-coaster-set-of-6-dia-10cm-dining-table-decor-accessories-beautiful-floral-coasters-for-cups-coffee-mugs-glasses-with-cork-steel-holder-heat-resistant-absorbing-tea-coaster",
+    "https://www.flipkart.com/craftzo-round-wood-coaster-set/p/itmc5076fe020eed",
+    "https://www.flipkart.com/ladecor-round-wood-coaster-set/p/itmd4969b338c99e"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-11-20",
+    "notes": "Rs 449 is not a realistic price: comparable cork 6-sets sit at about Rs 276-297 (IKEA's own 10 cm cork coaster Rs 92 per 2-pack = Rs 276 for 6; Birch & Co. cork set of 6 Rs 297 on a price tracker, ASIN B0CJ96PC8K), wood 6-sets sell at Rs 136-148 on Meesho and Rs 146 on Flipkart, and the only Flipkart cork 6-set found is a mixed leather/wood/cork set at Rs 519. Cutting to a competitive ~Rs 299 puts it below the policy floor of Rs 449 (min_price_inr), and holding Rs 449 with no holder repeats the failure of the rejected sabai grass coaster set of 6 (RA-20261022B-2). Rs 16/piece is only a listing price (no MOQ, GST, box or packing cost), so it does not rescue the case.",
+    "competitor_prices": [
+      {
+        "price": 276,
+        "url": "https://www.ikea.com/in/en/p/ikea-365-coaster-cork-10282947",
+        "note": "IKEA 365 cork coaster 10 cm, Rs 92 per 2-pack (3 packs = Rs 276 for 6); IKEA's own site, not a mass marketplace; WebSearch snippet seen 2026-11-20"
+      },
+      {
+        "price": 297,
+        "url": "https://www.pricebefore.com/birch-cork-coasters-coaster-dining-table-b0cj96pc8k-m1013298.html",
+        "note": "Birch & Co. cork coasters set of 6, Rs 297 (63% off); affiliate price tracker, store and capture date not shown (ASIN-style ID suggests Amazon.in); seen 2026-11-20. Not a confirmed live price at or below Rs 250"
+      },
+      {
+        "price": 519,
+        "url": "https://www.flipkart.com/fa6-square-wood-coaster-set/p/itm27b2de0032713",
+        "note": "Birch & Co. square set of 6, leather/wood/cork mix, Rs 519 (MRP 799); Flipkart cached snippet (late Jul-early Aug delivery dates), seen 2026-11-20"
+      },
+      {
+        "price": 380,
+        "url": "https://www.flipkart.com/ikea-round-reversible-cork-coaster-set/p/itm0ed5e0932383f",
+        "note": "IKEA round reversible cork set, 3 pieces only, Rs 380 / Rs 489 on two snapshots (resold); seen 2026-11-20"
+      },
+      {
+        "price": 136,
+        "url": "https://www.meesho.com/mdf-wooden-tea-coasters-set-heat-resistant-table-coaster-for-tea-coffee-cups-decorative-wooden-drink-coasters-for-home-office-dining-table-non-slip-cup-mat-set-of-6-round/p/ewh5j1",
+        "note": "Meesho MDF wooden coaster set of 6, Rs 136 (orig 140); substitute material, cached snippet seen 2026-11-20"
+      },
+      {
+        "price": 148,
+        "url": "https://www.meesho.com/zain-crafts-drink-coasters-wooden-coasters-with-iron-holder-great-for-hot-and-cold-drinks-beer-coffee-tea-and-wine-unique-bar-accessory-set-of-6/p/5eidkt",
+        "note": "Meesho wooden coaster set of 6 with iron holder, Rs 148; substitute material, seen 2026-11-20"
+      },
+      {
+        "price": 146,
+        "url": "https://www.flipkart.com/flipkart-smartbuy-square-reversible-wood-coaster-set/p/itme53d9f029323e",
+        "note": "Flipkart SmartBuy wood coaster set of 6, special price Rs 146 (MRP 999); substitute material, cached snippet seen 2026-11-20"
+      }
+    ],
+    "supplier_cost_check": "Confirmed via WebSearch 2026-11-20 that IndiaMART's cork-coasters category (https://m.indiamart.com/impcat/cork-coasters.html) shows 'Enable Nature Cork Coasters, 10 cm, Round' at Rs 16/piece, seller Jaipur. MOQ, thickness, GST and stock are not shown, the product page was not opened, and no kraft-box or packing cost was found. Rs 96 + box/packing stays under ~Rs 130 only if box and packing cost <= ~Rs 34 (unverified). The Vadodara Rs 25/piece alternative (Rs 150) fails the ~29% out-of-state guide on its own.",
+    "repeat_check": "The sabai grass coaster set of 6 (RA-20261022B-2, Rs 499, no holder) was rejected on 2026-10-22 because no-holder 6-sets had no edge over cheaper sets that include a holder. This cork set is the same idea (no-holder 6-set near the price floor) in a cheaper, more commoditised material. The resin gold-foil coaster set (RA-20261113D-1) is needs_info for lack of price headroom.",
+    "unverified": "No live Amazon.in or Meesho natural-cork 6-set price found in 4 searches. The Rs 250 undercut threshold is not confirmed to be breached, but nearby cork sets are Rs 276-297 and wood substitutes are Rs 136-148.",
+    "complaint_patterns": "Reviews of similar cork coasters on non-Indian sites, seen 2026-11-20: crumbling under heat or moisture (https://www.wayfair.ca/dining/pdp/betus-round-cork-coasters-set-set-of-16-btsa1058.html), 'too thin' (https://hobbylobby.com/crafts-hobbies/wood-crafts-blank-surfaces/cork-boards/round-cork-coasters---4/p/28807), staining (https://www.fakespot.com/product/yhy-absorbent-stone-coaster-set-drink-spills-coasters-set-of-6-grey-line-geometric-pattern), and 'cork look' sets that are actually MDF (https://www.kmart.co.nz/product/set-of-6-natural-cork-look-coasters-42535331/). This supports the researcher's thin-cork return risk."
+  }
+}
