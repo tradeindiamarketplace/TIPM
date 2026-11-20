@@ -89,6 +89,85 @@
       }
     },
     {
+      "id": "RA-20261120B-1",
+      "name": "Handwoven natural cane oval serving tray with handles, approx. 15 in (Northeast India cane craft)",
+      "category": "kitchen_organisation",
+      "price": 1299.0,
+      "supplier_cost": 350.0,
+      "stage": "NEEDS_INFO",
+      "reason": "No hard-rule breach and no mass-marketplace tray of similar size found at or below Rs 700 (no Meesho or live Amazon.in/Flipkart price surfaced), but comparable cane trays sit at Rs 900-1,100 (Dastkar Rs 900/1,100; Amazon.in Habere Rs 1,098 in a June 2026 guide), so Rs 1,299 looks high: margin is 44.6% at Rs 1,299, 35.4% at Rs 1,099, and fails at Rs 999 (29.5%). The Rs 350 listing (15x10x2 in) is confirmed but its seller location (Tripura/Assam) is not, and the packed box can exceed 2 kg volumetric if the sides/handles are taller than ~2 in. Needed before approve: written single-piece drop-ship quote naming the seller's state, MOQ and GST, packed carton dimensions, and a live Amazon.in/Meesho price for a 14-15 in cane tray.",
+      "best_channel": "shopify",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 476.08,
+        "margin": 44.62,
+        "conservative": 376.28
+      },
+      "channels": {
+        "shopify": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 476.08,
+          "margin": 44.62,
+          "conservative": 376.28
+        }
+      },
+      "passing_channels": [
+        "shopify"
+      ],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/cane-tray.html",
+        "https://www.indiamart.com/sumita-enterprise-assam/cane-trays-planters.html",
+        "https://m.indiamart.com/aoa-golaghat",
+        "https://www.indiahandmade.com/dastkar-crafts-cane-round-serving-trays-handwoven-tea-coffee-trays-for-breakfast-bread-food-dish-and-decorative-trays-for-dining-table.html",
+        "https://www.indiahandmade.com/buy-handwoven-cane-square-serving-tray-12-5-x-12-5-x-4-inches.html",
+        "https://www.pepperfry.com/product/blue-cane-round-serving-tray-small-2331167.html",
+        "https://www.vibecity.com/natural-oval-cane-tray-set-3-trays/93914867",
+        "https://magicdrop.in/drops/bamboo-tray",
+        "https://www.flipkart.com/hi/assam-admiration-cane-round-tray/p/itm4b462623a7984"
+      ],
+      "review": {
+        "verdict": "needs_info",
+        "by": "product-reviewer",
+        "at": "2026-11-20",
+        "notes": "No hard-rule breach and no mass-marketplace tray of similar size found at or below Rs 700 (no Meesho or live Amazon.in/Flipkart price surfaced), but comparable cane trays sit at Rs 900-1,100 (Dastkar Rs 900/1,100; Amazon.in Habere Rs 1,098 in a June 2026 guide), so Rs 1,299 looks high: margin is 44.6% at Rs 1,299, 35.4% at Rs 1,099, and fails at Rs 999 (29.5%). The Rs 350 listing (15x10x2 in) is confirmed but its seller location (Tripura/Assam) is not, and the packed box can exceed 2 kg volumetric if the sides/handles are taller than ~2 in. Needed before approve: written single-piece drop-ship quote naming the seller's state, MOQ and GST, packed carton dimensions, and a live Amazon.in/Meesho price for a 14-15 in cane tray.",
+        "competitor_prices": [
+          {
+            "price": 900,
+            "url": "https://indiahandmade.com/dastkar-crafts-weaving-serving-tray.html",
+            "note": "Dastkar Crafts weaving serving tray, 48 cm dia, special Rs 900 (regular Rs 999); WebSearch snippet seen 2026-11-20; craft D2C, not mass marketplace"
+          },
+          {
+            "price": 1100,
+            "url": "https://www.indiahandmade.com/catalog/product/view/id/7053",
+            "note": "Dastkar handmade cane round serving tray with looped handles, Rs 1,100 (regular Rs 1,150); WebSearch snippet seen 2026-11-20 (researcher saw Rs 1,799 on another URL for this product)"
+          },
+          {
+            "price": 1098,
+            "url": "https://magicdrop.in/drops/bamboo-tray",
+            "note": "Amazon.in Habere India round cane tray Rs 1,098 (MRP 3,999), quoted in guide dated 22 June 2026, re-seen via WebSearch 2026-11-20; stale, not a live Amazon price. Rs 269 Habere tray not re-confirmed."
+          },
+          {
+            "price": 826,
+            "url": "https://magicdrop.in/drops/bamboo-tray",
+            "note": "Amazon.in Curated Cart bamboo serving tray with handles Rs 826, same June 2026 guide; bamboo not cane, stale"
+          },
+          {
+            "price": 1784,
+            "url": "https://www.pepperfry.com/product/green-cane-oval-serving-tray-small-2330139.html",
+            "note": "Pepperfry small green cane oval serving tray Rs 1,784 (MRP 3,199); WebSearch snippet seen 2026-11-20"
+          }
+        ],
+        "supplier_cost_check": "IndiaMART cane-tray category (https://m.indiamart.com/impcat/cane-tray.html, WebSearch seen 2026-11-20) shows '15 Inch Oval Cane Tray Rs 350/Piece', dimensions 15x10x2 in, but the snippet does not show the seller's city, so the Tripura/Agartala origin is unverified. Assam alternative: Sumita Enterprise 14 in rattan cane tray Rs 380/piece, MOQ 50 (https://www.indiamart.com/sumita-enterprise-assam/cane-trays-planters.html). An Agartala seller (Craftscreation) lists an oval cane serving tray set of 3 at Rs 1,080. Listing prices only, not quotes.",
+        "volumetric_check": "Divisor is L x W x H (cm) / 5000 for express, but Delhivery surface uses /4000 for shipments over 1 kg dead weight (https://help.delhivery.com/docs/calculating-volumetric-weight, seen 2026-11-20; Shiprocket calculator https://shiprocket.in/volumetric-weight-calculator uses /5000). Reviewer's estimate for the 15x10x2 in tray in a carton with ~1.5 cm padding (about 41x28x8 cm): 1.84 kg at /5000, 2.30 kg at /4000. With 4 in sides (about 41x28x13 cm): 2.98 kg at /5000. Stays within 2 kg only with a low (~2 in) tray, tight carton and an express (/5000) rate; packed dimensions needed.",
+        "unverified": "No Meesho cane/rattan tray price found (only a wooden-trays category page, https://www.meesho.com/wooden-trays/pl/7x2); Flipkart The Assam Admiration cane round tray shows 'Price: Not Available' (https://www.flipkart.com/hi/assam-admiration-cane-round-tray/p/itm4b462623a7984); no live Amazon.in listing price found in 4 searches.",
+        "complaint_patterns": "Not checked within the 4-search budget; researcher's mould, weave breakage and crushed-handle risks stand unverified."
+      },
+      "ca": null
+    },
+    {
       "id": "RA-20261022B-1",
       "name": "Handwoven sabai grass wall decor plates, set of 3 (8/10/12 in), Odisha handicraft",
       "category": "home_decor",
