@@ -1,0 +1,56 @@
+{
+  "id": "RA-20261120-1",
+  "name": "Kansa (bell metal / bronze) katori bowl, set of 2, matte finish, approx. 3 in (Odisha-made)",
+  "category": "kitchen_organisation",
+  "weight": "le_1kg",
+  "supplier_cost": null,
+  "supplier_cost_note": "UNKNOWN per set. Only supplier price found: IndiaMART storefront snippet (WebSearch, seen 2026-11-20) for Deepak Metals, Puri (Odisha), 'Kansa thali / katora Rs 1,400/Kg' - priced by weight, not per piece; listing page could not be opened (m.indiamart.com not reachable from this session). Retail comparables state set-of-2 weights of 200-230 g (Zishta dessert bowls) and 0.35 kg (Arcedior katori set), which at Rs 1,400/kg would imply roughly Rs 280-490 per set before finishing, packing, GST and any making charge - an indication only, NOT a quote. Odisha bell-metal centres Balakati and Kantilo are named as kansa production hubs (oaklores.com, seen 2026-11-20). Need a written quote: per-set price, piece weight, alloy ratio, MOQ, single-set drop-ship.",
+  "price": 1299,
+  "retail_observed": "Seen 2026-11-20 via WebSearch snippets (pages not opened): Arcedior/Green Heirloom kansa katori set of 2 Rs 1,650 incl. tax, 0.35 kg; Velanstore kansa katori medium set of 2 matte Rs 1,749; Zishta kansa dessert bowls set of 2 Rs 3,250 (200-230 g per set). Flipkart De Kulture Works kansa katori set of 2 (3x1.5 in) shows 'Price: Not Available'/unavailable. No Meesho or Amazon.in katori set-of-2 price surfaced in two searches - mass-marketplace price UNVALIDATED.",
+  "gst_pct": 12,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Odisha",
+  "demand_signals": [
+    {
+      "source": "Indian D2C kitchenware brands listing kansa katori sets of 2",
+      "url": "https://shop.arcedior.com/products/kansa-katori-bowl-set",
+      "seen_on": "2026-11-20",
+      "summary": "Arcedior (Rs 1,650), Velanstore (Rs 1,749) and Zishta (Rs 3,250) all sell kansa katori sets of 2, showing a sustained retail price band above Rs 1,299. Presence signal only; no sales volume or trend data found."
+    },
+    {
+      "source": "Flipkart kansa dinner sets via WebSearch",
+      "url": "https://flipkart.com/kansya-jiaa-enterprises-pack-6-bronze-classic-dinner-set/p/itm8273f06615cc2",
+      "seen_on": "2026-11-20",
+      "summary": "Kansa/bronze dinner sets are listed on Flipkart (Kansya by Jiaa Enterprises, Krown pack of 6), and a price-history page quotes a lowest price of Rs 3,899 for a 6-piece Raj Gharana kansa dinner set - category exists on marketplaces at premium prices. No volume data."
+    },
+    {
+      "source": "Oaklores: Balakati bell metal",
+      "url": "https://oaklores.com/?p=23141",
+      "seen_on": "2026-11-20",
+      "summary": "Article on Balakati (Odisha) bell-metal kansari craft; supply-side signal for an Odisha supplier, not a demand signal."
+    }
+  ],
+  "risks": [
+    "Supplier cost unknown: only a Rs 1,400/kg listing price (Puri) found; per-set cost depends on piece weight and making charge - get a written quote before any evaluation",
+    "'Pure kansa / bell metal / bronze' and any alloy ratio (e.g. 78:22) are material claims needing a supplier test report (policy require_evidence_for_claims); brass or plated look-alikes are common",
+    "Bell metal is brittle and can crack if dropped hard; not glass, but needs rigid padded packing, and transit dents/cracks drive returns",
+    "Food-contact item: avoid health/Ayurvedic benefit claims in copy (regulated-claim risk); sell as tableware only",
+    "Mass-marketplace (Meesho/Amazon.in) katori set price not found - if generic 'kansa' bowls sell near Rs 300-500 there, the Rs 1,299 price will not hold",
+    "Tarnishes; needs care card (tamarind/lemon cleaning, no dishwasher) to limit 'not as pictured' complaints",
+    "Retail comparables are D2C brand prices from search snippets, not opened pages; re-check live",
+    "GST for bronze tableware (HSN 7418) to be confirmed by the CA; 12% used as a conservative estimate",
+    "Odisha supplier: GST-local, marketplace pickup possible (docs/05)"
+  ],
+  "sources": [
+    "https://m.indiamart.com/deepak-metals-puri",
+    "https://oaklores.com/?p=23141",
+    "https://shop.arcedior.com/products/kansa-katori-bowl-set",
+    "https://velanstore.com/products/kansa-katori-medium-set-of-2-matte-finish",
+    "https://zishta.com/en/bronze-kansa-dessert-bowls.html",
+    "https://www.flipkart.com/de-kulture-works-bronze-serving-bowl/p/itma57f14bfb03c7",
+    "https://flipkart.com/kansya-jiaa-enterprises-pack-6-bronze-classic-dinner-set/p/itm8273f06615cc2",
+    "https://pricehistoryapp.com/product/raj-gharana-metals-pure-kansa-bronze-dinner-set-6-pcs-kansa-utensils-set-1-thali-platter-dai-12-inch-2-bowl-katori-1-sweet-dish-1-glass-tumbler-1-spoon-matte-finished-ideal-gift"
+  ],
+  "stage": "NEW"
+}

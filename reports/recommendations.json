@@ -3387,6 +3387,32 @@
       ],
       "review": null,
       "ca": null
+    },
+    {
+      "id": "RA-20261120-1",
+      "name": "Kansa (bell metal / bronze) katori bowl, set of 2, matte finish, approx. 3 in (Odisha-made)",
+      "category": "kitchen_organisation",
+      "price": 1299.0,
+      "supplier_cost": null,
+      "stage": "REJECTED",
+      "reason": "no supplier cost yet",
+      "best_channel": null,
+      "best": null,
+      "channels": {},
+      "passing_channels": [],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/deepak-metals-puri",
+        "https://oaklores.com/?p=23141",
+        "https://shop.arcedior.com/products/kansa-katori-bowl-set",
+        "https://velanstore.com/products/kansa-katori-medium-set-of-2-matte-finish",
+        "https://zishta.com/en/bronze-kansa-dessert-bowls.html",
+        "https://www.flipkart.com/de-kulture-works-bronze-serving-bowl/p/itma57f14bfb03c7",
+        "https://flipkart.com/kansya-jiaa-enterprises-pack-6-bronze-classic-dinner-set/p/itm8273f06615cc2",
+        "https://pricehistoryapp.com/product/raj-gharana-metals-pure-kansa-bronze-dinner-set-6-pcs-kansa-utensils-set-1-thali-platter-dai-12-inch-2-bowl-katori-1-sweet-dish-1-glass-tumbler-1-spoon-matte-finished-ideal-gift"
+      ],
+      "review": null,
+      "ca": null
     }
   ]
 }
