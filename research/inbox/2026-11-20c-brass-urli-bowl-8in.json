@@ -1,0 +1,50 @@
+{
+  "id": "RA-20261120C-1",
+  "name": "Brass decorative urli bowl for floating flowers/tea lights, approx. 8 in diameter (~550 g)",
+  "category": "home_decor",
+  "weight": "le_1kg",
+  "supplier_cost": null,
+  "supplier_cost_note": "UNKNOWN. WebSearch snippets seen 2026-11-20 (IndiaMART pages not opened; blocked): IndiaMART brass-urli category shows Moradabad (Uttar Pradesh) listings 'Golden Peacock Brass Urli - 8 Inch Polished Rs 95/piece' (Sanwariya Global Services) and 'Brass Urli With Diya, 8 in, Rs 75/piece' (R K Handicrafts, Moradabad) (m.indiamart.com/impcat/brass-urli.html); Exportersindia Moradabad 'Round Golden Brass Urli Bowl Rs 210/piece, MOQ 100' and a 10x4 in urli at Rs 1,380/piece (exportersindia.com/moradabad/brass-bowls.htm); Globallinker 8 in embossed urli, ~550 g, Rs 14.73/piece (globallinker.com, clearly an error or bulk unit price). The Rs 75-95 listings look too low for a solid ~550 g brass bowl and may be sheet/plated items or teaser prices, so none is recorded as cost. Need a written quote: per-piece price, weight, alloy (solid brass vs brass-plated iron), MOQ, single-piece drop-ship, GST invoice.",
+  "price": 1299,
+  "retail_observed": "Seen 2026-11-20 via WebSearch snippets (pages not opened): Ikyem 'Brass Pooja Urli - 8 inch' regular price Rs 1,399 (ikyem.com/products/kea2922); indiahandmade.com brass flower urli 8x8x4 in Rs 5,675 (regular Rs 6,839); Hunarsetu heavier 8 in brass flower urli Rs 9,110. Meesho has 8 in 'metal urli bowl' listings (meesho.com/s/p/gjwkjv; meesho.com/decorative-urli-bowl-.../p/75m69i) but their prices did not appear in snippets; a Meesho 8 in terracotta urli is Rs 1,200. No Amazon.in or Flipkart 8 in brass urli price found. Mass-marketplace price for an 8 in brass urli is UNVALIDATED.",
+  "gst_pct": 12,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Uttar Pradesh",
+  "demand_signals": [
+    {
+      "source": "Indian retail/D2C listings of 8 in brass urli bowls",
+      "url": "https://www.ikyem.com/products/kea2922",
+      "seen_on": "2026-11-20",
+      "summary": "Ikyem 8 in brass pooja urli Rs 1,399; indiahandmade.com and Hunarsetu list 8 in brass flower urlis at Rs 5,675-9,110. Presence and price-band signal only; no sales volume or trend data found."
+    },
+    {
+      "source": "Meesho urli listings via WebSearch",
+      "url": "https://www.meesho.com/decorative-urli-bowl-handcrafted-bowl-for-floating-flowers-and-tea-light-candles-home-office-and-table-decor-metal-urli-bowl-for-decoration-diwali-many-other-occasion-decoration-items/p/75m69i",
+      "seen_on": "2026-11-20",
+      "summary": "Meesho sells decorative metal urli bowls for floating flowers/tea lights (category exists on a mass marketplace, festive/Diwali positioning). Prices not visible; this is also a competition risk."
+    }
+  ],
+  "risks": [
+    "Supplier cost unknown: Moradabad listings at Rs 75-95/piece are implausible for solid ~550 g brass; a real quote may be far higher. Out-of-state supplier (UP) means website-only via bill-to-ship-to (docs/05), so cost must be about Rs 375 or less (~29% of Rs 1,299)",
+    "Meesho lists 8 in metal urli bowls at unseen prices; if they sell near Rs 300-500, Rs 1,299 will not hold. Check the live Meesho/Amazon.in price before asking for a quote",
+    "'Pure brass' / 'solid brass' is a material claim needing supplier evidence (policy require_evidence_for_claims); brass-plated iron or aluminium look-alikes are common",
+    "Close to already-explored brass metalware (brass puja thali, brass bells, singing bowls, kansa katori); reviewer to check it is not a repeat of a failed line",
+    "Dents and scratched polish in transit drive 'not as pictured' returns; tarnishes, needs a care card",
+    "Seasonal demand (Diwali/festive decor), so off-season sales may be low",
+    "Do not show lit candles/diyas inside as included; sell the bowl only (no flammables)",
+    "GST: brass decorative ware (HSN 7418/8306) assumed 12%, may differ after the GST rate changes of 22-09-2025; CA to confirm"
+  ],
+  "sources": [
+    "https://m.indiamart.com/impcat/brass-urli.html",
+    "https://www.exportersindia.com/moradabad/brass-bowls.htm",
+    "https://www.globallinker.com/products/brass-embossing-urli-8-inch-decorative-bowl-size-8-inches-diameter-weight-550-grams-approx-8246360",
+    "https://www.ikyem.com/products/kea2922",
+    "https://www.indiahandmade.com/catalog/product/view/id/29319",
+    "https://www.hunarsetu.com/en/product/brass-flower-urli-elegant-handcrafted-bowl-diameter-8-inch-bsmas1212-a-",
+    "https://www.meesho.com/s/p/gjwkjv",
+    "https://www.meesho.com/decorative-urli-bowl-handcrafted-bowl-for-floating-flowers-and-tea-light-candles-home-office-and-table-decor-metal-urli-bowl-for-decoration-diwali-many-other-occasion-decoration-items/p/75m69i",
+    "https://www.meesho.com/turtuls-group-stand-with-urli-multicolor-terracotta-big-size-8-inch/p/8aewv7"
+  ],
+  "stage": "NEW"
+}

@@ -58,3 +58,4 @@ Ranked by expected profit per order (base scenario). Minimum 30% margin and Rs 6
 | REJECTED | Handwoven Sambalpuri ikat cotton cushion covers, 16x16 in, set of 2 (Odisha handloom) | - | Rs 899 | - | - | - | - | no supplier cost yet · retail price unvalidated |
 | REJECTED | Hand-carved, hand-painted neem wood Jagannath, Balabhadra and Subhadra idol set, approx. 6 in (Puri, Odisha) | - | Rs 899 | - | - | - | - | no supplier cost yet · retail price unvalidated |
 | REJECTED | Kansa (bell metal / bronze) katori bowl, set of 2, matte finish, approx. 3 in (Odisha-made) | - | Rs 1299 | - | - | - | - | no supplier cost yet · retail price unvalidated |
+| REJECTED | Brass decorative urli bowl for floating flowers/tea lights, approx. 8 in diameter (~550 g) | - | Rs 1299 | - | - | - | - | no supplier cost yet · retail price unvalidated |
