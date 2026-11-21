@@ -1,0 +1,59 @@
+{
+  "id": "RA-20261121-1",
+  "name": "Hand-painted Pattachitra / Saura painting on tussar silk, approx. 50 x 25 cm, unframed with paper border, rolled (Odisha)",
+  "category": "home_decor",
+  "weight": "le_500g",
+  "supplier_cost": null,
+  "supplier_cost_note": "UNKNOWN. WebSearch snippets seen 2026-11-21 (IndiaMART pages not opened; blocked): Neelanchal Handicrafts, Puri, Odisha (GST 21ARNPS3370B1Z0) lists hand-painted tussar silk pattachitra but shows 'Get Latest Price' only (m.indiamart.com/dedicated-topeople). IndiaMART paintings category shows a canvas pattachitra 18 x 12 in at Rs 1,200/piece (seller and state not shown) and an 'acrylic pattachitra' 10 x 20 in at Rs 150/piece (likely printed/paper, not used) (m.indiamart.com/impcat/indian-paintings.html). Gonasika Exim, Bhubaneswar quotes Saura work at Rs 191.81 per centimetre (globallinker; unit basis unclear, not usable). No usable per-piece supplier price. Need a written quote from an Odisha (Puri/Raghurajpur) workshop: per-piece price for ~50 x 25 cm hand-painted tussar, MOQ, single-piece drop-ship, GST invoice. Highest cost for a 30% base-scenario margin at Rs 1,299 (computed 2026-11-21 with scripts/profit_report.run at gst 5%, unverified fee cards): Amazon.in about Rs 480, Flipkart about Rs 470, Shopify about Rs 620, Meesho about Rs 640 (excl. GST).",
+  "price": 1299,
+  "retail_observed": "Seen 2026-11-21 via WebSearch snippets (pages not opened): Amazon.in Store Utsav 'Pattachitra Painting Saura Village Life Theme on Tussar Silk with Paper Border Unframed' Rs 1,579 (amazon.in/dp/B0CBKXX9HP); Amazon.in search shows hand-painted tussar pieces at roughly Rs 800 (Radha Krishna, 50 x 25 cm, unframed) to Rs 1,699 (GI-tagged Odisha tussar piece), framed Saura 22 x 10 in Rs 1,499 (MRP 4,800), and A4 framed pattachitra prints at Rs 350-400 (amazon.in/pattachitra-painting/s?k=pattachitra+painting). Flipkart tussar tree-of-life listing 'Currently Unavailable'. Specialist sites: Zwende 16 x 6 in tussar Rs 2,625; Zwende 11 x 19 in tussar Rs 7,000; Utkalika 48 x 24 in tussar Rs 15,315; MeMeraki Saura on canvas 19 x 13 in Rs 3,000-3,500 (artist-signed).",
+  "gst_pct": 5,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Odisha",
+  "demand_signals": [
+    {
+      "source": "Amazon.in search results for pattachitra paintings (via WebSearch snippet)",
+      "url": "https://www.amazon.in/pattachitra-painting/s?k=pattachitra+painting",
+      "seen_on": "2026-11-21",
+      "summary": "Multiple pages of pattachitra listings on Amazon.in; hand-painted tussar pieces priced about Rs 800-1,699. Shows an active marketplace category and its price band; no sales volume or trend data found."
+    },
+    {
+      "source": "Amazon.in Store Utsav Saura-theme tussar painting",
+      "url": "https://www.amazon.in/Store-Utsav-Pattachitra-Painting-Villlage/dp/B0CBKXX9HP",
+      "seen_on": "2026-11-21",
+      "summary": "Unframed Saura village-life painting on tussar with paper border at Rs 1,579 (20% off). Direct comparable for format and price; also a competitor. No review count or sales data seen."
+    },
+    {
+      "source": "Specialist craft retailers (Zwende, MeMeraki, Utkalika)",
+      "url": "https://www.zwende.com/products/16-x-6-inch-handmade-tussar-silk-tree-of-life-painting-3",
+      "seen_on": "2026-11-21",
+      "summary": "Tussar and canvas pattachitra/Saura pieces retail at Rs 2,625-15,315 on specialist sites; premium price band signal only, no volume data."
+    }
+  ],
+  "risks": [
+    "Supplier cost unknown; no Odisha per-piece price was found. Marketplace price band is only Rs 800-1,699 for comparable tussar pieces, so the deal only works if a Puri/Raghurajpur workshop quotes about Rs 470-480 or less per piece for Amazon.in/Flipkart (Rs 620-640 for Shopify/Meesho)",
+    "Direct marketplace competition: Store Utsav sells the same format (Saura on tussar, unframed, paper border) at Rs 1,579 and other Amazon.in sellers at Rs 800. Price set at Rs 1,299, so lower than the Rs 1,579 comparable but above the Rs 800 floor seller",
+    "Close to already-explored Odisha GI crafts and the rejected talapatra palm-leaf pattachitra (RA-20261025D-1, rejected on Amazon.in price competition); the reviewer should decide whether painted tussar art counts as a repeat",
+    "'Hand-painted', 'natural colours' and 'GI-tagged' are claims that need supplier evidence (policy require_evidence_for_claims); printed-on-tussar copies and Rs 150 printed pieces exist. Do not use the GI tag unless the supplier is a registered authorised user",
+    "Must be sold unframed (rolled in a tube) to avoid glass; never offer a glazed frame (glass_fragile is blocked)",
+    "Handmade variation between pieces; 'not as pictured' returns unless photos show the actual piece or are clearly marked as representative. Supplier photos need written permission",
+    "Religious-themed designs (Jagannath, Krishna) need careful handling; Saura tribal designs avoid that",
+    "GST: hand paintings HSN 9701 assumed 5% after the 22-09-2025 rate changes (earlier 12%); textile-based painted articles may fall under a different HSN. CA to confirm"
+  ],
+  "sources": [
+    "https://m.indiamart.com/dedicated-topeople",
+    "https://m.indiamart.com/impcat/indian-paintings.html",
+    "https://globallinker.com/products/village-depiction-patta-tussar-painting-8441941",
+    "https://www.globallinker.com/products/saura-tribal-artwork-with-pattachitra-with-different-styles-8441721",
+    "https://www.amazon.in/pattachitra-painting/s?k=pattachitra+painting",
+    "https://www.amazon.in/Store-Utsav-Pattachitra-Painting-Villlage/dp/B0CBKXX9HP",
+    "https://www.amazon.in/Pattachitra-Painting-Spiral-Tussar-Unframed/dp/B0CBKXK4VB",
+    "https://www.flipkart.com/rai-art-craft-tree-life-pattachitra-painting-tussar-silk-framed-natural-colors-19-23-inch-x-10-5/p/itmbf45bd24c213b",
+    "https://www.zwende.com/products/16-x-6-inch-handmade-tussar-silk-tree-of-life-painting-3",
+    "https://www.zwende.com/products/11-x-19-inch-handmade-tussar-silk-tree-of-life-painting",
+    "https://utkalikaodisha.com/?p=36990",
+    "https://www.memeraki.com/collections/saura-art"
+  ],
+  "stage": "NEW"
+}

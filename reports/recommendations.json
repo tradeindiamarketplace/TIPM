@@ -3605,6 +3605,36 @@
       ],
       "review": null,
       "ca": null
+    },
+    {
+      "id": "RA-20261121-1",
+      "name": "Hand-painted Pattachitra / Saura painting on tussar silk, approx. 50 x 25 cm, unframed with paper border, rolled (Odisha)",
+      "category": "home_decor",
+      "price": 1299.0,
+      "supplier_cost": null,
+      "stage": "REJECTED",
+      "reason": "no supplier cost yet",
+      "best_channel": null,
+      "best": null,
+      "channels": {},
+      "passing_channels": [],
+      "retail_validated": true,
+      "sources": [
+        "https://m.indiamart.com/dedicated-topeople",
+        "https://m.indiamart.com/impcat/indian-paintings.html",
+        "https://globallinker.com/products/village-depiction-patta-tussar-painting-8441941",
+        "https://www.globallinker.com/products/saura-tribal-artwork-with-pattachitra-with-different-styles-8441721",
+        "https://www.amazon.in/pattachitra-painting/s?k=pattachitra+painting",
+        "https://www.amazon.in/Store-Utsav-Pattachitra-Painting-Villlage/dp/B0CBKXX9HP",
+        "https://www.amazon.in/Pattachitra-Painting-Spiral-Tussar-Unframed/dp/B0CBKXK4VB",
+        "https://www.flipkart.com/rai-art-craft-tree-life-pattachitra-painting-tussar-silk-framed-natural-colors-19-23-inch-x-10-5/p/itmbf45bd24c213b",
+        "https://www.zwende.com/products/16-x-6-inch-handmade-tussar-silk-tree-of-life-painting-3",
+        "https://www.zwende.com/products/11-x-19-inch-handmade-tussar-silk-tree-of-life-painting",
+        "https://utkalikaodisha.com/?p=36990",
+        "https://www.memeraki.com/collections/saura-art"
+      ],
+      "review": null,
+      "ca": null
     }
   ]
 }
