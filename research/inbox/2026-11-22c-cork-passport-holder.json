@@ -1,0 +1,85 @@
+{
+  "id": "RA-20261122C-1",
+  "name": "Natural cork and canvas passport holder (vegan, leather-free), gift boxed",
+  "category": "travel_accessories",
+  "weight": "le_500g",
+  "supplier_cost": 235,
+  "supplier_cost_note": "IndiaMART seller Happy Grumpy (New Delhi) lists 'Eco Friendly Cork All In 1 Passport Holder' at Rs 235/piece (made in India) and 'Eco-Friendly Canvas & Cork Passport Holder' at Rs 399/piece. MOQ not stated (WebSearch snippets seen 2026-11-22, page not opened). Assumed excl. GST. Single-piece drop-ship, gift box, dispatch SLA and whether it is real cork sheet NOT confirmed. Rs 235 is 26.2% of Rs 899; the Rs 399 canvas+cork version would be 44% and should not be used at this price.",
+  "price": 899,
+  "retail_observed": "UNVALIDATED for plain cork. Brown Living lists a cork-and-canvas passport holder (5.5 x 8 x 1.25 in) but no price showed in the snippet; Brown Living vegan-leather passport holder with cork print Rs 1,950 (regular Rs 2,535), a different material; Suspire vegan-leather passport holder Rs 1,950 (regular Rs 2,535). Marketplace anchor: Flipkart STORITE RFID passport wallet (not cork) Rs 255 (list Rs 1,499). No cork passport holder found on Flipkart, Amazon.in or Nykaa (WebSearch snippets seen 2026-11-22).",
+  "gst_pct": 18,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Delhi",
+  "demand_signals": [
+    {
+      "source": "Brown Living cork-and-canvas passport holder",
+      "url": "https://brownliving.in/products/cork-passport-holder",
+      "seen_on": "2026-11-22",
+      "summary": "A sustainable-goods D2C retailer stocks a cork-and-canvas passport holder. Price not visible in the snippet; no sales or trend data."
+    },
+    {
+      "source": "Brown Living plant-leather cork-print passport holder",
+      "url": "https://brownliving.in/products/passport-holder-with-storage-slots-plant-leather-cork-print-blue",
+      "seen_on": "2026-11-22",
+      "summary": "Vegan-leather passport holder with cork print at Rs 1,950 sale (regular Rs 2,535). Shows the eco passport-holder price point on D2C; not the same material."
+    },
+    {
+      "source": "Suspire eco passport covers",
+      "url": "https://suspire.in/collections/passport-covers",
+      "seen_on": "2026-11-22",
+      "summary": "Eco-friendly passport cover collection; vegan-leather passport holder Rs 1,950 (regular Rs 2,535). Price point only; no demand data."
+    }
+  ],
+  "risks": [
+    "Plain cork passport holder retail price NOT found; Rs 899 rests on adjacent D2C items at Rs 1,950 (vegan leather/cork print) and the earlier Brown Living slim cork card wallet at Rs 649, so retail is UNVALIDATED",
+    "Marketplace shoppers can buy a generic RFID passport wallet for Rs 255 on Flipkart, close to the Rs 235 supplier cost; realistic only as a website (Shopify) product where cork/vegan positioning holds",
+    "Supplier in New Delhi, so website-only under docs/05; no Odisha cork supplier found",
+    "Rs 235 price for 'cork' is low; it may be PU printed to look like cork or a thin cork-fabric laminate. 'Natural cork'/'vegan' claims need supplier evidence (require_evidence_for_claims)",
+    "Seasonal, low-repeat purchase (travel); small item, so perceived value at Rs 899 depends on gift box and photos",
+    "Same supplier as the cork wallet candidate RA-20261122B-1; could be bundled later, but adds single-supplier dependence",
+    "Supplier photos need permission; GST/HSN (4202 vs 4504) to be confirmed by the CA, 18% used as conservative"
+  ],
+  "sources": [
+    "https://m.indiamart.com/happygrumpy/passport-holder.html",
+    "https://brownliving.in/products/cork-passport-holder",
+    "https://brownliving.in/products/passport-holder-with-storage-slots-plant-leather-cork-print-blue",
+    "https://suspire.in/collections/passport-covers",
+    "https://flipkart.com/storite-rfid-travel-passport-cover-holder-wallet-credit-card-boarding-pass-ticket/p/itma9338b24c55fd",
+    "https://www.meesho.com/passport-cover-passport-holder-travel-essentials-passport-holder-for-men-passport-holder-for-women/p/6rr6bh"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "needs_info",
+    "by": "product-reviewer",
+    "at": "2026-11-22",
+    "notes": "No hard-rule breach (travel_accessories not blocked, Rs 899 above Rs 449 floor, margin 42.3% on Shopify only) and no cork or cork-look passport holder at or below Rs 450 found on Amazon.in, Flipkart or Meesho on 2026-11-22, so not undercut on present evidence; but no priced plain-cork passport holder was found in India at all, so Rs 899 is unvalidated, and the Rs 235 item is not shown to be genuine cork (listing gives no material spec, price is low). Needed before approve: a priced Indian natural-cork passport holder listing (or a test listing), written supplier spec/evidence of cork sheet and backing, MOQ/drop-ship/gift-box quote, and a physical sample.",
+    "competitor_prices": [
+      {
+        "price": 1950,
+        "url": "https://brownliving.in/products/passport-holder-with-storage-slots-plant-leather-cork-print-blue",
+        "note": "Brown Living vegan-leather passport holder with cork print, sale Rs 1,950; different material (cork print); WebSearch snippet seen 2026-11-22"
+      },
+      {
+        "price": 249,
+        "url": "https://www.meesho.com/passport-cover-passport-holder-travel-essentials-passport-holder-for-men-passport-holder-for-women/p/6rr6bh",
+        "note": "Meesho leather passport holder Rs 249; not cork; mass-marketplace anchor; WebSearch snippet seen 2026-11-22"
+      },
+      {
+        "price": 255,
+        "url": "https://flipkart.com/storite-rfid-travel-passport-cover-holder-wallet-credit-card-boarding-pass-ticket/p/itma9338b24c55fd",
+        "note": "Flipkart STORITE RFID passport holder Rs 255; not cork; WebSearch snippet seen 2026-11-22"
+      },
+      {
+        "price": 489,
+        "url": "https://www.flipkart.com/hammonds-flycatcher-leather-passport-holder/p/itmbb27a968b28e2",
+        "note": "Flipkart leather passport holder Rs 489 (snippet listed 'grey leather holder Rs 489'; exact listing mapping from the search summary, not page-verified); not cork; WebSearch snippet seen 2026-11-22"
+      }
+    ],
+    "marketplace_check": "2026-11-22: two searches ('cork passport holder price India Amazon.in Flipkart Meesho', 'cork passport holder Amazon.in price natural cork vegan') returned no Amazon.in cork listing and only leather/PU/RFID holders on Flipkart (Rs 255, Rs 489) and Meesho (Rs 249). No cork or cork-look passport holder at or below Rs 450 found, so the undercut rule is not triggered; absence in search is not proof of absence. Generic passport holders at Rs 249-489 mean marketplace sale at Rs 899 is not realistic; Shopify-only positioning required. Brown Living cork-and-canvas holder (https://brownliving.in/products/cork-passport-holder, The Cork Studio, Mumbai) shows no price in snippet and is marked non-returnable. Overseas natural-cork holders: Tiradia Wanderlust $30 (https://earthhero.com/products/tiradia-wanderlust-cork-passport-holder), Evergood $32 (https://www.theevergood.com/products/wanderlust-passport-holder-4); not Indian retail anchors.",
+    "supplier_cost_check": "2026-11-22 WebSearch snippet: Happy Grumpy, New Delhi (IndiaMART, 5.0 from 16 ratings, est. 2017) lists 'Eco Friendly Cork All In 1 Passport Holder' Rs 235/piece, Made in India (https://m.indiamart.com/happygrumpy/passport-holder.html); the snippet gives no dimensions, material spec or MOQ. The Rs 399 canvas & cork version lists material options. Genuine cork NOT confirmed; page could not be opened (m.indiamart.com blocked in this session).",
+    "complaint_patterns": "2026-11-22 search found no cork-passport-holder-specific complaints (peeling, cracking, 'not as shown'); only generic material guidance (hinge cracking, surface peeling, flimsiness in vegan-leather holders) at https://www.backpacks4less.com/blogs/news/leather-vs-synthetic-passport-holders and https://packhacker.com/travel-gear/herschel-supply-co/raynor-passport-holder. Evidence thin; sibling cork wallet review recorded cork fabric separating and stitching ripping. Sample must be checked for hinge, edge sealing and delamination.",
+    "demand_check": "No sales volume, rank or trend data found for cork passport holders in India; demand signals are D2C stocking only. Seasonal, low-repeat travel item.",
+    "unverified": "Indian retail price for plain cork passport holder; cork authenticity of the Rs 235 item; MOQ, drop-ship, gift box, dispatch SLA; GST/HSN (CA); photo permission."
+  }
+}

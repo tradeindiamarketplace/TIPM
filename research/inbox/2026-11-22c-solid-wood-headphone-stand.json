@@ -1,0 +1,51 @@
+{
+  "id": "RA-20261122C-2",
+  "name": "Solid wood headphone stand (non-electrical, desk), natural/walnut finish",
+  "category": "electronics_accessories_non_electrical",
+  "weight": "le_1kg",
+  "supplier_cost": null,
+  "supplier_cost_note": "Unknown. No IndiaMART listing for a wooden headphone stand was found (WebSearch 2026-11-22). Globallinker shows Northland Handicrafts (Saharanpur) 'minimalist wood headphone stand' at Rs 20/piece, MOQ 1, but the seller profile says Price on Request, so Rs 20 looks like a placeholder and is NOT used. natureCrafts (Khata Kheri, Saharanpur) is named as a maker on a DesertCart listing, no price. Related Saharanpur wooden phone stands list at Rs 45-65/piece (Begum Arts, Star Enterprises), a different product. A written quote is needed.",
+  "price": 999,
+  "retail_observed": "D2C (WebSearch snippets seen 2026-11-22): Headphone Zone Omega wooden stand (walnut/birch) shown at Rs 1,299, Rs 1,499 (MRP Rs 1,699) and Rs 1,999 on different pages; Headphone Zone Helix Rs 1,999 (regular Rs 2,499); Dreadnought Rs 3,499. Smartprix (data last updated April 2024, older than this run) listed AUDIOCULAR walnut stands at Rs 1,449 and Rs 1,649. Marketplace price UNVALIDATED: Flipkart lists Rekri Vertical 01 and IKEA MOJLIGHET headphone stands, but no prices showed in the snippets; no generic Amazon.in wooden stand price found.",
+  "gst_pct": 12,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Uttar Pradesh",
+  "demand_signals": [
+    {
+      "source": "Headphone Zone stands collection",
+      "url": "https://www.headphonezone.in/collections/stands",
+      "seen_on": "2026-11-22",
+      "summary": "A specialist Indian audio retailer carries several own-brand wooden headphone stands at Rs 1,299-3,499. Shows a price point; no sales volume or trend data found."
+    },
+    {
+      "source": "Flipkart Rekri Vertical 01 headphone stand",
+      "url": "https://www.flipkart.com/rekri-vertical-01-headphone-stand/p/itmc4a208e4add2d",
+      "seen_on": "2026-11-22",
+      "summary": "Headphone stands are listed on Flipkart (also IKEA MOJLIGHET), so the category exists on the marketplace; price not visible in the snippet."
+    }
+  ],
+  "risks": [
+    "Supplier cost unknown; recommend.py cannot score it until a quote arrives. To pass, cost needs to be about Rs 270 or less at Rs 999",
+    "Marketplace competition NOT checked to price level: generic wooden/acrylic stands on Amazon.in/Flipkart may sell far below Rs 999; Headphone Zone prices are own-brand specialist retail",
+    "Saharanpur (UP) supplier, so website-only under docs/05; no Odisha maker found",
+    "Avoid look-alikes of Headphone Zone, AUDIOCULAR or IKEA designs (branded/replica rule)",
+    "Wood finish, splitting and transit damage to the arm/base joint cause a return risk; needs a sample and sturdy packing",
+    "'Solid wood'/'walnut' claims need supplier evidence; many are MDF or mango with walnut stain",
+    "GST/HSN (4420 wooden articles, likely 12%) to be confirmed by the CA"
+  ],
+  "sources": [
+    "https://www.headphonezone.in/collections/stands",
+    "https://headphonezone.in/products/headphone-zone-omega-headphone-stand",
+    "https://headphonezone.in/products/headphone-zone-helix-headphone-stand",
+    "https://www.headphonezone.in/products/headphone-zone-omega-stand",
+    "https://www.smartprix.com/mobile_docks/price-below_5000",
+    "https://www.globallinker.com/products/minimalist-wood-headphone-stand-natural-finish-desk-organizer-for-gaming-studio-office-accessories-8519559",
+    "https://www.globallinker.com/seller/northland-handicrafts",
+    "https://www.desertcart.com.cy/products/334604005",
+    "https://m.indiamart.com/impcat/wooden-stand.html",
+    "https://www.flipkart.com/rekri-vertical-01-headphone-stand/p/itmc4a208e4add2d",
+    "https://www.flipkart.com/ikea-mojlighet-headphone-stand/p/itmf900e188b5013"
+  ],
+  "stage": "NEW"
+}

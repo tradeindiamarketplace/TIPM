@@ -429,6 +429,78 @@
       "ca": null
     },
     {
+      "id": "RA-20261122C-1",
+      "name": "Natural cork and canvas passport holder (vegan, leather-free), gift boxed",
+      "category": "travel_accessories",
+      "price": 899.0,
+      "supplier_cost": 235.0,
+      "stage": "NEEDS_INFO",
+      "reason": "No hard-rule breach (travel_accessories not blocked, Rs 899 above Rs 449 floor, margin 42.3% on Shopify only) and no cork or cork-look passport holder at or below Rs 450 found on Amazon.in, Flipkart or Meesho on 2026-11-22, so not undercut on present evidence; but no priced plain-cork passport holder was found in India at all, so Rs 899 is unvalidated, and the Rs 235 item is not shown to be genuine cork (listing gives no material spec, price is low). Needed before approve: a priced Indian natural-cork passport holder listing (or a test listing), written supplier spec/evidence of cork sheet and backing, MOQ/drop-ship/gift-box quote, and a physical sample.",
+      "best_channel": "shopify",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 296.36,
+        "margin": 42.28,
+        "conservative": 222.18
+      },
+      "channels": {
+        "shopify": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 296.36,
+          "margin": 42.28,
+          "conservative": 222.18
+        }
+      },
+      "passing_channels": [
+        "shopify"
+      ],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/happygrumpy/passport-holder.html",
+        "https://brownliving.in/products/cork-passport-holder",
+        "https://brownliving.in/products/passport-holder-with-storage-slots-plant-leather-cork-print-blue",
+        "https://suspire.in/collections/passport-covers",
+        "https://flipkart.com/storite-rfid-travel-passport-cover-holder-wallet-credit-card-boarding-pass-ticket/p/itma9338b24c55fd",
+        "https://www.meesho.com/passport-cover-passport-holder-travel-essentials-passport-holder-for-men-passport-holder-for-women/p/6rr6bh"
+      ],
+      "review": {
+        "verdict": "needs_info",
+        "by": "product-reviewer",
+        "at": "2026-11-22",
+        "notes": "No hard-rule breach (travel_accessories not blocked, Rs 899 above Rs 449 floor, margin 42.3% on Shopify only) and no cork or cork-look passport holder at or below Rs 450 found on Amazon.in, Flipkart or Meesho on 2026-11-22, so not undercut on present evidence; but no priced plain-cork passport holder was found in India at all, so Rs 899 is unvalidated, and the Rs 235 item is not shown to be genuine cork (listing gives no material spec, price is low). Needed before approve: a priced Indian natural-cork passport holder listing (or a test listing), written supplier spec/evidence of cork sheet and backing, MOQ/drop-ship/gift-box quote, and a physical sample.",
+        "competitor_prices": [
+          {
+            "price": 1950,
+            "url": "https://brownliving.in/products/passport-holder-with-storage-slots-plant-leather-cork-print-blue",
+            "note": "Brown Living vegan-leather passport holder with cork print, sale Rs 1,950; different material (cork print); WebSearch snippet seen 2026-11-22"
+          },
+          {
+            "price": 249,
+            "url": "https://www.meesho.com/passport-cover-passport-holder-travel-essentials-passport-holder-for-men-passport-holder-for-women/p/6rr6bh",
+            "note": "Meesho leather passport holder Rs 249; not cork; mass-marketplace anchor; WebSearch snippet seen 2026-11-22"
+          },
+          {
+            "price": 255,
+            "url": "https://flipkart.com/storite-rfid-travel-passport-cover-holder-wallet-credit-card-boarding-pass-ticket/p/itma9338b24c55fd",
+            "note": "Flipkart STORITE RFID passport holder Rs 255; not cork; WebSearch snippet seen 2026-11-22"
+          },
+          {
+            "price": 489,
+            "url": "https://www.flipkart.com/hammonds-flycatcher-leather-passport-holder/p/itmbb27a968b28e2",
+            "note": "Flipkart leather passport holder Rs 489 (snippet listed 'grey leather holder Rs 489'; exact listing mapping from the search summary, not page-verified); not cork; WebSearch snippet seen 2026-11-22"
+          }
+        ],
+        "marketplace_check": "2026-11-22: two searches ('cork passport holder price India Amazon.in Flipkart Meesho', 'cork passport holder Amazon.in price natural cork vegan') returned no Amazon.in cork listing and only leather/PU/RFID holders on Flipkart (Rs 255, Rs 489) and Meesho (Rs 249). No cork or cork-look passport holder at or below Rs 450 found, so the undercut rule is not triggered; absence in search is not proof of absence. Generic passport holders at Rs 249-489 mean marketplace sale at Rs 899 is not realistic; Shopify-only positioning required. Brown Living cork-and-canvas holder (https://brownliving.in/products/cork-passport-holder, The Cork Studio, Mumbai) shows no price in snippet and is marked non-returnable. Overseas natural-cork holders: Tiradia Wanderlust $30 (https://earthhero.com/products/tiradia-wanderlust-cork-passport-holder), Evergood $32 (https://www.theevergood.com/products/wanderlust-passport-holder-4); not Indian retail anchors.",
+        "supplier_cost_check": "2026-11-22 WebSearch snippet: Happy Grumpy, New Delhi (IndiaMART, 5.0 from 16 ratings, est. 2017) lists 'Eco Friendly Cork All In 1 Passport Holder' Rs 235/piece, Made in India (https://m.indiamart.com/happygrumpy/passport-holder.html); the snippet gives no dimensions, material spec or MOQ. The Rs 399 canvas & cork version lists material options. Genuine cork NOT confirmed; page could not be opened (m.indiamart.com blocked in this session).",
+        "complaint_patterns": "2026-11-22 search found no cork-passport-holder-specific complaints (peeling, cracking, 'not as shown'); only generic material guidance (hinge cracking, surface peeling, flimsiness in vegan-leather holders) at https://www.backpacks4less.com/blogs/news/leather-vs-synthetic-passport-holders and https://packhacker.com/travel-gear/herschel-supply-co/raynor-passport-holder. Evidence thin; sibling cork wallet review recorded cork fabric separating and stitching ripping. Sample must be checked for hinge, edge sealing and delamination.",
+        "demand_check": "No sales volume, rank or trend data found for cork passport holders in India; demand signals are D2C stocking only. Seasonal, low-repeat travel item.",
+        "unverified": "Indian retail price for plain cork passport holder; cork authenticity of the Rs 235 item; MOQ, drop-ship, gift box, dispatch SLA; GST/HSN (CA); photo permission."
+      },
+      "ca": null
+    },
+    {
       "id": "RA-20261022C-2",
       "name": "Handmade Dhokra (dokra) tribal brass dangle earrings, combo of 2 pairs (Odisha)",
       "category": "women_accessories",
@@ -3707,6 +3779,35 @@
         "https://www.zwende.com/products/11-x-19-inch-handmade-tussar-silk-tree-of-life-painting",
         "https://utkalikaodisha.com/?p=36990",
         "https://www.memeraki.com/collections/saura-art"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "RA-20261122C-2",
+      "name": "Solid wood headphone stand (non-electrical, desk), natural/walnut finish",
+      "category": "electronics_accessories_non_electrical",
+      "price": 999.0,
+      "supplier_cost": null,
+      "stage": "REJECTED",
+      "reason": "no supplier cost yet",
+      "best_channel": null,
+      "best": null,
+      "channels": {},
+      "passing_channels": [],
+      "retail_validated": false,
+      "sources": [
+        "https://www.headphonezone.in/collections/stands",
+        "https://headphonezone.in/products/headphone-zone-omega-headphone-stand",
+        "https://headphonezone.in/products/headphone-zone-helix-headphone-stand",
+        "https://www.headphonezone.in/products/headphone-zone-omega-stand",
+        "https://www.smartprix.com/mobile_docks/price-below_5000",
+        "https://www.globallinker.com/products/minimalist-wood-headphone-stand-natural-finish-desk-organizer-for-gaming-studio-office-accessories-8519559",
+        "https://www.globallinker.com/seller/northland-handicrafts",
+        "https://www.desertcart.com.cy/products/334604005",
+        "https://m.indiamart.com/impcat/wooden-stand.html",
+        "https://www.flipkart.com/rekri-vertical-01-headphone-stand/p/itmc4a208e4add2d",
+        "https://www.flipkart.com/ikea-mojlighet-headphone-stand/p/itmf900e188b5013"
       ],
       "review": null,
       "ca": null
