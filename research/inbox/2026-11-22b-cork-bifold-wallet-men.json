@@ -1,0 +1,88 @@
+{
+  "id": "RA-20261122B-1",
+  "name": "Natural cork vegan bi-fold wallet (men/unisex, leather-free), gift boxed",
+  "category": "men_accessories",
+  "weight": "le_500g",
+  "supplier_cost": 399,
+  "supplier_cost_note": "IndiaMART seller Happy Grumpy (New Delhi) lists 'Brown Mens Cork Wallet' at Rs 399/piece; the same seller lists Cork Wallet Rs 199/piece (style unclear, may be a card holder), Cork Zipper Wallet Rs 299/piece and Brown Cork Ladies Wallet Rs 499/piece. MOQ not stated (WebSearch snippets seen 2026-11-22, page not opened). Other IndiaMART snippets the same day: 'Cork Mens Wallets' Rs 449/piece (seller not identified, men's wallet category) and a cork leather bifold Rs 350/piece (seller not identified, bi-fold wallet category). Assumed excl. GST; manufacturer status, single-piece drop-ship, gift box and dispatch SLA NOT confirmed. Rs 399 is 30.7% of Rs 1,299, above the ~27% guide.",
+  "price": 1299,
+  "retail_observed": "D2C eco stores (WebSearch snippets seen 2026-11-22): India Handmade (Sustain Craft) men's cork bi-fold wallet Rs 1,450 (regular Rs 2,000); Ecohoy cork wallet for men Rs 1,350, in stock; Brown Living Kakapo cork & canvas unisex bifold Rs 1,600 (regular Rs 2,300), Kiwi cork unisex wallet Rs 1,800, Ibis cork wallet Rs 2,000; Brown Living slim cork card wallet Rs 649 (regular Rs 811). Marketplace price UNVALIDATED: no cork wallet listing found on Flipkart or Amazon.in in two searches; Flipkart men's wallet results were genuine/artificial leather from Rs 380.",
+  "gst_pct": 18,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Delhi",
+  "demand_signals": [
+    {
+      "source": "Brown Living cork wallet and vegan wallet collections",
+      "url": "https://brownliving.in/collections/cork-wallet",
+      "seen_on": "2026-11-22",
+      "summary": "A sustainable-goods retailer stocks several cork wallets at Rs 1,600-3,399 and a cork card wallet at Rs 649. This shows the price points hold on a D2C site; no sales volume or trend data found."
+    },
+    {
+      "source": "India Handmade (Sustain Craft) men's cork wallet",
+      "url": "https://www.indiahandmade.com/mens-cork-wallet.html",
+      "seen_on": "2026-11-22",
+      "summary": "Men's cork bi-fold listed at Rs 1,450 special price (regular Rs 2,000). This is a price point only; there is no demand data."
+    },
+    {
+      "source": "Ecohoy cork wallet",
+      "url": "https://ecohoy.com/cork-wallet.html",
+      "seen_on": "2026-11-22",
+      "summary": "Men's cork wallet Rs 1,350, shown in stock. This is a price point only."
+    }
+  ],
+  "risks": [
+    "Supplier cost Rs 399 is 30.7% of Rs 1,299, above the ~27% guide; likely BELOW_TARGET unless the Rs 350 bifold seller is identified and confirmed",
+    "No marketplace (Amazon.in/Flipkart/Meesho) price found. Rs 1,299 is supported only by D2C eco stores, so marketplace shoppers may compare it with Rs 300-500 PU or leather wallets",
+    "Supplier in New Delhi, so this is website-only under docs/05 (no APOB on the Odisha GSTIN); no Odisha cork supplier found",
+    "Material claims ('natural cork', 'vegan', 'leather-free') need supplier evidence under require_evidence_for_claims; cork fabric is usually laminated on a PU or textile backing",
+    "Wallet build quality (stitching, edge peeling) varies, which carries a return/dispute risk; get a sample first",
+    "Supplier photos need permission; avoid brand look-alikes",
+    "GST/HSN to be confirmed by the CA (4202 wallets vs 4504 agglomerated cork articles); 18% used as the conservative figure"
+  ],
+  "sources": [
+    "https://m.indiamart.com/happygrumpy/ladies-wallet.html",
+    "https://m.indiamart.com/impcat/mens-wallet.html",
+    "https://m.indiamart.com/impcat/bi-fold-wallet.html",
+    "https://www.indiahandmade.com/mens-cork-wallet.html",
+    "https://ecohoy.com/cork-wallet.html",
+    "https://brownliving.in/collections/cork-wallet",
+    "https://brownliving.in/products/kakapo-cork-canvas-unisex-bifold-wallet",
+    "https://brownliving.in/products/ibis-cork-wallet",
+    "https://brownliving.in/products/card-wallet-slim-eco-friendly-wallet-for-cards-cash",
+    "https://www.flipkart.com/q/men-wallets"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "needs_info",
+    "by": "product-reviewer",
+    "at": "2026-11-22",
+    "notes": "No hard-rule breach and no mass-marketplace cork bifold found at or below Rs 600 (Amazon.in, Flipkart and Meesho searches on 2026-11-22 surfaced no cork wallet; Meesho men's wallets are PU/leather at Rs 103-190), and Rs 1,299 sits below D2C cork bifolds at Rs 1,450-1,699, so margin passes on Shopify only (42.9% at Rs 399 cost, Delhi supplier). But the material is unverified: no listing confirms real cork sheet versus PU printed to look like cork, which matters because 'natural cork/vegan' claims need evidence; also no MOQ, single-piece drop-ship or gift box confirmed. Needed before approve: written supplier quote (MOQ, drop-ship, GST invoice), material spec or test evidence for cork content and backing, and a physical sample to check edge sealing and stitching.",
+    "competitor_prices": [
+      {
+        "price": 1450,
+        "url": "https://www.indiahandmade.com/mens-cork-wallet.html",
+        "note": "Men's cork bi-fold, special Rs 1,450 (regular Rs 2,000); WebSearch snippet seen 2026-11-22; craft D2C"
+      },
+      {
+        "price": 1699,
+        "url": "https://brownliving.in/products/ibis-cork-wallet",
+        "note": "Brown Living Ibis cork wallet, sale Rs 1,699 (regular Rs 1,999); WebSearch snippet seen 2026-11-22 (researcher had Rs 2,000)"
+      },
+      {
+        "price": 190,
+        "url": "https://www.meesho.com/wildauk-men-brown-artificial-leather-wallet-regular-size-10-card-slots/p/4p112",
+        "note": "Meesho WILDAUK men's artificial-leather wallet Rs 190; not cork, shows mass-marketplace wallet price anchor; WebSearch snippet seen 2026-11-22"
+      },
+      {
+        "price": 163,
+        "url": "https://www.meesho.com/men-wallets/pl/18eo",
+        "note": "Meesho men's wallets category, IX IXORA tan artificial-leather wallet Rs 163; not cork; WebSearch snippet seen 2026-11-22"
+      }
+    ],
+    "marketplace_check": "2026-11-22: 'cork wallet men bifold Amazon.in' returned no Amazon.in listing; 'cork wallet men Flipkart OR Meesho' returned only PU/genuine-leather wallets (Meesho Rs 71-190; Flipkart https://www.flipkart.com/q/men-wallets shows 1,13,057 products, no prices in snippet). No cork bifold at or below Rs 600 found, so not undercut on present evidence; absence in search is not proof of absence.",
+    "supplier_cost_check": "2026-11-22 WebSearch snippets: Happy Grumpy, New Delhi, 'Brown Mens Cork Wallet' Rs 399/piece and a two-fold unisex cork wallet Rs 199/piece (https://m.indiamart.com/happygrumpy/ladies-wallet.html); Dharavi, Mumbai seller 'Cork Mens Wallets' Rs 449/piece (https://m.indiamart.com/impcat/mens-wallet.html); tan 'Cork Leather Wallets' bi-fold Rs 350/piece (https://m.indiamart.com/impcat/bi-fold-wallet.html). Rs 350-449 range confirmed as listing prices; MOQ not visible. Whether these are real cork sheet or PU printed to look like cork is NOT determinable from the snippets (the Rs 199 'cork wallet' price is a warning sign); the bi-fold category has PU wallets from Rs 70.",
+    "complaint_patterns": "2026-11-22 search (thin evidence): individual reviews report cork fabric coming apart and card slots ripping on a Corkor bifold (https://www.desertcart.lk/products/32536423-corkor-mens-bifold-wallet-slim) and inside stitching ripping after a few months on another cork wallet (https://shopsavvy.com/reviews-tldr/cork-rfid-blocking-wallet); others say stitching held. No systematic peeling data found; sample must be checked for edge sealing, slot stitching and backing delamination.",
+    "unverified": "No live Amazon.in, Flipkart or Meesho cork wallet price; cork authenticity; MOQ, drop-ship, gift box, dispatch SLA; GST/HSN (CA)."
+  }
+}
