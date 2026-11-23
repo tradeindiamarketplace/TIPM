@@ -65,3 +65,4 @@ Ranked by expected profit per order (base scenario). Minimum 30% margin and Rs 6
 | REJECTED | Brass decorative urli bowl for floating flowers/tea lights, approx. 8 in diameter (~550 g) | - | Rs 1299 | - | - | - | - | no supplier cost yet · retail price unvalidated |
 | REJECTED | Hand-painted Pattachitra / Saura painting on tussar silk, approx. 50 x 25 cm, unframed with paper border, rolled (Odisha) | - | Rs 1299 | - | - | - | - | no supplier cost yet |
 | REJECTED | Solid wood headphone stand (non-electrical, desk), natural/walnut finish | - | Rs 999 | - | - | - | - | no supplier cost yet · retail price unvalidated |
+| REJECTED | Kashmiri hand crewel-embroidered cotton dining table cover, 6 x 4 ft | - | Rs 2499 | - | - | - | - | no supplier cost yet · retail price unvalidated |

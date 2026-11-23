@@ -1,0 +1,54 @@
+{
+  "id": "RA-20261123D-1",
+  "name": "Kashmiri hand crewel-embroidered cotton dining table cover, 6 x 4 ft",
+  "category": "home_furnishing",
+  "weight": "le_2kg",
+  "supplier_cost": null,
+  "supplier_cost_note": "No supplier price found for a Kashmiri crewel table cover (WebSearch snippets seen 2026-11-23; IndiaMART pages not opened). Only generic, non-crewel embroidered table covers on IndiaMART were seen: a square Suzani-style cotton cover from a Jaipur seller at Rs 850/piece, an embroidered cotton cover at Rs 1,500/piece, and a Marvi Impex oriental cotton table cover at Rs 1,200/piece. These are not crewel or Kashmiri work and are NOT used as the cost. If a crewel cover costs in that Rs 850-1,500 range it would be 34-60% of Rs 2,499 and likely fail; a written quote from a Srinagar crewel maker is needed.",
+  "price": 2499,
+  "retail_observed": "Specialist/D2C only (WebSearch snippets seen 2026-11-23): Gyawun 'Kashmiri Dining Table Cover With Crewel Embroidery (6*4 feet)' at 2,999 (currency not shown in snippet, read as INR); iTokri crewel wool table runner 47 x 12 in at Rs 3,490, Kashmiri crewel table runner at Rs 4,800, mulberry silk crewel runner at Rs 5,490 (paise price fields converted). Marketplace price UNVALIDATED: no Amazon.in or Flipkart crewel table cover listing appeared in search results.",
+  "gst_pct": 5,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Jammu and Kashmir",
+  "demand_signals": [
+    {
+      "source": "Gyawun Kashmiri crewel dining table cover listing",
+      "url": "https://www.gyawun.com/product/kashmiri-dining-table-cover-with-crewel-embroidery-64-feet/",
+      "seen_on": "2026-11-23",
+      "summary": "Kashmir-craft retailer sells a 6 x 4 ft crewel table cover at about Rs 2,999. Price point only; no sales volume or reviews seen."
+    },
+    {
+      "source": "iTokri crewel hand-embroidery table runners",
+      "url": "https://itokri.com/products/kashmiri-crewel-hand-embroidery-table-runner-06-2024-1133-2-6",
+      "seen_on": "2026-11-23",
+      "summary": "Indian handmade retailer lists several crewel table runners at Rs 3,490-5,490, showing specialist retail supports premium crewel table linen. No sales data."
+    },
+    {
+      "source": "WebSearch 'Kashmiri crewel table cover amazon.in OR flipkart price'",
+      "url": "https://www.gyawun.com/product/kashmiri-dining-table-cover-with-crewel-embroidery-64-feet/",
+      "seen_on": "2026-11-23",
+      "summary": "No Amazon.in or Flipkart crewel table cover listing surfaced, suggesting few marketplace sellers (low competition) but giving no marketplace demand or price evidence."
+    }
+  ],
+  "risks": [
+    "Supplier cost unknown; generic non-crewel embroidered covers list at Rs 850-1,500/piece on IndiaMART, which would be 34-60% of Rs 2,499 and fail the margin rule if crewel costs the same or more",
+    "Retail is UNVALIDATED on Amazon.in/Flipkart; Rs 2,499 relies on one D2C anchor (Gyawun Rs 2,999) whose currency was inferred from the snippet",
+    "Possible overlap with the already-explored 'kitchen textiles' group (table linen); reviewer to decide whether it counts as a duplicate",
+    "Supplier state assumed Jammu and Kashmir (no supplier identified), so website-only under docs/05; long transit from Srinagar",
+    "Hand vs machine crewel: many 'crewel' covers are machine chain-stitch; the 'hand-embroidered' claim needs supplier evidence; colour/size variation and wash-shrinkage complaints possible on cotton",
+    "Weight not stated in any source; heavy wool crewel on 6 x 4 ft cotton is assumed under 2 kg (le_2kg) but needs a weighed sample",
+    "GST: cotton made-ups (HSN 6302) assumed 5% only while the sale value per piece stays at or below Rs 2,500 after the Sept 2025 changes; above that 18% may apply, so keep price at or below Rs 2,499; CA to confirm",
+    "Do not claim GI ('Kashmir Crewel') without the supplier's GI authorised-user certificate"
+  ],
+  "sources": [
+    "https://www.gyawun.com/product/kashmiri-dining-table-cover-with-crewel-embroidery-64-feet/",
+    "https://itokri.com/products/2022-107-1-16-original-chain-stitch-crewel-wool-thread-hand-embroidery-table-runner-47-x-12-in",
+    "https://itokri.com/products/kashmiri-crewel-hand-embroidery-table-runner-06-2024-1133-2-6",
+    "https://itokri.com/products/original-mulberry-silk-crewel-hand-embroidery-table-runner-17-2025-765-1-17",
+    "https://m.indiamart.com/impcat/embroidered-table-covers.html",
+    "https://m.indiamart.com/impcat/embroidered-tablecloth.html",
+    "https://m.indiamart.com/marviimpex/table-cover.html"
+  ],
+  "stage": "NEW"
+}
