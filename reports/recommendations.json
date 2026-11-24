@@ -4064,6 +4064,32 @@
       ],
       "review": null,
       "ca": null
+    },
+    {
+      "id": "RA-20261124-3",
+      "name": "Madhubani hand-painted wooden tissue box (Bihar folk art, approx. 9x5 in)",
+      "category": "home_decor",
+      "price": 999.0,
+      "supplier_cost": null,
+      "stage": "REJECTED",
+      "reason": "no supplier cost yet",
+      "best_channel": null,
+      "best": null,
+      "channels": {},
+      "passing_channels": [],
+      "retail_validated": false,
+      "sources": [
+        "https://indiahandmade.com/buy-handmade-madhubani-painting-tissue-holder-online.html",
+        "https://www.indiahandmade.com/catalog/product/view/id/17223",
+        "https://www.pepperfry.com/product/handmade-madhubani-work-mango-wood-tissue-box-2208390.html",
+        "https://www.itokri.com/products/aac-41-03-04-tissue-box-handcrafted-in-wood-with-madhubani-painting-9x5x2-5",
+        "https://www.hunarsetu.com/en/product/tissue-box-for-home-and-office-handpainted-madhubani-fish-motif-5-5-8-5-in-or-jaya-artisan-store",
+        "https://m.indiamart.com/eshilp",
+        "https://m.indiamart.com/karigarmarket/tissue-box.html",
+        "https://www.flipkart.com/voody-1-compartments-wooden-tissue-holder/p/itmaffc989abe443"
+      ],
+      "review": null,
+      "ca": null
     }
   ]
 }

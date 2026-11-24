@@ -1,0 +1,56 @@
+{
+  "id": "RA-20261124-3",
+  "name": "Madhubani hand-painted wooden tissue box (Bihar folk art, approx. 9x5 in)",
+  "category": "home_decor",
+  "weight": "le_1kg",
+  "supplier_cost": null,
+  "supplier_cost_note": "No Madhubani-specific supplier price found (WebSearch 'Madhubani painted wooden tissue box wholesale price per piece manufacturer Bihar', seen 2026-11-24). Only generic data points: an IndiaMART listing 'Wooden Tissue Box Hand Painted' at Rs 280/piece (https://m.indiamart.com/eshilp; not stated to be Madhubani, seller location and MOQ not shown) and Karigar Market wooden tissue box Rs 480/piece (https://m.indiamart.com/karigarmarket/tissue-box.html; no Madhubani painting). At Rs 999, Rs 280 would be 28% of price (borderline) and Rs 480 would be 48% (fail). Need a written single-piece drop-ship quote from a Madhubani/Mithila artisan group (e.g. Bihar SHG shops) at or below about Rs 270.",
+  "price": 999,
+  "retail_observed": "Specialist retail only (WebSearch snippets seen 2026-11-24): IndiaHandmade 'Decorative Madhubani Painting Tissue Holder' special price Rs 849, regular Rs 1,150, origin Bihar, 'only 10 left'; Pepperfry 'Handmade Madhubani Work Mango Wood Tissue Box' (seller Vareesha) Rs 1,249, MRP Rs 1,849. iTokri and Hunarsetu (Jaya Artisan Store) list Madhubani tissue boxes, prices not in snippets. Marketplace price UNVALIDATED: Flipkart search showed only plain wooden tissue holders (e.g. Voody Rs 292), no Madhubani-painted listing with a price; no Amazon.in result returned.",
+  "gst_pct": 12,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "UNKNOWN",
+  "demand_signals": [
+    {
+      "source": "IndiaHandmade Madhubani tissue holder listing",
+      "url": "https://indiahandmade.com/buy-handmade-madhubani-painting-tissue-holder-online.html",
+      "seen_on": "2026-11-24",
+      "summary": "Rs 849 special / Rs 1,150 regular; listing shows 'only 10 units left'. Stock note only, not a sales volume; no reviews seen."
+    },
+    {
+      "source": "Pepperfry Madhubani mango wood tissue box",
+      "url": "https://www.pepperfry.com/product/handmade-madhubani-work-mango-wood-tissue-box-2208390.html",
+      "seen_on": "2026-11-24",
+      "summary": "Rs 1,249 (MRP Rs 1,849, 32% off) on a mainstream furniture/decor marketplace, supporting a Rs 1,000+ price point. No volume data."
+    },
+    {
+      "source": "WebSearch 'Madhubani tissue box wooden flipkart OR amazon.in price'",
+      "url": "https://www.flipkart.com/voody-1-compartments-wooden-tissue-holder/p/itmaffc989abe443",
+      "seen_on": "2026-11-24",
+      "summary": "No Madhubani-painted tissue box with a price on Flipkart/Amazon.in in results; plain wooden holders at about Rs 292. Suggests few marketplace sellers of the painted version, but absence in search is not proof of absence and gives no demand evidence."
+    }
+  ],
+  "risks": [
+    "Supplier cost unknown; the only per-piece prices (Rs 280, Rs 480) are for generic wooden tissue boxes not confirmed as Madhubani-painted; margin passes only if a quote is at or below about Rs 270",
+    "No supplier identified, so supplier state is UNKNOWN and treated as out-of-Odisha (website-only) under docs/05 unless an Odisha stockist is found",
+    "Overlap check: Madhubani wall art is excluded; this is a functional painted object. It is also a wooden box, so the reviewer should confirm it is not treated as a repeat of keepsake/kalamkari/walnut/papier mache/brocade boxes or organisers (it holds tissues, not trinkets)",
+    "Rs 999 is above IndiaHandmade's Rs 849 special price for a similar item; buyers comparing may resist, so a larger or finer-painted piece is needed to justify it",
+    "Plain wooden tissue holders sell at about Rs 292 on Flipkart; marketplace buyers may anchor on that price, so this is realistically a website/specialist item",
+    "Hand-painted surface can scuff or chip in transit; needs a rigid box and wrap; colour/motif varies piece to piece, so listing must say 'handmade, design may vary' to limit 'not as shown' returns",
+    "Do not claim 'natural colours', 'GI-certified' or a specific wood without supplier evidence",
+    "GST assumed 12% (HSN 4420 wooden ornamental articles; may be 5% after the Sept 2025 rationalisation for handicrafts); CA to confirm",
+    "Weight not stated in snippets; a 9x5 in wooden tissue box is assumed under 1 kg packed; needs a weighed sample"
+  ],
+  "sources": [
+    "https://indiahandmade.com/buy-handmade-madhubani-painting-tissue-holder-online.html",
+    "https://www.indiahandmade.com/catalog/product/view/id/17223",
+    "https://www.pepperfry.com/product/handmade-madhubani-work-mango-wood-tissue-box-2208390.html",
+    "https://www.itokri.com/products/aac-41-03-04-tissue-box-handcrafted-in-wood-with-madhubani-painting-9x5x2-5",
+    "https://www.hunarsetu.com/en/product/tissue-box-for-home-and-office-handpainted-madhubani-fish-motif-5-5-8-5-in-or-jaya-artisan-store",
+    "https://m.indiamart.com/eshilp",
+    "https://m.indiamart.com/karigarmarket/tissue-box.html",
+    "https://www.flipkart.com/voody-1-compartments-wooden-tissue-holder/p/itmaffc989abe443"
+  ],
+  "stage": "NEW"
+}
