@@ -1,0 +1,88 @@
+{
+  "id": "RA-20261124-2",
+  "name": "Assam handwoven water hyacinth storage basket, medium (approx. 8-9 in)",
+  "category": "home_storage",
+  "weight": "le_2kg",
+  "supplier_cost": 190,
+  "supplier_cost_note": "IndiaMART snippet (WebSearch, seen 2026-11-24): Sumita Enterprise (Assam) water hyacinth basket Rs 190/piece, MOQ 50 pieces; size, lid and GST treatment not stated. Other IndiaMART snippets (seller state not confirmed): UR Farm water hyacinth basket Rs 140/piece; Merison Impex heart-shaped water hyacinth gift basket Rs 650/piece; House Of Locals water hyacinth tissue box holder Rs 450/piece. MOQ 50 (about Rs 9,500 stock) is not drop-ship; a single-piece drop-ship quote for an 8-9 in basket is needed. Rs 190 is 22.4% of Rs 849.",
+  "price": 849,
+  "retail_observed": "Specialist retail only (WebSearch snippets seen 2026-11-24): Asama (Assam) range on iTokri Rs 390-1,950, e.g. 'Handcrafted Organic Water Hyacinth Essential Basket' Rs 390 and 'Handcrafted Organic Water Hyacinth Basket (9 x 8 in)' Rs 1,950; India Handmade water hyacinth storage box Rs 480; Zwende Assam water hyacinth storage box set of 3 (price not in snippet). Marketplace price UNVALIDATED: no Amazon.in or Flipkart water hyacinth basket listing appeared in two searches.",
+  "gst_pct": 5,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Assam",
+  "demand_signals": [
+    {
+      "source": "iTokri Asama water hyacinth collection",
+      "url": "https://itokri.com/collections/asama",
+      "seen_on": "2026-11-24",
+      "summary": "Assam water hyacinth baskets listed at Rs 390-1,950 by a specialist handmade retailer; a 9 x 8 in basket at Rs 1,950 shows premium pricing exists. Price points only; no sales volume."
+    },
+    {
+      "source": "Zwende Assam water hyacinth storage box set of 3",
+      "url": "https://www.zwende.com/products/handmade-wicker-water-hyacinth-storage-box-set-of-3",
+      "seen_on": "2026-11-24",
+      "summary": "Craft marketplace sells Assam-woven water hyacinth boxes with cane frame; listing active, price not shown in snippet."
+    },
+    {
+      "source": "WebSearch 'water hyacinth storage basket with lid flipkart price' and 'water hyacinth basket set of 3 amazon.in price'",
+      "url": "https://www.indiahandmade.com/catalog/product/view/id/23080",
+      "seen_on": "2026-11-24",
+      "summary": "No Amazon.in or Flipkart listing surfaced (results were US retailers and Indian D2C sites), suggesting few Indian marketplace sellers but giving no marketplace demand evidence."
+    }
+  ],
+  "risks": [
+    "Specialist retail as low as Rs 390 (Asama essential basket) and Rs 480 (India Handmade box) for smaller pieces; Rs 849 needs a clearly larger 8-9 in basket, ideally with lid, or the price is not credible",
+    "Supplier cost is for an unspecified size with MOQ 50; single-piece drop-ship not confirmed, and a bigger basket may cost more",
+    "Overlap check: cane and jute baskets were dropped and a sabai grass basket set (2026-10-22) is NEEDS_INFO; water hyacinth is a different fibre but the same use, so the reviewer should decide whether it repeats a failed line",
+    "Volumetric weight: a rigid 8-9 in basket packed about 25 x 25 x 22 cm is about 2.75 kg volumetric (/5000), over the 2 kg limit; only a basket that packs at about 22 x 22 x 20 cm or smaller (or is collapsible/nestable) stays le_2kg; needs packed dimensions",
+    "Natural fibre can grow mould in humid storage or transit; ask the supplier about drying/treatment; no 'eco/organic' claims without evidence",
+    "Supplier in Assam, so website-only under docs/05",
+    "GST assumed 5% (HSN 4602 basketwork of vegetable materials); CA to confirm"
+  ],
+  "sources": [
+    "https://www.indiamart.com/sumita-enterprise-assam/kauna-grass-baskets.html",
+    "https://m.indiamart.com/urfarm/",
+    "https://m.indiamart.com/merison-impex",
+    "https://m.indiamart.com/houseoflocals/profile.html",
+    "https://itokri.com/collections/asama",
+    "https://www.itokri.com/products/2023-975-1-13-handcrafted-organic-water-hyacinth-basket",
+    "https://itokri.com/products/2024-707-1-5-handmade-water-hyacinth-basket-with-lid-05",
+    "https://www.indiahandmade.com/catalog/product/view/id/23080",
+    "https://www.zwende.com/products/handmade-wicker-water-hyacinth-storage-box-set-of-3"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "needs_info",
+    "by": "product-reviewer",
+    "at": "2026-11-24",
+    "notes": "No hard-rule breach on paper and no Amazon.in/Flipkart/Meesho water hyacinth basket price found on 2026-11-24, so Rs 849 is neither undercut nor validated; margin is 43.6% at Rs 190 but fails from about Rs 300 cost (29.4%) and at Rs 649 (27.7%). Not approvable: the only cost is an unsized MOQ-50 IndiaMART listing (about Rs 9,500 stock, not drop-ship), the packed box for an 8-9 in rigid basket is likely over 2 kg volumetric (which would breach max_weight_slab), and it is the same storage-basket use as the dropped cane/jute lines and the still-unresolved sabai basket set, so it needs a single-piece drop-ship quote with exact size and packed carton dimensions within about 22 x 22 x 20 cm before any sample.",
+    "competitor_prices": [
+      {
+        "price": 390,
+        "url": "https://itokri.com/collections/asama",
+        "note": "Asama water hyacinth 'Essential Basket' Rs 390 (smaller piece); price from researcher's 2026-11-24 snippet, URL resurfaced in reviewer search 2026-11-24 without price"
+      },
+      {
+        "price": 850,
+        "url": "https://m.indiamart.com/flickersflame/storage-basket.html",
+        "note": "Flickers And Flame (Saharanpur) water hyacinth basket Rs 850/piece, Mysa open basket Rs 1,299, spiral Rs 1,499; wholesale-style listing, sizes/MOQ unknown; snippet seen 2026-11-24"
+      },
+      {
+        "price": 1950,
+        "url": "https://www.itokri.com/products/2023-080-1-32-handcrafted-organic-water-hyacinth-basket-9-x-8-in",
+        "note": "iTokri Asama 9 x 8 in water hyacinth basket Rs 1,950 (price from researcher snippet 2026-11-24; URL resurfaced in reviewer search 2026-11-24)"
+      },
+      {
+        "price": 3360,
+        "url": "https://homecanvas.com/products/27",
+        "note": "Homecanvas water hyacinth cut-work basket Rs 3,360, free shipping; snippet seen 2026-11-24"
+      }
+    ],
+    "marketplace_check": "2026-11-24: searches 'water hyacinth storage basket price amazon.in flipkart meesho' and 'site:amazon.in OR site:flipkart.com water hyacinth basket' returned no Amazon.in or Flipkart listing; Meesho results were plastic baskets only. Results were D2C (iTokri, Brown Living, LBB/Nykaa Fashion, Homecanvas). Marketplace price stays UNVALIDATED; website-only (Assam supplier).",
+    "weight_check": "LBB/Nykaa lists a water hyacinth multipurpose basket at 30 x 30 x 36 cm and about 1 kg (https://lbb.in/shop/product/water-hyacinth-multipurpose-basket, snippet 2026-11-24): actual weight is low but such a box is about 6.5 kg volumetric (/5000). An 8-9 in basket packed 25 x 25 x 22 cm is 2.75 kg volumetric, over le_2kg; only a box at or under about 22 x 22 x 20 cm (1.94 kg) or a collapsible/foldable basket stays in policy.",
+    "overlap_check": "Cane and jute baskets were dropped; sabai grass basket set (research/inbox/2026-10-22-sabai-grass-basket-set-3.json) and cane oval tray (2026-11-20b) are needs_info on the same blockers (unsized cost, packed size). Different fibre, same use and same blockers, so it is a near-repeat that should not jump ahead of the sabai set; no sample until the drop-ship and carton facts are in.",
+    "complaint_patterns": "No dedicated complaint search (budget). Listings' care notes (keep away from moisture, sun-dry, do not submerge; LBB and iTokri snippets 2026-11-24) confirm mould/moisture risk; crushed shape in transit and size-vs-photo mismatch are typical basket returns but unverified here.",
+    "unverified": "Exact size, lid, single-piece drop-ship price and MOQ from Sumita Enterprise or another Assam maker; packed carton dimensions; mould treatment; any live Amazon.in/Flipkart price; GST/HSN (CA); photo permission."
+  }
+}

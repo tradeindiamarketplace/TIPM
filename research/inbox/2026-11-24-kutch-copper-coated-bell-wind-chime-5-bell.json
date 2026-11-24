@@ -1,0 +1,96 @@
+{
+  "id": "RA-20261124-1",
+  "name": "Kutch hand-forged copper-coated iron bell wind chime, 5 bells (Nirona/Zura Lohar craft)",
+  "category": "home_decor",
+  "weight": "le_1kg",
+  "supplier_cost": 200,
+  "supplier_cost_note": "TradeIndia listing from a Kutch (Gujarat) seller describing itself as a manufacturer and exporter of handcrafted copper bells and wind chimes, offering wholesale and custom orders: 'decorative metal wind chime' at Rs 200/piece (WebSearch snippet, seen 2026-11-24). The snippet does NOT confirm the item is a copper-coated 5-bell chime, the number of bells, size, MOQ or GST treatment. Second data point: IndiaMART iron-bell category snippet (seen 2026-11-24) shows a Bhuj, Kutch seller's copper-coated iron single bell at Rs 150/piece (150 g) and another iron bell at Rs 185/piece, MOQ not confirmed. A 5-bell chime could cost more than Rs 200 if priced per bell. Rs 200 is 23.6% of Rs 849. Need a written quote for the exact 5-bell chime, single-piece drop-ship, from a Nirona/Zura maker.",
+  "price": 849,
+  "retail_observed": "Specialist retail only (WebSearch snippets seen 2026-11-24): iTokri 'Kutch Copper Coated 5 Bells Wind Chimes' Rs 1,290; iTokri bells & chimes category shows several 5-bell chimes at Rs 650, a 5-bell Jhoomar at Rs 690, 4-bell Diya chimes at Rs 690 and a 6-bell Sun at Rs 1,250; Memeraki 'Traditional Wind Chime, Kutch Copper Bells by Salim' Rs 6,000 (artisan piece). Zishta and Gaatha also list Kutch copper-coated chimes (prices not in snippets). Marketplace price UNVALIDATED: no Amazon.in or Flipkart listing appeared in a targeted search, so competition there is unknown.",
+  "gst_pct": 12,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Gujarat",
+  "demand_signals": [
+    {
+      "source": "iTokri Kutch copper-coated bells & chimes listings",
+      "url": "https://itokri.com/products/2024-932-1-11-kutch-copper-coated-5-bells",
+      "seen_on": "2026-11-24",
+      "summary": "Handmade retailer lists many Kutch copper-coated chime designs at Rs 650-1,290, including a listing code dated 09-2026, showing an active specialist range. Price point only; no sales volume or reviews seen."
+    },
+    {
+      "source": "Memeraki Kutch copper bells collection",
+      "url": "https://memeraki.com/collections/copper-bells",
+      "seen_on": "2026-11-24",
+      "summary": "Art/craft platform sells artisan Kutch copper bell chimes up to Rs 6,000, a premium specialist niche. No volume data."
+    },
+    {
+      "source": "WebSearch 'Kutch copper coated bell wind chime amazon.in OR flipkart price Rs'",
+      "url": "https://itokri.com/collections/bells-chimes?page=6",
+      "seen_on": "2026-11-24",
+      "summary": "No Amazon.in or Flipkart listing appeared, which suggests few marketplace sellers but gives no marketplace demand or price evidence."
+    }
+  ],
+  "risks": [
+    "Supplier cost is weak: the Rs 200 TradeIndia item is a generic 'decorative metal wind chime', not confirmed as a copper-coated 5-bell chime; if priced per bell (Rs 150-185 each, IndiaMART) a 5-bell chime would fail the margin rule",
+    "Possible overlap with brass bells (already dropped); this is copper-coated hand-forged iron, a different craft and material, but the reviewer should confirm it is not treated as a repeat",
+    "Rs 849 sits between iTokri's Rs 650-690 chimes and its Rs 1,290 5-bell chime; a buyer comparing with Rs 650 iTokri listings may resist, so Rs 849 needs a larger or more ornate chime than the Rs 650 ones",
+    "Supplier in Gujarat, so website-only under docs/05 (no Odisha supplier found)",
+    "Do not describe as 'copper bells' or 'pure copper': these are iron with a copper/brass coating; any material claim needs supplier evidence",
+    "Iron core can rust if hung outdoors or in coastal humidity (Odisha); returns risk if not disclosed; recommend 'indoor/covered verandah' wording",
+    "Not glass and not fragile, but bells can dent or bend in transit and cords can tangle; rigid box and wrapping needed",
+    "GST assumed 12% (HSN 8306 bells/ornaments of base metal; may now be 5% or 18% after Sept 2025 rationalisation); CA to confirm",
+    "Weight not stated for a chime; a single bell is 150 g, so 5 bells plus hanger assumed under 1 kg packed; needs a weighed sample"
+  ],
+  "sources": [
+    "https://www.tradeindia.com/products/chime-8109356.html",
+    "https://m.indiamart.com/impcat/iron-bell.html",
+    "https://itokri.com/products/2024-932-1-11-kutch-copper-coated-5-bells",
+    "https://itokri.com/collections/bells-chimes?page=6",
+    "https://itokri.com/products/kutch-copper-coated-5-bell-wind-chimes-09-2026-205-1-9",
+    "https://memeraki.com/collections/copper-bells",
+    "https://www.memeraki.com/products/traditional-wind-chime-kutch-copper-bells-by-salim",
+    "https://shop.gaatha.com/buy-kutch-metal-bell-04",
+    "https://www.ethnicsofkutch.com/pages/metal-bell",
+    "https://zishta.com/products/copper-coated-iron-chimes-ss-5-bell"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "needs_info",
+    "by": "product-reviewer",
+    "at": "2026-11-24",
+    "notes": "No hard-rule breach and not undercut on present evidence (no Amazon.in/Flipkart/Meesho 5-bell Kutch chime with a price at or below Rs 500 found on 2026-11-24), and copper-coated hand-forged iron is a different craft from the dropped brass bells, so not a repeat. But the same 5-bell Kutch chime sells at Rs 650 at specialists (Zishta Danti, iTokri), at Rs 649 the margin fails even at Rs 200 cost (28.5%), and at Rs 849 it fails once supplier cost reaches about Rs 305 (Rs 400 -> 16.7%) while the only exact cost evidence is per bell (Rs 150-185 each), so a written single-piece drop-ship quote under Rs 300 for a larger/ornate 5-bell design that justifies Rs 849 is required; reject if either fails.",
+    "competitor_prices": [
+      {
+        "price": 650,
+        "url": "https://zishta.com/products/copper-coated-iron-chimes-danti-5-bell",
+        "note": "Zishta Copper Coated Iron Chimes - Danti 5 bell, Rs 650; WebSearch snippet seen 2026-11-24"
+      },
+      {
+        "price": 650,
+        "url": "https://itokri.com/collections/bells-chimes?page=6",
+        "note": "iTokri collection page 'Kutch Copper Coated 5 Bells Chimes' Rs 650; WebSearch snippet seen 2026-11-24"
+      },
+      {
+        "price": 899,
+        "url": "https://www.pepperfry.com/product/diyas-shape-5-copper-bells-wind-chime-2244617.html",
+        "note": "Pepperfry Diyas Shape 5 Copper Bells Wind Chime Rs 899 (MRP Rs 1,099); Kutch origin not stated; snippet seen 2026-11-24"
+      },
+      {
+        "price": 1100,
+        "url": "https://zishta.com/products/copper-coated-iron-chimes-ss-5-bell",
+        "note": "Zishta SS 5 bell, Rs 1,100 MRP; snippet seen 2026-11-24"
+      },
+      {
+        "price": 1290,
+        "url": "https://itokri.com/products/2024-932-1-11-kutch-copper-coated-5-bells",
+        "note": "iTokri Kutch Copper Coated 5 Bells Wind Chimes, regular price Rs 1,290; snippet seen 2026-11-24"
+      }
+    ],
+    "marketplace_check": "2026-11-24: searches 'Kutch copper coated bell wind chime 5 bells price amazon.in flipkart meesho' and 'site:amazon.in OR site:flipkart.com Kutch copper bell wind chime' returned no Amazon.in or Flipkart listing. Meesho returned a generic 5-bell evil-eye chime (https://www.meesho.com/5-bells-wind-chimes-elevate-your-home-with-positive-energy-evil-eye-hanging-for-home-hanging-decorative-items-for-home-blue-najar-battu/p/8297v9) with no price in the snippet and not Kutch copper-coated. The Rs 500 undercut rule is not triggered; absence in search results is not proof of absence. Marketplace price stays UNVALIDATED; website-only (Gujarat supplier).",
+    "overlap_check": "Brass bells were dropped (noted in research/inbox/2026-11-20c-brass-urli-bowl-8in.json risks). This item is hand-forged iron sheet with copper/zinc coating (Lohar craft), not cast brass, and sold as a wind chime rather than puja/temple bells, so it is not treated as a repeat; the brass-bell drop reason should still be checked by the owner if it was about the bell/chime use rather than the metal.",
+    "supplier_cost_check": "Rs 200 TradeIndia snippet (https://www.tradeindia.com/products/chime-8109356.html) is a generic 'decorative metal wind chime' with no bell count; IndiaMART (https://m.indiamart.com/impcat/iron-bell.html) shows single copper-coated iron bells at Rs 150 and Rs 185 per piece. Pages not opened in this review. recommend.py evaluate(): Rs 200 cost at Rs 849 -> Shopify 44.2%, Rs 308; fails from Rs 305 cost (29.8%); Rs 200 at Rs 649 -> 28.5% (fails).",
+    "complaint_patterns": "No marketplace review data found (no budget for a separate complaint search). iTokri's own listing says the copper coating 'would age to rusty look with time' (https://itokri.com/products/2024-932-1-11-kutch-copper-coated-5-bells, snippet 2026-11-24), confirming the rust/'not as shown' return risk; listing must say indoor/covered use and that the patina darkens. Dents and tangled cords in transit remain unverified risks.",
+    "unverified": "Exact 5-bell cost, MOQ, single-piece drop-ship; bell size and packed weight; GST/HSN (CA); any live Amazon.in/Flipkart price; photo permission."
+  }
+}
