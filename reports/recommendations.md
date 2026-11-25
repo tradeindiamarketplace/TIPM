@@ -69,3 +69,4 @@ Ranked by expected profit per order (base scenario). Minimum 30% margin and Rs 6
 | REJECTED | Solid wood headphone stand (non-electrical, desk), natural/walnut finish | - | Rs 999 | - | - | - | - | no supplier cost yet · retail price unvalidated |
 | REJECTED | Kashmiri hand crewel-embroidered cotton dining table cover, 6 x 4 ft | - | Rs 2499 | - | - | - | - | no supplier cost yet · retail price unvalidated |
 | REJECTED | Madhubani hand-painted wooden tissue box (Bihar folk art, approx. 9x5 in) | - | Rs 999 | - | - | - | - | no supplier cost yet · retail price unvalidated |
+| REJECTED | Hand-painted wooden Kavad storytelling shrine, multi-panel folding box (Rajasthan folk craft, approx. 8 in / 20 cm) | - | Rs 1499 | - | - | - | - | no supplier cost yet · retail price unvalidated |

@@ -1,0 +1,62 @@
+{
+  "id": "RA-20261125-1",
+  "name": "Hand-painted wooden Kavad storytelling shrine, multi-panel folding box (Rajasthan folk craft, approx. 8 in / 20 cm)",
+  "category": "home_decor",
+  "weight": "le_1kg",
+  "supplier_cost": null,
+  "supplier_cost_note": "No supplier price found. WebSearch 'kavad wooden box wholesale price per piece Bassi Chittorgarh supplier' (seen 2026-11-25) returned only generic wooden boxes (e.g. TradeIndia Faridabad wooden box about Rs 450 + 12% GST, MOQ 10: https://www.tradeindia.com/products/wooden-boxes-c10306808.html), none of them Kavad. Kavad is made mainly by the Suthar/Kumawat artisan families of Bassi, Chittorgarh (Memeraki listing, seen 2026-11-25). Memeraki sells an 8-part Kavad by Satyanarayan Suthar made to order (1-2 weeks) at Rs 900 retail, which shows single-piece made-to-order supply exists but not the trade price. At Rs 1,499, cost must be about Rs 400 or less (about 27%). Needs a written single-piece drop-ship quote from a Bassi artisan.",
+  "price": 1499,
+  "retail_observed": "Specialist retail only (WebSearch snippets seen 2026-11-25): Gaatha 20 cm and 29 cm kaavad shrines Rs 1,850, single-piece shrines Rs 950, small Ganesh/Hanuman single pieces Rs 1,050, red/yellow 29 cm (35x25x25 cm) Rs 3,000, many marked out of stock; IndiaHandmade 'Heritage Story Kavad' (JodhpurArts) Rs 790 special / Rs 980 regular, '1 left'; Memeraki 8-part Kavad by Satyanarayan Suthar Rs 900 (made to order); Exotic India larger Kavad USD 105 sale / USD 175 list. Marketplace price UNVALIDATED: no Flipkart or Amazon.in Kavad listing appeared in two searches.",
+  "gst_pct": 12,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Rajasthan",
+  "demand_signals": [
+    {
+      "source": "Gaatha kaavad category",
+      "url": "https://shop.gaatha.com/buy-indian-crafts/kaavad",
+      "seen_on": "2026-11-25",
+      "summary": "Two-page category; 20-29 cm shrines at Rs 1,850-3,000, single pieces Rs 950-1,050; many items out of stock. Supports a Rs 1,000+ specialist price point; stock-outs are not sales data."
+    },
+    {
+      "source": "IndiaHandmade Heritage Story Kavad",
+      "url": "https://www.indiahandmade.com/heritage-story-kavad.html",
+      "seen_on": "2026-11-25",
+      "summary": "Rs 790 special / Rs 980 regular, '1 unit left'. A lower price anchor for a small piece; no reviews or volume seen."
+    },
+    {
+      "source": "Memeraki Accessory Box Kavad by Satyanarayan",
+      "url": "https://www.memeraki.com/products/accessory-box-kavad-by-satyanarayan-8-part-kavad",
+      "seen_on": "2026-11-25",
+      "summary": "Rs 900, made to order with 1-2 week delivery; made only in Bassi, Chittorgarh. Shows a named artisan selling single pieces, but the lead time is long."
+    },
+    {
+      "source": "WebSearch 'kaavad wooden handpainted portable shrine price flipkart OR amazon OR gaatha'",
+      "url": "https://exoticindia.com/product/sculptures/handpainted-wooden-kavad-from-rajasthan-handmade-zeq280",
+      "seen_on": "2026-11-25",
+      "summary": "No Flipkart or Amazon.in listing came up, which suggests few marketplace competitors (not proof of absence). Exotic India sells to export buyers at USD 105-175. No Google Trends data checked."
+    }
+  ],
+  "risks": [
+    "Supplier cost unknown; passes only if a Bassi artisan quotes about Rs 400 or less per piece for drop-ship. Memeraki's Rs 900 retail for an 8-part piece suggests trade prices could be close to that",
+    "Rs 1,499 is above IndiaHandmade (Rs 790) and Memeraki (Rs 900) for small pieces and below Gaatha's Rs 1,850 for 20 cm; the listing must be a 20 cm multi-panel piece to justify the price",
+    "Supplier in Rajasthan, so website-only under docs/05 (no Odisha APOB possible)",
+    "Made to order with 1-2 week lead time (Memeraki); slow for marketplace SLAs and may cause cancellations",
+    "Overlap check: depicts deities and epics, so a reviewer should confirm it is not treated as a repeat of idols or wall art; it is a functional folding storytelling box",
+    "Toy check: small kavads are sometimes sold as children's toys. List as handcrafted decor for adults or 14+, with no 'toy' wording, so it stays out of the BIS toy QCO and toys_for_under_3",
+    "Religious imagery: damage or mishandling complaints can be sensitive; needs a rigid box. Painted hinged panels can scuff or crack in transit",
+    "Handmade variation; listing must say 'design and colours may vary'",
+    "Weight not stated in snippets; a 20 cm wooden kavad is assumed under 1 kg packed; needs a weighed sample",
+    "GST assumed 12% (HSN 4420; may be 5% after the Sept 2025 handicraft rate cut); CA to confirm",
+    "Do not claim 'natural colours', 'GI-tagged' or a wood species without supplier evidence"
+  ],
+  "sources": [
+    "https://shop.gaatha.com/buy-indian-crafts/kaavad",
+    "https://shop.gaatha.com/buy-indian-crafts/kaavad?page=2",
+    "https://www.indiahandmade.com/heritage-story-kavad.html",
+    "https://www.memeraki.com/products/accessory-box-kavad-by-satyanarayan-8-part-kavad",
+    "https://exoticindia.com/product/sculptures/handpainted-wooden-kavad-from-rajasthan-handmade-zeq280",
+    "https://www.tradeindia.com/products/wooden-boxes-c10306808.html"
+  ],
+  "stage": "NEW"
+}

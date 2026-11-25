@@ -4090,6 +4090,30 @@
       ],
       "review": null,
       "ca": null
+    },
+    {
+      "id": "RA-20261125-1",
+      "name": "Hand-painted wooden Kavad storytelling shrine, multi-panel folding box (Rajasthan folk craft, approx. 8 in / 20 cm)",
+      "category": "home_decor",
+      "price": 1499.0,
+      "supplier_cost": null,
+      "stage": "REJECTED",
+      "reason": "no supplier cost yet",
+      "best_channel": null,
+      "best": null,
+      "channels": {},
+      "passing_channels": [],
+      "retail_validated": false,
+      "sources": [
+        "https://shop.gaatha.com/buy-indian-crafts/kaavad",
+        "https://shop.gaatha.com/buy-indian-crafts/kaavad?page=2",
+        "https://www.indiahandmade.com/heritage-story-kavad.html",
+        "https://www.memeraki.com/products/accessory-box-kavad-by-satyanarayan-8-part-kavad",
+        "https://exoticindia.com/product/sculptures/handpainted-wooden-kavad-from-rajasthan-handmade-zeq280",
+        "https://www.tradeindia.com/products/wooden-boxes-c10306808.html"
+      ],
+      "review": null,
+      "ca": null
     }
   ]
 }
