@@ -70,3 +70,4 @@ Ranked by expected profit per order (base scenario). Minimum 30% margin and Rs 6
 | REJECTED | Kashmiri hand crewel-embroidered cotton dining table cover, 6 x 4 ft | - | Rs 2499 | - | - | - | - | no supplier cost yet · retail price unvalidated |
 | REJECTED | Madhubani hand-painted wooden tissue box (Bihar folk art, approx. 9x5 in) | - | Rs 999 | - | - | - | - | no supplier cost yet · retail price unvalidated |
 | REJECTED | Hand-painted wooden Kavad storytelling shrine, multi-panel folding box (Rajasthan folk craft, approx. 8 in / 20 cm) | - | Rs 1499 | - | - | - | - | no supplier cost yet · retail price unvalidated |
+| REJECTED | Handcrafted wooden Kerala snake boat (Chundan Vallam) miniature with carved wooden rowers, gift showpiece (mid-size, approx. 10+ rowers, no brass) | - | Rs 1299 | - | - | - | - | no supplier cost yet · retail price unvalidated |

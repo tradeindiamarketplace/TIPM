@@ -1,0 +1,62 @@
+{
+  "id": "RA-20261125-2",
+  "name": "Handcrafted wooden Kerala snake boat (Chundan Vallam) miniature with carved wooden rowers, gift showpiece (mid-size, approx. 10+ rowers, no brass)",
+  "category": "home_decor",
+  "weight": "le_1kg",
+  "supplier_cost": null,
+  "supplier_cost_note": "No trade or wholesale price found. The only artisan-direct prices are retail listings on the Kerala Tourism Responsible Tourism Network marketplace (search snippets seen 2026-11-25): wooden Chundan Vallam with rowers Rs 280 and Rs 360 (seller Radhika Suresh), brass-oarsmen version Rs 2,350; one model offers 2 to 10 hand-carved rowers. Sizes are not given, so these cannot be used as the cost of a mid-size piece. Pages could not be fetched (host not reachable from this session). At Rs 1,299, cost must be about Rs 350 or less (about 27%). Needs a written single-piece drop-ship quote, with size, rower count and packed weight, from a Kerala RT Network artisan unit.",
+  "price": 1299,
+  "retail_observed": "Specialist retail only (WebSearch snippets seen 2026-11-25): Kerala RT Network Rs 280-360 (small wooden, with rowers) and Rs 2,350 (brass oarsmen); Natriel Rs 329 (basic) to Rs 2,699 (Palliyodam, 18 rowers) and Rs 4,199 (21 rowers), mostly out of stock; Poompuhar (Tamil Nadu government emporium) 'Wooden Snake Boat' 4,097 (currency not shown, probably Rs), weight 0.550 kg. Marketplace price UNVALIDATED: no Flipkart or Amazon.in listing appeared in two searches.",
+  "gst_pct": 12,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Kerala",
+  "demand_signals": [
+    {
+      "source": "Kerala Tourism Responsible Tourism Network marketplace (search snippet)",
+      "url": "https://www.keralatourism.org/responsible-tourism/networking/ProductDetail/690",
+      "seen_on": "2026-11-25",
+      "summary": "Artisan listings: wooden Chundan Vallam with rower Rs 280/Rs 360, brass-oarsmen version Rs 2,350, rower count 2-10 on one model. Shows single-piece artisan supply exists; no sales volume or reviews seen."
+    },
+    {
+      "source": "Natriel snake boat listings (search snippets)",
+      "url": "https://www.natriel.com/products/elegant-palliyodam-snake-boat-traditional-onam-boat-race-miniature-with-17-rower-details",
+      "seen_on": "2026-11-25",
+      "summary": "Rs 329 to Rs 4,199 depending on rower count (18-rower Palliyodam Rs 2,699; 21-rower Rs 4,199); most marked out of stock. Out-of-stock status is not sales data."
+    },
+    {
+      "source": "Poompuhar wooden snake boat (search snippet)",
+      "url": "https://poompuhar.com/product/wooden-snake-boat",
+      "seen_on": "2026-11-25",
+      "summary": "Government emporium price 4,097 (similar listing 4,244), weight 0.550 kg. Supports a Rs 1,000+ specialist price point for larger pieces."
+    },
+    {
+      "source": "WebSearch 'wooden snake boat miniature Kerala inch size price flipkart OR amazon OR keralatourism rowers'",
+      "url": "https://www.keralatourism.org/shopping-options/shop-chundan-vallom-replica-kerala/14",
+      "seen_on": "2026-11-25",
+      "summary": "No Flipkart or Amazon.in listing came up in two searches, suggesting few marketplace competitors (not proof of absence). Kerala Tourism lists Chundan Vallam replicas as an official souvenir. No Google Trends data checked."
+    }
+  ],
+  "risks": [
+    "Supplier cost unknown; passes only if an artisan quotes about Rs 350 or less for a mid-size boat with 10+ rowers. The small Rs 280-360 retail pieces are probably too small to justify Rs 1,299, and the Rs 2,350 piece uses brass",
+    "Wide retail spread (Rs 280 to about Rs 4,200) with no sizes stated; the listing must state length and rower count clearly or buyers will compare it with Rs 300 pieces",
+    "Thin carved oars and rowers can snap in courier; needs a rigid box with foam inserts and a breakage-claim process",
+    "Supplier in Kerala, so website-only under docs/05 (no Odisha APOB possible)",
+    "Not Odisha-themed; regional souvenir appeal may be stronger with Kerala/Malayali buyers and corporate Onam gifting than with a general audience",
+    "Toy check: list as handcrafted decor showpiece for adults or 14+, no 'toy' wording, so it stays out of the BIS toy QCO and toys_for_under_3",
+    "Exclude brass-oarsmen versions (brass excluded by the brief); wooden rowers only",
+    "Weight and size not confirmed; Poompuhar's piece is 0.550 kg, so a mid-size piece packed is assumed under 1 kg; needs a weighed sample",
+    "GST assumed 12% (HSN 4420; may be 5% after the Sept 2025 handicraft rate cut); CA to confirm",
+    "Do not claim a wood species (e.g. rosewood, teak) or 'GI-tagged' without supplier evidence",
+    "Handmade variation; listing must say 'design may vary'"
+  ],
+  "sources": [
+    "https://www.keralatourism.org/responsible-tourism/networking/ProductDetail/690",
+    "https://www.keralatourism.org/responsible-tourism/networking/ProductDetail/694",
+    "https://www.keralatourism.org/shopping-options/shop-chundan-vallom-replica-kerala/14",
+    "https://www.natriel.com/products/kerala-snake-boat-miniature-home-decor-item",
+    "https://www.natriel.com/products/elegant-palliyodam-snake-boat-traditional-onam-boat-race-miniature-with-17-rower-details",
+    "https://poompuhar.com/product/wooden-snake-boat"
+  ],
+  "stage": "NEW"
+}
