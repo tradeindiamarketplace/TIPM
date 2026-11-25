@@ -2171,6 +2171,79 @@
       "ca": null
     },
     {
+      "id": "RA-20261125D-1",
+      "name": "Kashmiri hand-painted papier mache Christmas tree ornaments, set of 4 (approx. 3 in balls)",
+      "category": "home_decor",
+      "price": 999.0,
+      "supplier_cost": 380.0,
+      "stage": "REJECTED",
+      "reason": "reviewer or CA rejected: Rejected for the 2026 season on timing. Christmas is 30 days away. A written quote, a sample shipped from Srinagar, photos and a listing would leave about 1-2 weeks of selling, and orders would also have to reach buyers before 25 Dec. That is the same reasoning as the wooden Christmas ornament drop on 2026-11-23, and it applies more strongly here because shipping from Srinagar is slower. Price and cost are not the blocker: on 2026-11-25 I found no mass-marketplace set of 4 at Rs 500 or less, and Rs 80-95 per piece is a plausible B2B list price. Re-submit by about September 2027 with a written quote.",
+      "best_channel": "shopify",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 327.55,
+        "margin": 37.42,
+        "conservative": 248.7
+      },
+      "channels": {
+        "shopify": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 327.55,
+          "margin": 37.42,
+          "conservative": 248.7
+        }
+      },
+      "passing_channels": [
+        "shopify"
+      ],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/christmas-balls.html",
+        "https://m.indiamart.com/craftcottage",
+        "https://m.indiamart.com/impcat/paper-mache.html",
+        "https://www.overstock.com/Holiday/Handmade-Kashmir-Blossom-Papier-mache-ornaments-set-of-4-N-A/28170883/product.html",
+        "https://www.overstock.com/Holiday/Handmade-Set-of-4-Papier-Mache-Ornaments-Peace-and-Joy-India/14626931/product.html",
+        "https://www.overstock.com/Holiday/Papier-mache-ornaments-Jolly-Baubles-set-of-6/32805536/product.html",
+        "https://serrv.org/paizale-kashmiri-ball-ornaments-set-of-4",
+        "https://serrv.org/golden-garden-kashmiri-ornaments-set-of-4",
+        "https://shop.internationalmedicalcorps.org/p/floral-papier-mache-ornaments-from-india-set-of-4-kashmir-blossom/338125",
+        "https://market.unicef.ca/p/hand-painted-papier-mache-holiday-ornaments-set-of-4-holiday-charm/338124",
+        "https://www.buzzfeed.com/shivaniagrawal/christmas-ornaments-and-decor-for-home"
+      ],
+      "review": {
+        "verdict": "reject",
+        "by": "product-reviewer",
+        "at": "2026-11-25",
+        "notes": "Rejected for the 2026 season on timing. Christmas is 30 days away. A written quote, a sample shipped from Srinagar, photos and a listing would leave about 1-2 weeks of selling, and orders would also have to reach buyers before 25 Dec. That is the same reasoning as the wooden Christmas ornament drop on 2026-11-23, and it applies more strongly here because shipping from Srinagar is slower. Price and cost are not the blocker: on 2026-11-25 I found no mass-marketplace set of 4 at Rs 500 or less, and Rs 80-95 per piece is a plausible B2B list price. Re-submit by about September 2027 with a written quote.",
+        "competitor_prices": [
+          {
+            "price": 250,
+            "url": "https://www.zwende.com/products/blue-and-green-handmade-kashmiri-paper-mache-christmas-ball-ornament-for-tree-decor",
+            "note": "Zwende (Indian D2C craft site, not a mass marketplace): single 2-inch Kashmiri papier mache ball, regular price Rs 250 incl. taxes, from a WebSearch snippet seen 2026-11-25. I could not open the page (host blocked in this session). 4 x Rs 250 = Rs 1,000, so Rs 999 for 4 x 3-inch balls is in range."
+          },
+          {
+            "price": 2543,
+            "url": "https://serrv.org/paizale-kashmiri-ball-ornaments-set-of-4",
+            "note": "SERRV set of 4 Kashmiri ball ornaments at USD 38 (another set at USD 32), seen 2026-11-25. Rupee figure is an approximate conversion at about Rs 67/USD and is indicative only; export retail."
+          },
+          {
+            "price": 2007,
+            "url": "https://www.overstock.com/Holiday/Handmade-Set-of-4-Papier-Mache-Ornaments-Peace-and-Joy-India/14626931/product.html",
+            "note": "Overstock/NOVICA set of 4 'Peace and Joy' at USD 29.99 on sale (MSRP USD 65), seen 2026-11-25. Rupee figure is an approximate conversion; export retail."
+          }
+        ],
+        "marketplace_check": "2026-11-25: two searches for Kashmiri papier mache Christmas ornaments with Rs prices on Amazon.in, Flipkart and Meesho returned no listing from any of the three marketplaces. Results were Overstock/NOVICA, SERRV, UNICEF Canada and the International Medical Corps shop (USD/CAD), plus Indian craft sites Zwende (Rs 250 for one 2-inch ball), iTokri and Memeraki (no price seen; hosts not reachable from this session). So the candidate is not undercut on present evidence. Not finding a listing does not prove there is none. Indian retail stays UNVALIDATED at marketplace level.",
+        "supplier_cost_check": "2026-11-25 WebSearch snippet of https://m.indiamart.com/impcat/christmas-balls.html: 3-inch hand-painted paper mache tree ball Rs 95/piece; Akbar Art Gallery, Srinagar, 20 mm paper mache ball Rs 80/piece. Srinagar seller Eefa Arts lists a 3-inch hand-painted ball at Rs 85/piece (https://m.indiamart.com/eefa-arts/ceramic-ball.html), but the listing is titled 'ceramic ball', so the material is unclear. These are B2B asking prices with no MOQ shown, so Rs 95 is plausible per piece in bulk. Single-piece drop-ship at that price is UNCONFIRMED: no listing states single-unit dispatch, and craft B2B sellers usually set an MOQ. The higher Craft Cottage Rs 220-280 per-piece figures (from the research agent) remain a downside case that would break the margin.",
+        "timing_check": "Christmas is 25 Dec, 30 days from 2026-11-25. Still needed: a written quote (several days), sample dispatch from Srinagar and inspection (about a week or more), photos and a listing, then customer transit from Srinagar (about a week or more; estimate, not measured). The listing would be live around mid-December at best, with a last practical order date before Christmas only days later. The demand window would close before any repeat order could happen. The wooden Christmas ornament drop on 2026-11-23 was for timing: I found no record of it in the repo, so I take it from the caller's brief. The same reasoning applies, and more strongly, because of the longer J&K transit. Defer to the 2027 season (source and sample by Sep-Oct 2027).",
+        "complaint_patterns": "Not separately searched (search budget used). Known risks for the category, from the candidate's own risk list, not from review data: dents or chips in courier, paint finish differing from photos ('not as shown'), and 'hand-painted' claims needing evidence. A padded, boxed pack and real supplier photos would be required.",
+        "duplicate_check": "Same craft cluster as the Kashmiri papier mache box set (RA-20261123C-1) but a different, seasonal item, so not a duplicate. The rejection is on timing, not duplication.",
+        "unverified": "Marketplace (Amazon.in/Flipkart/Meesho) prices; MOQ and single-piece drop-ship; whether Rs 95 excludes GST; hand-painted confirmation; packed weight; Srinagar dispatch SLA; HSN/GST (CA)."
+      },
+      "ca": null
+    },
+    {
       "id": "RA-20261113D-2",
       "name": "Black powder-coated iron metal wall art, single piece (size to be confirmed, target ~24 in)",
       "category": "home_decor",
