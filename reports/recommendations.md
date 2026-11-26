@@ -75,3 +75,4 @@ Ranked by expected profit per order (base scenario). Minimum 30% margin and Rs 6
 | REJECTED | Hand-painted wooden Kavad storytelling shrine, multi-panel folding box (Rajasthan folk craft, approx. 8 in / 20 cm) | - | Rs 1499 | - | - | - | - | no supplier cost yet · retail price unvalidated |
 | REJECTED | Handcrafted wooden Kerala snake boat (Chundan Vallam) miniature with carved wooden rowers, gift showpiece (mid-size, approx. 10+ rowers, no brass) | - | Rs 1299 | - | - | - | - | no supplier cost yet · retail price unvalidated |
 | REJECTED | Handloom ikat (Sambalpuri) fabric-covered handmade-paper photo album, thread-lock, approx. 9 x 10 in, 40 leaves | - | Rs 999 | - | - | - | - | no supplier cost yet · retail price unvalidated |
+| REJECTED | Handcrafted Bidri-ware cufflinks (blackened zinc alloy with silver inlay), 1 pair, gift-boxed | - | Rs 1199 | - | - | - | - | no supplier cost yet · retail price unvalidated |

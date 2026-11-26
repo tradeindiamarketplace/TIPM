@@ -4380,6 +4380,34 @@
       ],
       "review": null,
       "ca": null
+    },
+    {
+      "id": "RA-20261126D-1",
+      "name": "Handcrafted Bidri-ware cufflinks (blackened zinc alloy with silver inlay), 1 pair, gift-boxed",
+      "category": "men_accessories",
+      "price": 1199.0,
+      "supplier_cost": null,
+      "stage": "REJECTED",
+      "reason": "no supplier cost yet",
+      "best_channel": null,
+      "best": null,
+      "channels": {},
+      "passing_channels": [],
+      "retail_validated": false,
+      "sources": [
+        "https://goswadeshi.in/products/handmade-bidri-pure-silver-inlay-square-cufflinks",
+        "https://www.exoticindia.com/product/jewelry/round-bidri-inlay-cufflinks-1-size-gunmetal-silver-ldd016",
+        "https://theindiacrafthouse.com/products/bidri-craft-cufflinks-set-leaf",
+        "https://shop.gaatha.com/buy-online-bidri-work-product-41",
+        "https://www.hunarsetu.com/en/product/bidri-cufflink-1tjwnckka02547-",
+        "https://shaze.in/pages/how-much-do-cufflinks-cost-in-india-from-a-premium-jewellery-brand",
+        "https://m.indiamart.com/impcat/metal-cufflink.html",
+        "https://www.flipkart.com/fashmade-brass-cufflink/p/itm6d873eacac062",
+        "https://www.flipkart.com/yellow-chimes-metal-cufflink/p/itmf86x25az7mbcg",
+        "https://www.flipkart.com/voylla-brass-cufflink-set/p/itmfce531602b6de"
+      ],
+      "review": null,
+      "ca": null
     }
   ]
 }

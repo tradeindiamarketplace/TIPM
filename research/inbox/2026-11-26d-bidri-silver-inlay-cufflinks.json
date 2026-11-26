@@ -1,0 +1,63 @@
+{
+  "id": "RA-20261126D-1",
+  "name": "Handcrafted Bidri-ware cufflinks (blackened zinc alloy with silver inlay), 1 pair, gift-boxed",
+  "category": "men_accessories",
+  "weight": "le_500g",
+  "supplier_cost": null,
+  "supplier_cost_note": "No supplier price found for Bidri cufflinks as of 2026-11-26. Two searches surfaced no Bidar (Karnataka) wholesale or IndiaMART/TradeIndia listing specific to Bidri. The only B2B cufflink prices seen were for generic metal or silver cufflinks (IndiaMART category pages, about Rs 205-700 per pair per the search summary, https://m.indiamart.com/impcat/metal-cufflink.html, seen 2026-11-26). Those are NOT Bidri and are not used as cost. Need a written per-pair quote from a Bidar artisan or cooperative covering silver inlay content, size, gift box, MOQ, single-pair dispatch and GST basis.",
+  "price": 1199,
+  "retail_observed": "Specialist/D2C only (WebSearch snippets seen 2026-11-26): Goswadeshi handmade Bidri pure-silver-inlay square cufflinks, 1.65 x 1.9 cm, Rs 1,299 incl. tax, shipping extra; Exotic India round 1-inch Bidri inlay cufflinks USD 58 (shown marked down to USD 46.40); The India Craft House Bidri leaf cufflink set and Gaatha Bidri cufflinks (out of stock), prices not shown. Amazon.in/Flipkart/Meesho price UNVALIDATED: three searches surfaced no Bidri cufflink listing there. Generic brass/alloy cufflinks on Flipkart are a commodity (FashMade brass Rs 77, Yellow Chimes Rs 359, Voylla brass set Rs 779 per snippets seen 2026-11-26).",
+  "gst_pct": 3,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "UNKNOWN",
+  "demand_signals": [
+    {
+      "source": "Goswadeshi Bidri cufflinks listing",
+      "url": "https://goswadeshi.in/products/handmade-bidri-pure-silver-inlay-square-cufflinks",
+      "seen_on": "2026-11-26",
+      "summary": "A craft D2C retailer sells handmade Bidri silver-inlay cufflinks at Rs 1,299 incl. tax. This anchors the price only. No sales volume or reviews were seen."
+    },
+    {
+      "source": "Exotic India Bidri cufflinks listing",
+      "url": "https://www.exoticindia.com/product/jewelry/round-bidri-inlay-cufflinks-1-size-gunmetal-silver-ldd016",
+      "seen_on": "2026-11-26",
+      "summary": "Export-facing retailer lists round Bidri inlay cufflinks at USD 58 (marked down to USD 46.40). Price anchor only, no demand data."
+    },
+    {
+      "source": "Shaze premium cufflink pricing guide",
+      "url": "https://shaze.in/pages/how-much-do-cufflinks-cost-in-india-from-a-premium-jewellery-brand",
+      "seen_on": "2026-11-26",
+      "summary": "A jewellery brand's FAQ says premium design-led cufflinks in India typically sell at Rs 1,200-8,000. This is a general category price band from an interested party, not Bidri-specific demand."
+    },
+    {
+      "source": "WebSearch for Bidri cufflinks on amazon.in/flipkart/meesho/tribesindia",
+      "url": "https://theindiacrafthouse.com/products/bidri-craft-cufflinks-set-leaf",
+      "seen_on": "2026-11-26",
+      "summary": "No marketplace Bidri cufflink listing surfaced, which suggests few marketplace sellers. It is not evidence of demand. Sellers seen: The India Craft House, Gaatha, Tribes India via Hunarsetu (https://www.hunarsetu.com/en/product/bidri-cufflink-1tjwnckka02547-), all with no price in snippet."
+    }
+  ],
+  "risks": [
+    "No supplier cost, so recommend.py will reject until a quote arrives. To pass at Rs 1,199 the landed cost likely needs to be at or below about Rs 320 (~27% of price). Real silver inlay and handwork may push Bidar cost above that",
+    "Generic cufflinks are a commodity on Flipkart (Rs 77-779). Buyers may not pay a craft premium unless the listing clearly shows Bidri work. Marketplace absence of Bidri rests on three searches, not proof",
+    "'Pure silver inlay' and 'Bidri/GI' claims need supplier evidence (policy require_evidence_for_claims). Do not claim silver purity without a test report or supplier declaration",
+    "Niche, occasion-driven product (weddings, formal gifting). Volume is unknown and probably low. Cufflinks only suit French-cuff shirts",
+    "Small item: lost or swapped-parcel disputes are possible. Needs a sealed gift box and tamper-evident packing. Hinged toggles can arrive bent",
+    "Not apparel under the policy (jewellery/accessory, no size or fit), but the review agent should confirm that 'men_accessories' is acceptable since it is not a preferred category",
+    "Supplier state unknown. Bidri is a Bidar, Karnataka craft, so the supplier is almost certainly outside Odisha, which means website-only under docs/05",
+    "GST: assumed 3% (HSN 7113/7117 jewellery). If classified as an article of zinc/base metal it could be 12-18%. CA to confirm"
+  ],
+  "sources": [
+    "https://goswadeshi.in/products/handmade-bidri-pure-silver-inlay-square-cufflinks",
+    "https://www.exoticindia.com/product/jewelry/round-bidri-inlay-cufflinks-1-size-gunmetal-silver-ldd016",
+    "https://theindiacrafthouse.com/products/bidri-craft-cufflinks-set-leaf",
+    "https://shop.gaatha.com/buy-online-bidri-work-product-41",
+    "https://www.hunarsetu.com/en/product/bidri-cufflink-1tjwnckka02547-",
+    "https://shaze.in/pages/how-much-do-cufflinks-cost-in-india-from-a-premium-jewellery-brand",
+    "https://m.indiamart.com/impcat/metal-cufflink.html",
+    "https://www.flipkart.com/fashmade-brass-cufflink/p/itm6d873eacac062",
+    "https://www.flipkart.com/yellow-chimes-metal-cufflink/p/itmf86x25az7mbcg",
+    "https://www.flipkart.com/voylla-brass-cufflink-set/p/itmfce531602b6de"
+  ],
+  "stage": "NEW"
+}
