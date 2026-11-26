@@ -1,0 +1,93 @@
+{
+  "id": "RA-20261126-1",
+  "name": "Handcrafted Mysore wood inlay wall panel, small (approx. 8x10 to 12x18 in), village or nature scene, unframed or simple wood frame, no glass",
+  "category": "home_decor",
+  "weight": "le_2kg",
+  "supplier_cost": 790,
+  "supplier_cost_note": "IndiaMART listing seen in WebSearch snippets on 2026-11-26: rosewood inlay 'village girl with water pot' at Rs 790/piece, described as crafted by artisans in Mysuru, Karnataka (https://m.indiamart.com/city/mumbai/veneer-inlays.html). Page not fetched (site blocked), so size, MOQ, whether GST is included, and frame/glass are unknown. Treated as excl. GST for now. At Rs 2,999 the Rs 790 cost is about 26% of price. Needs a written single-piece drop-ship quote from a Mysuru inlay unit or the Cauvery emporium (KSHDCL) stating panel size, wood used, packed weight and no glass.",
+  "price": 2999,
+  "retail_observed": "Specialist retail (WebSearch snippets seen 2026-11-26): MeMeraki Mysore inlay landscape 11.5x8.5 in Rs 4,100; Krafteria 'Handcrafted Rosewood Inlay from Mysore' wall art Rs 1,899 (sold out); other Krafteria Mysore inlay panels Rs 4,499 to Rs 14,999; Exotic India panels USD 168 to 995. Marketplace price UNVALIDATED: the only Flipkart listing found (Designer Lanes 12x18 in rosewood village-scene panel) showed 'Price: Not Available, Currently Unavailable'; no Amazon.in listing appeared.",
+  "gst_pct": 12,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Karnataka",
+  "demand_signals": [
+    {
+      "source": "MeMeraki Mysore wood inlay collection (search snippet)",
+      "url": "https://www.memeraki.com/collections/mysore-wood-inlay?page=3",
+      "seen_on": "2026-11-26",
+      "summary": "11.5x8.5 in landscape panel Rs 4,100; 17.1x35.5 in coastal landscape Rs 36,000. Supports a Rs 2,500+ specialist price for small panels. No sales volume or reviews seen."
+    },
+    {
+      "source": "Krafteria Mysore rosewood inlay listings (search snippets)",
+      "url": "https://krafteria.com/collections/wood-inlay-painting?page=2",
+      "seen_on": "2026-11-26",
+      "summary": "One Mysore inlay wall art at Rs 1,899 shown as sold out; Ganesha, Saraswati and other panels Rs 4,499 to Rs 14,999. Sold-out status is not sales data."
+    },
+    {
+      "source": "Flipkart Designer Lanes rosewood wall panel (search snippet)",
+      "url": "https://flipkart.com/designer-lanes-village-scene-bullock-cart-ride-sunset-rosewood-wall-panels-natural-colors-12-inch-x-18-painting/p/itmd08024a78bed6",
+      "seen_on": "2026-11-26",
+      "summary": "Only marketplace listing found; price not available and currently unavailable. Suggests very few active marketplace sellers (not proof of absence)."
+    },
+    {
+      "source": "Cauvery Handicrafts Emporium (KSHDCL) rosewood page (search snippet)",
+      "url": "https://cauverycrafts.com/rosewood",
+      "seen_on": "2026-11-26",
+      "summary": "State emporium sells Mysore rosewood inlay; notes Mysore inlay work is GI-registered (GI No. 24) by KSHDCL. Possible supplier; no prices visible."
+    }
+  ],
+  "risks": [
+    "Brief asked for non-wall Mysore inlay items (trays or table-top); no price was found for inlay trays or coasters, so this is a wall panel. Caller may discard on that basis. It does not duplicate any inbox item (other wall art in the inbox is Pattachitra, talapatra, Saura, iron, macrame and sabai)",
+    "Supplier cost comes from one IndiaMART snippet with no size; the Rs 790 piece may be smaller than the 11.5x8.5 in Rs 4,100 MeMeraki piece. Krafteria sold a Mysore inlay piece at Rs 1,899, which undercuts Rs 2,999 if sizes are similar",
+    "At Rs 2,999 it passes only if cost stays at about Rs 800 excl. GST; at Rs 1,999 the cost share is about 40% and it fails",
+    "Wood claim: do not say 'rosewood' or 'GI-tagged Mysore inlay' without supplier evidence; Indian rosewood (Dalbergia latifolia) has felling/transit controls in Karnataka, so ask the supplier for wood source papers",
+    "Must ship without glass (glass_fragile is blocked); specify unframed or wooden frame only",
+    "Thin veneer inlay can crack or lift in courier or in dry climates; needs rigid corner-protected box",
+    "Supplier in Karnataka, so website-only under docs/05 (no Odisha APOB possible)",
+    "Weight not confirmed; small panels are assumed under 2 kg packed, needs a weighed sample",
+    "GST assumed 12% (HSN 4420/9701 unclear; may be 5% after the Sept 2025 handicraft rate cut); CA to confirm",
+    "Handmade variation; listing must say 'design may vary' and state exact size",
+    "Not seasonal; no 6-week window issue"
+  ],
+  "sources": [
+    "https://m.indiamart.com/city/mumbai/veneer-inlays.html",
+    "https://www.memeraki.com/collections/mysore-wood-inlay?page=3",
+    "https://krafteria.com/collections/wood-inlay-painting?page=2",
+    "https://krafteria.com/ja/products/mysore-handcrafted-rosewood-inlay-wall",
+    "https://flipkart.com/designer-lanes-village-scene-bullock-cart-ride-sunset-rosewood-wall-panels-natural-colors-12-inch-x-18-painting/p/itmd08024a78bed6",
+    "https://cauverycrafts.com/rosewood",
+    "https://www.exoticindia.com/product/paintings/rosewood-inlay-panel-with-village-scene-ddh871"
+  ],
+  "stage": "NEW",
+  "review": {
+    "verdict": "reject",
+    "by": "product-reviewer",
+    "at": "2026-11-26",
+    "notes": "Rejected. It is functionally a repeat of the explored wall-art category (same wall-hung decor buyer and listing type as Pattachitra/talapatra, Saura and iron wall art; the brief asked for non-wall inlay items), and the economics are unproven: the Rs 790 cost has no stated size, and an in-stock Krafteria Mysore inlay panel at Rs 1,899 (size not stated) undercuts Rs 2,999, where the candidate's own note says it fails at about Rs 1,999. Reopen only as a non-wall item (tray, coaster or box) with a written quote that states size, wood, packed weight and no glass.",
+    "competitor_prices": [
+      {
+        "price": 1899,
+        "url": "https://krafteria.com/products/rose-wood-inlay-mysore",
+        "note": "Krafteria 'Handcrafted Rosewood Inlay from Mysore', Rs 1,899, '1 in stock' per WebSearch summary seen 2026-11-26 (the researcher saw it as sold out). Size not stated. Page fetch failed: krafteria.com is not reachable from this session."
+      },
+      {
+        "price": 4100,
+        "url": "https://www.memeraki.com/collections/mysore-wood-inlay?page=3",
+        "note": "MeMeraki 11.5x8.5 in landscape panel, Rs 4,100. This is the researcher's figure from 2026-11-26. My search on 2026-11-26 returned this page but did not show the price, so it is not independently re-verified."
+      },
+      {
+        "price": null,
+        "url": "https://www.exoticindia.com/product/paintings/20-wood-inlay-panel-woman-carrying-matka-in-village-scene-dde971",
+        "note": "Exotic India 20x12 in village-scene inlay panel, USD 197.60 after 20% off USD 247, seen 2026-11-26. USD export retail, not converted. A much larger panel than the Rs 1,899 item."
+      }
+    ],
+    "duplicate_check": "2026-11-26: config/product_policy.toml does not block wall art. In the repo, the earlier wall-art items were rejected on their own grounds: talapatra (research/inbox/2026-10-25d-...) on price and possible glass, and iron wall art (2026-11-13d-...) on weight. Neither was a category ban. The Madhubani tissue-box candidate records that 'Madhubani wall art is excluded'. I found no repo record for Tanjore, Gond or Sanjhi, so those exclusions come from the caller's brief. The craft is different (wood marquetry), but the use, buyer and channel are the same as the explored wall art. The researcher also notes that the brief asked for non-wall Mysore inlay. So in effect it is a repeat.",
+    "price_check": "2026-11-26: a search for a ~12x8 in Mysore inlay panel with a rupee price found no Amazon.in listing and no priced Flipkart listing. The Designer Lanes 12x18 in panel shows price not available (https://flipkart.com/designer-lanes-village-scene-bullock-cart-ride-sunset-rosewood-wall-panels-natural-colors-12-inch-x-18-painting/p/itmd08024a78bed6). WebSearch summaries of Krafteria show Rs 1,899 to Rs 9,999 with no dimensions (https://krafteria.com/collections/wood-inlay-painting?page=2). Because sizes cannot be matched, Rs 2,999 is UNSUPPORTED. If the Rs 790 piece is comparable to the Rs 1,899 piece, we are undercut by about 37%.",
+    "supplier_cost_check": "2026-11-26: the Rs 790/piece 'village girl with water pot' rosewood inlay appears only in a snippet of an IndiaMART Mumbai 'veneer inlays' city page (https://m.indiamart.com/city/mumbai/veneer-inlays.html). The snippet gives no dimensions, says each piece varies in size and shape, and shows no MOQ, GST basis or frame/glass. The size behind the Rs 790 is UNKNOWN. The page category ('veneer inlays') suggests it may be thin veneer rather than solid rosewood.",
+    "claims_legal_check": "2026-11-26: Dalbergia latifolia (Indian rosewood/blackwood) is rated vulnerable (BSI NDF report, https://bsi.gov.in/uploads/documents/Non-Detriment%20Findings%20(NDFs)/NDF%20report%20-%20Dalbergia%20latifolia-low-final%20(1).pdf). Karnataka regulates felling, sale and transit of blackwood under the Karnataka Forest Act and Forest Rules 1969, Ch. XIV-A and XVI (https://future.indiankanoon.org/doc/74311907/). I found no source for a handicraft exemption. Mysore inlay's GI status was seen only on a weak source (https://rooftopapp.com/art-wiki/mysore-rosewood-inlay); the researcher cites cauverycrafts.com for GI No. 24. Under require_evidence_for_claims, we cannot say 'rosewood', 'solid rosewood' or 'GI-tagged' without supplier wood-source papers and an authorised-user certificate. A cheap 'rosewood' panel that turns out to be veneer on MDF or another wood invites 'not as shown' disputes.",
+    "weight_check": "2026-11-26: Exotic India lists a 19x19x1 in rosewood inlay panel at 2.20 kg (https://www.exoticindiaart.com/product/paintings/rosewood-inlay-panel-woman-returning-home-with-water-pots-and-child-ddh880). So a 12x18 in panel in a rigid box could get close to the le_2kg limit. Unweighed.",
+    "complaint_patterns": "Not searched (search budget used). Known risks for the category, from the candidate's own risk list and not from review data: veneer cracking or lifting in courier or dry climates, handmade variation versus photos, and wood-type claims.",
+    "unverified": "Supplier panel size, MOQ, GST basis, wood (solid or veneer), frame/glass, packed weight; MeMeraki Rs 4,100 (researcher-only); Krafteria piece dimensions; HSN/GST rate (CA)."
+  }
+}
