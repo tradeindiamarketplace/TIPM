@@ -4354,6 +4354,32 @@
       ],
       "review": null,
       "ca": null
+    },
+    {
+      "id": "RA-20261126C-1",
+      "name": "Handloom ikat (Sambalpuri) fabric-covered handmade-paper photo album, thread-lock, approx. 9 x 10 in, 40 leaves",
+      "category": "home_gifting",
+      "price": 999.0,
+      "supplier_cost": null,
+      "stage": "REJECTED",
+      "reason": "no supplier cost yet",
+      "best_channel": null,
+      "best": null,
+      "channels": {},
+      "passing_channels": [],
+      "retail_validated": false,
+      "sources": [
+        "https://itokri.com/collections/handmade-stationery/photo-albums",
+        "https://itokri.com/products/pochampally-ikat-fabric-cover-handmade-paper-photo-album-9-x-10-in-06-2025-1329-1-6",
+        "https://itokri.com/products/ajrakh-fabric-cover-handmade-paper-photo-album-9-x-10-in-90-2025-1329-1-90",
+        "https://itokri.com/products/bandhani-fabric-cover-handmade-paper-photo-album-12-x-10-in-52-2025-1329-1-52",
+        "https://anandprakash.com/products/photo-album-tri-fabric",
+        "https://anandprakash.com/products/photo-album-accordion",
+        "https://m.indiamart.com/perfectoverseas/photo-frames.html",
+        "https://m.indiamart.com/impcat/fabric-cover-notebook.html"
+      ],
+      "review": null,
+      "ca": null
     }
   ]
 }

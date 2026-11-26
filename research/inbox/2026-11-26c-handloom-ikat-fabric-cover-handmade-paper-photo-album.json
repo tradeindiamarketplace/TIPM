@@ -1,0 +1,54 @@
+{
+  "id": "RA-20261126C-1",
+  "name": "Handloom ikat (Sambalpuri) fabric-covered handmade-paper photo album, thread-lock, approx. 9 x 10 in, 40 leaves",
+  "category": "home_gifting",
+  "weight": "le_1kg",
+  "supplier_cost": null,
+  "supplier_cost_note": "No supplier price found for this exact item (fabric-covered, thread-lock, handmade paper) as of 2026-11-26. Indicative only, NOT used as cost: an IndiaMART Sanganer Bazar trader (Perfect Overseas, https://m.indiamart.com/perfectoverseas/photo-frames.html) lists 'handmade paper photo albums' at Rs 150/piece, printed handmade paper albums at Rs 300/piece and a peach-work album at Rs 400/piece. Cover material, binding, size, MOQ and GST basis were not shown (WebSearch snippet, seen 2026-11-26). A Bhubaneswar seller (indevillez private limited) lists an ikat-fabric hard-bound thread-lock handmade-paper NOTEBOOK (22 x 14 cm), priced at Rs 2.72 per centimetre with a 20 cm minimum. That cannot be converted to a per-piece price and is a notebook, not an album (snippet, 2026-11-26). Need a written per-piece quote: Sambalpuri handloom vs powerloom ikat, size, leaves, packed weight, MOQ, single-piece dispatch.",
+  "price": 999,
+  "retail_observed": "Specialist/D2C only (WebSearch snippets seen 2026-11-26): iTokri Sambalpuri ikat fabric-cover handmade paper photo album 9 x 10 in Rs 1,190; iTokri Pochampally ikat cover 13 x 10 in Rs 1,450; iTokri ajrakh cover 9 x 10 in about Rs 1,350 (price field '135000', assumed paise); iTokri bandhani cover 12 x 10 in Rs 1,950; Anand Prakash handloom cotton 'tri fabric' album Rs 2,490 and indigo accordion album Rs 1,590. Amazon.in/Flipkart/Meesho price UNVALIDATED: two searches surfaced no fabric-covered handmade-paper photo album listing there.",
+  "gst_pct": 18,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "UNKNOWN",
+  "demand_signals": [
+    {
+      "source": "iTokri handmade-stationery photo albums collection",
+      "url": "https://itokri.com/collections/handmade-stationery/photo-albums",
+      "seen_on": "2026-11-26",
+      "summary": "Craft retailer carries a range of textile-cover handmade-paper albums (Sambalpuri ikat Rs 1,190, Pochampally ikat Rs 1,450, bandhani Rs 1,950) across many SKUs. That supports a Rs 1,000+ price point. No sales volume or review counts seen."
+    },
+    {
+      "source": "Anand Prakash textile-cover albums",
+      "url": "https://anandprakash.com/products/photo-album-tri-fabric",
+      "seen_on": "2026-11-26",
+      "summary": "Premium stationery brand sells a handloom cotton album at Rs 2,490 and an indigo accordion album (https://anandprakash.com/products/photo-album-accordion) at Rs 1,590, incl. taxes. Price anchor only, no demand data."
+    },
+    {
+      "source": "WebSearch 'handmade paper photo album fabric cover ikat ajrakh amazon.in OR flipkart price'",
+      "url": "https://itokri.com/products/ajrakh-fabric-cover-handmade-paper-photo-album-9-x-10-in-90-2025-1329-1-90",
+      "seen_on": "2026-11-26",
+      "summary": "No Amazon.in or Flipkart listing surfaced, so there may be few marketplace sellers. This gives no evidence of demand. The iTokri listing gives a size of 22 x 25 cm, 40 leaves with butter paper and a thread-knot lock, about 580 g."
+    }
+  ],
+  "risks": [
+    "No supplier cost: recommend.py will reject until a quote arrives. To pass at Rs 999 the landed cost likely needs to be at or below about Rs 270 (~27% of price). The Sanganer Rs 150-400 range for unspecified albums suggests a handloom-ikat cover could land near or above that limit",
+    "Retail is D2C-only (iTokri, Anand Prakash). Marketplace absence comes from two searches, not proof. Plain or printed handmade-paper albums may sell cheaply on Flipkart/Meesho, which would make this a commodity and pull price toward supplier cost; the reviewer must check before any sample spend",
+    "Do not claim 'Sambalpuri handloom' or GI without supplier evidence. iTokri itself sells non-handloom Sambalpuri-print fabric (Rs 750/m)",
+    "Albums with butter-paper interleaves and a thread lock can arrive with bent corners or crushed spines. Needs rigid packing, and 580 g item weight plus packing may approach 1 kg",
+    "Photo albums face a wider decline in demand for physical photos, and the gifting market is niche, so volume is unknown and probably low",
+    "Supplier state unknown: an Odisha maker (for marketplace eligibility under docs/05) is not yet identified. A Rajasthan supplier means website-only",
+    "GST: albums under HSN 4820 assumed 18%; CA to confirm the post-2025 rate"
+  ],
+  "sources": [
+    "https://itokri.com/collections/handmade-stationery/photo-albums",
+    "https://itokri.com/products/pochampally-ikat-fabric-cover-handmade-paper-photo-album-9-x-10-in-06-2025-1329-1-6",
+    "https://itokri.com/products/ajrakh-fabric-cover-handmade-paper-photo-album-9-x-10-in-90-2025-1329-1-90",
+    "https://itokri.com/products/bandhani-fabric-cover-handmade-paper-photo-album-12-x-10-in-52-2025-1329-1-52",
+    "https://anandprakash.com/products/photo-album-tri-fabric",
+    "https://anandprakash.com/products/photo-album-accordion",
+    "https://m.indiamart.com/perfectoverseas/photo-frames.html",
+    "https://m.indiamart.com/impcat/fabric-cover-notebook.html"
+  ],
+  "stage": "NEW"
+}
