@@ -1,0 +1,49 @@
+{
+  "id": "RA-20261127D-1",
+  "name": "Kansa (bell metal / bronze) quarter / nasta plate, 8 in, single, hand-beaten (Odisha-made)",
+  "category": "kitchen_organisation",
+  "weight": "le_1kg",
+  "supplier_cost": null,
+  "supplier_cost_note": "UNKNOWN per piece. No per-piece supplier price for an 8-inch kansa quarter plate was found on 2026-11-27: a WebSearch for IndiaMART/Flipkart 8-inch bronze quarter plates returned no Indian listing. The only Odisha supplier price is the Deepak Metals, Puri IndiaMART storefront 'Kansa thali / katora Rs 1,400/Kg' (https://m.indiamart.com/deepak-metals-puri, carried over from the 2026-11-20 katori research, page not opened). Retail-stated weights for an 8-in kansa plate are 380 g (Velanstore; Zishta thali chart 8 in = 380 g) to 500-600 g (Green Heirloom), so the metal at Rs 1,400/kg comes to roughly Rs 532-840 per plate before making charge, packing and GST. That is an indication only, NOT a quote. Scratch evaluation with scripts/recommend.py evaluate() on 2026-11-27 at Rs 1,999 (Odisha supplier, all channels): cost Rs 532 gives Shopify 54.1% (expected Rs 888) and passes all four channels; Rs 700 gives 44.3% (Rs 727), all four; Rs 840 gives 36.1% (Rs 593), Shopify and Meesho only. Ask Deepak Metals (Puri) or a Balakati/Kantilo workshop for a written per-piece price for a 380-450 g 8-in plate, alloy ratio, MOQ and single-piece drop-ship.",
+  "price": 1999,
+  "retail_observed": "Seen 2026-11-27 via WebSearch snippets (pages not opened): Velanstore kansa nasta / quarter plate 8 in, approx. 0.380 kg, Rs 2,270 (https://velanstore.com/products/kansa-nasta-plate-quarter-plate-8-inch); Green Heirloom kansa bronze quarter plate 8 in, 500-600 g, Rs 2,599 (https://greenheirloom.in/products/kansa-bronze-quarter-plate); Sama Homes (Canada) 8 in, 560 g, CAD 105.06 (https://samahomes.ca/products/bronze-kansa-quarter-plate). Ritikart sells an Odisha (Balakati/Kantilo) 6-in kansa breakfast plate (https://ritikart.com/products/kansa-thali-breakfast-plate-6-inch), but no price showed in the snippet. No Flipkart, Amazon.in or Meesho price for an 8-in kansa quarter plate surfaced in two searches, so the marketplace price is UNVALIDATED. Rs 1,999 sits below both Indian D2C prices.",
+  "gst_pct": 12,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Odisha",
+  "demand_signals": [
+    {
+      "source": "Indian D2C kitchenware brands listing 8-in kansa quarter plates",
+      "url": "https://velanstore.com/products/kansa-nasta-plate-quarter-plate-8-inch",
+      "seen_on": "2026-11-27",
+      "summary": "Velanstore (Rs 2,270) and Green Heirloom (Rs 2,599) both sell a single 8-in kansa quarter plate, showing a D2C price band above Rs 1,999. Presence signal only; no sales volume or trend data found."
+    },
+    {
+      "source": "Ritikart: Odisha kansa thali set and breakfast plate",
+      "url": "https://ritikart.com/collections/ethnic-utility-products/products/kansa-thali-set-1-thali-1-bowl-1-small-plate-1-glass-1-spoon",
+      "seen_on": "2026-11-27",
+      "summary": "An Odisha-focused retailer sells Balakati/Kantilo kansa plates and a 5-piece thali set at Rs 3,999 (regular Rs 5,499, 2.2 kg). Supply-side signal for an Odisha maker; not a demand measure."
+    }
+  ],
+  "risks": [
+    "Supplier cost unknown: only a Rs 1,400/kg listing (Puri, Odisha) exists; per-piece cost depends on plate weight (380-600 g in retail listings) and making charge. Get a written quote before evaluation",
+    "Marketplace price UNVALIDATED: no Flipkart/Amazon.in/Meesho 8-in kansa plate price found. If generic 'bronze' plates sell well below Rs 1,999 there, use the website channel only",
+    "'Pure kansa / bell metal / bronze' and any alloy ratio are material claims needing a supplier test report (require_evidence_for_claims); brass or plated look-alikes are common",
+    "Food-contact item: no health or Ayurvedic benefit claims in copy (regulated-claim risk); sell as tableware only",
+    "Bell metal can crack if dropped hard and dents in transit; needs rigid padded packing. Hand-beaten pieces vary by about 100 g, so state weight as a range",
+    "Tarnishes; include a care card (no dishwasher) to limit 'not as pictured' returns",
+    "Overlaps with the kansa katori lead (RA-20261120-1): the same supplier quote can cover both, and a plate + katori combo is a possible later bundle (check the 2 kg slab)",
+    "GST for bronze tableware (HSN 7418) to be confirmed by the CA; 12% kept for consistency with the katori file",
+    "Retail comparables are from search snippets, not opened pages; re-check live"
+  ],
+  "sources": [
+    "https://m.indiamart.com/deepak-metals-puri",
+    "https://velanstore.com/products/kansa-nasta-plate-quarter-plate-8-inch",
+    "https://greenheirloom.in/products/kansa-bronze-quarter-plate",
+    "https://samahomes.ca/products/bronze-kansa-quarter-plate",
+    "https://swadesii.com/en-au/products/zishta-kansa-thali-matt-finish-bronze-dinner-plate",
+    "https://ritikart.com/products/kansa-thali-breakfast-plate-6-inch",
+    "https://ritikart.com/collections/ethnic-utility-products/products/kansa-thali-set-1-thali-1-bowl-1-small-plate-1-glass-1-spoon"
+  ],
+  "stage": "NEW"
+}

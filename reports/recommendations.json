@@ -4466,6 +4466,53 @@
       ],
       "review": null,
       "ca": null
+    },
+    {
+      "id": "RA-20261127D-1",
+      "name": "Kansa (bell metal / bronze) quarter / nasta plate, 8 in, single, hand-beaten (Odisha-made)",
+      "category": "kitchen_organisation",
+      "price": 1999.0,
+      "supplier_cost": null,
+      "stage": "REJECTED",
+      "reason": "no supplier cost yet",
+      "best_channel": null,
+      "best": null,
+      "channels": {},
+      "passing_channels": [],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/deepak-metals-puri",
+        "https://velanstore.com/products/kansa-nasta-plate-quarter-plate-8-inch",
+        "https://greenheirloom.in/products/kansa-bronze-quarter-plate",
+        "https://samahomes.ca/products/bronze-kansa-quarter-plate",
+        "https://swadesii.com/en-au/products/zishta-kansa-thali-matt-finish-bronze-dinner-plate",
+        "https://ritikart.com/products/kansa-thali-breakfast-plate-6-inch",
+        "https://ritikart.com/collections/ethnic-utility-products/products/kansa-thali-set-1-thali-1-bowl-1-small-plate-1-glass-1-spoon"
+      ],
+      "review": null,
+      "ca": null
+    },
+    {
+      "id": "RA-20261127D-2",
+      "name": "Kashmiri namda hand-felted wool rug with aari embroidery, 2 x 3 ft",
+      "category": "home_storage",
+      "price": 1199.0,
+      "supplier_cost": null,
+      "stage": "REJECTED",
+      "reason": "no supplier cost yet",
+      "best_channel": null,
+      "best": null,
+      "channels": {},
+      "passing_channels": [],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/namda-rug.html",
+        "https://www.gyawun.com/product/wool-rectangle-namda-with-hand-aari-embroidery-in-black-threads-3x2-ft/",
+        "https://www.gyawun.com/product/3x2-ft-kashmiri-wool-namda-handcrafted-aari-design/",
+        "https://theindiacrafthouse.com/products/copy-of-hand-felted-embroidered-kashmiri-namda-woollen-rug-5"
+      ],
+      "review": null,
+      "ca": null
     }
   ]
 }

@@ -1,0 +1,45 @@
+{
+  "id": "RA-20261127D-2",
+  "name": "Kashmiri namda hand-felted wool rug with aari embroidery, 2 x 3 ft",
+  "category": "home_storage",
+  "weight": "le_2kg",
+  "supplier_cost": null,
+  "supplier_cost_note": "UNKNOWN per piece. IndiaMART namda-rug category snippet (https://m.indiamart.com/impcat/namda-rug.html, WebSearch, seen 2026-11-27, page not opened) shows a white Kashmiri namda at Rs 50 per sq ft with 2x3 ft among the sizes and MOQ 10 pieces, and a different seller at Rs 200 per sq ft. For 6 sq ft that is Rs 300 or Rs 1,200 (my arithmetic, not a stated price). The Rs 50/sq ft item is described as white and may be plain (unembroidered), so it may not match the embroidered retail comparables; seller state is not shown for either. Scratch evaluation with scripts/recommend.py evaluate() on 2026-11-27 at Rs 1,199 (Shopify only, out-of-state): Rs 300 gives 48.7% (expected Rs 512); Rs 500 gives 30.4% (Rs 320, borderline); Rs 1,200 gives -33.5%, FAIL. The lead passes only if an embroidered 2x3 ft piece costs about Rs 450 or less. Get a written per-piece quote (embroidered, 2x3 ft, single-piece drop-ship, MOQ) from a Srinagar namda maker.",
+  "price": 1199,
+  "retail_observed": "Seen 2026-11-27 via WebSearch snippets (pages not opened): Gyawun 3x2 ft rectangular wool namda with hand aari embroidery Rs 1,199, one left (https://www.gyawun.com/product/wool-rectangle-namda-with-hand-aari-embroidery-in-black-threads-3x2-ft/); Gyawun 3x2 ft Kashmiri wool namda, aari design, Rs 1,399, out of stock (https://www.gyawun.com/product/3x2-ft-kashmiri-wool-namda-handcrafted-aari-design/). The India Craft House sells a 4x2 ft embroidered namda, no price in the snippet. No Flipkart, Amazon.in or Meesho price was searched or found, so the marketplace price is UNVALIDATED. The proposed Rs 1,199 matches the lowest specialist price seen and has no headroom.",
+  "gst_pct": 5,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "UNKNOWN",
+  "demand_signals": [
+    {
+      "source": "Gyawun Kashmiri namda listings",
+      "url": "https://www.gyawun.com/product/3x2-ft-kashmiri-wool-namda-handcrafted-aari-design/",
+      "seen_on": "2026-11-27",
+      "summary": "A Kashmir-craft retailer lists several 2x3 ft and round namdas at Rs 1,199-1,399, with one item out of stock and another at 'one left'. Weak stock signal only; no sales volume or trend data found."
+    },
+    {
+      "source": "IndiaMART namda rug category",
+      "url": "https://m.indiamart.com/impcat/namda-rug.html",
+      "seen_on": "2026-11-27",
+      "summary": "Several wholesale namda sellers list per-sq-ft prices (Rs 50-200/sq ft). Supply-side signal; not a demand measure."
+    }
+  ],
+  "risks": [
+    "Supplier cost unknown and spans 4x (Rs 300-1,200 for 2x3 ft from per-sq-ft listings); the cheap listing may be plain white, not embroidered",
+    "Supplier state not shown; set to UNKNOWN, so recommend.py treats it as out-of-state (website only, docs/05). Likely Jammu and Kashmir, but unconfirmed",
+    "Retail anchor is thin: Rs 1,199-1,399 from one specialist site, so Rs 1,199 has no headroom. Marketplace price UNVALIDATED",
+    "Wool felt: moth, odour and shedding complaints; colours can bleed when washed, so ship with a dry-clean / spot-clean care card",
+    "Handmade felting and embroidery vary piece to piece; 'not as pictured' return risk. Use maker-supplied photos with permission",
+    "'Pure wool' and 'hand-felted / hand-embroidered' are claims needing supplier evidence (require_evidence_for_claims)",
+    "Weight of a 2x3 ft namda not found; le_2kg assumed until the supplier states it",
+    "Category home_storage is the nearest policy category; CA to confirm HSN (felt floor coverings, ch. 57) and GST (5% estimated)"
+  ],
+  "sources": [
+    "https://m.indiamart.com/impcat/namda-rug.html",
+    "https://www.gyawun.com/product/wool-rectangle-namda-with-hand-aari-embroidery-in-black-threads-3x2-ft/",
+    "https://www.gyawun.com/product/3x2-ft-kashmiri-wool-namda-handcrafted-aari-design/",
+    "https://theindiacrafthouse.com/products/copy-of-hand-felted-embroidered-kashmiri-namda-woollen-rug-5"
+  ],
+  "stage": "NEW"
+}
