@@ -4,9 +4,9 @@
   "category": "men_accessories",
   "weight": "le_500g",
   "supplier_cost": 399,
-  "supplier_cost_note": "IndiaMART seller Happy Grumpy (New Delhi) lists 'Brown Mens Cork Wallet' at Rs 399/piece; the same seller lists Cork Wallet Rs 199/piece (style unclear, may be a card holder), Cork Zipper Wallet Rs 299/piece and Brown Cork Ladies Wallet Rs 499/piece. MOQ not stated (WebSearch snippets seen 2026-11-22, page not opened). Other IndiaMART snippets the same day: 'Cork Mens Wallets' Rs 449/piece (seller not identified, men's wallet category) and a cork leather bifold Rs 350/piece (seller not identified, bi-fold wallet category). Assumed excl. GST; manufacturer status, single-piece drop-ship, gift box and dispatch SLA NOT confirmed. Rs 399 is 30.7% of Rs 1,299, above the ~27% guide.",
+  "supplier_cost_note": "IndiaMART seller Happy Grumpy (New Delhi) lists 'Brown Mens Cork Wallet' at Rs 399/piece; the same seller lists Cork Wallet Rs 199/piece (style unclear, may be a card holder), Cork Zipper Wallet Rs 299/piece and Brown Cork Ladies Wallet Rs 499/piece. MOQ not stated (WebSearch snippets seen 2026-11-22, page not opened). Other IndiaMART snippets the same day: 'Cork Mens Wallets' Rs 449/piece (seller not identified, men's wallet category) and a cork leather bifold Rs 350/piece (seller not identified, bi-fold wallet category). Assumed excl. GST; manufacturer status, single-piece drop-ship, gift box and dispatch SLA NOT confirmed. Rs 399 is 30.7% of Rs 1,299, above the ~27% guide. 2026-11-27 re-check (WebSearch snippets): second Indian cork-goods maker found. Anchor Cork Private Limited (IndiaMART; snippet says Daman, operating since 1993, manufacturer/exporter of cork products, 51-100 employees) lists a cork passport folder at Rs 950/piece, a cork men's wallet at Rs 1,000/piece and a cork men's keychain wallet at Rs 250/piece (https://m.indiamart.com/anchorcork/tableware-trivets.html; https://m.indiamart.com/anchorcork/testimonial.html). MOQ, dimensions and material backing were not shown. Pragyatt Enterprise, Jaipur (est. 2021) lists cork men's wallets but no price was visible (https://m.indiamart.com/pragyatt-enterprise). Happy Grumpy also lists 'Printed Cork Vegan Leather Fabric' at Rs 1,250/metre (https://m.indiamart.com/happygrumpy/ladies-wallet.html). That shows the seller handles printed cork-look material, so its low-priced 'cork' items could be printed rather than real cork sheet (unconfirmed). The Anchor Cork men's wallet at Rs 1,000/piece is not usable at the Rs 1,299 price (77% of price). supplier_cost is left at Rs 399.",
   "price": 1299,
-  "retail_observed": "D2C eco stores (WebSearch snippets seen 2026-11-22): India Handmade (Sustain Craft) men's cork bi-fold wallet Rs 1,450 (regular Rs 2,000); Ecohoy cork wallet for men Rs 1,350, in stock; Brown Living Kakapo cork & canvas unisex bifold Rs 1,600 (regular Rs 2,300), Kiwi cork unisex wallet Rs 1,800, Ibis cork wallet Rs 2,000; Brown Living slim cork card wallet Rs 649 (regular Rs 811). Marketplace price UNVALIDATED: no cork wallet listing found on Flipkart or Amazon.in in two searches; Flipkart men's wallet results were genuine/artificial leather from Rs 380.",
+  "retail_observed": "D2C eco stores (WebSearch snippets seen 2026-11-22): India Handmade (Sustain Craft) men's cork bi-fold wallet Rs 1,450 (regular Rs 2,000); Ecohoy cork wallet for men Rs 1,350, in stock; Brown Living Kakapo cork & canvas unisex bifold Rs 1,600 (regular Rs 2,300), Kiwi cork unisex wallet Rs 1,800, Ibis cork wallet Rs 2,000; Brown Living slim cork card wallet Rs 649 (regular Rs 811). Marketplace price UNVALIDATED: no cork wallet listing found on Flipkart or Amazon.in in two searches; Flipkart men's wallet results were genuine/artificial leather from Rs 380. 2026-11-27: still no Amazon.in, Flipkart or Meesho cork price found. Clan Earth (Kolkata) cork wallets on Brown Living (https://brownliving.in/products/kiwi-zip-wallet-made-of-cork-tan-1, https://brownliving.in/products/dodo-slim-cork-wallet-wine-red) and a Clan Earth zipped cork wallet on LBB/Nykaa Fashion (https://lbb.in/shop/product/cork-textured-zipped-wallet/) showed no price in snippets.",
   "gst_pct": 18,
   "electrical": false,
   "documents": [],
@@ -38,7 +38,8 @@
     "Material claims ('natural cork', 'vegan', 'leather-free') need supplier evidence under require_evidence_for_claims; cork fabric is usually laminated on a PU or textile backing",
     "Wallet build quality (stitching, edge peeling) varies, which carries a return/dispute risk; get a sample first",
     "Supplier photos need permission; avoid brand look-alikes",
-    "GST/HSN to be confirmed by the CA (4202 wallets vs 4504 agglomerated cork articles); 18% used as the conservative figure"
+    "GST/HSN to be confirmed by the CA (4202 wallets vs 4504 agglomerated cork articles); 18% used as the conservative figure",
+    "2026-11-27: real cork is still unconfirmed for the Happy Grumpy items. The established cork maker Anchor Cork lists its equivalents at about 2.5-4x Happy Grumpy's prices (wallet Rs 1,000, passport folder Rs 950), and Happy Grumpy also sells printed cork-look fabric. Together these raise the chance that the cheap items are printed or PU-backed. The only Indian maker with stated real-cork construction is Clan Earth, Kolkata: its Brown Living listings say cork on a cotton backing, not PU (https://brownliving.in/products/kiwi-printed-cork-wallet). No Clan Earth wholesale price was found. Anchor Cork's prices would fail margin at the current selling price, so supplier_cost is unchanged."
   ],
   "sources": [
     "https://m.indiamart.com/happygrumpy/ladies-wallet.html",
@@ -50,7 +51,14 @@
     "https://brownliving.in/products/kakapo-cork-canvas-unisex-bifold-wallet",
     "https://brownliving.in/products/ibis-cork-wallet",
     "https://brownliving.in/products/card-wallet-slim-eco-friendly-wallet-for-cards-cash",
-    "https://www.flipkart.com/q/men-wallets"
+    "https://www.flipkart.com/q/men-wallets",
+    "https://m.indiamart.com/anchorcork/tableware-trivets.html",
+    "https://m.indiamart.com/anchorcork/testimonial.html",
+    "https://m.indiamart.com/pragyatt-enterprise",
+    "https://brownliving.in/products/kiwi-printed-cork-wallet",
+    "https://brownliving.in/products/kiwi-zip-wallet-made-of-cork-tan-1",
+    "https://brownliving.in/products/dodo-slim-cork-wallet-wine-red",
+    "https://lbb.in/shop/product/cork-textured-zipped-wallet/"
   ],
   "stage": "NEW",
   "review": {

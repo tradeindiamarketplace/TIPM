@@ -4,9 +4,9 @@
   "category": "kitchen_organisation",
   "weight": "le_500g",
   "supplier_cost": 200,
-  "supplier_cost_note": "IndiaMART copper-glass category snippet (WebSearch, seen 2026-11-19): S I Metal, Moradabad, '300 ml Pure Copper Glass Tumbler, 1 Piece Rs 100/Piece', so Rs 200 for a pair. Same snippet: Iqra Trading Corporation, Moradabad, 300 ml copper glass Rs 140/piece (Rs 280/pair); Medieval Edge, Moradabad, Rs 550/piece. MOQ, wall thickness, copper purity, GST treatment, gift box and single-piece drop-ship NOT confirmed. Rs 200 is 28.6% of Rs 699, just inside the ~29% guide for out-of-Odisha (website-only) suppliers; at the Rs 280 Iqra price it is 40% and fails.",
+  "supplier_cost_note": "IndiaMART copper-glass category snippet (WebSearch, seen 2026-11-19): S I Metal, Moradabad, '300 ml Pure Copper Glass Tumbler, 1 Piece Rs 100/Piece', so Rs 200 for a pair. Same snippet: Iqra Trading Corporation, Moradabad, 300 ml copper glass Rs 140/piece (Rs 280/pair); Medieval Edge, Moradabad, Rs 550/piece. MOQ, wall thickness, copper purity, GST treatment, gift box and single-piece drop-ship NOT confirmed. Rs 200 is 28.6% of Rs 699, just inside the ~29% guide for out-of-Odisha (website-only) suppliers; at the Rs 280 Iqra price it is 40% and fails. 2026-11-27 re-check (WebSearch snippets): no new Moradabad supplier with a lower per-piece price for 300 ml. The snippets again showed S I Metal Rs 100/piece and Iqra Trading Corporation Rs 140/piece (https://m.indiamart.com/impcat/copper-glass.html). Met Craft glossy 300 ml Rs 220/piece is on the same page, but its city was not shown. M S Enterprises, Moradabad lists a 300 ml copper mule mug at Rs 310/piece, a different product. Dial4Trade Moradabad shows Rs 158 and Rs 216/piece (https://www.dial4trade.com/moradabad/copper-tumbler.htm). Mart Exports, Moradabad lists a 300 ml unlined, lacquer-free tumbler on GlobalLinker, priced per centimetre with no usable per-piece price (https://www.globallinker.com/products/pure-copper-tumbler-300-ml-unlined-uncoated-lacquer-free-8596352). The second Moradabad price is still Iqra's Rs 140 (Rs 280/pair). supplier_cost is unchanged at Rs 200.",
   "price": 699,
-  "retail_observed": "Flipkart (related-product tiles shown in a WebSearch result, seen 2026-11-19; exact listing pages not opened, so re-check): IndianArtVilla colour-changing copper glass 300 ml set of 2 Rs 755 (MRP Rs 1,070); Jhandu pure copper tumbler 300 ml pack of 2 Rs 906 (MRP Rs 937). IndiaHandmade (Prisha India Craft) pure copper tumbler 300 ml set of 2 Rs 500 sale (regular Rs 1,000). Meesho: 'Premium Quality Handcrafted Copper Glass (300 ml) (Pack of 2)' listing exists (stated product weight 70 g) but price not visible; a Meesho copper bottle + glass combo is listed at Rs 699. No Amazon.in price seen. Meesho price for the glass pair is UNVALIDATED and could undercut Rs 699.",
+  "retail_observed": "Flipkart (related-product tiles shown in a WebSearch result, seen 2026-11-19; exact listing pages not opened, so re-check): IndianArtVilla colour-changing copper glass 300 ml set of 2 Rs 755 (MRP Rs 1,070); Jhandu pure copper tumbler 300 ml pack of 2 Rs 906 (MRP Rs 937). IndiaHandmade (Prisha India Craft) pure copper tumbler 300 ml set of 2 Rs 500 sale (regular Rs 1,000). Meesho: 'Premium Quality Handcrafted Copper Glass (300 ml) (Pack of 2)' listing exists (stated product weight 70 g) but price not visible; a Meesho copper bottle + glass combo is listed at Rs 699. No Amazon.in price seen. Meesho price for the glass pair is UNVALIDATED and could undercut Rs 699. 2026-11-27: Meesho 'Premium Quality Handcrafted Copper Glass (300 ml) (Pack of 2)' (https://www.meesho.com/premium-quality-handcrafted-copper-glass-300-ml-pack-of-2/p/7skxil) shows 531 ratings in the snippet, but the price is still not visible, so the Meesho pair price remains UNVALIDATED. A Meesho copper bottle + glass combo is listed at Rs 715 (https://www.meesho.com/pure-copper-bottle-and-copper-glass-drinkware-set-combo/p/2tljt). Flipkart Jhanduu 300 ml pack of 2 is still shown at Rs 906 (MRP Rs 937, 4.3 rating), from a snippet that may be stale. Prisha set of 2 is still Rs 500 on IndiaHandmade. No Amazon.in pair price found in two more searches.",
   "gst_pct": 12,
   "electrical": false,
   "documents": [],
@@ -29,6 +29,12 @@
       "url": "https://m.indiamart.com/impcat/copper-glass.html",
       "seen_on": "2026-11-19",
       "summary": "Many Moradabad suppliers list 300 ml copper tumblers at Rs 100-550/piece. Supply depth only, not a demand signal."
+    },
+    {
+      "source": "Meesho 300 ml copper glass pack of 2 (WebSearch snippet)",
+      "url": "https://www.meesho.com/premium-quality-handcrafted-copper-glass-300-ml-pack-of-2/p/7skxil",
+      "seen_on": "2026-11-27",
+      "summary": "The listing shows 531 ratings, which suggests real marketplace sales of copper glass pairs. It gives no sales count, and the price was not visible."
     }
   ],
   "risks": [
@@ -39,7 +45,8 @@
     "Dents and tarnish in transit drive returns; needs a rigid gift box and care card (lemon/salt cleaning, no dishwasher)",
     "Avoid health/Ayurvedic claims in copy (would edge toward regulated claims); describe as drinkware only",
     "Retail comparables come from search snippets and Flipkart related-product tiles, not opened listing pages; re-check live prices",
-    "GST rate for copper tableware (HSN 7418) to be confirmed by the CA; 12% used as an estimate"
+    "GST rate for copper tableware (HSN 7418) to be confirmed by the CA; 12% used as an estimate",
+    "2026-11-27: the Meesho pack-of-2 has 531 ratings, so there is established low-price competition, but its price is still unknown. An Indian Art Villa listing titled 'half lacquer hammer design' (https://swadesii.com/products/indian-art-villa-pure-copper-glass-with-half-lacquer-hammer-design-tumbler-cup-pack-of-2) shows lacquered variants are common, so a 'lacquer-free' claim needs supplier confirmation. Still no Amazon.in pair price and no second Moradabad price at or below Rs 100/piece."
   ],
   "sources": [
     "https://m.indiamart.com/impcat/copper-glass.html",
@@ -47,7 +54,11 @@
     "https://www.flipkart.com/hi/indianartvilla-set-3-copper-mathat-glass-handle/p/itmevzfdvfnj3j5s",
     "https://indiahandmade.com/prisha-india-craft-drinkware-tableware-pure-copper-water-glass-tumbler-set-of-2-har778909.html",
     "https://www.meesho.com/premium-quality-handcrafted-copper-glass-300-ml-pack-of-2/p/7skxil",
-    "https://www.meesho.com/pure-copper-bottle-and-copper-glass-drinkware-set-combo/p/2tljw"
+    "https://www.meesho.com/pure-copper-bottle-and-copper-glass-drinkware-set-combo/p/2tljw",
+    "https://www.meesho.com/pure-copper-bottle-and-copper-glass-drinkware-set-combo/p/2tljt",
+    "https://www.dial4trade.com/moradabad/copper-tumbler.htm",
+    "https://www.globallinker.com/products/pure-copper-tumbler-300-ml-unlined-uncoated-lacquer-free-8596352",
+    "https://swadesii.com/products/indian-art-villa-pure-copper-glass-with-half-lacquer-hammer-design-tumbler-cup-pack-of-2"
   ],
   "stage": "NEW",
   "review": {

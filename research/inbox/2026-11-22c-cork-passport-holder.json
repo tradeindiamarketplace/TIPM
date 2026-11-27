@@ -4,9 +4,9 @@
   "category": "travel_accessories",
   "weight": "le_500g",
   "supplier_cost": 235,
-  "supplier_cost_note": "IndiaMART seller Happy Grumpy (New Delhi) lists 'Eco Friendly Cork All In 1 Passport Holder' at Rs 235/piece (made in India) and 'Eco-Friendly Canvas & Cork Passport Holder' at Rs 399/piece. MOQ not stated (WebSearch snippets seen 2026-11-22, page not opened). Assumed excl. GST. Single-piece drop-ship, gift box, dispatch SLA and whether it is real cork sheet NOT confirmed. Rs 235 is 26.2% of Rs 899; the Rs 399 canvas+cork version would be 44% and should not be used at this price.",
+  "supplier_cost_note": "IndiaMART seller Happy Grumpy (New Delhi) lists 'Eco Friendly Cork All In 1 Passport Holder' at Rs 235/piece (made in India) and 'Eco-Friendly Canvas & Cork Passport Holder' at Rs 399/piece. MOQ not stated (WebSearch snippets seen 2026-11-22, page not opened). Assumed excl. GST. Single-piece drop-ship, gift box, dispatch SLA and whether it is real cork sheet NOT confirmed. Rs 235 is 26.2% of Rs 899; the Rs 399 canvas+cork version would be 44% and should not be used at this price. 2026-11-27 re-check (WebSearch snippets): second Indian cork-goods maker found. Anchor Cork Private Limited (IndiaMART; snippet says Daman, operating since 1993, manufacturer/exporter of cork products, 51-100 employees) lists a cork passport folder at Rs 950/piece, a cork men's wallet at Rs 1,000/piece and a cork men's keychain wallet at Rs 250/piece (https://m.indiamart.com/anchorcork/tableware-trivets.html; https://m.indiamart.com/anchorcork/testimonial.html). MOQ, dimensions and material backing were not shown. Pragyatt Enterprise, Jaipur (est. 2021) lists cork men's wallets but no price was visible (https://m.indiamart.com/pragyatt-enterprise). Happy Grumpy also lists 'Printed Cork Vegan Leather Fabric' at Rs 1,250/metre (https://m.indiamart.com/happygrumpy/ladies-wallet.html). That shows the seller handles printed cork-look material, so its low-priced 'cork' items could be printed rather than real cork sheet (unconfirmed). The Anchor Cork passport folder at Rs 950/piece is above the Rs 899 selling price. supplier_cost is left at Rs 235.",
   "price": 899,
-  "retail_observed": "UNVALIDATED for plain cork. Brown Living lists a cork-and-canvas passport holder (5.5 x 8 x 1.25 in) but no price showed in the snippet; Brown Living vegan-leather passport holder with cork print Rs 1,950 (regular Rs 2,535), a different material; Suspire vegan-leather passport holder Rs 1,950 (regular Rs 2,535). Marketplace anchor: Flipkart STORITE RFID passport wallet (not cork) Rs 255 (list Rs 1,499). No cork passport holder found on Flipkart, Amazon.in or Nykaa (WebSearch snippets seen 2026-11-22).",
+  "retail_observed": "UNVALIDATED for plain cork. Brown Living lists a cork-and-canvas passport holder (5.5 x 8 x 1.25 in) but no price showed in the snippet; Brown Living vegan-leather passport holder with cork print Rs 1,950 (regular Rs 2,535), a different material; Suspire vegan-leather passport holder Rs 1,950 (regular Rs 2,535). Marketplace anchor: Flipkart STORITE RFID passport wallet (not cork) Rs 255 (list Rs 1,499). No cork passport holder found on Flipkart, Amazon.in or Nykaa (WebSearch snippets seen 2026-11-22). 2026-11-27: a plain cork passport holder retail price in India is still UNVALIDATED. Brown Living's cork passport holder (https://brownliving.in/products/cork-passport-holder) again showed no price in the snippet, and no Amazon.in, Flipkart or Meesho cork passport holder was found.",
   "gst_pct": 18,
   "electrical": false,
   "documents": [],
@@ -38,7 +38,8 @@
     "Rs 235 price for 'cork' is low; it may be PU printed to look like cork or a thin cork-fabric laminate. 'Natural cork'/'vegan' claims need supplier evidence (require_evidence_for_claims)",
     "Seasonal, low-repeat purchase (travel); small item, so perceived value at Rs 899 depends on gift box and photos",
     "Same supplier as the cork wallet candidate RA-20261122B-1; could be bundled later, but adds single-supplier dependence",
-    "Supplier photos need permission; GST/HSN (4202 vs 4504) to be confirmed by the CA, 18% used as conservative"
+    "Supplier photos need permission; GST/HSN (4202 vs 4504) to be confirmed by the CA, 18% used as conservative",
+    "2026-11-27: real cork is still unconfirmed for the Happy Grumpy items. The established cork maker Anchor Cork lists its equivalents at about 2.5-4x Happy Grumpy's prices (passport folder Rs 950 vs Happy Grumpy Rs 235, about 4x), and Happy Grumpy also sells printed cork-look fabric. Together these raise the chance that the cheap items are printed or PU-backed. The only Indian maker with stated real-cork construction is Clan Earth, Kolkata: its Brown Living listings say cork on a cotton backing, not PU (https://brownliving.in/products/kiwi-printed-cork-wallet). No Clan Earth wholesale price was found. Anchor Cork's prices would fail margin at the current selling price, so supplier_cost is unchanged."
   ],
   "sources": [
     "https://m.indiamart.com/happygrumpy/passport-holder.html",
@@ -46,7 +47,12 @@
     "https://brownliving.in/products/passport-holder-with-storage-slots-plant-leather-cork-print-blue",
     "https://suspire.in/collections/passport-covers",
     "https://flipkart.com/storite-rfid-travel-passport-cover-holder-wallet-credit-card-boarding-pass-ticket/p/itma9338b24c55fd",
-    "https://www.meesho.com/passport-cover-passport-holder-travel-essentials-passport-holder-for-men-passport-holder-for-women/p/6rr6bh"
+    "https://www.meesho.com/passport-cover-passport-holder-travel-essentials-passport-holder-for-men-passport-holder-for-women/p/6rr6bh",
+    "https://m.indiamart.com/anchorcork/tableware-trivets.html",
+    "https://m.indiamart.com/anchorcork/testimonial.html",
+    "https://m.indiamart.com/pragyatt-enterprise",
+    "https://m.indiamart.com/happygrumpy/ladies-wallet.html",
+    "https://brownliving.in/products/kiwi-printed-cork-wallet"
   ],
   "stage": "NEW",
   "review": {

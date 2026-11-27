@@ -4,9 +4,9 @@
   "category": "home_furnishing",
   "weight": "le_500g",
   "supplier_cost": 275,
-  "supplier_cost_note": "IndiaMART tea-cozy category page (WebSearch snippet seen 2026-11-25; page not opened): a Srinagar seller lists a 'Multicolour Crewel Tea Cozy' in dusoot cotton at Rs 275/piece. Seller name, MOQ, GST treatment (assumed excl. GST) and whether it is hand or machine crewel were NOT visible; single-piece drop-ship not confirmed. Generic non-crewel tea cosies on the same page list at about Rs 100/piece. A written quote with MOQ, packed weight and hand/machine confirmation is needed.",
+  "supplier_cost_note": "IndiaMART tea-cozy category page (WebSearch snippet seen 2026-11-25; page not opened): a Srinagar seller lists a 'Multicolour Crewel Tea Cozy' in dusoot cotton at Rs 275/piece. Seller name, MOQ, GST treatment (assumed excl. GST) and whether it is hand or machine crewel were NOT visible; single-piece drop-ship not confirmed. Generic non-crewel tea cosies on the same page list at about Rs 100/piece. A written quote with MOQ, packed weight and hand/machine confirmation is needed. 2026-11-27 re-check (WebSearch snippets): no second Srinagar supplier price found. The same Fine Art Gallery, Srinagar listing at Rs 275/piece resurfaced (https://m.indiamart.com/impcat/tea-cozy.html), still with no MOQ and no hand/machine statement. IndiaMART seller Kashmir Haat has an 'Embroidered tea cozy' listing (https://m.indiamart.com/kashmir-haat), but no price showed in the snippet. A TradeIndia tea-cozy category page (https://www.tradeindia.com/products/tea-cozy-424182.html) gave no crewel price. Rs 275 is still a single-source figure.",
   "price": 999,
-  "retail_observed": "Specialist/D2C only (WebSearch snippets seen 2026-11-25): Gyawun crewel-embroidered 'Gulmarg' tea cozy Rs 1,299 (incl. taxes and India shipping), Gyawun 12 x 14 in white/red crewel tea cozy Rs 1,449, Gyawun namda tea cozy with hand aari embroidery Rs 1,899; GlobeIn (international) aari wool tea cozy USD 49. Amazon.in/Flipkart price UNVALIDATED: no crewel or Kashmiri tea cosy listing surfaced in two searches.",
+  "retail_observed": "Specialist/D2C only (WebSearch snippets seen 2026-11-25): Gyawun crewel-embroidered 'Gulmarg' tea cozy Rs 1,299 (incl. taxes and India shipping), Gyawun 12 x 14 in white/red crewel tea cozy Rs 1,449, Gyawun namda tea cozy with hand aari embroidery Rs 1,899; GlobeIn (international) aari wool tea cozy USD 49. Amazon.in/Flipkart price UNVALIDATED: no crewel or Kashmiri tea cosy listing surfaced in two searches. 2026-11-27: 'aunercart' tea cosy is still not confirmed in INR. Snippets show it at USD 13.99 on Walmart (https://www.walmart.com/c/kp/tea-cozy-patterns), about USD 14.99-15.99 (approx. EUR 13.63) on eBay.de (https://www.ebay.de/itm/203761978297), and 3,018 som on desertcart.kg (https://www.desertcart.kg/products/59870568-turquoise-blue-white-cotton-handmade-designs-tea-cozy-creative-tea.md). These listings are titled 'Indian Mandala' cotton tea cozies, and the search summary said none of them describe the product as embroidered. So the aunercart item looks like a printed mandala cosy, not a like-for-like embroidered one (inference from titles, not verified). No Amazon.in, Flipkart or Meesho INR price found for any embroidered tea cosy. Marketplace retail remains UNVALIDATED.",
   "gst_pct": 5,
   "electrical": false,
   "documents": [],
@@ -39,7 +39,8 @@
     "Niche, seasonal (winter/tea-culture) product; demand volume unknown and probably low",
     "Supplier in Jammu and Kashmir, so website-only under docs/05; long transit from Srinagar",
     "Weight not stated in any source; assumed under 500 g packed (le_500g) pending a weighed sample",
-    "GST: cotton made-ups assumed 5% at sale value under Rs 2,500; CA to confirm HSN (6304/6302)"
+    "GST: cotton made-ups assumed 5% at sale value under Rs 2,500; CA to confirm HSN (6304/6302)",
+    "2026-11-27: still no second supplier price, and the aunercart listing's INR price is still unconfirmed (it appears to be a printed mandala cosy priced around USD 14-16 abroad). Rs 275 cost and Rs 999 retail both still rest on a single source each."
   ],
   "sources": [
     "https://m.indiamart.com/impcat/tea-cozy.html",
@@ -47,7 +48,12 @@
     "https://www.gyawun.com/product/stylish-kashmiri-handmade-tea-cozy-with-crewel-embroidery-gulmarg/",
     "https://www.gyawun.com/product/red-design-handmade-tea-cozy",
     "https://www.gyawun.com/product/kashmiri-handmade-namda-tea-cozy-with-hand-aari-embroidery/",
-    "https://shop.globein.com/products/cat-shaped-embroidered-wool-tea-cozy-in-yellow-from-india-delightful-cat-in-yellow-304932"
+    "https://shop.globein.com/products/cat-shaped-embroidered-wool-tea-cozy-in-yellow-from-india-delightful-cat-in-yellow-304932",
+    "https://m.indiamart.com/kashmir-haat",
+    "https://www.tradeindia.com/products/tea-cozy-424182.html",
+    "https://www.walmart.com/c/kp/tea-cozy-patterns",
+    "https://www.ebay.de/itm/203761978297",
+    "https://www.desertcart.kg/products/59870568-turquoise-blue-white-cotton-handmade-designs-tea-cozy-creative-tea.md"
   ],
   "stage": "NEW",
   "review": {
