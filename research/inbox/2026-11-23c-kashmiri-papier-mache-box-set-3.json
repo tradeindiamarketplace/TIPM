@@ -4,9 +4,9 @@
   "category": "home_storage",
   "weight": "le_1kg",
   "supplier_cost": 420,
-  "supplier_cost_note": "Estimated from IndiaMART listings seen via WebSearch snippets on 2026-11-23 (pages themselves blocked): 'Kashmiri Handmade Paper Mache Decorative Box Set' at Rs 140 per piece, so 3 x Rs 140 = Rs 420 for a set of 3. Not a quote: it is unclear whether Rs 140 is per box or per set, sizes are not stated, and MOQ is not shown. Other listings in the same snippets: Srinagar round hand-painted gift box Rs 199/piece (3 x 199 = Rs 597), Kashmiri box Rs 250/box, egg-shaped box Rs 280/piece, Apty Crafty Rs 300 and Rs 500/piece, Craft Cottage Industries Rs 900-2,400/piece, a New Delhi seller Rs 1,200/piece. Rs 420 is the most optimistic figure; a written quote for a matched S/M/L set is required.",
+  "supplier_cost_note": "Estimated from IndiaMART listings seen via WebSearch snippets on 2026-11-23 (pages themselves blocked): 'Kashmiri Handmade Paper Mache Decorative Box Set' at Rs 140 per piece, so 3 x Rs 140 = Rs 420 for a set of 3. Not a quote: it is unclear whether Rs 140 is per box or per set, sizes are not stated, and MOQ is not shown. Other listings in the same snippets: Srinagar round hand-painted gift box Rs 199/piece (3 x 199 = Rs 597), Kashmiri box Rs 250/box, egg-shaped box Rs 280/piece, Apty Crafty Rs 300 and Rs 500/piece, Craft Cottage Industries Rs 900-2,400/piece, a New Delhi seller Rs 1,200/piece. Rs 420 is the most optimistic figure; a written quote for a matched S/M/L set is required. UPDATE 2026-11-27 (WebSearch snippets, pages not opened): a second Srinagar seller, New Shining Rose (IndiaMART, GST, 8 yrs), lists 'Paper Mache Assorted Boxes', oval, at Rs 350/Piece under a 'Set of three' heading (https://m.indiamart.com/impcat/paper-mache-boxes.html, https://m.indiamart.com/new-shining-rose). The listing is still ambiguous: per set = Rs 350 (recommend.py evaluate on 2026-11-27: Shopify 57.44%, expected Rs 754.45), per box = Rs 1,050 (6.28%, expected Rs 82.45, FAIL). Same snippets: Apty Crafty 'Box Set' Rs 600/piece, singles Rs 250-500 (https://m.indiamart.com/apty-crafty). MOQ is not shown for any of them. supplier_cost is left at 420 because none of these prices is clearly per set. Ask New Shining Rose and Apty Crafty for a written per-set price for a matched S/M/L set.",
   "price": 1499,
-  "retail_observed": "Specialist/D2C only (WebSearch snippets seen 2026-11-23): iTokri Kashmiri hand-painted papier mache boxes set of 3 (S/M/L) shows a price field of 165000, read as paise, so about Rs 1,650 (inferred, not confirmed); Exotic India fish-motif set of 3 from Kashmir USD 74.25 (was USD 99) and bird-motif set of 3 with gold work USD 165.94 (was USD 295). Marketplace price UNVALIDATED: Flipkart Dcasta Kashmiri paper mache box listings show 'Price: Not Available' / currently unavailable; no Amazon.in price found.",
+  "retail_observed": "Specialist/D2C only (WebSearch snippets seen 2026-11-23): iTokri Kashmiri hand-painted papier mache boxes set of 3 (S/M/L) shows a price field of 165000, read as paise, so about Rs 1,650 (inferred, not confirmed); Exotic India fish-motif set of 3 from Kashmir USD 74.25 (was USD 99) and bird-motif set of 3 with gold work USD 165.94 (was USD 295). Marketplace price UNVALIDATED: Flipkart Dcasta Kashmiri paper mache box listings show 'Price: Not Available' / currently unavailable; no Amazon.in price found. UPDATE 2026-11-27: searches surfaced no new Indian marketplace price for a set of 3. Ruralhandmade lists a Kashmiri floral round trinket box set (https://ruralhandmade.com/productdetails/kashmiri-handicraft-paper-mache-multicolour-floral-round-2), but no price showed in the snippet. The marketplace price is still UNVALIDATED.",
   "gst_pct": 5,
   "electrical": false,
   "documents": [],
@@ -39,7 +39,8 @@
     "Hand-painted lacquer can chip or crack in transit and colours vary piece to piece; needs a sample, padded packing and 'handmade variation' wording to limit returns",
     "Papier mache is a GI-registered craft (Kashmir Paper Machie); do not claim GI or 'authentic' without the supplier's GI authorised-user certificate",
     "Many 'papier mache' boxes are painted wood or MDF; the material claim needs supplier evidence",
-    "GST: handicraft papier mache assumed 5% after the Sept 2025 rate changes; HSN (4823/9602 or similar) to be confirmed by the CA"
+    "GST: handicraft papier mache assumed 5% after the Sept 2025 rate changes; HSN (4823/9602 or similar) to be confirmed by the CA",
+    "2026-11-27: a second Srinagar set listing (New Shining Rose, Rs 350/'piece', set of three) is also ambiguous per box vs per set. If it is per box, the set cost is about Rs 1,050 and the lead fails at Rs 1,499."
   ],
   "sources": [
     "https://m.indiamart.com/impcat/paper-mache-boxes.html",
@@ -51,7 +52,9 @@
     "https://itokri.com/products/2023-1072-1-9-cock-kashmiri-handpainted-papier-mache-multipurpose-boxes-set-of-3-small-medium-large",
     "https://exoticindia.com/product/homeandliving/hand-painted-papier-mache-fish-box-set-of-3-from-kashmir-ddd876",
     "https://exoticindia.com/product/homeandliving/hand-painted-papier-mache-bird-box-set-of-3-24-karat-gold-work-from-kashmir-ddd813",
-    "https://www.memeraki.com/collections/kashmir-art-paper-mache-from-chinar?page=2"
+    "https://www.memeraki.com/collections/kashmir-art-paper-mache-from-chinar?page=2",
+    "https://m.indiamart.com/new-shining-rose",
+    "https://ruralhandmade.com/productdetails/kashmiri-handicraft-paper-mache-multicolour-floral-round-2"
   ],
   "stage": "NEW",
   "review": {
