@@ -1,0 +1,61 @@
+{
+  "id": "RA-20261127-1",
+  "name": "Handcarved Odisha buffalo-horn bird showpiece on wooden base, approx. 6-9 in (Paralakhemundi/Cuttack horn craft), tabletop decor",
+  "category": "home_decor",
+  "weight": "le_500g",
+  "supplier_cost": null,
+  "supplier_cost_note": "No supplier price found as of 2026-11-27. The Odisha seller found, S M Craft Finesse (Joda, Odisha), lists buffalo-horn figurines on GlobalLinker as 'Price on request, MOQ 1 Unit' (https://www.globallinker.com/products/natural-buffalo-horn-the-egret-eating-prawn-fish-authentic-horn-craft-home-decor-8461375, seen 2026-11-27). A cultureandheritage.org page links horn showpieces with wooden bases at Rs 760 per piece, but the seller and its location are not shown, and it is unclear whether Rs 760 is a wholesale or retail price (https://cultureandheritage.org/2024/09/horn-handicrafts-of-paralakhemundi-odisha-an-extraordinary-craft-tradition-of-shaping-horn-into-birds-animals-combs-and-decorative-objects.html, seen 2026-11-27). Not used as cost. The only IndiaMART horn price seen was a Jaipur burn-polished 14 in buffalo horn listed for drinking use at Rs 260/piece (https://m.indiamart.com/impcat/buffalo-horn.html, search snippet, seen 2026-11-27). That is not a carved Odisha showpiece. Need a written per-piece quote from S M Craft Finesse or a Paralakhemundi artisan covering size, wooden base, packing, MOQ, single-piece dispatch and GST basis, plus a declaration that the horn is from domestic buffalo.",
+  "price": 1299,
+  "retail_observed": "From WebSearch snippets seen 2026-11-27 (pages not opened): Vibecity 'Natural Buffalo Horn Decorative Bird Showpiece - 9 inches' at Rs 2,295, 'only four left', COD available, origin India with no region named (https://www.vibecity.com/natural-buffalo-horn-decorative-bird-showpiece----inches/73260936). Vibecity also lists a buffalo-horn pair-of-elephants showpiece, price not in the snippet. Horn showpieces with wooden bases at Rs 760/piece were linked from cultureandheritage.org (seller unknown). Amazon.in/Flipkart/Meesho price UNVALIDATED: a search for buffalo horn showpieces on Flipkart/Amazon.in returned no listings, only IndiaMART utility horns.",
+  "gst_pct": 5,
+  "electrical": false,
+  "documents": [],
+  "supplier_state": "Odisha",
+  "demand_signals": [
+    {
+      "source": "Organiser.org article 'Horn craft of Odisha has high demand'",
+      "url": "https://organiser.org/2024/08/23/253080/bharat/horn-craft-of-odisha-has-high-demand/",
+      "seen_on": "2026-11-27",
+      "summary": "Headline from a 23 Aug 2024 article says Odisha horn craft has high demand. This is a 2024 media claim with no sales figures, so treat it as weak and dated."
+    },
+    {
+      "source": "Vibecity buffalo-horn bird showpiece listing",
+      "url": "https://www.vibecity.com/natural-buffalo-horn-decorative-bird-showpiece----inches/73260936",
+      "seen_on": "2026-11-27",
+      "summary": "A home-decor retailer sells a 9 in buffalo-horn bird at Rs 2,295 with 'only four left'. This anchors the price only. No sales volume or reviews were seen."
+    },
+    {
+      "source": "WebSearch for buffalo horn showpieces on flipkart/amazon.in/indiamart",
+      "url": "https://m.indiamart.com/impcat/buffalo-horn.html",
+      "seen_on": "2026-11-27",
+      "summary": "No Flipkart or Amazon.in carved horn showpiece surfaced, which suggests little marketplace competition. It is not evidence of demand. IndiaMART horn listings are mostly drinking horns, blowing horns and utensils (Rs 160-1,350)."
+    },
+    {
+      "source": "Orissa Post feature on Odisha horn artisans",
+      "url": "https://orissapost.com/?p=615310",
+      "seen_on": "2026-11-27",
+      "summary": "Reports only about 13 horn-craft artisans left in Odisha (3 in Cuttack, 10 in Paralakhemundi). This points to scarcity and a craft story, but it also caps supply. The article date was not shown."
+    }
+  ],
+  "risks": [
+    "LEGAL GATE, must be resolved before listing: an Orissa Post snippet (https://orissapost.com/?p=615310, seen 2026-11-27) says possessing horns is punishable without a licence, and the Wildlife (Protection) Act 1972 lists 'horn' among animal articles (https://forest.odisha.gov.in/sites/default/files/2020-01/6TWA_1972.pdf). The Act targets wild species, so domestic buffalo horn appears to be outside it, but no source confirmed this. Get written confirmation from the Odisha Forest Department or a lawyer, plus a supplier declaration of domestic-buffalo origin. If any licence is required, reject under the policy rule against regulated goods",
+    "Ethics/perception: an animal-derived product. Some buyers and marketplaces may object, and Amazon/Flipkart may restrict animal-part listings. Marketplace listing eligibility is UNVALIDATED, so this may end up website-only",
+    "No supplier cost, so recommend.py will reject until a quote arrives. To pass at Rs 1,299 the landed cost likely needs to be at or below about Rs 350 (~27% of price). The unattributed Rs 760 wooden-base figure, if it is wholesale, would fail",
+    "Very small artisan base (~13 artisans per Orissa Post), so supply, consistency and lead times are risky. Each piece is unique, so listing photos must say that variation is expected",
+    "Horn bird beaks, tail feathers and wooden-base joints can snap in courier. Needs a rigid box and foam. Breakage returns are possible",
+    "Category 'home_decor' is not in the policy's preferred list. The review agent should confirm it is acceptable",
+    "GST: assumed 5% (HSN 9601 worked horn articles, believed reduced to 5% for handicrafts in the 2025 rate rationalisation). It may be 12% or 18%. CA to confirm"
+  ],
+  "sources": [
+    "https://www.globallinker.com/products/natural-buffalo-horn-the-egret-eating-prawn-fish-authentic-horn-craft-home-decor-8461375",
+    "https://www.globallinker.com/products/buffalo-horn-a-lady-with-skipper-on-the-boat-house-elegant-design-home-decor-8461373",
+    "https://cultureandheritage.org/2024/09/horn-handicrafts-of-paralakhemundi-odisha-an-extraordinary-craft-tradition-of-shaping-horn-into-birds-animals-combs-and-decorative-objects.html",
+    "https://www.vibecity.com/natural-buffalo-horn-decorative-bird-showpiece----inches/73260936",
+    "https://www.vibecity.com/natural-buffalo-horn-pair-of-elephant-decorative-showpiece----inches/52040888",
+    "https://m.indiamart.com/impcat/buffalo-horn.html",
+    "https://organiser.org/2024/08/23/253080/bharat/horn-craft-of-odisha-has-high-demand/",
+    "https://orissapost.com/?p=615310",
+    "https://forest.odisha.gov.in/sites/default/files/2020-01/6TWA_1972.pdf"
+  ],
+  "stage": "NEW"
+}
