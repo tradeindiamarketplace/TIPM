@@ -89,6 +89,83 @@
       }
     },
     {
+      "id": "RA-20261128B-1",
+      "name": "Kashmiri crewel (aari chain-stitch) embroidered cotton curtain, single panel, approx. 7-7.5 x 4 ft",
+      "category": "home_furnishing",
+      "price": 1999.0,
+      "supplier_cost": 515.0,
+      "stage": "NEEDS_INFO",
+      "reason": "No hard-rule breach shown and not undercut on present evidence (no embroidered 7 ft panel at or below Rs 900 found on Amazon.in, Flipkart or Meesho on 2026-11-28), and the margin passes at Rs 515/Rs 1,999 (55.62%). But the Rs 515 machine-embroidered listing has no size, seller or MOQ (the 4x8 ft listing at Rs 1,000 gives 29.03%, FAIL), and no weight source exists; a scaled comparable suggests a lined 7x4 ft panel could approach or exceed 2 kg. So we need a written quote (size, lining, MOQ, single-piece dispatch) and a weighed sample before any spend.",
+      "best_channel": "shopify",
+      "best": {
+        "status": "PASS",
+        "fragile": true,
+        "expected": 974.14,
+        "margin": 55.62,
+        "conservative": 847.89
+      },
+      "channels": {
+        "shopify": {
+          "status": "PASS",
+          "fragile": true,
+          "expected": 974.14,
+          "margin": 55.62,
+          "conservative": 847.89
+        }
+      },
+      "passing_channels": [
+        "shopify"
+      ],
+      "retail_validated": false,
+      "sources": [
+        "https://m.indiamart.com/impcat/embroidered-curtains.html",
+        "https://m.indiamart.com/zrtextiles",
+        "https://m.indiamart.com/nana-joinery",
+        "https://m.indiamart.com/international-kashmir",
+        "https://www.gyawun.com/product/noorbagh-kashmiri-curtain-chinari-crewel-embroidery/",
+        "https://kashmirwholesalebazar.com/?p=7870",
+        "https://kashmirwholesalebazar.com/product/ari-work-embroidered-crewel-curtains/?ivrating=5",
+        "https://www.itokri.com/collections/crewel-embroidery",
+        "https://www.nykaafashion.com/urban-space-solara-white-cotton-embroidered-window-curtain/p/25538884",
+        "https://www.flipkart.com/homemonde-213-cm-7-ft-cotton-semi-transparent-door-curtain-pack-2/p/itm1bf067cb74dc1",
+        "https://zoutons.com/news/flipkart-curtain-price-october-2026"
+      ],
+      "review": {
+        "verdict": "needs_info",
+        "by": "product-reviewer",
+        "at": "2026-11-28",
+        "notes": "No hard-rule breach shown and not undercut on present evidence (no embroidered 7 ft panel at or below Rs 900 found on Amazon.in, Flipkart or Meesho on 2026-11-28), and the margin passes at Rs 515/Rs 1,999 (55.62%). But the Rs 515 machine-embroidered listing has no size, seller or MOQ (the 4x8 ft listing at Rs 1,000 gives 29.03%, FAIL), and no weight source exists; a scaled comparable suggests a lined 7x4 ft panel could approach or exceed 2 kg. So we need a written quote (size, lining, MOQ, single-piece dispatch) and a weighed sample before any spend.",
+        "competitor_prices": [
+          {
+            "price": 989,
+            "url": "https://www.woodenstreet.com/product/barasingha-1-piece-door-curtain-white-7-feet",
+            "note": "Woodenstreet Barasingha 1-piece door curtain, white, 7 ft, Rs 989 (MRP Rs 1,259); fabric/embroidery not confirmed; WebSearch snippet seen 2026-11-28; furniture retailer, not a mass marketplace"
+          },
+          {
+            "price": 1790,
+            "url": "https://itokri.com/products/570382-4-applique-flower-cutwork-cotton-door-curtain-from-rampur-7-x-3-feet-single-piece",
+            "note": "iTokri applique cutwork cotton door curtain, 7 x 3 ft single piece, Rs 1,790 (another snippet showed Rs 3,590 regular; conflicting); seen 2026-11-28; craft D2C, applique not embroidery"
+          },
+          {
+            "price": 999,
+            "url": "https://www.nykaafashion.com/urban-space-solara-white-cotton-embroidered-window-curtain/p/25538884",
+            "note": "From researcher's 2026-11-28 snippet, not re-checked by me: Urban Space 'Solara' embroidered cotton window curtain Rs 999 on Nykaa Fashion. Above the Rs 900 undercut threshold"
+          },
+          {
+            "price": 3299,
+            "url": "https://www.gyawun.com/product/noorbagh-kashmiri-curtain-chinari-crewel-embroidery/",
+            "note": "Gyawun machine crewel 7.5 x 4 ft with lining, Rs 3,299; resurfaced in my 2026-11-28 search but price taken from researcher's snippet; D2C"
+          }
+        ],
+        "marketplace_check": "2026-11-28 WebSearch 'embroidered cotton curtain 7 feet door single panel price amazon.in OR flipkart OR meesho' returned no Amazon.in, Flipkart or Meesho result at all. Indian hits were Woodenstreet (Rs 989, 7 ft, embroidery unconfirmed) and iTokri (applique, Rs 1,790-1,850). So no embroidered 7 ft panel at or below about Rs 900 on a mass marketplace was evidenced and the caller's undercut/'commodity' test is not triggered. A search not finding it does not prove absence, and 'commodity' is not a hard rule in config/product_policy.toml. Researcher's Flipkart HOMEMONDE 7 ft PRINTED cotton at Rs 688 is a pack-of-2 printed item (per URL), not embroidered.",
+        "supplier_cost_check": "2026-11-28 WebSearch snippet of https://m.indiamart.com/impcat/embroidered-curtains.html confirms 'Cotton Kashmiri Aari Embroidery Crewel Curtain (Dimout)' Rs 515/piece, Embroidery Type: Machine embroidery, Base/Material: Cotton, Opacity: Dimout. Seller, city, size and MOQ NOT shown (other sellers on IndiaMART show MOQ 10 pieces; not applicable to this item). Realism: machine aari on plain cotton at an unknown size is not shown to match the 7-7.5 x 4 ft lined wool-crewel item priced by Gyawun; the only sized comparable (4x8 ft, Rs 1,000) fails margin. recommend.py evaluate(): Rs 515/1,999 = 55.62%, expected Rs 974.14; Rs 515/1,499 = 42.34%; Rs 515/999 = 15.76% FAIL; Rs 1,000/1,999 = 29.03% FAIL.",
+        "weight_check": "2026-11-28 WebSearch 'crewel embroidered cotton curtain panel weight kg 7 ft' found no weight for any crewel panel (South Asia Collection crewel panels 130 x 230 cm, cotton and wool, no weight: https://thesouthasiacollection.co.uk/?p=11231). The only figure: a non-crewel cotton panel 50 x 120 in at 8 lb (about 3.6 kg), attributed in the search summary to another retailer, likely https://www.houzz.com/products/kerala-gold-printed-cotton-twill-curtain-single-panel-50w-x-120l-prvw-vr~168689076 (attribution not verified). Scaling by area to 48 x 84 in gives about 2.4 kg (my inference, different fabric). Wool crewel and lining add weight, so le_2kg is unproven and could breach the policy max_weight_slab. A weighed packed sample is required.",
+        "complaint_patterns": "Not separately searched (3-search cap). Researcher's risk list notes size/colour mismatch and 'single panel not pair' confusion; mitigate with exact dimensions, 'sold per panel' in the title and colour-true photos.",
+        "unverified": "Seller, size, MOQ, GST basis and lining of the Rs 515 item; packed weight; single-piece drop-ship from J&K (website-only per docs/05); any marketplace price for crewel curtains; no 'hand-embroidered' or GI 'Kashmir Crewel' claim without evidence; HSN 6303 (CA)."
+      },
+      "ca": null
+    },
+    {
       "id": "RA-20261123C-1",
       "name": "Kashmiri hand-painted papier mache decorative boxes, set of 3 (small/medium/large)",
       "category": "home_storage",
